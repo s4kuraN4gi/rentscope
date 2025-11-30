@@ -2,6 +2,7 @@
 
 import { useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import RentChart from '@/components/features/RentChart'
 import AreaMap from '@/components/features/AreaMap'
 import AIAnalysis from '@/components/features/AIAnalysis'
@@ -108,12 +109,12 @@ export default function ResultPage() {
                 <p className="text-xl text-red-500 mb-4">
                     {!salary ? '給与情報が見つかりません' : 'データの取得に失敗しました'}
                 </p>
-                <a
+                <Link
                     href="/"
                     className="inline-block bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors"
                 >
                     トップページに戻る
-                </a>
+                </Link>
             </div>
         )
     }

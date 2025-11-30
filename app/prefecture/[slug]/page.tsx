@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
 import prefecturesData from '@/data/prefectures.json'
 
@@ -110,12 +111,12 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
             {/* CTA */}
             <section className="text-center bg-gradient-to-r from-primary-600 to-primary-400 text-white rounded-2xl p-8">
                 <h2 className="text-2xl font-bold mb-4">あなたの給料で住めるエリアを診断</h2>
-                <a
+                <Link
                     href="/"
                     className="inline-block bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:shadow-xl transition-all duration-300"
                 >
                     今すぐ診断する
-                </a>
+                </Link>
             </section>
         </div>
     )
