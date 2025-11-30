@@ -43,6 +43,21 @@ export default function Footer() {
                                     使い方
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/terms" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
+                                    利用規約
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/privacy" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
+                                    プライバシーポリシー
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
+                                    お問い合わせ
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
