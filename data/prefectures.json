@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "name": "東京都",
+    "slug": "tokyo",
+    "region": "関東",
+    "averageRent": 259000,
+    "latitude": 35.6762,
+    "longitude": 139.6503,
+    "population": 14000000,
+    "description": "日本の首都。ビジネス、文化、エンターテイメントの中心地。",
+    "areas": [
+      {
+        "name": "港区",
+        "averageRent": 317000,
+        "minRent": 148000,
+        "maxRent": 572000,
+        "latitude": 35.6585,
+        "longitude": 139.7514,
+        "nearestStation": "品川駅",
+        "distanceToStation": 5,
+        "description": "高級住宅街、ビジネス街。六本木、赤坂、麻布などの人気エリア。",
+        "rentByRoomType": {
+          "oneRoom": 148000,
+          "oneLDK": 215000,
+          "twoLDK": 332000,
+          "threeLDK": 572000
+        }
+      },
+      {
+        "name": "渋谷区",
+        "averageRent": 329000,
+        "minRent": 139000,
+        "maxRent": 599000,
+        "latitude": 35.6638,
+        "longitude": 139.6983,
+        "nearestStation": "渋谷駅",
+        "distanceToStation": 5,
+        "description": "若者に人気のエリア。ファッション、カルチャーの発信地。",
+        "rentByRoomType": {
+          "oneRoom": 139000,
+          "oneLDK": 220000,
+          "twoLDK": 358000,
+          "threeLDK": 599000
+        }
+      },
+      {
+        "name": "練馬区",
+        "averageRent": 130000,
+        "minRent": 75000,
+        "maxRent": 193000,
+        "latitude": 35.7357,
+        "longitude": 139.6516,
+        "nearestStation": "練馬駅",
+        "distanceToStation": 10,
+        "description": "住宅街が多く、落ち着いた環境。池袋まで15分程度。",
+        "rentByRoomType": {
+          "oneRoom": 75000,
+          "oneLDK": 105000,
+          "twoLDK": 145000,
+          "threeLDK": 193000
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "大阪府",
+    "slug": "osaka",
+    "region": "関西",
+    "averageRent": 189000,
+    "latitude": 34.6937,
+    "longitude": 135.5023,
+    "population": 8800000,
+    "description": "西日本最大の都市。商業、グルメ、エンターテイメントが充実。",
+    "areas": [
+      {
+        "name": "北区",
+        "averageRent": 189000,
+        "minRent": 77000,
+        "maxRent": 314000,
+        "latitude": 34.7024,
+        "longitude": 135.5023,
+        "nearestStation": "梅田駅",
+        "distanceToStation": 5,
+        "description": "大阪のビジネス中心地。梅田、中之島エリア。",
+        "rentByRoomType": {
+          "oneRoom": 77000,
+          "oneLDK": 139000,
+          "twoLDK": 224000,
+          "threeLDK": 314000
+        }
+      },
+      {
+        "name": "中央区",
+        "averageRent": 186000,
+        "minRent": 79000,
+        "maxRent": 308000,
+        "latitude": 34.6777,
+        "longitude": 135.5109,
+        "nearestStation": "心斎橋駅",
+        "distanceToStation": 5,
+        "description": "繁華街エリア。心斎橋、難波、道頓堀など。",
+        "rentByRoomType": {
+          "oneRoom": 79000,
+          "oneLDK": 137000,
+          "twoLDK": 220000,
+          "threeLDK": 308000
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "神奈川県",
+    "slug": "kanagawa",
+    "region": "関東",
+    "averageRent": 189000,
+    "latitude": 35.4478,
+    "longitude": 139.6425,
+    "population": 9200000,
+    "description": "横浜、川崎など都市部と湘南などのリゾート地が共存。",
+    "areas": [
+      {
+        "name": "横浜市西区",
+        "averageRent": 189000,
+        "minRent": 87000,
+        "maxRent": 252000,
+        "latitude": 35.4657,
+        "longitude": 139.6201,
+        "nearestStation": "横浜駅",
+        "distanceToStation": 5,
+        "description": "横浜の中心地。みなとみらい、横浜駅周辺。",
+        "rentByRoomType": {
+          "oneRoom": 87000,
+          "oneLDK": 179000,
+          "twoLDK": 237000,
+          "threeLDK": 252000
+        }
+      },
+      {
+        "name": "川崎市中原区",
+        "averageRent": 179000,
+        "minRent": 94000,
+        "maxRent": 241000,
+        "latitude": 35.5761,
+        "longitude": 139.6565,
+        "nearestStation": "武蔵小杉駅",
+        "distanceToStation": 10,
+        "description": "東京へのアクセス良好。再開発で人気上昇中。",
+        "rentByRoomType": {
+          "oneRoom": 94000,
+          "oneLDK": 151000,
+          "twoLDK": 231000,
+          "threeLDK": 241000
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "愛知県",
+    "slug": "aichi",
+    "region": "中部",
+    "averageRent": 140000,
+    "latitude": 35.1802,
+    "longitude": 136.9066,
+    "population": 7500000,
+    "description": "名古屋を中心とした中部地方最大の都市圏。製造業が盛ん。",
+    "areas": [
+      {
+        "name": "名古屋市中区",
+        "averageRent": 151000,
+        "minRent": 80000,
+        "maxRent": 234000,
+        "latitude": 35.1681,
+        "longitude": 136.9066,
+        "nearestStation": "栄駅",
+        "distanceToStation": 5,
+        "description": "名古屋の中心地。栄、大須などの繁華街。",
+        "rentByRoomType": {
+          "oneRoom": 80000,
+          "oneLDK": 119000,
+          "twoLDK": 169000,
+          "threeLDK": 234000
+        }
+      },
+      {
+        "name": "名古屋市東区",
+        "averageRent": 147000,
+        "minRent": 79000,
+        "maxRent": 230000,
+        "latitude": 35.1795,
+        "longitude": 136.9276,
+        "nearestStation": "千種駅",
+        "distanceToStation": 10,
+        "description": "住宅街と商業地が混在。名古屋駅へのアクセス良好。",
+        "rentByRoomType": {
+          "oneRoom": 79000,
+          "oneLDK": 115000,
+          "twoLDK": 165000,
+          "threeLDK": 230000
+        }
+      },
+      {
+        "name": "名古屋市中村区",
+        "averageRent": 121000,
+        "minRent": 70000,
+        "maxRent": 180000,
+        "latitude": 35.169,
+        "longitude": 136.8738,
+        "nearestStation": "名古屋駅",
+        "distanceToStation": 5,
+        "description": "名古屋駅周辺。交通の要所で利便性が高い。",
+        "rentByRoomType": {
+          "oneRoom": 70000,
+          "oneLDK": 100000,
+          "twoLDK": 135000,
+          "threeLDK": 180000
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "福岡県",
+    "slug": "fukuoka",
+    "region": "九州",
+    "averageRent": 143000,
+    "latitude": 33.5904,
+    "longitude": 130.4017,
+    "population": 5100000,
+    "description": "九州最大の都市。アジアに近く、食文化が豊か。",
+    "areas": [
+      {
+        "name": "福岡市中央区",
+        "averageRent": 152000,
+        "minRent": 69000,
+        "maxRent": 230000,
+        "latitude": 33.5903,
+        "longitude": 130.3925,
+        "nearestStation": "天神駅",
+        "distanceToStation": 5,
+        "description": "福岡の中心地。天神、大名などの繁華街。",
+        "rentByRoomType": {
+          "oneRoom": 69000,
+          "oneLDK": 111000,
+          "twoLDK": 197000,
+          "threeLDK": 230000
+        }
+      },
+      {
+        "name": "福岡市博多区",
+        "averageRent": 123000,
+        "minRent": 69000,
+        "maxRent": 190000,
+        "latitude": 33.5937,
+        "longitude": 130.4141,
+        "nearestStation": "博多駅",
+        "distanceToStation": 5,
+        "description": "博多駅周辺。ビジネス街と商業施設が充実。",
+        "rentByRoomType": {
+          "oneRoom": 69000,
+          "oneLDK": 92000,
+          "twoLDK": 142000,
+          "threeLDK": 190000
+        }
+      },
+      {
+        "name": "福岡市早良区",
+        "averageRent": 142000,
+        "minRent": 62000,
+        "maxRent": 226000,
+        "latitude": 33.5826,
+        "longitude": 130.3547,
+        "nearestStation": "西新駅",
+        "distanceToStation": 10,
+        "description": "住宅街が多く、ファミリー層に人気。",
+        "rentByRoomType": {
+          "oneRoom": 62000,
+          "oneLDK": 104000,
+          "twoLDK": 178000,
+          "threeLDK": 226000
+        }
+      }
+    ]
+  }
+]

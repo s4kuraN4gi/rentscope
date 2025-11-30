@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "collect-data": "ts-node scripts/collect-rent-data.ts"
+  }
+}
