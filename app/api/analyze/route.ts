@@ -21,7 +21,7 @@ function calculateRecommendedRent(salary: number, familySize: number = 1): Recom
 }
 
 // エリアマッチングロジック(実データ使用)
-function findAffordableAreas(maxRent: number, location?: string): AffordableArea[] {
+function findAffordableAreas(maxRent: number, location?: string, features: string[] = []): AffordableArea[] {
     const allAreas: AffordableArea[] = []
     
     // prefectures.jsonから全エリアを取得
@@ -34,13 +34,31 @@ function findAffordableAreas(maxRent: number, location?: string): AffordableArea
                 prefecture: prefecture.name,
                 latitude: area.latitude,
                 longitude: area.longitude,
+                features: area.features || [],
             })
         })
     })
 
+    // フィルタリングとスコアリング
     return allAreas
-        .filter(area => area.averageRent <= maxRent)
-        .sort((a, b) => a.averageRent - b.averageRent)
+        .filter(area => {
+            // 家賃条件
+            if (area.averageRent > maxRent) return false
+            // エリア条件(指定がある場合)
+            if (location && !area.prefecture.includes(location) && !area.name.includes(location)) return false
+            return true
+        })
+        .map(area => {
+            // 特徴マッチングスコア計算
+            const matchedFeatures = features.filter(f => area.features?.includes(f))
+            const score = matchedFeatures.length
+            return { ...area, score, matchedFeatures }
+        })
+        .sort((a, b) => {
+            // スコアが高い順 > 家賃が安い順
+            if (b.score !== a.score) return b.score - a.score
+            return a.averageRent - b.averageRent
+        })
         .slice(0, 5)
 }
 
@@ -69,7 +87,7 @@ function calculateIncomeGap(currentSalary: number, targetArea: string = '港区'
 export async function POST(request: NextRequest) {
     try {
         const body: SalaryInput = await request.json()
-        const { salary, familySize = 1, location } = body
+        const { salary, familySize = 1, location, features } = body
 
         // バリデーション
         if (!salary || salary <= 0) {
@@ -83,7 +101,7 @@ export async function POST(request: NextRequest) {
         const recommendedRent = calculateRecommendedRent(salary, familySize)
 
         // 住めるエリアを検索
-        const affordableAreas = findAffordableAreas(recommendedRent.max, location)
+        const affordableAreas = findAffordableAreas(recommendedRent.max, location, features)
 
         // 収入ギャップを計算
         const incomeGap = calculateIncomeGap(salary, location || '港区')

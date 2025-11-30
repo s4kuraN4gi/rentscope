@@ -3,6 +3,7 @@ export interface SalaryInput {
     salary: number
     familySize?: number
     location?: string
+    features?: string[]
 }
 
 export interface RecommendedRent {

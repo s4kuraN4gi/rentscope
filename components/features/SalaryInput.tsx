@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
 export default function SalaryInput() {
@@ -8,7 +8,22 @@ export default function SalaryInput() {
     const [salary, setSalary] = useState('')
     const [familySize, setFamilySize] = useState('1')
     const [location, setLocation] = useState('')
+    const [features, setFeatures] = useState<string[]>([])
+    const [activeTooltip, setActiveTooltip] = useState<string | null>(null)
     const [isLoading, setIsLoading] = useState(false)
+    const tooltipRef = useRef<HTMLDivElement>(null)
+
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (tooltipRef.current && !tooltipRef.current.contains(event.target as Node)) {
+                setActiveTooltip(null)
+            }
+        }
+        document.addEventListener('mousedown', handleClickOutside)
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside)
+        }
+    }, [])
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
@@ -31,6 +46,7 @@ export default function SalaryInput() {
                     salary: Number(salary),
                     familySize: Number(familySize),
                     location: location || undefined,
+                    features: features,
                 }),
             })
 
@@ -45,6 +61,7 @@ export default function SalaryInput() {
                 salary,
                 familySize,
                 location: location || '',
+                features: features.join(','),
             })
 
             router.push(`/result?${params.toString()}`)
@@ -111,6 +128,75 @@ export default function SalaryInput() {
                     placeholder="例: 東京都, 大阪府"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:bg-gray-800 dark:border-gray-600"
                 />
+            </div>
+
+            {/* こだわり条件 */}
+            <div ref={tooltipRef}>
+                <label className="block text-sm font-medium mb-2">
+                    こだわり条件（複数選択可）
+                </label>
+                <div className="grid grid-cols-2 gap-3">
+                    {[
+                        { id: 'pet_friendly', label: '🐶 ペットと暮らす', description: 'ペット可物件の割合が高いエリアを優先します' },
+                        { id: 'safe_area', label: '🛡️ 治安重視', description: '犯罪発生率が低く、治安が良いエリアを優先します' },
+                        { id: 'child_rearing', label: '👶 子育て環境', description: '公園や学校が多く、子育てしやすい環境を優先します' },
+                        { id: 'access_good', label: '🚃 アクセス重視', description: '複数路線利用可や、主要駅へのアクセスが良いエリアを優先します' },
+                        { id: 'cost_performance', label: '💰 コスパ重視', description: '家賃相場の割に利便性が高いエリアを優先します' },
+                        { id: 'shopping_convenient', label: '🛍️ 買い物便利', description: 'スーパーや商店街が充実しているエリアを優先します' },
+                    ].map((feature) => (
+                        <div key={feature.id} className="relative">
+                            <label
+                                className={`
+                                    flex items-center justify-between p-3 rounded-lg border cursor-pointer transition-all h-full
+                                    ${features.includes(feature.id)
+                                        ? 'bg-primary-50 border-primary-500 ring-1 ring-primary-500'
+                                        : 'border-gray-200 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800'
+                                    }
+                                `}
+                            >
+                                <div className="flex items-center">
+                                    <input
+                                        type="checkbox"
+                                        value={feature.id}
+                                        checked={features.includes(feature.id)}
+                                        onChange={(e) => {
+                                            if (e.target.checked) {
+                                                setFeatures([...features, feature.id])
+                                            } else {
+                                                setFeatures(features.filter(f => f !== feature.id))
+                                            }
+                                        }}
+                                        className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
+                                    />
+                                    <span className="ml-2 text-sm">{feature.label}</span>
+                                </div>
+                                <button
+                                    type="button"
+                                    onClick={(e) => {
+                                        e.preventDefault()
+                                        e.stopPropagation() // 親のlabelクリックイベントへの伝播を防ぐ
+                                        setActiveTooltip(activeTooltip === feature.id ? null : feature.id)
+                                    }}
+                                    className="ml-2 text-gray-400 hover:text-primary-500 focus:outline-none p-1"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                    </svg>
+                                </button>
+                            </label>
+                            
+                            {/* ツールチップ */}
+                            {activeTooltip === feature.id && (
+                                <div className="absolute z-20 bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-48 p-2 bg-gray-900 text-white text-xs rounded shadow-lg">
+                                    {feature.description}
+                                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
             </div>
 
             {/* 送信ボタン */}

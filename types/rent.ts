@@ -6,6 +6,8 @@ export interface AffordableArea {
     prefecture: string
     latitude: number
     longitude: number
+    features?: string[]
+    matchedFeatures?: string[]
 }
 
 export interface RentData {

@@ -7,6 +7,7 @@ interface Area {
     averageRent: number
     latitude: number
     longitude: number
+    matchedFeatures?: string[]
 }
 
 interface AreaMapProps {
@@ -29,7 +30,12 @@ export default function AreaMap({ areas }: AreaMapProps) {
                 // 動的にLeafletをインポート
                 const L = (await import('leaflet')).default
 
-                if (!isMounted || !mapRef.current || areas.length === 0) return
+                if (!isMounted || !mapRef.current) return
+
+                if (areas.length === 0) {
+                    setIsLoading(false)
+                    return
+                }
 
                 // 既存のマップがあれば削除
                 if (mapInstanceRef.current) {
@@ -55,12 +61,29 @@ export default function AreaMap({ areas }: AreaMapProps) {
 
                 // マーカーの追加
                 areas.forEach(area => {
+                    const featuresHtml = area.matchedFeatures && area.matchedFeatures.length > 0
+                        ? `<div style="margin-top: 5px; display: flex; flex-wrap: wrap; gap: 4px; justify-content: center;">
+                            ${area.matchedFeatures.map(f => {
+                                const labels: Record<string, string> = {
+                                    pet_friendly: '🐶',
+                                    safe_area: '🛡️',
+                                    child_rearing: '👶',
+                                    access_good: '🚃',
+                                    cost_performance: '💰',
+                                    shopping_convenient: '🛍️',
+                                }
+                                return `<span style="background-color: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 9999px; font-size: 10px;">${labels[f] || ''}</span>`
+                            }).join('')}
+                           </div>`
+                        : ''
+
                     L.marker([area.latitude, area.longitude], { icon })
                         .addTo(map)
                         .bindPopup(`
-              <div style="text-align: center;">
-                <strong>${area.name}</strong><br/>
-                平均家賃: ${area.averageRent.toLocaleString()}円
+              <div style="text-align: center; min-width: 150px;">
+                <strong style="font-size: 14px;">${area.name}</strong><br/>
+                <span style="color: #0284c7; font-weight: bold;">${area.averageRent.toLocaleString()}円</span>
+                ${featuresHtml}
               </div>
             `)
                 })
@@ -93,6 +116,14 @@ export default function AreaMap({ areas }: AreaMapProps) {
         return (
             <div className="w-full h-[400px] rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
                 <p className="text-gray-500">地図を読み込み中...</p>
+            </div>
+        )
+    }
+
+    if (areas.length === 0) {
+        return (
+            <div className="w-full h-[400px] rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+                <p className="text-gray-500">表示できるエリアがありません</p>
             </div>
         )
     }

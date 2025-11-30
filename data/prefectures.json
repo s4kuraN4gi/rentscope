@@ -20,6 +20,25 @@
         "nearestStation": "品川駅",
         "distanceToStation": 5,
         "description": "高級住宅街、ビジネス街。六本木、赤坂、麻布などの人気エリア。",
+        "features": ["safe_area", "access_good", "shopping_convenient"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Minato+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Minato+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "とにかく便利。家賃は高いがそれだけの価値がある。",
+            "rating": 5
+          },
+          {
+            "age": 20,
+            "gender": "女性",
+            "comment": "おしゃれなカフェやレストランが多くて楽しい。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 148000,
           "oneLDK": 215000,
@@ -37,6 +56,25 @@
         "nearestStation": "渋谷駅",
         "distanceToStation": 5,
         "description": "若者に人気のエリア。ファッション、カルチャーの発信地。",
+        "features": ["access_good", "shopping_convenient"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Shibuya+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Shibuya+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 20,
+            "gender": "男性",
+            "comment": "刺激的な毎日。終電を気にせず遊べるのが最高。",
+            "rating": 5
+          },
+          {
+            "age": 30,
+            "gender": "女性",
+            "comment": "少し騒がしいが、買い物には困らない。",
+            "rating": 3
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 139000,
           "oneLDK": 220000,
@@ -54,6 +92,30 @@
         "nearestStation": "練馬駅",
         "distanceToStation": 10,
         "description": "住宅街が多く、落ち着いた環境。池袋まで15分程度。",
+        "features": [
+          "child_rearing",
+          "cost_performance",
+          "pet_friendly",
+          "safe_area"
+        ],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Nerima+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Nerima+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "女性",
+            "comment": "公園が多くて子供を遊ばせやすい。治安も良い。",
+            "rating": 5
+          },
+          {
+            "age": 40,
+            "gender": "男性",
+            "comment": "都心へのアクセスも悪くないし、家賃が安くて助かる。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 75000,
           "oneLDK": 105000,
@@ -84,6 +146,25 @@
         "nearestStation": "梅田駅",
         "distanceToStation": 5,
         "description": "大阪のビジネス中心地。梅田、中之島エリア。",
+        "features": ["access_good", "shopping_convenient"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Kita+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Kita+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "梅田まで徒歩圏内。仕事も遊びも充実。",
+            "rating": 5
+          },
+          {
+            "age": 20,
+            "gender": "女性",
+            "comment": "家賃は高いが、それに見合う利便性がある。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 77000,
           "oneLDK": 139000,
@@ -101,6 +182,25 @@
         "nearestStation": "心斎橋駅",
         "distanceToStation": 5,
         "description": "繁華街エリア。心斎橋、難波、道頓堀など。",
+        "features": ["shopping_convenient", "access_good"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Chuo+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Chuo+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 20,
+            "gender": "女性",
+            "comment": "買い物好きにはたまらない。毎日が楽しい。",
+            "rating": 5
+          },
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "少し騒がしいが、交通の便は最高。",
+            "rating": 3
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 79000,
           "oneLDK": 137000,
@@ -131,6 +231,25 @@
         "nearestStation": "横浜駅",
         "distanceToStation": 5,
         "description": "横浜の中心地。みなとみらい、横浜駅周辺。",
+        "features": ["access_good", "shopping_convenient", "safe_area"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Yokohama+Nishi+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Yokohama+Nishi+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "女性",
+            "comment": "みなとみらいが近くて散歩が楽しい。",
+            "rating": 5
+          },
+          {
+            "age": 40,
+            "gender": "男性",
+            "comment": "横浜駅へのアクセスが良いので通勤が楽。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 87000,
           "oneLDK": 179000,
@@ -148,6 +267,25 @@
         "nearestStation": "武蔵小杉駅",
         "distanceToStation": 10,
         "description": "東京へのアクセス良好。再開発で人気上昇中。",
+        "features": ["access_good", "child_rearing", "shopping_convenient"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Kawasaki+Nakahara+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Kawasaki+Nakahara+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "都内への通勤が便利。駅前に何でも揃っている。",
+            "rating": 4
+          },
+          {
+            "age": 30,
+            "gender": "女性",
+            "comment": "子育て世代が多くて安心感がある。",
+            "rating": 5
+          }
+        ],
         "rentByRoomType": {
           "oneRoom": 94000,
           "oneLDK": 151000,
@@ -162,61 +300,82 @@
     "name": "愛知県",
     "slug": "aichi",
     "region": "中部",
-    "averageRent": 140000,
-    "latitude": 35.1802,
+    "averageRent": 135000,
+    "latitude": 35.1815,
     "longitude": 136.9066,
     "population": 7500000,
-    "description": "名古屋を中心とした中部地方最大の都市圏。製造業が盛ん。",
+    "description": "製造業の中心地。名古屋めしなどの独自文化も魅力。",
     "areas": [
       {
         "name": "名古屋市中区",
-        "averageRent": 151000,
-        "minRent": 80000,
-        "maxRent": 234000,
-        "latitude": 35.1681,
+        "averageRent": 135000,
+        "minRent": 63000,
+        "maxRent": 220000,
+        "latitude": 35.1709,
         "longitude": 136.9066,
         "nearestStation": "栄駅",
         "distanceToStation": 5,
-        "description": "名古屋の中心地。栄、大須などの繁華街。",
+        "description": "名古屋の繁華街。栄、大須エリア。",
+        "features": ["shopping_convenient", "access_good"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Naka+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Naka+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 20,
+            "gender": "男性",
+            "comment": "栄まで歩いて行けるのが良い。",
+            "rating": 4
+          },
+          {
+            "age": 30,
+            "gender": "女性",
+            "comment": "飲食店が多くて便利だが、少し騒がしい。",
+            "rating": 3
+          }
+        ],
         "rentByRoomType": {
-          "oneRoom": 80000,
-          "oneLDK": 119000,
+          "oneRoom": 63000,
+          "oneLDK": 108000,
           "twoLDK": 169000,
-          "threeLDK": 234000
+          "threeLDK": 220000
         }
       },
       {
-        "name": "名古屋市東区",
-        "averageRent": 147000,
-        "minRent": 79000,
-        "maxRent": 230000,
-        "latitude": 35.1795,
-        "longitude": 136.9276,
+        "name": "名古屋市千種区",
+        "averageRent": 128000,
+        "minRent": 55000,
+        "maxRent": 208000,
+        "latitude": 35.1709,
+        "longitude": 136.96,
         "nearestStation": "千種駅",
         "distanceToStation": 10,
-        "description": "住宅街と商業地が混在。名古屋駅へのアクセス良好。",
+        "description": "文教地区としても知られる落ち着いたエリア。",
+        "features": ["child_rearing", "safe_area", "pet_friendly"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Chikusa+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Chikusa+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 40,
+            "gender": "女性",
+            "comment": "学校が多くて教育環境が良い。",
+            "rating": 5
+          },
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "静かで住みやすい。地下鉄も便利。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
-          "oneRoom": 79000,
-          "oneLDK": 115000,
-          "twoLDK": 165000,
-          "threeLDK": 230000
-        }
-      },
-      {
-        "name": "名古屋市中村区",
-        "averageRent": 121000,
-        "minRent": 70000,
-        "maxRent": 180000,
-        "latitude": 35.169,
-        "longitude": 136.8738,
-        "nearestStation": "名古屋駅",
-        "distanceToStation": 5,
-        "description": "名古屋駅周辺。交通の要所で利便性が高い。",
-        "rentByRoomType": {
-          "oneRoom": 70000,
-          "oneLDK": 100000,
-          "twoLDK": 135000,
-          "threeLDK": 180000
+          "oneRoom": 55000,
+          "oneLDK": 98000,
+          "twoLDK": 145000,
+          "threeLDK": 208000
         }
       }
     ]
@@ -226,61 +385,123 @@
     "name": "福岡県",
     "slug": "fukuoka",
     "region": "九州",
-    "averageRent": 143000,
+    "averageRent": 125000,
     "latitude": 33.5904,
     "longitude": 130.4017,
     "population": 5100000,
-    "description": "九州最大の都市。アジアに近く、食文化が豊か。",
+    "description": "九州の玄関口。住みやすさNo.1との呼び声も高い。",
     "areas": [
       {
         "name": "福岡市中央区",
-        "averageRent": 152000,
-        "minRent": 69000,
-        "maxRent": 230000,
-        "latitude": 33.5903,
-        "longitude": 130.3925,
+        "averageRent": 125000,
+        "minRent": 52000,
+        "maxRent": 245000,
+        "latitude": 33.5904,
+        "longitude": 130.4017,
         "nearestStation": "天神駅",
         "distanceToStation": 5,
-        "description": "福岡の中心地。天神、大名などの繁華街。",
+        "description": "天神、大名エリア。若者に人気。",
+        "features": ["shopping_convenient", "access_good", "cost_performance"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Chuo+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Chuo+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 20,
+            "gender": "女性",
+            "comment": "天神まで自転車で行ける。家賃も安くて最高。",
+            "rating": 5
+          },
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "美味しいお店がたくさんあって飽きない。",
+            "rating": 5
+          }
+        ],
         "rentByRoomType": {
-          "oneRoom": 69000,
-          "oneLDK": 111000,
-          "twoLDK": 197000,
-          "threeLDK": 230000
+          "oneRoom": 52000,
+          "oneLDK": 95000,
+          "twoLDK": 158000,
+          "threeLDK": 245000
         }
       },
       {
         "name": "福岡市博多区",
-        "averageRent": 123000,
-        "minRent": 69000,
-        "maxRent": 190000,
-        "latitude": 33.5937,
-        "longitude": 130.4141,
+        "averageRent": 118000,
+        "minRent": 55000,
+        "maxRent": 218000,
+        "latitude": 33.5904,
+        "longitude": 130.42,
         "nearestStation": "博多駅",
         "distanceToStation": 5,
-        "description": "博多駅周辺。ビジネス街と商業施設が充実。",
+        "description": "新幹線、空港へのアクセス抜群。",
+        "features": ["access_good", "shopping_convenient", "cost_performance"],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Hakata+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Hakata+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "男性",
+            "comment": "出張が多いので空港に近いのが助かる。",
+            "rating": 5
+          },
+          {
+            "age": 20,
+            "gender": "女性",
+            "comment": "博多駅周辺で何でも揃う。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
-          "oneRoom": 69000,
+          "oneRoom": 55000,
           "oneLDK": 92000,
-          "twoLDK": 142000,
-          "threeLDK": 190000
+          "twoLDK": 148000,
+          "threeLDK": 218000
         }
       },
       {
-        "name": "福岡市早良区",
-        "averageRent": 142000,
-        "minRent": 62000,
-        "maxRent": 226000,
-        "latitude": 33.5826,
-        "longitude": 130.3547,
-        "nearestStation": "西新駅",
+        "name": "福岡市西区",
+        "averageRent": 95000,
+        "minRent": 42000,
+        "maxRent": 148000,
+        "latitude": 33.58,
+        "longitude": 130.32,
+        "nearestStation": "姪浜駅",
         "distanceToStation": 10,
-        "description": "住宅街が多く、ファミリー層に人気。",
+        "description": "自然豊かでファミリーに人気。海も近い。",
+        "features": [
+          "child_rearing",
+          "pet_friendly",
+          "cost_performance",
+          "safe_area"
+        ],
+        "images": [
+          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Nishi+Ku+1",
+          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Nishi+Ku+2"
+        ],
+        "reviews": [
+          {
+            "age": 30,
+            "gender": "女性",
+            "comment": "海が近くて環境が良い。アウトレットもあって便利。",
+            "rating": 5
+          },
+          {
+            "age": 40,
+            "gender": "男性",
+            "comment": "家賃が安くて広い部屋に住める。",
+            "rating": 4
+          }
+        ],
         "rentByRoomType": {
-          "oneRoom": 62000,
-          "oneLDK": 104000,
-          "twoLDK": 178000,
-          "threeLDK": 226000
+          "oneRoom": 42000,
+          "oneLDK": 75000,
+          "twoLDK": 98000,
+          "threeLDK": 148000
         }
       }
     ]
