@@ -24,6 +24,9 @@ export const metadata: Metadata = {
         title: 'RentScope - 給料から見る最適な家賃とエリア分析',
         description: 'あなたの給料で住める家賃帯とおすすめエリアをAIが分析',
     },
+    verification: {
+        google: 'IiMEbrAr481zIC_-nZSfkoKUJXkFUn7SZQfaP3lkhTQ',
+    },
 }
 
 export default function RootLayout({
