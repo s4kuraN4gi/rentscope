@@ -1,7 +1,7 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import Link from 'next/link'
 import RentChart from '@/components/features/RentChart'
 import AreaMap from '@/components/features/AreaMap'
@@ -30,7 +30,7 @@ interface AnalysisResult {
     chartData: any
 }
 
-export default function ResultPage() {
+function ResultPageContent() {
     const searchParams = useSearchParams()
     const [result, setResult] = useState<AnalysisResult | null>(null)
     const [aiAnalysis, setAiAnalysis] = useState<{ analysis: string; tips: string[] } | null>(null)
@@ -203,5 +203,18 @@ export default function ResultPage() {
             {/* 広告 */}
             <AdSenseUnit slot="3333333333" format="horizontal" className="mb-8" />
         </div>
+    )
+}
+
+export default function ResultPage() {
+    return (
+        <Suspense fallback={
+            <div className="container mx-auto px-4 py-16 text-center">
+                <div className="animate-spin h-12 w-12 border-4 border-primary-500 border-t-transparent rounded-full mx-auto mb-4" />
+                <p className="text-xl">読み込み中...</p>
+            </div>
+        }>
+            <ResultPageContent />
+        </Suspense>
     )
 }
