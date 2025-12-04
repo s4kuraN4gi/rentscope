@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'RentScope - 給料から見る最適な家賃とエリア分析',
     description: 'あなたの給料で住める家賃帯とおすすめエリアをAIが分析。理想のエリアに住むために必要な収入もわかります。',
     keywords: '家賃, 給料, 賃貸, エリア, AI分析, 一人暮らし, 引っ越し',
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://rentscope.vercel.app'),
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://rentscope.jp'),
     openGraph: {
         title: 'RentScope - 給料から見る最適な家賃とエリア分析',
         description: 'あなたの給料で住める家賃帯とおすすめエリアをAIが分析',
