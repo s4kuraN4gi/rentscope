@@ -203,6 +203,15 @@ function main() {
   const tokyoIndex = prefectures.findIndex(p => p.slug === 'tokyo');
   if (tokyoIndex !== -1) {
     prefectures[tokyoIndex].areas = areas;
+    
+    // 都道府県の平均家賃を再計算
+    if (areas.length > 0) {
+      const totalRent = areas.reduce((sum, area) => sum + area.averageRent, 0);
+      const newAverageRent = Math.round(totalRent / areas.length);
+      prefectures[tokyoIndex].averageRent = newAverageRent;
+      console.log(`✅ 東京都の平均家賃を更新しました: ${newAverageRent.toLocaleString()}円`);
+    }
+
     console.log('✅ 東京都のデータを更新しました');
   } else {
     console.error('❌ 東京都のデータが見つかりません');
