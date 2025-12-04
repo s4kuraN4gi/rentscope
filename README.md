@@ -8,14 +8,28 @@ RentScope は、ユーザーの給料を入力すると、AI が「その給料�
 
 ## 技術スタック
 
+### フロントエンド
+
 - **フレームワーク**: Next.js 15 (App Router)
 - **言語**: TypeScript
 - **スタイリング**: TailwindCSS
 - **グラフ**: Chart.js / react-chartjs-2
-- **地図**: Leaflet.js / react-leaflet
+- **地図**: MapLibre GL JS（ベクタータイル対応）
 - **AI**: OpenAI API
-- **ホスティング**: Vercel
-- **収益化**: Google AdSense + GA4
+
+### インフラ
+
+- **本番環境**: AWS Lightsail VPS
+- **タイルサーバー**: TileServer-GL（自前ホスティング）
+- **リバースプロキシ**: Nginx
+- **SSL/TLS**: Cloudflare Origin Certificate（Full Strict）
+- **CDN**: Cloudflare
+- **コンテナ**: Docker / Docker Compose
+
+### 収益化
+
+- **広告**: Google AdSense
+- **分析**: Google Analytics 4（予定）
 
 ## セットアップ
 
@@ -98,11 +112,35 @@ npm run build
 
 ## デプロイ
 
-Vercel へのデプロイが推奨されます:
+### 本番環境（AWS Lightsail）
+
+Docker Compose を使用したデプロイ:
 
 ```bash
-vercel
+# サーバーで実行
+cd ~/rentscope
+git pull origin main
+docker compose down
+docker compose up -d --build
 ```
+
+### 環境変数
+
+サーバー上の `.env.local` に以下を設定:
+
+- `OPENAI_API_KEY`: OpenAI API キー
+- `NEXT_PUBLIC_ADSENSE_CLIENT_ID`: Google AdSense クライアント ID
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID`: Google Analytics 測定 ID（オプション）
+
+### アーキテクチャ
+
+```
+ユーザー → Cloudflare (CDN/SSL) → Nginx (443) → Docker Containers
+                                        ├─ web:3000 (Next.js)
+                                        └─ tileserver:8080 (TileServer-GL)
+```
+
+詳細は `docs/` ディレクトリのガイドを参照してください。
 
 ## 収益化戦略
 
@@ -118,15 +156,25 @@ MIT
 
 RentScope Team
 
-## 🚀 次のステップ (2025-12-01 更新)
+## 🚀 次のステップ (2025-12-04 更新)
 
-現在、収益化基盤の整備とコスト削減施策を進めています。
+### ✅ 完了済み
 
-- [x] **AI 分析のオンデマンド化**: ボタンクリック時のみ API を呼び出すように変更し、コストを削減。
-- [x] **エラーハンドリング**: AI 分析失敗時のリトライ処理とエラーメッセージ表示を実装。
-- [x] **高単価バナー枠の設置**: AI 分析待ち時間に表示するバナー枠（プレースホルダー）を追加。
-- [ ] **バナー広告 ID の設定**: 高単価バナーと、常時表示するバナーの正しい `slot` ID を設定する必要があります。
-- [ ] **バックアップ設定**: VPS のデータバックアップスクリプトを作成する必要があります（VPS 情報待ち）。
-- [ ] **HTTPS / Cloudflare 設定**: ユーザー側での設定が必要です。
+- [x] **TileServer-GL デプロイ**: 日本全域の OSM データを自前サーバーで配信
+- [x] **Full (strict) SSL**: Cloudflare Origin Certificate による完全暗号化
+- [x] **MapLibre GL JS 実装**: ベクタータイル対応の地図表示
+- [x] **cron 自動化**: TileServer と OSM データの自動更新設定
+- [x] **Docker デプロイ**: 本番環境での安定稼働
 
-詳細は `TASKS.md` を参照してください。
+### 🔄 進行中
+
+- [ ] **Google Analytics 設定**: GA4 測定 ID の取得とイベント実装
+- [ ] **広告最適化**: 高単価バナー枠の効果測定
+
+### 📋 今後の予定
+
+- [ ] **データ収集**: ユーザー行動分析の開始
+- [ ] **収益最適化**: 広告配置の A/B テスト
+- [ ] **機能追加**: ユーザーフィードバックに基づく改善
+
+詳細は `TASKS.md` および `docs/` ディレクトリを参照してください。
