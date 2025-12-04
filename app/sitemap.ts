@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import prefecturesData from '@/data/prefectures.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://rentscope.vercel.app'
+    const baseUrl = 'https://rentscope.jp'
 
     // 静的ページ
     const staticPages: MetadataRoute.Sitemap = [

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://rentscope.vercel.app/sitemap.xml
+Sitemap: https://rentscope.jp/sitemap.xml
 
 # Disallow admin and API routes
 Disallow: /api/
