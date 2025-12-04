@@ -8,6 +8,7 @@ import AreaMap from '@/components/features/AreaMap'
 import AIAnalysis from '@/components/features/AIAnalysis'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
 import ShareButtons from '@/components/features/ShareButtons'
+import { trackAIAnalysisClick } from '@/lib/gtag'
 
 interface AnalysisResult {
     recommendedRent: {
@@ -105,6 +106,10 @@ function ResultPageContent() {
 
     const handleAiAnalysis = async () => {
         if (!result || !salary) return
+        
+        // Google Analytics イベント送信
+        trackAIAnalysisClick(Number(salary))
+        
         setShowAiAd(true)
         setIsAiLoading(true)
         setAiError(null)
