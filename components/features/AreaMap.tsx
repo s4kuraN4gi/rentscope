@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import mapboxgl from 'mapbox-gl'
-import 'mapbox-gl/dist/mapbox-gl.css'
+import maplibregl from 'maplibre-gl'
+import 'maplibre-gl/dist/maplibre-gl.css'
 
 interface Area {
     name: string
@@ -18,8 +18,8 @@ interface AreaMapProps {
 
 export default function AreaMap({ areas }: AreaMapProps) {
     const mapContainerRef = useRef<HTMLDivElement>(null)
-    const mapRef = useRef<mapboxgl.Map | null>(null)
-    const markersRef = useRef<mapboxgl.Marker[]>([])
+    const mapRef = useRef<maplibregl.Map | null>(null)
+    const markersRef = useRef<maplibregl.Marker[]>([])
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
@@ -31,7 +31,7 @@ export default function AreaMap({ areas }: AreaMapProps) {
         }
 
         // マップの初期化
-        const map = new mapboxgl.Map({
+        const map = new maplibregl.Map({
             container: mapContainerRef.current,
             style: {
                 version: 8,
@@ -59,7 +59,7 @@ export default function AreaMap({ areas }: AreaMapProps) {
 
         map.on('load', () => {
             // マーカーを追加
-            const newMarkers: mapboxgl.Marker[] = []
+            const newMarkers: maplibregl.Marker[] = []
             
             areas.forEach(area => {
                 // カスタムマーカー要素を作成
@@ -84,7 +84,7 @@ export default function AreaMap({ areas }: AreaMapProps) {
                        </div>`
                     : ''
 
-                const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`
+                const popup = new maplibregl.Popup({ offset: 25 }).setHTML(`
                     <div style="text-align: center; min-width: 150px;">
                         <strong style="font-size: 14px;">${area.name}</strong><br/>
                         <span style="color: #0284c7; font-weight: bold;">${area.averageRent.toLocaleString()}円</span>
@@ -92,7 +92,7 @@ export default function AreaMap({ areas }: AreaMapProps) {
                     </div>
                 `)
 
-                const marker = new mapboxgl.Marker(el)
+                const marker = new maplibregl.Marker(el)
                     .setLngLat([area.longitude, area.latitude])
                     .setPopup(popup)
                     .addTo(map)
@@ -104,7 +104,7 @@ export default function AreaMap({ areas }: AreaMapProps) {
 
             // 全マーカーが見えるように調整
             if (areas.length > 0) {
-                const bounds = new mapboxgl.LngLatBounds()
+                const bounds = new maplibregl.LngLatBounds()
                 areas.forEach(area => {
                     bounds.extend([area.longitude, area.latitude])
                 })
