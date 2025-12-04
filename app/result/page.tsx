@@ -54,6 +54,9 @@ function ResultPageContent() {
     const [result, setResult] = useState<AnalysisResult | null>(null)
     const [aiAnalysis, setAiAnalysis] = useState<{ analysis: string; tips: string[] } | null>(null)
     const [isLoading, setIsLoading] = useState(true)
+    const [isAiLoading, setIsAiLoading] = useState(false)
+    const [showAiAd, setShowAiAd] = useState(false)
+    const [aiError, setAiError] = useState<string | null>(null)
     const [selectedArea, setSelectedArea] = useState<AnalysisResult['affordableAreas'][0] | null>(null)
 
     const salary = searchParams.get('salary')
@@ -88,23 +91,7 @@ function ResultPageContent() {
                 const data = await response.json()
                 setResult(data)
 
-                // AI分析を取得
-                const aiResponse = await fetch('/api/openai', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        salary: Number(salary),
-                        recommendedRent: data.recommendedRent.ideal,
-                        areas: data.affordableAreas.map((a: any) => a.name),
-                    }),
-                })
 
-                if (aiResponse.ok) {
-                    const aiData = await aiResponse.json()
-                    setAiAnalysis(aiData)
-                } else {
-                    console.warn('AI analysis failed, continuing without it')
-                }
             } catch (error) {
                 console.error('Error fetching analysis:', error)
                 setResult(null)
@@ -115,6 +102,50 @@ function ResultPageContent() {
 
         fetchAnalysis()
     }, [salary, familySize, location, featuresParam])
+
+    const handleAiAnalysis = async () => {
+        if (!result || !salary) return
+        setShowAiAd(true)
+        setIsAiLoading(true)
+        setAiError(null)
+
+        const fetchWithRetry = async (retries: number): Promise<void> => {
+            try {
+                const aiResponse = await fetch('/api/openai', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        salary: Number(salary),
+                        recommendedRent: result.recommendedRent.ideal,
+                        areas: result.affordableAreas.map((a: any) => a.name),
+                    }),
+                })
+
+                if (!aiResponse.ok) {
+                    throw new Error(`API error: ${aiResponse.status}`)
+                }
+
+                const aiData = await aiResponse.json()
+                setAiAnalysis(aiData)
+            } catch (error) {
+                if (retries > 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1000))
+                    return fetchWithRetry(retries - 1)
+                } else {
+                    throw error
+                }
+            }
+        }
+
+        try {
+            await fetchWithRetry(1)
+        } catch (error) {
+            console.error('Final AI analysis error:', error)
+            setAiError('AI分析を利用できませんでした。時間を置いて再度お試しください。')
+        } finally {
+            setIsAiLoading(false)
+        }
+    }
 
     if (isLoading) {
         return <LoadingTips />
@@ -279,12 +310,51 @@ function ResultPageContent() {
             )}
 
             {/* AI分析 */}
-            {aiAnalysis && (
-                <section className="glass rounded-2xl p-8 mb-8 animate-fadeIn">
-                    <h2 className="text-2xl font-bold mb-4">🤖 AI分析</h2>
+            <section className="glass rounded-2xl p-8 mb-8 animate-fadeIn">
+                <h2 className="text-2xl font-bold mb-4">🤖 AI分析</h2>
+                
+                {!aiAnalysis && !showAiAd && (
+                    <div className="text-center">
+                        <p className="mb-4 text-gray-600 dark:text-gray-300">
+                            AIがあなたの給与と希望条件から、最適なエリアと生活のアドバイスを提案します。
+                        </p>
+                        <button
+                            onClick={handleAiAnalysis}
+                            className="bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
+                        >
+                            AI分析を開始する (無料)
+                        </button>
+                    </div>
+                )}
+
+                {(showAiAd || isAiLoading) && !aiAnalysis && !aiError && (
+                    <div className="text-center">
+                         <p className="mb-4 font-bold animate-pulse">AIが分析中です...しばらくお待ちください</p>
+                         {/* High CPM Banner Placeholder */}
+                         <div className="my-4">
+                            <AdSenseUnit slot="YOUR_HIGH_CPM_SLOT" format="horizontal" />
+                         </div>
+                         <div className="animate-spin h-8 w-8 border-4 border-primary-500 border-t-transparent rounded-full mx-auto" />
+                    </div>
+                )}
+
+                {aiError && (
+                    <div className="text-center p-4 bg-red-50 dark:bg-red-900/20 rounded-lg text-red-600 dark:text-red-400">
+                        <p className="font-bold mb-2">⚠️ エラーが発生しました</p>
+                        <p>{aiError}</p>
+                        <button
+                            onClick={handleAiAnalysis}
+                            className="mt-4 text-sm underline hover:no-underline"
+                        >
+                            再試行する
+                        </button>
+                    </div>
+                )}
+
+                {aiAnalysis && (
                     <AIAnalysis analysis={aiAnalysis.analysis} tips={aiAnalysis.tips} />
-                </section>
-            )}
+                )}
+            </section>
 
             {/* 収入ギャップ */}
             <section className="glass rounded-2xl p-8 mb-8 animate-fadeIn">

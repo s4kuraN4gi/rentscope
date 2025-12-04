@@ -14,13 +14,7 @@ export default function Home() {
                 </p>
 
                 {/* ヘッダー下広告 */}
-                <div className="mb-8">
-                    <AdSenseUnit
-                        slot="1234567890"
-                        format="horizontal"
-                        className="max-w-4xl mx-auto"
-                    />
-                </div>
+                <AdSenseUnit slot="1234567890" format="horizontal" className="max-w-4xl mx-auto" />
             </section>
 
             {/* メインコンテンツ */}
