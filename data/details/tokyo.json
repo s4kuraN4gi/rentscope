@@ -852,5 +852,11 @@
         "threeLDK": 158200
       }
     }
-  ]
+  ],
+  "rentByRoomType": {
+    "oneRoom": 96178,
+    "oneLDK": 157958,
+    "twoLDK": 219240,
+    "threeLDK": 274373
+  }
 }

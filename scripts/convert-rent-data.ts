@@ -24,7 +24,7 @@ interface Area {
   distanceToStation: number;
   description: string;
   features: string[];
-  rentByRoomType: RentByRoomType;
+  rentByRoomType?: RentByRoomType; // 追加 (既存データにない場合があるためオプショナル)
 }
 
 interface Prefecture {
@@ -38,6 +38,7 @@ interface Prefecture {
   population: number;
   description: string;
   areas: Area[];
+  rentByRoomType?: RentByRoomType; // 追加
 }
 
 // 区市町村の座標データ（主要なもののみ）
@@ -211,6 +212,7 @@ function main() {
     
     // 特殊なマッピング
     if (slug === 'oosaka') slug = 'osaka';
+    if (slug === 'aiti') slug = 'aichi';
 
     console.log(`\n📖 ${file} を処理中 (slug: ${slug})...`);
     
@@ -226,6 +228,41 @@ function main() {
     const prefectureIndex = prefectures.findIndex(p => p.slug === slug);
     
     if (prefectureIndex !== -1) {
+      // 間取り別平均家賃を計算
+      const rentTotals = { oneRoom: 0, oneLDK: 0, twoLDK: 0, threeLDK: 0 };
+      const rentCounts = { oneRoom: 0, oneLDK: 0, twoLDK: 0, threeLDK: 0 };
+
+      areas.forEach(area => {
+        if (area.rentByRoomType) {
+          if (area.rentByRoomType.oneRoom > 0) {
+            rentTotals.oneRoom += area.rentByRoomType.oneRoom;
+            rentCounts.oneRoom++;
+          }
+          if (area.rentByRoomType.oneLDK > 0) {
+            rentTotals.oneLDK += area.rentByRoomType.oneLDK;
+            rentCounts.oneLDK++;
+          }
+          if (area.rentByRoomType.twoLDK > 0) {
+            rentTotals.twoLDK += area.rentByRoomType.twoLDK;
+            rentCounts.twoLDK++;
+          }
+          if (area.rentByRoomType.threeLDK > 0) {
+            rentTotals.threeLDK += area.rentByRoomType.threeLDK;
+            rentCounts.threeLDK++;
+          }
+        }
+      });
+
+      const prefectureRentByRoomType: RentByRoomType = {
+        oneRoom: rentCounts.oneRoom > 0 ? Math.round(rentTotals.oneRoom / rentCounts.oneRoom) : 0,
+        oneLDK: rentCounts.oneLDK > 0 ? Math.round(rentTotals.oneLDK / rentCounts.oneLDK) : 0,
+        twoLDK: rentCounts.twoLDK > 0 ? Math.round(rentTotals.twoLDK / rentCounts.twoLDK) : 0,
+        threeLDK: rentCounts.threeLDK > 0 ? Math.round(rentTotals.threeLDK / rentCounts.threeLDK) : 0,
+      };
+
+      // 都道府県データ更新
+      prefectures[prefectureIndex].rentByRoomType = prefectureRentByRoomType;
+
       // 詳細データを個別のファイルに保存
       const detailData = {
         ...prefectures[prefectureIndex],
@@ -236,11 +273,12 @@ function main() {
       fs.writeFileSync(detailPath, JSON.stringify(detailData, null, 2), 'utf-8');
       console.log(`💾 data/details/${slug}.json に詳細データを保存しました`);
       
-      // 平均家賃を再計算
+      // 平均家賃を再計算 (全体平均)
       const totalRent = areas.reduce((sum, area) => sum + area.averageRent, 0);
       const newAverageRent = Math.round(totalRent / areas.length);
       prefectures[prefectureIndex].averageRent = newAverageRent;
       console.log(`✅ ${prefectures[prefectureIndex].name}の平均家賃を更新: ${newAverageRent.toLocaleString()}円`);
+      console.log(`   (1R: ${prefectureRentByRoomType.oneRoom.toLocaleString()}円, 1LDK: ${prefectureRentByRoomType.oneLDK.toLocaleString()}円, 2LDK: ${prefectureRentByRoomType.twoLDK.toLocaleString()}円, 3LDK: ${prefectureRentByRoomType.threeLDK.toLocaleString()}円)`);
       
       // 軽量化のため areas を空にする
       prefectures[prefectureIndex].areas = [];

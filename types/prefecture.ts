@@ -40,4 +40,5 @@ export interface Prefecture {
     population: number
     description: string
     areas: Area[]
+    rentByRoomType: RentByRoomType
 }

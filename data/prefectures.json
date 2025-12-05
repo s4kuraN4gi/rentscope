@@ -9,204 +9,61 @@
     "longitude": 139.6503,
     "population": 14000000,
     "description": "日本の首都。ビジネス、文化、エンターテイメントの中心地。",
-    "areas": []
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 96178,
+      "oneLDK": 157958,
+      "twoLDK": 219240,
+      "threeLDK": 274373
+    }
   },
   {
     "id": 2,
     "name": "大阪府",
     "slug": "osaka",
     "region": "関西",
-    "averageRent": 100372,
+    "averageRent": 103371,
     "latitude": 34.6937,
     "longitude": 135.5023,
     "population": 8800000,
     "description": "西日本最大の都市。商業、グルメ、エンターテイメントが充実。",
-    "areas": []
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 60057,
+      "oneLDK": 87293,
+      "twoLDK": 124793,
+      "threeLDK": 141341
+    }
   },
   {
     "id": 3,
     "name": "神奈川県",
     "slug": "kanagawa",
     "region": "関東",
-    "averageRent": 189000,
+    "averageRent": 131683,
     "latitude": 35.4478,
     "longitude": 139.6425,
     "population": 9200000,
     "description": "横浜、川崎など都市部と湘南などのリゾート地が共存。",
-    "areas": [
-      {
-        "name": "横浜市西区",
-        "averageRent": 189000,
-        "minRent": 87000,
-        "maxRent": 252000,
-        "latitude": 35.4657,
-        "longitude": 139.6201,
-        "nearestStation": "横浜駅",
-        "distanceToStation": 5,
-        "description": "横浜の中心地。みなとみらい、横浜駅周辺。",
-        "features": [
-          "access_good",
-          "shopping_convenient",
-          "safe_area"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Yokohama+Nishi+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Yokohama+Nishi+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 30,
-            "gender": "女性",
-            "comment": "みなとみらいが近くて散歩が楽しい。",
-            "rating": 5
-          },
-          {
-            "age": 40,
-            "gender": "男性",
-            "comment": "横浜駅へのアクセスが良いので通勤が楽。",
-            "rating": 4
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 87000,
-          "oneLDK": 179000,
-          "twoLDK": 237000,
-          "threeLDK": 252000
-        }
-      },
-      {
-        "name": "川崎市中原区",
-        "averageRent": 179000,
-        "minRent": 94000,
-        "maxRent": 241000,
-        "latitude": 35.5761,
-        "longitude": 139.6565,
-        "nearestStation": "武蔵小杉駅",
-        "distanceToStation": 10,
-        "description": "東京へのアクセス良好。再開発で人気上昇中。",
-        "features": [
-          "access_good",
-          "child_rearing",
-          "shopping_convenient"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Kawasaki+Nakahara+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Kawasaki+Nakahara+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 30,
-            "gender": "男性",
-            "comment": "都内への通勤が便利。駅前に何でも揃っている。",
-            "rating": 4
-          },
-          {
-            "age": 30,
-            "gender": "女性",
-            "comment": "子育て世代が多くて安心感がある。",
-            "rating": 5
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 94000,
-          "oneLDK": 151000,
-          "twoLDK": 231000,
-          "threeLDK": 241000
-        }
-      }
-    ]
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 71528,
+      "oneLDK": 115208,
+      "twoLDK": 157308,
+      "threeLDK": 182688
+    }
   },
   {
     "id": 4,
     "name": "愛知県",
     "slug": "aichi",
     "region": "中部",
-    "averageRent": 135000,
+    "averageRent": 0,
     "latitude": 35.1815,
     "longitude": 136.9066,
     "population": 7500000,
     "description": "製造業の中心地。名古屋めしなどの独自文化も魅力。",
-    "areas": [
-      {
-        "name": "名古屋市中区",
-        "averageRent": 135000,
-        "minRent": 63000,
-        "maxRent": 220000,
-        "latitude": 35.1709,
-        "longitude": 136.9066,
-        "nearestStation": "栄駅",
-        "distanceToStation": 5,
-        "description": "名古屋の繁華街。栄、大須エリア。",
-        "features": [
-          "shopping_convenient",
-          "access_good"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Naka+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Naka+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 20,
-            "gender": "男性",
-            "comment": "栄まで歩いて行けるのが良い。",
-            "rating": 4
-          },
-          {
-            "age": 30,
-            "gender": "女性",
-            "comment": "飲食店が多くて便利だが、少し騒がしい。",
-            "rating": 3
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 63000,
-          "oneLDK": 108000,
-          "twoLDK": 169000,
-          "threeLDK": 220000
-        }
-      },
-      {
-        "name": "名古屋市千種区",
-        "averageRent": 128000,
-        "minRent": 55000,
-        "maxRent": 208000,
-        "latitude": 35.1709,
-        "longitude": 136.96,
-        "nearestStation": "千種駅",
-        "distanceToStation": 10,
-        "description": "文教地区としても知られる落ち着いたエリア。",
-        "features": [
-          "child_rearing",
-          "safe_area",
-          "pet_friendly"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Chikusa+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Nagoya+Chikusa+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 40,
-            "gender": "女性",
-            "comment": "学校が多くて教育環境が良い。",
-            "rating": 5
-          },
-          {
-            "age": 30,
-            "gender": "男性",
-            "comment": "静かで住みやすい。地下鉄も便利。",
-            "rating": 4
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 55000,
-          "oneLDK": 98000,
-          "twoLDK": 145000,
-          "threeLDK": 208000
-        }
-      }
-    ]
+    "areas": []
   },
   {
     "id": 5,

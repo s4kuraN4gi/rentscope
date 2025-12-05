@@ -57,12 +57,46 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
 
             {/* 平均家賃 */}
             <section className="glass rounded-2xl p-8 mb-8">
-                <h2 className="text-2xl font-bold mb-4">📊 平均家賃</h2>
-                <p className="text-5xl font-bold text-primary-600 mb-2">
-                    {data.averageRent.toLocaleString()}円
-                </p>
-                <p className="text-gray-600 dark:text-gray-300">
-                    月収{salaryExample.toLocaleString()}円の方におすすめ
+                <h2 className="text-2xl font-bold mb-4">📊 間取り別 平均家賃</h2>
+                {data.rentByRoomType ? (
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
+                            <p className="text-sm text-gray-500 mb-1">ワンルーム/1K</p>
+                            <p className="text-xl font-bold text-primary-600">
+                                {data.rentByRoomType.oneRoom.toLocaleString()}円
+                            </p>
+                        </div>
+                        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
+                            <p className="text-sm text-gray-500 mb-1">1LDK/2K</p>
+                            <p className="text-xl font-bold text-primary-600">
+                                {data.rentByRoomType.oneLDK.toLocaleString()}円
+                            </p>
+                        </div>
+                        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
+                            <p className="text-sm text-gray-500 mb-1">2LDK/3K</p>
+                            <p className="text-xl font-bold text-primary-600">
+                                {data.rentByRoomType.twoLDK.toLocaleString()}円
+                            </p>
+                        </div>
+                        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
+                            <p className="text-sm text-gray-500 mb-1">3LDK/4K~</p>
+                            <p className="text-xl font-bold text-primary-600">
+                                {data.rentByRoomType.threeLDK.toLocaleString()}円
+                            </p>
+                        </div>
+                    </div>
+                ) : (
+                    <div className="text-center">
+                        <p className="text-5xl font-bold text-primary-600 mb-2">
+                            {data.averageRent.toLocaleString()}円
+                        </p>
+                        <p className="text-gray-600 dark:text-gray-300">
+                            全体平均
+                        </p>
+                    </div>
+                )}
+                <p className="text-sm text-gray-500 mt-4 text-center">
+                    ※月収目安: 家賃の約3.3倍（手取りの30%）
                 </p>
             </section>
 

@@ -1,0 +1,882 @@
+{
+  "id": 3,
+  "name": "神奈川県",
+  "slug": "kanagawa",
+  "region": "関東",
+  "averageRent": 189000,
+  "latitude": 35.4478,
+  "longitude": 139.6425,
+  "population": 9200000,
+  "description": "横浜、川崎など都市部と湘南などのリゾート地が共存。",
+  "areas": [
+    {
+      "name": "横浜市鶴見区",
+      "averageRent": 144925,
+      "minRent": 78800,
+      "maxRent": 193900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市鶴見区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 78800,
+        "oneLDK": 131200,
+        "twoLDK": 175800,
+        "threeLDK": 193900
+      }
+    },
+    {
+      "name": "横浜市神奈川区",
+      "averageRent": 166700,
+      "minRent": 77300,
+      "maxRent": 250100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市神奈川区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 77300,
+        "oneLDK": 134600,
+        "twoLDK": 204800,
+        "threeLDK": 250100
+      }
+    },
+    {
+      "name": "横浜市西区",
+      "averageRent": 195300,
+      "minRent": 88200,
+      "maxRent": 266300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市西区エリア。",
+      "features": [
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 88200,
+        "oneLDK": 187400,
+        "twoLDK": 239300,
+        "threeLDK": 266300
+      }
+    },
+    {
+      "name": "横浜市中区",
+      "averageRent": 179125,
+      "minRent": 87500,
+      "maxRent": 225900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市中区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 87500,
+        "oneLDK": 149500,
+        "twoLDK": 253600,
+        "threeLDK": 225900
+      }
+    },
+    {
+      "name": "横浜市南区",
+      "averageRent": 140350,
+      "minRent": 75800,
+      "maxRent": 169500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市南区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 75800,
+        "oneLDK": 126700,
+        "twoLDK": 189400,
+        "threeLDK": 169500
+      }
+    },
+    {
+      "name": "横浜市保土ケ谷区",
+      "averageRent": 131325,
+      "minRent": 64600,
+      "maxRent": 228800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市保土ケ谷区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 64600,
+        "oneLDK": 114900,
+        "twoLDK": 117000,
+        "threeLDK": 228800
+      }
+    },
+    {
+      "name": "横浜市磯子区",
+      "averageRent": 141675,
+      "minRent": 70900,
+      "maxRent": 152900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市磯子区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 70900,
+        "oneLDK": 153100,
+        "twoLDK": 189800,
+        "threeLDK": 152900
+      }
+    },
+    {
+      "name": "横浜市金沢区",
+      "averageRent": 110675,
+      "minRent": 58900,
+      "maxRent": 152100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市金沢区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 58900,
+        "oneLDK": 97700,
+        "twoLDK": 134000,
+        "threeLDK": 152100
+      }
+    },
+    {
+      "name": "横浜市港北区",
+      "averageRent": 150400,
+      "minRent": 76500,
+      "maxRent": 217100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市港北区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 76500,
+        "oneLDK": 133400,
+        "twoLDK": 174600,
+        "threeLDK": 217100
+      }
+    },
+    {
+      "name": "横浜市戸塚区",
+      "averageRent": 130450,
+      "minRent": 74700,
+      "maxRent": 196000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市戸塚区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 74700,
+        "oneLDK": 106700,
+        "twoLDK": 144400,
+        "threeLDK": 196000
+      }
+    },
+    {
+      "name": "横浜市港南区",
+      "averageRent": 136425,
+      "minRent": 66300,
+      "maxRent": 208200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市港南区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66300,
+        "oneLDK": 108100,
+        "twoLDK": 163100,
+        "threeLDK": 208200
+      }
+    },
+    {
+      "name": "横浜市旭区",
+      "averageRent": 116325,
+      "minRent": 67600,
+      "maxRent": 184300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市旭区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 67600,
+        "oneLDK": 91700,
+        "twoLDK": 121700,
+        "threeLDK": 184300
+      }
+    },
+    {
+      "name": "横浜市緑区",
+      "averageRent": 133375,
+      "minRent": 74400,
+      "maxRent": 186900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市緑区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 74400,
+        "oneLDK": 113100,
+        "twoLDK": 159100,
+        "threeLDK": 186900
+      }
+    },
+    {
+      "name": "横浜市瀬谷区",
+      "averageRent": 100700,
+      "minRent": 67300,
+      "maxRent": 132000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市瀬谷区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 67300,
+        "oneLDK": 89100,
+        "twoLDK": 114400,
+        "threeLDK": 132000
+      }
+    },
+    {
+      "name": "横浜市栄区",
+      "averageRent": 143550,
+      "minRent": 75700,
+      "maxRent": 215800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市栄区エリア。",
+      "features": [
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 75700,
+        "oneLDK": 165800,
+        "twoLDK": 116900,
+        "threeLDK": 215800
+      }
+    },
+    {
+      "name": "横浜市泉区",
+      "averageRent": 103900,
+      "minRent": 67700,
+      "maxRent": 127100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市泉区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 67700,
+        "oneLDK": 102700,
+        "twoLDK": 118100,
+        "threeLDK": 127100
+      }
+    },
+    {
+      "name": "横浜市青葉区",
+      "averageRent": 135375,
+      "minRent": 75000,
+      "maxRent": 171200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市青葉区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 75000,
+        "oneLDK": 140200,
+        "twoLDK": 155100,
+        "threeLDK": 171200
+      }
+    },
+    {
+      "name": "横浜市都筑区",
+      "averageRent": 140325,
+      "minRent": 77200,
+      "maxRent": 170900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横浜市都筑区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 77200,
+        "oneLDK": 149100,
+        "twoLDK": 164100,
+        "threeLDK": 170900
+      }
+    },
+    {
+      "name": "川崎市川崎区",
+      "averageRent": 137200,
+      "minRent": 82400,
+      "maxRent": 186300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市川崎区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 82400,
+        "oneLDK": 124400,
+        "twoLDK": 155700,
+        "threeLDK": 186300
+      }
+    },
+    {
+      "name": "川崎市幸区",
+      "averageRent": 173625,
+      "minRent": 86800,
+      "maxRent": 242300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市幸区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 86800,
+        "oneLDK": 133800,
+        "twoLDK": 231600,
+        "threeLDK": 242300
+      }
+    },
+    {
+      "name": "川崎市中原区",
+      "averageRent": 175475,
+      "minRent": 93300,
+      "maxRent": 237800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市中原区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 93300,
+        "oneLDK": 138200,
+        "twoLDK": 232600,
+        "threeLDK": 237800
+      }
+    },
+    {
+      "name": "川崎市高津区",
+      "averageRent": 167650,
+      "minRent": 95700,
+      "maxRent": 226200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市高津区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 95700,
+        "oneLDK": 136400,
+        "twoLDK": 212300,
+        "threeLDK": 226200
+      }
+    },
+    {
+      "name": "川崎市多摩区",
+      "averageRent": 135050,
+      "minRent": 68600,
+      "maxRent": 179400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市多摩区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 68600,
+        "oneLDK": 122100,
+        "twoLDK": 170100,
+        "threeLDK": 179400
+      }
+    },
+    {
+      "name": "川崎市宮前区",
+      "averageRent": 155175,
+      "minRent": 86900,
+      "maxRent": 226200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市宮前区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 86900,
+        "oneLDK": 113600,
+        "twoLDK": 194000,
+        "threeLDK": 226200
+      }
+    },
+    {
+      "name": "川崎市麻生区",
+      "averageRent": 117200,
+      "minRent": 66800,
+      "maxRent": 156900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "川崎市麻生区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66800,
+        "oneLDK": 101600,
+        "twoLDK": 143500,
+        "threeLDK": 156900
+      }
+    },
+    {
+      "name": "相模原市緑区",
+      "averageRent": 126100,
+      "minRent": 70200,
+      "maxRent": 200800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "相模原市緑区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 70200,
+        "oneLDK": 126800,
+        "twoLDK": 106600,
+        "threeLDK": 200800
+      }
+    },
+    {
+      "name": "相模原市中央区",
+      "averageRent": 96750,
+      "minRent": 62000,
+      "maxRent": 114400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "相模原市中央区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 62000,
+        "oneLDK": 89200,
+        "twoLDK": 121400,
+        "threeLDK": 114400
+      }
+    },
+    {
+      "name": "相模原市南区",
+      "averageRent": 121650,
+      "minRent": 61300,
+      "maxRent": 162400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "相模原市南区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 61300,
+        "oneLDK": 102300,
+        "twoLDK": 160600,
+        "threeLDK": 162400
+      }
+    },
+    {
+      "name": "横須賀市",
+      "averageRent": 143250,
+      "minRent": 56700,
+      "maxRent": 219500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "横須賀市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 56700,
+        "oneLDK": 80100,
+        "twoLDK": 216700,
+        "threeLDK": 219500
+      }
+    },
+    {
+      "name": "平塚市",
+      "averageRent": 107725,
+      "minRent": 69500,
+      "maxRent": 139500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "平塚市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 69500,
+        "oneLDK": 90900,
+        "twoLDK": 131000,
+        "threeLDK": 139500
+      }
+    },
+    {
+      "name": "鎌倉市",
+      "averageRent": 144900,
+      "minRent": 71800,
+      "maxRent": 223200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "鎌倉市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 71800,
+        "oneLDK": 112900,
+        "twoLDK": 171700,
+        "threeLDK": 223200
+      }
+    },
+    {
+      "name": "藤沢市",
+      "averageRent": 138650,
+      "minRent": 68300,
+      "maxRent": 210600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "藤沢市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 68300,
+        "oneLDK": 111400,
+        "twoLDK": 164300,
+        "threeLDK": 210600
+      }
+    },
+    {
+      "name": "小田原市",
+      "averageRent": 77375,
+      "minRent": 57600,
+      "maxRent": 101800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "小田原市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57600,
+        "oneLDK": 72800,
+        "twoLDK": 77300,
+        "threeLDK": 101800
+      }
+    },
+    {
+      "name": "茅ヶ崎市",
+      "averageRent": 128275,
+      "minRent": 67500,
+      "maxRent": 182100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "茅ヶ崎市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 67500,
+        "oneLDK": 115700,
+        "twoLDK": 147800,
+        "threeLDK": 182100
+      }
+    },
+    {
+      "name": "厚木市",
+      "averageRent": 120175,
+      "minRent": 70600,
+      "maxRent": 143300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "厚木市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 70600,
+        "oneLDK": 101600,
+        "twoLDK": 165200,
+        "threeLDK": 143300
+      }
+    },
+    {
+      "name": "大和市",
+      "averageRent": 116750,
+      "minRent": 66800,
+      "maxRent": 149300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大和市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66800,
+        "oneLDK": 102800,
+        "twoLDK": 148100,
+        "threeLDK": 149300
+      }
+    },
+    {
+      "name": "伊勢原市",
+      "averageRent": 100725,
+      "minRent": 60500,
+      "maxRent": 157200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "伊勢原市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60500,
+        "oneLDK": 84400,
+        "twoLDK": 100800,
+        "threeLDK": 157200
+      }
+    },
+    {
+      "name": "海老名市",
+      "averageRent": 118100,
+      "minRent": 66700,
+      "maxRent": 198600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "海老名市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66700,
+        "oneLDK": 94800,
+        "twoLDK": 112300,
+        "threeLDK": 198600
+      }
+    },
+    {
+      "name": "座間市",
+      "averageRent": 105200,
+      "minRent": 59900,
+      "maxRent": 133600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "座間市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59900,
+        "oneLDK": 95300,
+        "twoLDK": 132000,
+        "threeLDK": 133600
+      }
+    },
+    {
+      "name": "南足柄市",
+      "averageRent": 59400,
+      "minRent": 46800,
+      "maxRent": 67100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "南足柄市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46800,
+        "oneLDK": 62200,
+        "twoLDK": 61500,
+        "threeLDK": 67100
+      }
+    }
+  ],
+  "rentByRoomType": {
+    "oneRoom": 71528,
+    "oneLDK": 115208,
+    "twoLDK": 157308,
+    "threeLDK": 182688
+  }
+}

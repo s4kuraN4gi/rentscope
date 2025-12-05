@@ -53,6 +53,27 @@
       }
     },
     {
+      "name": "大阪市西区",
+      "averageRent": 175350,
+      "minRent": 75000,
+      "maxRent": 289500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市西区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 75000,
+        "oneLDK": 129200,
+        "twoLDK": 207700,
+        "threeLDK": 289500
+      }
+    },
+    {
       "name": "大阪市港区",
       "averageRent": 119175,
       "minRent": 66700,
@@ -72,6 +93,27 @@
         "oneLDK": 107100,
         "twoLDK": 131700,
         "threeLDK": 171200
+      }
+    },
+    {
+      "name": "大阪市天王寺区",
+      "averageRent": 157125,
+      "minRent": 73600,
+      "maxRent": 223800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市天王寺区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 73600,
+        "oneLDK": 135100,
+        "twoLDK": 196000,
+        "threeLDK": 223800
       }
     },
     {
@@ -182,6 +224,28 @@
         "oneLDK": 81900,
         "twoLDK": 129600,
         "threeLDK": 135600
+      }
+    },
+    {
+      "name": "大阪市城東区",
+      "averageRent": 120750,
+      "minRent": 65600,
+      "maxRent": 161400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市城東区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 65600,
+        "oneLDK": 91800,
+        "twoLDK": 164200,
+        "threeLDK": 161400
       }
     },
     {
@@ -532,28 +596,6 @@
         "oneLDK": 87400,
         "twoLDK": 113900,
         "threeLDK": 132600
-      }
-    },
-    {
-      "name": "堺市美原区 - 岸和田市",
-      "averageRent": 71475,
-      "minRent": 49800,
-      "maxRent": 80200,
-      "latitude": 35.6762,
-      "longitude": 139.6503,
-      "nearestStation": "最寄駅",
-      "distanceToStation": 10,
-      "description": "堺市美原区 - 岸和田市エリア。",
-      "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
-      ],
-      "rentByRoomType": {
-        "oneRoom": 49800,
-        "oneLDK": 70800,
-        "twoLDK": 85100,
-        "threeLDK": 80200
       }
     },
     {
@@ -1107,6 +1149,28 @@
       }
     },
     {
+      "name": "交野市",
+      "averageRent": 81325,
+      "minRent": 55800,
+      "maxRent": 89000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "交野市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 55800,
+        "oneLDK": 82000,
+        "twoLDK": 98500,
+        "threeLDK": 89000
+      }
+    },
+    {
       "name": "大阪狭山市",
       "averageRent": 77850,
       "minRent": 54600,
@@ -1128,5 +1192,11 @@
         "threeLDK": 107000
       }
     }
-  ]
+  ],
+  "rentByRoomType": {
+    "oneRoom": 60057,
+    "oneLDK": 87293,
+    "twoLDK": 124793,
+    "threeLDK": 141341
+  }
 }
