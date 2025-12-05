@@ -1,22 +1,19 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
-import prefecturesData from '@/data/prefectures.json'
-
-// スラッグから都道府県データを取得
-function getPrefectureBySlug(slug: string) {
-    return prefecturesData.find(p => p.slug === slug)
-}
+import { getPrefectureDetail, getPrefectures } from '@/lib/data'
+import { Area } from '@/types/prefecture'
 
 export async function generateStaticParams() {
-    return prefecturesData.map(prefecture => ({
+    const prefectures = getPrefectures()
+    return prefectures.map(prefecture => ({
         slug: prefecture.slug,
     }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params
-    const data = getPrefectureBySlug(slug)
+    const data = await getPrefectureDetail(slug)
 
     if (!data) {
         return {
@@ -38,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function PrefectureDetailPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params
-    const data = getPrefectureBySlug(slug)
+    const data = await getPrefectureDetail(slug)
 
     if (!data) {
         return (
@@ -73,24 +70,28 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
             <section className="glass rounded-2xl p-8 mb-8">
                 <h2 className="text-2xl font-bold mb-4">🏘️ エリア別家賃</h2>
                 <div className="grid md:grid-cols-3 gap-4">
-                    {data.areas.map((area: any, index: number) => (
-                        <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg">
-                            <h3 className="text-xl font-semibold mb-2">{area.name}</h3>
-                            <p className="text-3xl font-bold text-primary-600 mb-2">
-                                {area.averageRent.toLocaleString()}円
-                            </p>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">{area.description}</p>
-                            <div className="mt-4 text-sm">
-                                <p className="text-gray-500">間取り別家賃:</p>
-                                <ul className="mt-2 space-y-1">
-                                    <li>ワンルーム: {area.rentByRoomType.oneRoom.toLocaleString()}円</li>
-                                    <li>1LDK: {area.rentByRoomType.oneLDK.toLocaleString()}円</li>
-                                    <li>2LDK: {area.rentByRoomType.twoLDK.toLocaleString()}円</li>
-                                    <li>3LDK: {area.rentByRoomType.threeLDK.toLocaleString()}円</li>
-                                </ul>
+                    {data.areas && data.areas.length > 0 ? (
+                        data.areas.map((area: Area, index: number) => (
+                            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg">
+                                <h3 className="text-xl font-semibold mb-2">{area.name}</h3>
+                                <p className="text-3xl font-bold text-primary-600 mb-2">
+                                    {area.averageRent.toLocaleString()}円
+                                </p>
+                                <p className="text-sm text-gray-600 dark:text-gray-400">{area.description}</p>
+                                <div className="mt-4 text-sm">
+                                    <p className="text-gray-500">間取り別家賃:</p>
+                                    <ul className="mt-2 space-y-1">
+                                        <li>ワンルーム: {area.rentByRoomType.oneRoom.toLocaleString()}円</li>
+                                        <li>1LDK: {area.rentByRoomType.oneLDK.toLocaleString()}円</li>
+                                        <li>2LDK: {area.rentByRoomType.twoLDK.toLocaleString()}円</li>
+                                        <li>3LDK: {area.rentByRoomType.threeLDK.toLocaleString()}円</li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))
+                    ) : (
+                        <p className="col-span-3 text-center text-gray-500">エリアデータがありません</p>
+                    )}
                 </div>
             </section>
 

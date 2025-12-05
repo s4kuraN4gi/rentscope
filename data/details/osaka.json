@@ -1,0 +1,1132 @@
+{
+  "id": 2,
+  "name": "大阪府",
+  "slug": "osaka",
+  "region": "関西",
+  "averageRent": 100372,
+  "latitude": 34.6937,
+  "longitude": 135.5023,
+  "population": 8800000,
+  "description": "西日本最大の都市。商業、グルメ、エンターテイメントが充実。",
+  "areas": [
+    {
+      "name": "大阪市都島区",
+      "averageRent": 124175,
+      "minRent": 69000,
+      "maxRent": 155100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市都島区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 69000,
+        "oneLDK": 106700,
+        "twoLDK": 165900,
+        "threeLDK": 155100
+      }
+    },
+    {
+      "name": "大阪市福島区",
+      "averageRent": 163075,
+      "minRent": 73400,
+      "maxRent": 256200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市福島区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 73400,
+        "oneLDK": 130200,
+        "twoLDK": 192500,
+        "threeLDK": 256200
+      }
+    },
+    {
+      "name": "大阪市港区",
+      "averageRent": 119175,
+      "minRent": 66700,
+      "maxRent": 171200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市港区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66700,
+        "oneLDK": 107100,
+        "twoLDK": 131700,
+        "threeLDK": 171200
+      }
+    },
+    {
+      "name": "大阪市浪速区",
+      "averageRent": 170175,
+      "minRent": 74500,
+      "maxRent": 283500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市浪速区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 74500,
+        "oneLDK": 118900,
+        "twoLDK": 203800,
+        "threeLDK": 283500
+      }
+    },
+    {
+      "name": "大阪市西淀川区",
+      "averageRent": 127050,
+      "minRent": 63500,
+      "maxRent": 191800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市西淀川区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 63500,
+        "oneLDK": 85600,
+        "twoLDK": 167300,
+        "threeLDK": 191800
+      }
+    },
+    {
+      "name": "大阪市東淀川区",
+      "averageRent": 124175,
+      "minRent": 71400,
+      "maxRent": 170400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市東淀川区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 71400,
+        "oneLDK": 102600,
+        "twoLDK": 152300,
+        "threeLDK": 170400
+      }
+    },
+    {
+      "name": "大阪市東成区",
+      "averageRent": 122150,
+      "minRent": 66200,
+      "maxRent": 177600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市東成区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66200,
+        "oneLDK": 87200,
+        "twoLDK": 157600,
+        "threeLDK": 177600
+      }
+    },
+    {
+      "name": "大阪市生野区",
+      "averageRent": 101550,
+      "minRent": 59100,
+      "maxRent": 135600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市生野区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59100,
+        "oneLDK": 81900,
+        "twoLDK": 129600,
+        "threeLDK": 135600
+      }
+    },
+    {
+      "name": "大阪市阿倍野区",
+      "averageRent": 141600,
+      "minRent": 64300,
+      "maxRent": 220700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市阿倍野区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 64300,
+        "oneLDK": 110400,
+        "twoLDK": 171000,
+        "threeLDK": 220700
+      }
+    },
+    {
+      "name": "大阪市住吉区",
+      "averageRent": 103625,
+      "minRent": 56400,
+      "maxRent": 142300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市住吉区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 56400,
+        "oneLDK": 83700,
+        "twoLDK": 132100,
+        "threeLDK": 142300
+      }
+    },
+    {
+      "name": "大阪市東住吉区",
+      "averageRent": 112400,
+      "minRent": 57800,
+      "maxRent": 162900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市東住吉区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57800,
+        "oneLDK": 91600,
+        "twoLDK": 137300,
+        "threeLDK": 162900
+      }
+    },
+    {
+      "name": "大阪市西成区",
+      "averageRent": 90475,
+      "minRent": 59500,
+      "maxRent": 128100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市西成区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59500,
+        "oneLDK": 79000,
+        "twoLDK": 95300,
+        "threeLDK": 128100
+      }
+    },
+    {
+      "name": "大阪市淀川区",
+      "averageRent": 125925,
+      "minRent": 68000,
+      "maxRent": 177800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市淀川区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 68000,
+        "oneLDK": 112700,
+        "twoLDK": 145200,
+        "threeLDK": 177800
+      }
+    },
+    {
+      "name": "大阪市鶴見区",
+      "averageRent": 91425,
+      "minRent": 60900,
+      "maxRent": 99800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市鶴見区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60900,
+        "oneLDK": 82000,
+        "twoLDK": 123000,
+        "threeLDK": 99800
+      }
+    },
+    {
+      "name": "大阪市住之江区",
+      "averageRent": 92900,
+      "minRent": 60700,
+      "maxRent": 136500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市住之江区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60700,
+        "oneLDK": 71000,
+        "twoLDK": 103400,
+        "threeLDK": 136500
+      }
+    },
+    {
+      "name": "大阪市平野区",
+      "averageRent": 90175,
+      "minRent": 54700,
+      "maxRent": 117700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市平野区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54700,
+        "oneLDK": 76600,
+        "twoLDK": 111700,
+        "threeLDK": 117700
+      }
+    },
+    {
+      "name": "大阪市北区",
+      "averageRent": 185925,
+      "minRent": 75800,
+      "maxRent": 308600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市北区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 75800,
+        "oneLDK": 136800,
+        "twoLDK": 222500,
+        "threeLDK": 308600
+      }
+    },
+    {
+      "name": "大阪市中央区",
+      "averageRent": 184450,
+      "minRent": 78500,
+      "maxRent": 306600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪市中央区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 78500,
+        "oneLDK": 137300,
+        "twoLDK": 215400,
+        "threeLDK": 306600
+      }
+    },
+    {
+      "name": "堺市堺区",
+      "averageRent": 97625,
+      "minRent": 60900,
+      "maxRent": 134200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市堺区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60900,
+        "oneLDK": 74300,
+        "twoLDK": 121100,
+        "threeLDK": 134200
+      }
+    },
+    {
+      "name": "堺市中区",
+      "averageRent": 80125,
+      "minRent": 52100,
+      "maxRent": 109700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市中区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52100,
+        "oneLDK": 69400,
+        "twoLDK": 89300,
+        "threeLDK": 109700
+      }
+    },
+    {
+      "name": "堺市東区",
+      "averageRent": 78300,
+      "minRent": 55300,
+      "maxRent": 89100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市東区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": 70700,
+        "twoLDK": 98100,
+        "threeLDK": 89100
+      }
+    },
+    {
+      "name": "堺市西区",
+      "averageRent": 87225,
+      "minRent": 57100,
+      "maxRent": 112300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市西区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57100,
+        "oneLDK": 71500,
+        "twoLDK": 108000,
+        "threeLDK": 112300
+      }
+    },
+    {
+      "name": "堺市南区",
+      "averageRent": 85925,
+      "minRent": 57700,
+      "maxRent": 100000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市南区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57700,
+        "oneLDK": 67000,
+        "twoLDK": 119000,
+        "threeLDK": 100000
+      }
+    },
+    {
+      "name": "堺市北区",
+      "averageRent": 98075,
+      "minRent": 58400,
+      "maxRent": 132600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市北区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 58400,
+        "oneLDK": 87400,
+        "twoLDK": 113900,
+        "threeLDK": 132600
+      }
+    },
+    {
+      "name": "堺市美原区 - 岸和田市",
+      "averageRent": 71475,
+      "minRent": 49800,
+      "maxRent": 80200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "堺市美原区 - 岸和田市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 49800,
+        "oneLDK": 70800,
+        "twoLDK": 85100,
+        "threeLDK": 80200
+      }
+    },
+    {
+      "name": "豊中市",
+      "averageRent": 113425,
+      "minRent": 61600,
+      "maxRent": 160500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "豊中市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 61600,
+        "oneLDK": 90000,
+        "twoLDK": 141600,
+        "threeLDK": 160500
+      }
+    },
+    {
+      "name": "池田市",
+      "averageRent": 102575,
+      "minRent": 61800,
+      "maxRent": 137300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "池田市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 61800,
+        "oneLDK": 84800,
+        "twoLDK": 126400,
+        "threeLDK": 137300
+      }
+    },
+    {
+      "name": "吹田市",
+      "averageRent": 115150,
+      "minRent": 68600,
+      "maxRent": 146500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "吹田市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 68600,
+        "oneLDK": 101800,
+        "twoLDK": 143700,
+        "threeLDK": 146500
+      }
+    },
+    {
+      "name": "泉大津市",
+      "averageRent": 72450,
+      "minRent": 51700,
+      "maxRent": 86700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "泉大津市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51700,
+        "oneLDK": 72500,
+        "twoLDK": 78900,
+        "threeLDK": 86700
+      }
+    },
+    {
+      "name": "高槻市",
+      "averageRent": 129450,
+      "minRent": 64400,
+      "maxRent": 168100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "高槻市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 64400,
+        "oneLDK": 120100,
+        "twoLDK": 165200,
+        "threeLDK": 168100
+      }
+    },
+    {
+      "name": "貝塚市",
+      "averageRent": 68175,
+      "minRent": 50900,
+      "maxRent": 84800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "貝塚市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 50900,
+        "oneLDK": 66000,
+        "twoLDK": 71000,
+        "threeLDK": 84800
+      }
+    },
+    {
+      "name": "守口市",
+      "averageRent": 99675,
+      "minRent": 57400,
+      "maxRent": 141200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "守口市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57400,
+        "oneLDK": 79700,
+        "twoLDK": 120400,
+        "threeLDK": 141200
+      }
+    },
+    {
+      "name": "枚方市",
+      "averageRent": 80025,
+      "minRent": 55300,
+      "maxRent": 89000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "枚方市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": 78200,
+        "twoLDK": 97600,
+        "threeLDK": 89000
+      }
+    },
+    {
+      "name": "茨木市",
+      "averageRent": 102900,
+      "minRent": 61000,
+      "maxRent": 124200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "茨木市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 61000,
+        "oneLDK": 103600,
+        "twoLDK": 122800,
+        "threeLDK": 124200
+      }
+    },
+    {
+      "name": "八尾市",
+      "averageRent": 83300,
+      "minRent": 61500,
+      "maxRent": 94800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "八尾市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 61500,
+        "oneLDK": 75900,
+        "twoLDK": 101000,
+        "threeLDK": 94800
+      }
+    },
+    {
+      "name": "泉佐野市",
+      "averageRent": 74525,
+      "minRent": 59500,
+      "maxRent": 83900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "泉佐野市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59500,
+        "oneLDK": 70600,
+        "twoLDK": 84100,
+        "threeLDK": 83900
+      }
+    },
+    {
+      "name": "富田林市",
+      "averageRent": 68150,
+      "minRent": 46400,
+      "maxRent": 84300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "富田林市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46400,
+        "oneLDK": 69100,
+        "twoLDK": 72800,
+        "threeLDK": 84300
+      }
+    },
+    {
+      "name": "寝屋川市",
+      "averageRent": 79525,
+      "minRent": 48400,
+      "maxRent": 89100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "寝屋川市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 48400,
+        "oneLDK": 73900,
+        "twoLDK": 106700,
+        "threeLDK": 89100
+      }
+    },
+    {
+      "name": "河内長野市",
+      "averageRent": 63100,
+      "minRent": 46300,
+      "maxRent": 70600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "河内長野市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46300,
+        "oneLDK": 59900,
+        "twoLDK": 75600,
+        "threeLDK": 70600
+      }
+    },
+    {
+      "name": "松原市",
+      "averageRent": 87100,
+      "minRent": 51400,
+      "maxRent": 138300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "松原市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51400,
+        "oneLDK": 70000,
+        "twoLDK": 88700,
+        "threeLDK": 138300
+      }
+    },
+    {
+      "name": "大東市",
+      "averageRent": 71525,
+      "minRent": 51700,
+      "maxRent": 79100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大東市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51700,
+        "oneLDK": 71500,
+        "twoLDK": 83800,
+        "threeLDK": 79100
+      }
+    },
+    {
+      "name": "和泉市",
+      "averageRent": 73075,
+      "minRent": 57800,
+      "maxRent": 86400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "和泉市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57800,
+        "oneLDK": 68800,
+        "twoLDK": 79300,
+        "threeLDK": 86400
+      }
+    },
+    {
+      "name": "箕面市",
+      "averageRent": 118950,
+      "minRent": 57900,
+      "maxRent": 170300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "箕面市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57900,
+        "oneLDK": 95400,
+        "twoLDK": 152200,
+        "threeLDK": 170300
+      }
+    },
+    {
+      "name": "柏原市",
+      "averageRent": 68825,
+      "minRent": 48400,
+      "maxRent": 73100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "柏原市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 48400,
+        "oneLDK": 70900,
+        "twoLDK": 82900,
+        "threeLDK": 73100
+      }
+    },
+    {
+      "name": "羽曳野市",
+      "averageRent": 65075,
+      "minRent": 50100,
+      "maxRent": 68700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "羽曳野市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 50100,
+        "oneLDK": 71700,
+        "twoLDK": 69800,
+        "threeLDK": 68700
+      }
+    },
+    {
+      "name": "門真市",
+      "averageRent": 99500,
+      "minRent": 58400,
+      "maxRent": 157600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "門真市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 58400,
+        "oneLDK": 71600,
+        "twoLDK": 110400,
+        "threeLDK": 157600
+      }
+    },
+    {
+      "name": "摂津市",
+      "averageRent": 93750,
+      "minRent": 66100,
+      "maxRent": 110500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "摂津市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66100,
+        "oneLDK": 84100,
+        "twoLDK": 114300,
+        "threeLDK": 110500
+      }
+    },
+    {
+      "name": "高石市",
+      "averageRent": 83950,
+      "minRent": 55800,
+      "maxRent": 104200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "高石市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 55800,
+        "oneLDK": 68500,
+        "twoLDK": 107300,
+        "threeLDK": 104200
+      }
+    },
+    {
+      "name": "藤井寺市",
+      "averageRent": 67700,
+      "minRent": 50000,
+      "maxRent": 79200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "藤井寺市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 50000,
+        "oneLDK": 63500,
+        "twoLDK": 78100,
+        "threeLDK": 79200
+      }
+    },
+    {
+      "name": "東大阪市",
+      "averageRent": 90050,
+      "minRent": 54200,
+      "maxRent": 113000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "東大阪市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54200,
+        "oneLDK": 88600,
+        "twoLDK": 104400,
+        "threeLDK": 113000
+      }
+    },
+    {
+      "name": "大阪狭山市",
+      "averageRent": 77850,
+      "minRent": 54600,
+      "maxRent": 107000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大阪狭山市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54600,
+        "oneLDK": 63400,
+        "twoLDK": 86400,
+        "threeLDK": 107000
+      }
+    }
+  ]
+}

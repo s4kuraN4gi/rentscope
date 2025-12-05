@@ -183,49 +183,75 @@ function parseMarkdownData(filePath: string): Area[] {
 // メイン処理
 function main() {
   const dataDir = path.join(process.cwd(), 'data');
-  const tokyoDataPath = path.join(dataDir, 'tokyo_data.md');
-
-  if (!fs.existsSync(tokyoDataPath)) {
-    console.error('❌ tokyo_data.md が見つかりません');
-    process.exit(1);
+  const detailsDir = path.join(dataDir, 'details');
+  
+  if (!fs.existsSync(detailsDir)) {
+    fs.mkdirSync(detailsDir, { recursive: true });
   }
-
-  console.log('📖 tokyo_data.md を読み込み中...');
-  const areas = parseMarkdownData(tokyoDataPath);
-
-  console.log(`✅ ${areas.length} 件のエリアデータを変換しました`);
 
   // 既存の prefectures.json を読み込み
   const prefecturesPath = path.join(dataDir, 'prefectures.json');
   const prefectures: Prefecture[] = JSON.parse(fs.readFileSync(prefecturesPath, 'utf-8'));
 
-  // 東京都のデータを更新
-  const tokyoIndex = prefectures.findIndex(p => p.slug === 'tokyo');
-  if (tokyoIndex !== -1) {
-    prefectures[tokyoIndex].areas = areas;
-    
-    // 都道府県の平均家賃を再計算
-    if (areas.length > 0) {
-      const totalRent = areas.reduce((sum, area) => sum + area.averageRent, 0);
-      const newAverageRent = Math.round(totalRent / areas.length);
-      prefectures[tokyoIndex].averageRent = newAverageRent;
-      console.log(`✅ 東京都の平均家賃を更新しました: ${newAverageRent.toLocaleString()}円`);
-    }
-
-    console.log('✅ 東京都のデータを更新しました');
-  } else {
-    console.error('❌ 東京都のデータが見つかりません');
-    process.exit(1);
+  // dataディレクトリ内の *_data.md ファイルを検索
+  const files = fs.readdirSync(dataDir).filter(file => file.endsWith('_data.md'));
+  
+  if (files.length === 0) {
+    console.log('⚠️ データファイル (*_data.md) が見つかりません');
+    return;
   }
 
-  // 保存
-  fs.writeFileSync(prefecturesPath, JSON.stringify(prefectures, null, 2), 'utf-8');
-  console.log('💾 prefectures.json に保存しました');
+  console.log(`🔍 ${files.length} 個のデータファイルが見つかりました:`, files);
 
-  // サマリー表示
-  console.log('\n📊 変換結果サマリー:');
-  console.log(`総エリア数: ${areas.length}`);
-  console.log(`平均家賃範囲: ${Math.min(...areas.map(a => a.averageRent)).toLocaleString()}円 〜 ${Math.max(...areas.map(a => a.averageRent)).toLocaleString()}円`);
+  for (const file of files) {
+    // ファイル名から slug を推測 (例: tokyo_data.md -> tokyo)
+    // ただし、oosaka_data.md -> osaka のようなマッピングが必要な場合もある
+    // ここでは簡易的にファイル名のプレフィックスを使用し、必要ならマッピングを追加
+    let slug = file.replace('_data.md', '');
+    
+    // 特殊なマッピング
+    if (slug === 'oosaka') slug = 'osaka';
+
+    console.log(`\n📖 ${file} を処理中 (slug: ${slug})...`);
+    
+    const filePath = path.join(dataDir, file);
+    const areas = parseMarkdownData(filePath);
+    console.log(`  -> ${areas.length} 件のエリアデータを検出`);
+    
+    if (areas.length === 0) {
+      console.log(`⚠️ ${file}: 有効なエリアデータがありません`);
+      continue;
+    }
+
+    const prefectureIndex = prefectures.findIndex(p => p.slug === slug);
+    
+    if (prefectureIndex !== -1) {
+      // 詳細データを個別のファイルに保存
+      const detailData = {
+        ...prefectures[prefectureIndex],
+        areas: areas
+      };
+      
+      const detailPath = path.join(detailsDir, `${slug}.json`);
+      fs.writeFileSync(detailPath, JSON.stringify(detailData, null, 2), 'utf-8');
+      console.log(`💾 data/details/${slug}.json に詳細データを保存しました`);
+      
+      // 平均家賃を再計算
+      const totalRent = areas.reduce((sum, area) => sum + area.averageRent, 0);
+      const newAverageRent = Math.round(totalRent / areas.length);
+      prefectures[prefectureIndex].averageRent = newAverageRent;
+      console.log(`✅ ${prefectures[prefectureIndex].name}の平均家賃を更新: ${newAverageRent.toLocaleString()}円`);
+      
+      // 軽量化のため areas を空にする
+      prefectures[prefectureIndex].areas = [];
+    } else {
+      console.error(`❌ slug: ${slug} に対応する都道府県が prefectures.json に見つかりません`);
+    }
+  }
+
+  // prefectures.json を保存
+  fs.writeFileSync(prefecturesPath, JSON.stringify(prefectures, null, 2), 'utf-8');
+  console.log('\n💾 prefectures.json (軽量版) を保存しました');
 }
 
 main();

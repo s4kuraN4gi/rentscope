@@ -20,13 +20,23 @@ function calculateRecommendedRent(salary: number, familySize: number = 1): Recom
     }
 }
 
+import { getPrefectures, getPrefectureDetail } from '@/lib/data'
+
 // エリアマッチングロジック(実データ使用)
-function findAffordableAreas(maxRent: number, location?: string, features: string[] = []): AffordableArea[] {
+async function findAffordableAreas(maxRent: number, location?: string, features: string[] = []): Promise<AffordableArea[]> {
     const allAreas: AffordableArea[] = []
     
-    // prefectures.jsonから全エリアを取得
-    prefecturesData.forEach((prefecture: any) => {
-        prefecture.areas.forEach((area: any) => {
+    // 全都道府県の詳細データを取得
+    const prefectures = getPrefectures()
+    const detailedPrefectures = await Promise.all(
+        prefectures.map(p => getPrefectureDetail(p.slug))
+    )
+    
+    // 有効なデータのみ処理
+    detailedPrefectures.forEach((prefecture) => {
+        if (!prefecture || !prefecture.areas) return
+
+        prefecture.areas.forEach((area) => {
             allAreas.push({
                 name: area.name,
                 averageRent: area.averageRent,
@@ -63,12 +73,24 @@ function findAffordableAreas(maxRent: number, location?: string, features: strin
 }
 
 // 収入ギャップ計算(実データ使用)
-function calculateIncomeGap(currentSalary: number, targetArea: string = '港区'): IncomeGap {
+async function calculateIncomeGap(currentSalary: number, targetArea: string = '港区'): Promise<IncomeGap> {
     // 実データから目標エリアの家賃を取得
     let targetRent = 317000 // デフォルト: 港区の平均家賃
     
-    for (const prefecture of prefecturesData) {
-        const area = prefecture.areas.find((a: any) => a.name === targetArea)
+    // 全都道府県の詳細データを取得（キャッシュされることを期待、あるいは最適化の余地あり）
+    // ※ ここでは簡易的に全取得するが、本来はターゲットエリアが含まれる都道府県だけ取得すべき
+    // しかしターゲットエリアがどの都道府県かわからないため全検索が必要
+    // パフォーマンス改善のため、主要な都道府県から検索するなどの工夫が可能
+    
+    const prefectures = getPrefectures()
+    const detailedPrefectures = await Promise.all(
+        prefectures.map(p => getPrefectureDetail(p.slug))
+    )
+    
+    for (const prefecture of detailedPrefectures) {
+        if (!prefecture || !prefecture.areas) continue
+        
+        const area = prefecture.areas.find((a) => a.name === targetArea)
         if (area) {
             targetRent = area.averageRent
             break
@@ -101,10 +123,10 @@ export async function POST(request: NextRequest) {
         const recommendedRent = calculateRecommendedRent(salary, familySize)
 
         // 住めるエリアを検索
-        const affordableAreas = findAffordableAreas(recommendedRent.max, location, features)
+        const affordableAreas = await findAffordableAreas(recommendedRent.max, location, features)
 
         // 収入ギャップを計算
-        const incomeGap = calculateIncomeGap(salary, location || '港区')
+        const incomeGap = await calculateIncomeGap(salary, location || '港区')
 
         // グラフ用データ
         const chartData = {

@@ -1,3 +1,33 @@
+export interface RentByRoomType {
+    oneRoom: number
+    oneLDK: number
+    twoLDK: number
+    threeLDK: number
+}
+
+export interface Review {
+    age: number
+    gender: string
+    comment: string
+    rating: number
+}
+
+export interface Area {
+    name: string
+    averageRent: number
+    minRent: number
+    maxRent: number
+    latitude: number
+    longitude: number
+    nearestStation: string
+    distanceToStation: number
+    description: string
+    features: string[]
+    images?: string[]
+    reviews?: Review[]
+    rentByRoomType: RentByRoomType
+}
+
 // 都道府県関連の型定義
 export interface Prefecture {
     id: number
@@ -7,4 +37,7 @@ export interface Prefecture {
     averageRent: number
     latitude: number
     longitude: number
+    population: number
+    description: string
+    areas: Area[]
 }
