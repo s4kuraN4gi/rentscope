@@ -58,12 +58,18 @@
     "name": "愛知県",
     "slug": "aichi",
     "region": "中部",
-    "averageRent": 0,
+    "averageRent": 83564,
     "latitude": 35.1815,
     "longitude": 136.9066,
     "population": 7500000,
     "description": "製造業の中心地。名古屋めしなどの独自文化も魅力。",
-    "areas": []
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 53023,
+      "oneLDK": 71592,
+      "twoLDK": 93997,
+      "threeLDK": 115644
+    }
   },
   {
     "id": 5,

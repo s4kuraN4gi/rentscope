@@ -115,10 +115,10 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
                                 <div className="mt-4 text-sm">
                                     <p className="text-gray-500">間取り別家賃:</p>
                                     <ul className="mt-2 space-y-1">
-                                        <li>ワンルーム: {area.rentByRoomType.oneRoom.toLocaleString()}円</li>
-                                        <li>1LDK: {area.rentByRoomType.oneLDK.toLocaleString()}円</li>
-                                        <li>2LDK: {area.rentByRoomType.twoLDK.toLocaleString()}円</li>
-                                        <li>3LDK: {area.rentByRoomType.threeLDK.toLocaleString()}円</li>
+                                        <li>ワンルーム/1K: {area.rentByRoomType.oneRoom.toLocaleString()}円</li>
+                                        <li>1LDK/2K: {area.rentByRoomType.oneLDK.toLocaleString()}円</li>
+                                        <li>2LDK/3K: {area.rentByRoomType.twoLDK.toLocaleString()}円</li>
+                                        <li>3LDK/4K~: {area.rentByRoomType.threeLDK.toLocaleString()}円</li>
                                     </ul>
                                 </div>
                             </div>

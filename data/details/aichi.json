@@ -1,0 +1,877 @@
+{
+  "id": 4,
+  "name": "愛知県",
+  "slug": "aichi",
+  "region": "中部",
+  "averageRent": 0,
+  "latitude": 35.1815,
+  "longitude": 136.9066,
+  "population": 7500000,
+  "description": "製造業の中心地。名古屋めしなどの独自文化も魅力。",
+  "areas": [
+    {
+      "name": "名古屋市千種区",
+      "averageRent": 119175,
+      "minRent": 60600,
+      "maxRent": 179900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市千種区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60600,
+        "oneLDK": 92400,
+        "twoLDK": 143800,
+        "threeLDK": 179900
+      }
+    },
+    {
+      "name": "名古屋市東区",
+      "averageRent": 117050,
+      "minRent": 63200,
+      "maxRent": 156700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市東区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 63200,
+        "oneLDK": 98900,
+        "twoLDK": 149400,
+        "threeLDK": 156700
+      }
+    },
+    {
+      "name": "名古屋市北区",
+      "averageRent": 91475,
+      "minRent": 55800,
+      "maxRent": 120200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市北区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 55800,
+        "oneLDK": 74100,
+        "twoLDK": 115800,
+        "threeLDK": 120200
+      }
+    },
+    {
+      "name": "名古屋市西区",
+      "averageRent": 103000,
+      "minRent": 59500,
+      "maxRent": 143800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市西区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59500,
+        "oneLDK": 85900,
+        "twoLDK": 122800,
+        "threeLDK": 143800
+      }
+    },
+    {
+      "name": "名古屋市中村区",
+      "averageRent": 116375,
+      "minRent": 58900,
+      "maxRent": 180500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市中村区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 58900,
+        "oneLDK": 80400,
+        "twoLDK": 145700,
+        "threeLDK": 180500
+      }
+    },
+    {
+      "name": "名古屋市中区",
+      "averageRent": 126700,
+      "minRent": 64700,
+      "maxRent": 184600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市中区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 64700,
+        "oneLDK": 102400,
+        "twoLDK": 155100,
+        "threeLDK": 184600
+      }
+    },
+    {
+      "name": "名古屋市昭和区",
+      "averageRent": 110600,
+      "minRent": 57800,
+      "maxRent": 156300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市昭和区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57800,
+        "oneLDK": 87500,
+        "twoLDK": 140800,
+        "threeLDK": 156300
+      }
+    },
+    {
+      "name": "名古屋市瑞穂区",
+      "averageRent": 104200,
+      "minRent": 57200,
+      "maxRent": 157300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市瑞穂区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57200,
+        "oneLDK": 80700,
+        "twoLDK": 121600,
+        "threeLDK": 157300
+      }
+    },
+    {
+      "name": "名古屋市熱田区",
+      "averageRent": 102800,
+      "minRent": 57100,
+      "maxRent": 142100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市熱田区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57100,
+        "oneLDK": 85800,
+        "twoLDK": 126200,
+        "threeLDK": 142100
+      }
+    },
+    {
+      "name": "名古屋市中川区",
+      "averageRent": 86425,
+      "minRent": 56500,
+      "maxRent": 121400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市中川区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 56500,
+        "oneLDK": 71700,
+        "twoLDK": 96100,
+        "threeLDK": 121400
+      }
+    },
+    {
+      "name": "名古屋市港区",
+      "averageRent": 67275,
+      "minRent": 49600,
+      "maxRent": 79400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市港区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 49600,
+        "oneLDK": 61500,
+        "twoLDK": 78600,
+        "threeLDK": 79400
+      }
+    },
+    {
+      "name": "名古屋市南区",
+      "averageRent": 82500,
+      "minRent": 52900,
+      "maxRent": 113800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市南区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52900,
+        "oneLDK": 69600,
+        "twoLDK": 93700,
+        "threeLDK": 113800
+      }
+    },
+    {
+      "name": "名古屋市守山区",
+      "averageRent": 76925,
+      "minRent": 47300,
+      "maxRent": 107300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市守山区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 69500,
+        "twoLDK": 83600,
+        "threeLDK": 107300
+      }
+    },
+    {
+      "name": "名古屋市緑区",
+      "averageRent": 96300,
+      "minRent": 54800,
+      "maxRent": 138900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市緑区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54800,
+        "oneLDK": 68100,
+        "twoLDK": 123400,
+        "threeLDK": 138900
+      }
+    },
+    {
+      "name": "名古屋市名東区",
+      "averageRent": 107400,
+      "minRent": 53400,
+      "maxRent": 157100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市名東区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 53400,
+        "oneLDK": 85900,
+        "twoLDK": 133200,
+        "threeLDK": 157100
+      }
+    },
+    {
+      "name": "名古屋市天白区",
+      "averageRent": 81625,
+      "minRent": 51400,
+      "maxRent": 105800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "名古屋市天白区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51400,
+        "oneLDK": 68000,
+        "twoLDK": 101300,
+        "threeLDK": 105800
+      }
+    },
+    {
+      "name": "豊橋市",
+      "averageRent": 80300,
+      "minRent": 46500,
+      "maxRent": 117900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "豊橋市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46500,
+        "oneLDK": 71100,
+        "twoLDK": 85700,
+        "threeLDK": 117900
+      }
+    },
+    {
+      "name": "岡崎市",
+      "averageRent": 82100,
+      "minRent": 57400,
+      "maxRent": 107300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "岡崎市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57400,
+        "oneLDK": 72000,
+        "twoLDK": 91700,
+        "threeLDK": 107300
+      }
+    },
+    {
+      "name": "一宮市",
+      "averageRent": 77725,
+      "minRent": 52100,
+      "maxRent": 113300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "一宮市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52100,
+        "oneLDK": 62000,
+        "twoLDK": 83500,
+        "threeLDK": 113300
+      }
+    },
+    {
+      "name": "半田市",
+      "averageRent": 62300,
+      "minRent": 48100,
+      "maxRent": 73900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "半田市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 48100,
+        "oneLDK": 60000,
+        "twoLDK": 67200,
+        "threeLDK": 73900
+      }
+    },
+    {
+      "name": "春日井市",
+      "averageRent": 82425,
+      "minRent": 49600,
+      "maxRent": 126400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "春日井市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 49600,
+        "oneLDK": 71200,
+        "twoLDK": 82500,
+        "threeLDK": 126400
+      }
+    },
+    {
+      "name": "豊川市",
+      "averageRent": 64325,
+      "minRent": 45000,
+      "maxRent": 86000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "豊川市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45000,
+        "oneLDK": 59500,
+        "twoLDK": 66800,
+        "threeLDK": 86000
+      }
+    },
+    {
+      "name": "津島市",
+      "averageRent": 70025,
+      "minRent": 51500,
+      "maxRent": 104200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "津島市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51500,
+        "oneLDK": 58100,
+        "twoLDK": 66300,
+        "threeLDK": 104200
+      }
+    },
+    {
+      "name": "碧南市",
+      "averageRent": 72100,
+      "minRent": 44700,
+      "maxRent": 129100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "碧南市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 44700,
+        "oneLDK": 56300,
+        "twoLDK": 58300,
+        "threeLDK": 129100
+      }
+    },
+    {
+      "name": "刈谷市",
+      "averageRent": 83400,
+      "minRent": 61000,
+      "maxRent": 108800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "刈谷市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 61000,
+        "oneLDK": 73100,
+        "twoLDK": 90700,
+        "threeLDK": 108800
+      }
+    },
+    {
+      "name": "豊田市",
+      "averageRent": 84375,
+      "minRent": 60500,
+      "maxRent": 114300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "豊田市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60500,
+        "oneLDK": 76300,
+        "twoLDK": 86400,
+        "threeLDK": 114300
+      }
+    },
+    {
+      "name": "安城市",
+      "averageRent": 89650,
+      "minRent": 57800,
+      "maxRent": 129300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "安城市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57800,
+        "oneLDK": 81200,
+        "twoLDK": 90300,
+        "threeLDK": 129300
+      }
+    },
+    {
+      "name": "西尾市",
+      "averageRent": 56950,
+      "minRent": 47600,
+      "maxRent": 62700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "西尾市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 47600,
+        "oneLDK": 57400,
+        "twoLDK": 60100,
+        "threeLDK": 62700
+      }
+    },
+    {
+      "name": "犬山市",
+      "averageRent": 69700,
+      "minRent": 45700,
+      "maxRent": 96700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "犬山市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45700,
+        "oneLDK": 61000,
+        "twoLDK": 75400,
+        "threeLDK": 96700
+      }
+    },
+    {
+      "name": "小牧市",
+      "averageRent": 70175,
+      "minRent": 52300,
+      "maxRent": 87000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "小牧市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52300,
+        "oneLDK": 65400,
+        "twoLDK": 76000,
+        "threeLDK": 87000
+      }
+    },
+    {
+      "name": "稲沢市",
+      "averageRent": 69000,
+      "minRent": 47500,
+      "maxRent": 88100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "稲沢市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 47500,
+        "oneLDK": 66500,
+        "twoLDK": 73900,
+        "threeLDK": 88100
+      }
+    },
+    {
+      "name": "新城市",
+      "averageRent": 51575,
+      "minRent": 48600,
+      "maxRent": 52300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "新城市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 48600,
+        "oneLDK": 49300,
+        "twoLDK": 56100,
+        "threeLDK": 52300
+      }
+    },
+    {
+      "name": "東海市",
+      "averageRent": 67125,
+      "minRent": 53700,
+      "maxRent": 67800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "東海市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 53700,
+        "oneLDK": 71400,
+        "twoLDK": 75600,
+        "threeLDK": 67800
+      }
+    },
+    {
+      "name": "知多市",
+      "averageRent": 62850,
+      "minRent": 51000,
+      "maxRent": 73500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "知多市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51000,
+        "oneLDK": 62400,
+        "twoLDK": 64500,
+        "threeLDK": 73500
+      }
+    },
+    {
+      "name": "岩倉市",
+      "averageRent": 68575,
+      "minRent": 51500,
+      "maxRent": 77300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "岩倉市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51500,
+        "oneLDK": 64500,
+        "twoLDK": 81000,
+        "threeLDK": 77300
+      }
+    },
+    {
+      "name": "日進市",
+      "averageRent": 81125,
+      "minRent": 52400,
+      "maxRent": 105600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "日進市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52400,
+        "oneLDK": 77100,
+        "twoLDK": 89400,
+        "threeLDK": 105600
+      }
+    },
+    {
+      "name": "清須市",
+      "averageRent": 78175,
+      "minRent": 50100,
+      "maxRent": 129400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "清須市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 50100,
+        "oneLDK": 61900,
+        "twoLDK": 71300,
+        "threeLDK": 129400
+      }
+    },
+    {
+      "name": "あま市",
+      "averageRent": 65800,
+      "minRent": 44100,
+      "maxRent": 102500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "あま市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 44100,
+        "oneLDK": 59700,
+        "twoLDK": 56900,
+        "threeLDK": 102500
+      }
+    },
+    {
+      "name": "長久手市",
+      "averageRent": 79400,
+      "minRent": 48500,
+      "maxRent": 111600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "長久手市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 48500,
+        "oneLDK": 72300,
+        "twoLDK": 85200,
+        "threeLDK": 111600
+      }
+    }
+  ],
+  "rentByRoomType": {
+    "oneRoom": 53023,
+    "oneLDK": 71592,
+    "twoLDK": 93997,
+    "threeLDK": 115644
+  }
+}
