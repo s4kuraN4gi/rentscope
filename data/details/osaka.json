@@ -3,7 +3,7 @@
   "name": "大阪府",
   "slug": "osaka",
   "region": "関西",
-  "averageRent": 103371,
+  "averageRent": 99559,
   "latitude": 34.6937,
   "longitude": 135.5023,
   "population": 8800000,
@@ -20,9 +20,9 @@
       "distanceToStation": 10,
       "description": "大阪市都島区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 69000,
@@ -42,8 +42,9 @@
       "distanceToStation": 10,
       "description": "大阪市福島区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 73400,
@@ -64,8 +65,8 @@
       "description": "大阪市此花区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 64800,
@@ -85,7 +86,8 @@
       "distanceToStation": 10,
       "description": "大阪市西区エリア。",
       "features": [
-        "child_rearing",
+        "access_good",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -107,8 +109,8 @@
       "description": "大阪市港区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 66700,
@@ -129,7 +131,7 @@
       "description": "大阪市大正区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
+        "access_good",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -150,8 +152,9 @@
       "distanceToStation": 10,
       "description": "大阪市天王寺区エリア。",
       "features": [
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 73600,
@@ -171,9 +174,9 @@
       "distanceToStation": 10,
       "description": "大阪市浪速区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 74500,
@@ -194,8 +197,8 @@
       "description": "大阪市西淀川区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 63500,
@@ -216,8 +219,8 @@
       "description": "大阪市東淀川区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 71400,
@@ -238,8 +241,8 @@
       "description": "大阪市東成区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 66200,
@@ -260,8 +263,8 @@
       "description": "大阪市生野区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 59100,
@@ -283,7 +286,7 @@
       "features": [
         "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 60600,
@@ -303,9 +306,9 @@
       "distanceToStation": 10,
       "description": "大阪市城東区エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 65600,
@@ -325,9 +328,9 @@
       "distanceToStation": 10,
       "description": "大阪市阿倍野区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 64300,
@@ -347,9 +350,9 @@
       "distanceToStation": 10,
       "description": "大阪市住吉区エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 56400,
@@ -369,8 +372,8 @@
       "distanceToStation": 10,
       "description": "大阪市東住吉区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
+        "safe_area",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -392,8 +395,8 @@
       "description": "大阪市西成区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 59500,
@@ -413,9 +416,9 @@
       "distanceToStation": 10,
       "description": "大阪市淀川区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 68000,
@@ -435,8 +438,8 @@
       "distanceToStation": 10,
       "description": "大阪市鶴見区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -458,7 +461,7 @@
       "description": "大阪市住之江区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
+        "access_good",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -501,8 +504,9 @@
       "distanceToStation": 10,
       "description": "大阪市北区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 75800,
@@ -522,7 +526,8 @@
       "distanceToStation": 10,
       "description": "大阪市中央区エリア。",
       "features": [
-        "child_rearing",
+        "access_good",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -543,9 +548,9 @@
       "distanceToStation": 10,
       "description": "堺市堺区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 60900,
@@ -587,9 +592,9 @@
       "distanceToStation": 10,
       "description": "堺市東区エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 55300,
@@ -610,8 +615,8 @@
       "description": "堺市西区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 57100,
@@ -631,9 +636,9 @@
       "distanceToStation": 10,
       "description": "堺市南区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 57700,
@@ -653,9 +658,9 @@
       "distanceToStation": 10,
       "description": "堺市北区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 58400,
@@ -675,7 +680,9 @@
       "distanceToStation": 10,
       "description": "堺市美原区エリア。",
       "features": [
-        "cost_performance"
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": null,
@@ -695,9 +702,9 @@
       "distanceToStation": 10,
       "description": "豊中市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 61600,
@@ -717,7 +724,7 @@
       "distanceToStation": 10,
       "description": "池田市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -739,9 +746,9 @@
       "distanceToStation": 10,
       "description": "吹田市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 68600,
@@ -762,8 +769,8 @@
       "description": "泉大津市エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 51700,
@@ -783,9 +790,9 @@
       "distanceToStation": 10,
       "description": "高槻市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 64400,
@@ -827,9 +834,9 @@
       "distanceToStation": 10,
       "description": "守口市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 57400,
@@ -849,9 +856,9 @@
       "distanceToStation": 10,
       "description": "枚方市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 55300,
@@ -871,9 +878,9 @@
       "distanceToStation": 10,
       "description": "茨木市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 61000,
@@ -893,9 +900,9 @@
       "distanceToStation": 10,
       "description": "八尾市エリア。",
       "features": [
+        "shopping_convenient",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 61500,
@@ -915,9 +922,9 @@
       "distanceToStation": 10,
       "description": "泉佐野市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 59500,
@@ -937,9 +944,9 @@
       "distanceToStation": 10,
       "description": "富田林市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 46400,
@@ -960,8 +967,8 @@
       "description": "寝屋川市エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 48400,
@@ -981,9 +988,9 @@
       "distanceToStation": 10,
       "description": "河内長野市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 46300,
@@ -1003,9 +1010,9 @@
       "distanceToStation": 10,
       "description": "松原市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 51400,
@@ -1026,8 +1033,8 @@
       "description": "大東市エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 51700,
@@ -1047,8 +1054,8 @@
       "distanceToStation": 10,
       "description": "和泉市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -1069,7 +1076,7 @@
       "distanceToStation": 10,
       "description": "箕面市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -1136,8 +1143,8 @@
       "description": "門真市エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 58400,
@@ -1157,9 +1164,9 @@
       "distanceToStation": 10,
       "description": "摂津市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 66100,
@@ -1179,9 +1186,9 @@
       "distanceToStation": 10,
       "description": "高石市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 55800,
@@ -1201,9 +1208,9 @@
       "distanceToStation": 10,
       "description": "藤井寺市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 50000,
@@ -1223,9 +1230,9 @@
       "distanceToStation": 10,
       "description": "東大阪市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "access_good",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 54200,
@@ -1246,8 +1253,8 @@
       "description": "泉南市エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 54900,
@@ -1267,9 +1274,9 @@
       "distanceToStation": 10,
       "description": "四條畷市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 51100,
@@ -1289,7 +1296,7 @@
       "distanceToStation": 10,
       "description": "交野市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -1311,7 +1318,7 @@
       "distanceToStation": 10,
       "description": "大阪狭山市エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -1334,8 +1341,8 @@
       "description": "阪南市エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 44700,

@@ -1,0 +1,921 @@
+{
+  "id": 5,
+  "name": "福岡県",
+  "slug": "fukuoka",
+  "region": "九州",
+  "averageRent": 125000,
+  "latitude": 33.5904,
+  "longitude": 130.4017,
+  "population": 5100000,
+  "description": "九州の玄関口。住みやすさNo.1との呼び声も高い。",
+  "areas": [
+    {
+      "name": "北九州市門司区",
+      "averageRent": 62067,
+      "minRent": 46500,
+      "maxRent": 77700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市門司区エリア。",
+      "features": [
+        "pet_friendly",
+        "cost_performance",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46500,
+        "oneLDK": 62000,
+        "twoLDK": 77700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "北九州市若松区",
+      "averageRent": 60375,
+      "minRent": 47700,
+      "maxRent": 75800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市若松区エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 47700,
+        "oneLDK": 55700,
+        "twoLDK": 62300,
+        "threeLDK": 75800
+      }
+    },
+    {
+      "name": "北九州市戸畑区",
+      "averageRent": 74225,
+      "minRent": 45500,
+      "maxRent": 96900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市戸畑区エリア。",
+      "features": [
+        "cost_performance",
+        "shopping_convenient",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45500,
+        "oneLDK": 59900,
+        "twoLDK": 96900,
+        "threeLDK": 94600
+      }
+    },
+    {
+      "name": "北九州市小倉北区",
+      "averageRent": 88100,
+      "minRent": 46000,
+      "maxRent": 138000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市小倉北区エリア。",
+      "features": [
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46000,
+        "oneLDK": 64900,
+        "twoLDK": 103500,
+        "threeLDK": 138000
+      }
+    },
+    {
+      "name": "北九州市小倉南区",
+      "averageRent": 59675,
+      "minRent": 42300,
+      "maxRent": 78300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市小倉南区エリア。",
+      "features": [
+        "child_rearing",
+        "cost_performance",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 42300,
+        "oneLDK": 55300,
+        "twoLDK": 62800,
+        "threeLDK": 78300
+      }
+    },
+    {
+      "name": "北九州市八幡東区",
+      "averageRent": 70900,
+      "minRent": 42000,
+      "maxRent": 100400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市八幡東区エリア。",
+      "features": [
+        "shopping_convenient",
+        "child_rearing",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 42000,
+        "oneLDK": 70300,
+        "twoLDK": 100400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "北九州市八幡西区",
+      "averageRent": 67600,
+      "minRent": 45600,
+      "maxRent": 88600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北九州市八幡西区エリア。",
+      "features": [
+        "child_rearing",
+        "shopping_convenient",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45600,
+        "oneLDK": 62100,
+        "twoLDK": 74100,
+        "threeLDK": 88600
+      }
+    },
+    {
+      "name": "福岡市東区",
+      "averageRent": 86700,
+      "minRent": 52900,
+      "maxRent": 118700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市東区エリア。",
+      "features": [
+        "child_rearing",
+        "shopping_convenient",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52900,
+        "oneLDK": 72300,
+        "twoLDK": 102900,
+        "threeLDK": 118700
+      }
+    },
+    {
+      "name": "福岡市博多区",
+      "averageRent": 119675,
+      "minRent": 69400,
+      "maxRent": 176700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市博多区エリア。",
+      "features": [
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 69400,
+        "oneLDK": 90900,
+        "twoLDK": 141700,
+        "threeLDK": 176700
+      }
+    },
+    {
+      "name": "福岡市中央区",
+      "averageRent": 151050,
+      "minRent": 68600,
+      "maxRent": 233800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市中央区エリア。",
+      "features": [
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 68600,
+        "oneLDK": 107500,
+        "twoLDK": 194300,
+        "threeLDK": 233800
+      }
+    },
+    {
+      "name": "福岡市南区",
+      "averageRent": 111925,
+      "minRent": 56600,
+      "maxRent": 162500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市南区エリア。",
+      "features": [
+        "child_rearing",
+        "safe_area",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 56600,
+        "oneLDK": 90700,
+        "twoLDK": 137900,
+        "threeLDK": 162500
+      }
+    },
+    {
+      "name": "福岡市西区",
+      "averageRent": 94650,
+      "minRent": 52100,
+      "maxRent": 133000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市西区エリア。",
+      "features": [
+        "child_rearing",
+        "pet_friendly",
+        "shopping_convenient"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52100,
+        "oneLDK": 66600,
+        "twoLDK": 133000,
+        "threeLDK": 126900
+      }
+    },
+    {
+      "name": "福岡市城南区",
+      "averageRent": 107475,
+      "minRent": 45900,
+      "maxRent": 165500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市城南区エリア。",
+      "features": [
+        "child_rearing",
+        "safe_area",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45900,
+        "oneLDK": 82600,
+        "twoLDK": 135900,
+        "threeLDK": 165500
+      }
+    },
+    {
+      "name": "福岡市早良区",
+      "averageRent": 142475,
+      "minRent": 64700,
+      "maxRent": 225800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福岡市早良区エリア。",
+      "features": [
+        "safe_area",
+        "child_rearing",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 64700,
+        "oneLDK": 104000,
+        "twoLDK": 175400,
+        "threeLDK": 225800
+      }
+    },
+    {
+      "name": "大牟田市",
+      "averageRent": 55925,
+      "minRent": 47300,
+      "maxRent": 75800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大牟田市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 48000,
+        "twoLDK": 52600,
+        "threeLDK": 75800
+      }
+    },
+    {
+      "name": "久留米市",
+      "averageRent": 61925,
+      "minRent": 43300,
+      "maxRent": 81400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "久留米市エリア。",
+      "features": [
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 43300,
+        "oneLDK": 58900,
+        "twoLDK": 64100,
+        "threeLDK": 81400
+      }
+    },
+    {
+      "name": "直方市",
+      "averageRent": 50033,
+      "minRent": 44700,
+      "maxRent": 54600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "直方市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 44700,
+        "oneLDK": 50800,
+        "twoLDK": 54600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "飯塚市",
+      "averageRent": 57900,
+      "minRent": 46900,
+      "maxRent": 69700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "飯塚市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46900,
+        "oneLDK": 57100,
+        "twoLDK": 69700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "田川市",
+      "averageRent": 57500,
+      "minRent": 51100,
+      "maxRent": 63900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "田川市エリア。",
+      "features": [
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51100,
+        "oneLDK": null,
+        "twoLDK": 63900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "柳川市",
+      "averageRent": 46833,
+      "minRent": 41000,
+      "maxRent": 50800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "柳川市エリア。",
+      "features": [
+        "pet_friendly",
+        "cost_performance",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 41000,
+        "oneLDK": 48700,
+        "twoLDK": 50800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "八女市",
+      "averageRent": 0,
+      "minRent": 0,
+      "maxRent": 0,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "八女市エリア。",
+      "features": [
+        "pet_friendly",
+        "cost_performance",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "筑後市",
+      "averageRent": 50133,
+      "minRent": 45600,
+      "maxRent": 55600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "筑後市エリア。",
+      "features": [
+        "access_good",
+        "child_rearing",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 49200,
+        "oneLDK": 45600,
+        "twoLDK": 55600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大川市",
+      "averageRent": 0,
+      "minRent": 0,
+      "maxRent": 0,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大川市エリア。",
+      "features": [
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "行橋市",
+      "averageRent": 68600,
+      "minRent": 59000,
+      "maxRent": 82900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "行橋市エリア。",
+      "features": [
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59000,
+        "oneLDK": 61800,
+        "twoLDK": 70700,
+        "threeLDK": 82900
+      }
+    },
+    {
+      "name": "豊前市",
+      "averageRent": 0,
+      "minRent": 0,
+      "maxRent": 0,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "豊前市エリア。",
+      "features": [
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "中間市",
+      "averageRent": 51775,
+      "minRent": 39900,
+      "maxRent": 60500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "中間市エリア。",
+      "features": [
+        "access_good",
+        "cost_performance",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 39900,
+        "oneLDK": 51400,
+        "twoLDK": 55300,
+        "threeLDK": 60500
+      }
+    },
+    {
+      "name": "小郡市",
+      "averageRent": 58275,
+      "minRent": 39700,
+      "maxRent": 70800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "小郡市エリア。",
+      "features": [
+        "access_good",
+        "child_rearing",
+        "safe_area"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 39700,
+        "oneLDK": 59600,
+        "twoLDK": 63000,
+        "threeLDK": 70800
+      }
+    },
+    {
+      "name": "筑紫野市",
+      "averageRent": 73000,
+      "minRent": 52500,
+      "maxRent": 87300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "筑紫野市エリア。",
+      "features": [
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52500,
+        "oneLDK": 68600,
+        "twoLDK": 87300,
+        "threeLDK": 83600
+      }
+    },
+    {
+      "name": "春日市",
+      "averageRent": 70933,
+      "minRent": 56700,
+      "maxRent": 85100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "春日市エリア。",
+      "features": [
+        "child_rearing",
+        "safe_area",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 56700,
+        "oneLDK": 71000,
+        "twoLDK": 85100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大野城市",
+      "averageRent": 96350,
+      "minRent": 54400,
+      "maxRent": 139100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大野城市エリア。",
+      "features": [
+        "access_good",
+        "child_rearing",
+        "safe_area"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54400,
+        "oneLDK": 75400,
+        "twoLDK": 116500,
+        "threeLDK": 139100
+      }
+    },
+    {
+      "name": "宗像市",
+      "averageRent": 54400,
+      "minRent": 37100,
+      "maxRent": 70500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "宗像市エリア。",
+      "features": [
+        "child_rearing",
+        "safe_area",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 37100,
+        "oneLDK": 55600,
+        "twoLDK": 70500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "太宰府市",
+      "averageRent": 65175,
+      "minRent": 42200,
+      "maxRent": 89800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "太宰府市エリア。",
+      "features": [
+        "safe_area",
+        "child_rearing",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 42200,
+        "oneLDK": 59400,
+        "twoLDK": 69300,
+        "threeLDK": 89800
+      }
+    },
+    {
+      "name": "古賀市",
+      "averageRent": 62200,
+      "minRent": 44900,
+      "maxRent": 77900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "古賀市エリア。",
+      "features": [
+        "access_good",
+        "child_rearing",
+        "cost_performance"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 44900,
+        "oneLDK": 63800,
+        "twoLDK": 77900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "福津市",
+      "averageRent": 71125,
+      "minRent": 54900,
+      "maxRent": 89900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "福津市エリア。",
+      "features": [
+        "child_rearing",
+        "safe_area",
+        "shopping_convenient"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54900,
+        "oneLDK": 62000,
+        "twoLDK": 77700,
+        "threeLDK": 89900
+      }
+    },
+    {
+      "name": "うきは市",
+      "averageRent": 44967,
+      "minRent": 39500,
+      "maxRent": 48000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "うきは市エリア。",
+      "features": [
+        "pet_friendly",
+        "cost_performance",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 39500,
+        "oneLDK": 47400,
+        "twoLDK": 48000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宮若市",
+      "averageRent": 0,
+      "minRent": 0,
+      "maxRent": 0,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "宮若市エリア。",
+      "features": [
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "嘉麻市",
+      "averageRent": 0,
+      "minRent": 0,
+      "maxRent": 0,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "嘉麻市エリア。",
+      "features": [
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "朝倉市",
+      "averageRent": 45800,
+      "minRent": 45000,
+      "maxRent": 46700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "朝倉市エリア。",
+      "features": [
+        "pet_friendly",
+        "cost_performance",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45000,
+        "oneLDK": 45700,
+        "twoLDK": 46700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "みやま市",
+      "averageRent": 59050,
+      "minRent": 55400,
+      "maxRent": 62700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "みやま市エリア。",
+      "features": [
+        "cost_performance",
+        "pet_friendly",
+        "child_rearing"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 55400,
+        "twoLDK": 62700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "糸島市",
+      "averageRent": 67475,
+      "minRent": 49200,
+      "maxRent": 82300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "糸島市エリア。",
+      "features": [
+        "pet_friendly",
+        "child_rearing",
+        "safe_area"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 49200,
+        "oneLDK": 66000,
+        "twoLDK": 72400,
+        "threeLDK": 82300
+      }
+    },
+    {
+      "name": "那珂川市",
+      "averageRent": 71100,
+      "minRent": 71100,
+      "maxRent": 71100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "那珂川市エリア。",
+      "features": [
+        "child_rearing",
+        "safe_area",
+        "access_good"
+      ],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 71100,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ],
+  "rentByRoomType": {
+    "oneRoom": 48950,
+    "oneLDK": 64803,
+    "twoLDK": 86091,
+    "threeLDK": 115514
+  }
+}

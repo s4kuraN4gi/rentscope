@@ -3,7 +3,7 @@
   "name": "神奈川県",
   "slug": "kanagawa",
   "region": "関東",
-  "averageRent": 131683,
+  "averageRent": 127663,
   "latitude": 35.4478,
   "longitude": 139.6425,
   "population": 9200000,
@@ -20,8 +20,9 @@
       "distanceToStation": 10,
       "description": "横浜市鶴見区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "cost_performance",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 78800,
@@ -41,8 +42,9 @@
       "distanceToStation": 10,
       "description": "横浜市神奈川区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 77300,
@@ -62,7 +64,9 @@
       "distanceToStation": 10,
       "description": "横浜市西区エリア。",
       "features": [
-        "cost_performance"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 88200,
@@ -82,8 +86,9 @@
       "distanceToStation": 10,
       "description": "横浜市中区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "pet_friendly",
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 87500,
@@ -103,8 +108,9 @@
       "distanceToStation": 10,
       "description": "横浜市南区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "cost_performance",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 75800,
@@ -124,9 +130,9 @@
       "distanceToStation": 10,
       "description": "横浜市保土ケ谷区エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 64600,
@@ -146,8 +152,9 @@
       "distanceToStation": 10,
       "description": "横浜市磯子区エリア。",
       "features": [
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 70900,
@@ -167,9 +174,9 @@
       "distanceToStation": 10,
       "description": "横浜市金沢区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 58900,
@@ -189,8 +196,9 @@
       "distanceToStation": 10,
       "description": "横浜市港北区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 76500,
@@ -210,9 +218,9 @@
       "distanceToStation": 10,
       "description": "横浜市戸塚区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 74700,
@@ -232,9 +240,9 @@
       "distanceToStation": 10,
       "description": "横浜市港南区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 66300,
@@ -254,9 +262,9 @@
       "distanceToStation": 10,
       "description": "横浜市旭区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 67600,
@@ -276,9 +284,9 @@
       "distanceToStation": 10,
       "description": "横浜市緑区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 74400,
@@ -320,7 +328,9 @@
       "distanceToStation": 10,
       "description": "横浜市栄区エリア。",
       "features": [
-        "cost_performance"
+        "safe_area",
+        "child_rearing",
+        "pet_friendly"
       ],
       "rentByRoomType": {
         "oneRoom": 75700,
@@ -340,9 +350,9 @@
       "distanceToStation": 10,
       "description": "横浜市泉区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 67700,
@@ -362,6 +372,7 @@
       "distanceToStation": 10,
       "description": "横浜市青葉区エリア。",
       "features": [
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -383,8 +394,9 @@
       "distanceToStation": 10,
       "description": "横浜市都筑区エリア。",
       "features": [
+        "shopping_convenient",
         "child_rearing",
-        "pet_friendly"
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 77200,
@@ -404,8 +416,9 @@
       "distanceToStation": 10,
       "description": "川崎市川崎区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 82400,
@@ -425,8 +438,9 @@
       "distanceToStation": 10,
       "description": "川崎市幸区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 86800,
@@ -446,8 +460,9 @@
       "distanceToStation": 10,
       "description": "川崎市中原区エリア。",
       "features": [
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 93300,
@@ -467,8 +482,9 @@
       "distanceToStation": 10,
       "description": "川崎市高津区エリア。",
       "features": [
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 95700,
@@ -488,7 +504,7 @@
       "distanceToStation": 10,
       "description": "川崎市多摩区エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
         "pet_friendly"
       ],
@@ -510,6 +526,7 @@
       "distanceToStation": 10,
       "description": "川崎市宮前区エリア。",
       "features": [
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -531,7 +548,7 @@
       "distanceToStation": 10,
       "description": "川崎市麻生区エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
         "pet_friendly"
       ],
@@ -553,9 +570,9 @@
       "distanceToStation": 10,
       "description": "相模原市緑区エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 70200,
@@ -575,9 +592,9 @@
       "distanceToStation": 10,
       "description": "相模原市中央区エリア。",
       "features": [
+        "shopping_convenient",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 62000,
@@ -597,9 +614,9 @@
       "distanceToStation": 10,
       "description": "相模原市南区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 61300,
@@ -619,9 +636,9 @@
       "distanceToStation": 10,
       "description": "横須賀市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 56700,
@@ -641,9 +658,9 @@
       "distanceToStation": 10,
       "description": "平塚市エリア。",
       "features": [
-        "cost_performance",
+        "shopping_convenient",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 69500,
@@ -663,9 +680,9 @@
       "distanceToStation": 10,
       "description": "鎌倉市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "safe_area",
+        "pet_friendly",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 71800,
@@ -685,9 +702,9 @@
       "distanceToStation": 10,
       "description": "藤沢市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 68300,
@@ -707,8 +724,8 @@
       "distanceToStation": 10,
       "description": "小田原市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
+        "access_good",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -729,9 +746,9 @@
       "distanceToStation": 10,
       "description": "茅ヶ崎市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 67500,
@@ -751,9 +768,9 @@
       "distanceToStation": 10,
       "description": "逗子市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "safe_area",
+        "pet_friendly",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 66800,
@@ -773,9 +790,9 @@
       "distanceToStation": 10,
       "description": "三浦市エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 57400,
@@ -795,9 +812,9 @@
       "distanceToStation": 10,
       "description": "秦野市エリア。",
       "features": [
-        "cost_performance",
+        "pet_friendly",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 54800,
@@ -817,9 +834,9 @@
       "distanceToStation": 10,
       "description": "厚木市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 70600,
@@ -839,9 +856,9 @@
       "distanceToStation": 10,
       "description": "大和市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 66800,
@@ -861,9 +878,9 @@
       "distanceToStation": 10,
       "description": "伊勢原市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 60500,
@@ -883,9 +900,9 @@
       "distanceToStation": 10,
       "description": "海老名市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "access_good",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 66700,
@@ -907,7 +924,7 @@
       "features": [
         "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 59900,
@@ -927,9 +944,9 @@
       "distanceToStation": 10,
       "description": "南足柄市エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 46800,

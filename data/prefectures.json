@@ -76,133 +76,17 @@
     "name": "福岡県",
     "slug": "fukuoka",
     "region": "九州",
-    "averageRent": 125000,
+    "averageRent": 64326,
     "latitude": 33.5904,
     "longitude": 130.4017,
     "population": 5100000,
     "description": "九州の玄関口。住みやすさNo.1との呼び声も高い。",
-    "areas": [
-      {
-        "name": "福岡市中央区",
-        "averageRent": 125000,
-        "minRent": 52000,
-        "maxRent": 245000,
-        "latitude": 33.5904,
-        "longitude": 130.4017,
-        "nearestStation": "天神駅",
-        "distanceToStation": 5,
-        "description": "天神、大名エリア。若者に人気。",
-        "features": [
-          "shopping_convenient",
-          "access_good",
-          "cost_performance"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Chuo+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Chuo+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 20,
-            "gender": "女性",
-            "comment": "天神まで自転車で行ける。家賃も安くて最高。",
-            "rating": 5
-          },
-          {
-            "age": 30,
-            "gender": "男性",
-            "comment": "美味しいお店がたくさんあって飽きない。",
-            "rating": 5
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 52000,
-          "oneLDK": 95000,
-          "twoLDK": 158000,
-          "threeLDK": 245000
-        }
-      },
-      {
-        "name": "福岡市博多区",
-        "averageRent": 118000,
-        "minRent": 55000,
-        "maxRent": 218000,
-        "latitude": 33.5904,
-        "longitude": 130.42,
-        "nearestStation": "博多駅",
-        "distanceToStation": 5,
-        "description": "新幹線、空港へのアクセス抜群。",
-        "features": [
-          "access_good",
-          "shopping_convenient",
-          "cost_performance"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Hakata+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Hakata+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 30,
-            "gender": "男性",
-            "comment": "出張が多いので空港に近いのが助かる。",
-            "rating": 5
-          },
-          {
-            "age": 20,
-            "gender": "女性",
-            "comment": "博多駅周辺で何でも揃う。",
-            "rating": 4
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 55000,
-          "oneLDK": 92000,
-          "twoLDK": 148000,
-          "threeLDK": 218000
-        }
-      },
-      {
-        "name": "福岡市西区",
-        "averageRent": 95000,
-        "minRent": 42000,
-        "maxRent": 148000,
-        "latitude": 33.58,
-        "longitude": 130.32,
-        "nearestStation": "姪浜駅",
-        "distanceToStation": 10,
-        "description": "自然豊かでファミリーに人気。海も近い。",
-        "features": [
-          "child_rearing",
-          "pet_friendly",
-          "cost_performance",
-          "safe_area"
-        ],
-        "images": [
-          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Nishi+Ku+1",
-          "https://placehold.co/600x400/2563eb/ffffff?text=Fukuoka+Nishi+Ku+2"
-        ],
-        "reviews": [
-          {
-            "age": 30,
-            "gender": "女性",
-            "comment": "海が近くて環境が良い。アウトレットもあって便利。",
-            "rating": 5
-          },
-          {
-            "age": 40,
-            "gender": "男性",
-            "comment": "家賃が安くて広い部屋に住める。",
-            "rating": 4
-          }
-        ],
-        "rentByRoomType": {
-          "oneRoom": 42000,
-          "oneLDK": 75000,
-          "twoLDK": 98000,
-          "threeLDK": 148000
-        }
-      }
-    ]
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48950,
+      "oneLDK": 64803,
+      "twoLDK": 86091,
+      "threeLDK": 115514
+    }
   }
 ]

@@ -3,7 +3,7 @@
   "name": "愛知県",
   "slug": "aichi",
   "region": "中部",
-  "averageRent": 83564,
+  "averageRent": 77917,
   "latitude": 35.1815,
   "longitude": 136.9066,
   "population": 7500000,
@@ -20,9 +20,9 @@
       "distanceToStation": 10,
       "description": "名古屋市千種区エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 60600,
@@ -42,9 +42,9 @@
       "distanceToStation": 10,
       "description": "名古屋市東区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 63200,
@@ -64,9 +64,9 @@
       "distanceToStation": 10,
       "description": "名古屋市北区エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 55800,
@@ -86,9 +86,9 @@
       "distanceToStation": 10,
       "description": "名古屋市西区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 59500,
@@ -108,9 +108,9 @@
       "distanceToStation": 10,
       "description": "名古屋市中村区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 58900,
@@ -130,8 +130,8 @@
       "distanceToStation": 10,
       "description": "名古屋市中区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
+        "access_good",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -152,9 +152,9 @@
       "distanceToStation": 10,
       "description": "名古屋市昭和区エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 57800,
@@ -174,9 +174,9 @@
       "distanceToStation": 10,
       "description": "名古屋市瑞穂区エリア。",
       "features": [
-        "cost_performance",
+        "safe_area",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 57200,
@@ -196,9 +196,9 @@
       "distanceToStation": 10,
       "description": "名古屋市熱田区エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 57100,
@@ -219,8 +219,8 @@
       "description": "名古屋市中川区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 56500,
@@ -241,8 +241,8 @@
       "description": "名古屋市港区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 49600,
@@ -263,8 +263,8 @@
       "description": "名古屋市南区エリア。",
       "features": [
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 52900,
@@ -284,9 +284,9 @@
       "distanceToStation": 10,
       "description": "名古屋市守山区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "pet_friendly",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 47300,
@@ -306,9 +306,9 @@
       "distanceToStation": 10,
       "description": "名古屋市緑区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 54800,
@@ -328,9 +328,9 @@
       "distanceToStation": 10,
       "description": "名古屋市名東区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 53400,
@@ -350,9 +350,9 @@
       "distanceToStation": 10,
       "description": "名古屋市天白区エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "safe_area",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 51400,
@@ -372,9 +372,9 @@
       "distanceToStation": 10,
       "description": "豊橋市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 46500,
@@ -394,9 +394,9 @@
       "distanceToStation": 10,
       "description": "岡崎市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 57400,
@@ -416,9 +416,9 @@
       "distanceToStation": 10,
       "description": "一宮市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 52100,
@@ -438,9 +438,9 @@
       "distanceToStation": 10,
       "description": "瀬戸市エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 45700,
@@ -462,7 +462,7 @@
       "features": [
         "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 48100,
@@ -482,9 +482,9 @@
       "distanceToStation": 10,
       "description": "春日井市エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 49600,
@@ -526,9 +526,9 @@
       "distanceToStation": 10,
       "description": "津島市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 51500,
@@ -570,9 +570,9 @@
       "distanceToStation": 10,
       "description": "刈谷市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 61000,
@@ -592,9 +592,9 @@
       "distanceToStation": 10,
       "description": "豊田市エリア。",
       "features": [
-        "cost_performance",
+        "shopping_convenient",
         "child_rearing",
-        "pet_friendly"
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 60500,
@@ -614,9 +614,9 @@
       "distanceToStation": 10,
       "description": "安城市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 57800,
@@ -658,9 +658,9 @@
       "distanceToStation": 10,
       "description": "蒲郡市エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 42800,
@@ -680,9 +680,9 @@
       "distanceToStation": 10,
       "description": "犬山市エリア。",
       "features": [
-        "cost_performance",
+        "pet_friendly",
         "child_rearing",
-        "pet_friendly"
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 45700,
@@ -702,8 +702,8 @@
       "distanceToStation": 10,
       "description": "常滑市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
+        "access_good",
+        "shopping_convenient",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -724,9 +724,9 @@
       "distanceToStation": 10,
       "description": "江南市エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 51800,
@@ -746,9 +746,9 @@
       "distanceToStation": 10,
       "description": "小牧市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 52300,
@@ -768,9 +768,9 @@
       "distanceToStation": 10,
       "description": "稲沢市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 47500,
@@ -790,9 +790,9 @@
       "distanceToStation": 10,
       "description": "新城市エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 48600,
@@ -812,9 +812,9 @@
       "distanceToStation": 10,
       "description": "東海市エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 53700,
@@ -834,9 +834,9 @@
       "distanceToStation": 10,
       "description": "大府市エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 58000,
@@ -878,9 +878,9 @@
       "distanceToStation": 10,
       "description": "知立市エリア。",
       "features": [
-        "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "access_good",
+        "shopping_convenient",
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 59800,
@@ -900,9 +900,9 @@
       "distanceToStation": 10,
       "description": "尾張旭市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "safe_area",
+        "access_good"
       ],
       "rentByRoomType": {
         "oneRoom": 46800,
@@ -944,9 +944,9 @@
       "distanceToStation": 10,
       "description": "岩倉市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 51500,
@@ -966,9 +966,9 @@
       "distanceToStation": 10,
       "description": "豊明市エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 58500,
@@ -988,9 +988,9 @@
       "distanceToStation": 10,
       "description": "日進市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "safe_area",
+        "shopping_convenient"
       ],
       "rentByRoomType": {
         "oneRoom": 52400,
@@ -1010,9 +1010,9 @@
       "distanceToStation": 10,
       "description": "田原市エリア。",
       "features": [
+        "pet_friendly",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 46900,
@@ -1054,9 +1054,9 @@
       "distanceToStation": 10,
       "description": "清須市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 50100,
@@ -1076,9 +1076,9 @@
       "distanceToStation": 10,
       "description": "北名古屋市エリア。",
       "features": [
-        "cost_performance",
+        "access_good",
         "child_rearing",
-        "pet_friendly"
+        "cost_performance"
       ],
       "rentByRoomType": {
         "oneRoom": 48400,
@@ -1098,9 +1098,9 @@
       "distanceToStation": 10,
       "description": "弥富市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 54900,
@@ -1120,8 +1120,8 @@
       "distanceToStation": 10,
       "description": "みよし市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
+        "safe_area",
         "pet_friendly"
       ],
       "rentByRoomType": {
@@ -1142,9 +1142,9 @@
       "distanceToStation": 10,
       "description": "あま市エリア。",
       "features": [
+        "access_good",
         "cost_performance",
-        "child_rearing",
-        "pet_friendly"
+        "child_rearing"
       ],
       "rentByRoomType": {
         "oneRoom": 44100,
@@ -1164,9 +1164,9 @@
       "distanceToStation": 10,
       "description": "長久手市エリア。",
       "features": [
-        "cost_performance",
         "child_rearing",
-        "pet_friendly"
+        "shopping_convenient",
+        "safe_area"
       ],
       "rentByRoomType": {
         "oneRoom": 48500,
