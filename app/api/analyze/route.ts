@@ -56,6 +56,13 @@ async function findAffordableAreas(maxRent: number, location?: string, features:
             if (area.averageRent > maxRent) return false
             // エリア条件(指定がある場合)
             if (location && !area.prefecture.includes(location) && !area.name.includes(location)) return false
+
+            // 特徴条件(AND検索: 指定された特徴を全て満たす必要がある)
+            if (features.length > 0) {
+                const hasAllFeatures = features.every(f => area.features?.includes(f))
+                if (!hasAllFeatures) return false
+            }
+
             return true
         })
         .map(area => {
