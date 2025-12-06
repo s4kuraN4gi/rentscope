@@ -88,5 +88,23 @@
       "twoLDK": 86091,
       "threeLDK": 115514
     }
+  },
+  {
+    "id": 6,
+    "name": "埼玉県",
+    "slug": "saitama",
+    "region": "関東",
+    "averageRent": 99498,
+    "latitude": 35.8617,
+    "longitude": 139.6455,
+    "population": 7330000,
+    "description": "東京へのアクセスが良く、住みやすいベッドタウン。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 63267,
+      "oneLDK": 88576,
+      "twoLDK": 115235,
+      "threeLDK": 149903
+    }
   }
 ]
