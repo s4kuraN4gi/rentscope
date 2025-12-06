@@ -92,7 +92,7 @@ export default function SalaryInput() {
                         min="0"
                         step="1000"
                     />
-                    <span className="absolute right-4 top-3 text-gray-500">円</span>
+                    <span className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">円</span>
                 </div>
                 <p className="text-sm text-gray-500 mt-1">※手取り額を入力してください</p>
             </div>
