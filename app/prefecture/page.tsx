@@ -1,15 +1,8 @@
 import Link from 'next/link'
-
-const prefectures = [
-    { id: 1, name: '東京都', slug: 'tokyo', region: '関東', averageRent: 85000 },
-    { id: 2, name: '大阪府', slug: 'osaka', region: '関西', averageRent: 65000 },
-    { id: 3, name: '神奈川県', slug: 'kanagawa', region: '関東', averageRent: 75000 },
-    { id: 4, name: '愛知県', slug: 'aichi', region: '中部', averageRent: 60000 },
-    { id: 5, name: '福岡県', slug: 'fukuoka', region: '九州', averageRent: 55000 },
-    // 他の都道府県は後で追加
-]
+import { getPrefectures } from '@/lib/data'
 
 export default function PrefecturePage() {
+    const prefectures = getPrefectures()
     const regions = Array.from(new Set(prefectures.map(p => p.region)))
 
     return (

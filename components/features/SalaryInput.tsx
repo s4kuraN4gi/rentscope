@@ -87,7 +87,7 @@ export default function SalaryInput() {
                         value={salary}
                         onChange={(e) => setSalary(e.target.value)}
                         placeholder="例: 250000"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:bg-gray-800 dark:border-gray-600"
+                        className="w-full pl-4 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:bg-gray-800 dark:border-gray-600"
                         required
                         min="0"
                         step="1000"
