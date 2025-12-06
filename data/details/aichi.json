@@ -3,7 +3,7 @@
   "name": "愛知県",
   "slug": "aichi",
   "region": "中部",
-  "averageRent": 0,
+  "averageRent": 83564,
   "latitude": 35.1815,
   "longitude": 136.9066,
   "population": 7500000,
@@ -428,6 +428,28 @@
       }
     },
     {
+      "name": "瀬戸市",
+      "averageRent": 58033,
+      "minRent": 45700,
+      "maxRent": 68900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "瀬戸市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 45700,
+        "oneLDK": 59500,
+        "twoLDK": 68900,
+        "threeLDK": null
+      }
+    },
+    {
       "name": "半田市",
       "averageRent": 62300,
       "minRent": 48100,
@@ -626,6 +648,28 @@
       }
     },
     {
+      "name": "蒲郡市",
+      "averageRent": 50333,
+      "minRent": 42800,
+      "maxRent": 58000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "蒲郡市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 42800,
+        "oneLDK": 50200,
+        "twoLDK": 58000,
+        "threeLDK": null
+      }
+    },
+    {
       "name": "犬山市",
       "averageRent": 69700,
       "minRent": 45700,
@@ -645,6 +689,50 @@
         "oneLDK": 61000,
         "twoLDK": 75400,
         "threeLDK": 96700
+      }
+    },
+    {
+      "name": "常滑市",
+      "averageRent": 54233,
+      "minRent": 47800,
+      "maxRent": 58100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "常滑市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 47800,
+        "oneLDK": 58100,
+        "twoLDK": 56800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "江南市",
+      "averageRent": 65033,
+      "minRent": 51800,
+      "maxRent": 77700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "江南市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 51800,
+        "oneLDK": 65600,
+        "twoLDK": 77700,
+        "threeLDK": null
       }
     },
     {
@@ -695,7 +783,7 @@
       "name": "新城市",
       "averageRent": 51575,
       "minRent": 48600,
-      "maxRent": 52300,
+      "maxRent": 56100,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -717,7 +805,7 @@
       "name": "東海市",
       "averageRent": 67125,
       "minRent": 53700,
-      "maxRent": 67800,
+      "maxRent": 75600,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -733,6 +821,28 @@
         "oneLDK": 71400,
         "twoLDK": 75600,
         "threeLDK": 67800
+      }
+    },
+    {
+      "name": "大府市",
+      "averageRent": 85767,
+      "minRent": 58000,
+      "maxRent": 128500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "大府市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 58000,
+        "oneLDK": 70800,
+        "twoLDK": null,
+        "threeLDK": 128500
       }
     },
     {
@@ -758,10 +868,76 @@
       }
     },
     {
+      "name": "知立市",
+      "averageRent": 73967,
+      "minRent": 59800,
+      "maxRent": 88500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "知立市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59800,
+        "oneLDK": 73600,
+        "twoLDK": 88500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "尾張旭市",
+      "averageRent": 60933,
+      "minRent": 46800,
+      "maxRent": 71400,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "尾張旭市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46800,
+        "oneLDK": 64600,
+        "twoLDK": 71400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "高浜市",
+      "averageRent": 56633,
+      "minRent": 52500,
+      "maxRent": 59200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "高浜市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52500,
+        "oneLDK": 59200,
+        "twoLDK": 58200,
+        "threeLDK": null
+      }
+    },
+    {
       "name": "岩倉市",
       "averageRent": 68575,
       "minRent": 51500,
-      "maxRent": 77300,
+      "maxRent": 81000,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -777,6 +953,28 @@
         "oneLDK": 64500,
         "twoLDK": 81000,
         "threeLDK": 77300
+      }
+    },
+    {
+      "name": "豊明市",
+      "averageRent": 72667,
+      "minRent": 58500,
+      "maxRent": 81100,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "豊明市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 58500,
+        "oneLDK": 78400,
+        "twoLDK": 81100,
+        "threeLDK": null
       }
     },
     {
@@ -802,6 +1000,50 @@
       }
     },
     {
+      "name": "田原市",
+      "averageRent": 54600,
+      "minRent": 46900,
+      "maxRent": 63700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "田原市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 46900,
+        "oneLDK": 53200,
+        "twoLDK": 63700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "愛西市",
+      "averageRent": 58133,
+      "minRent": 52700,
+      "maxRent": 65800,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "愛西市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 52700,
+        "oneLDK": 55900,
+        "twoLDK": 65800,
+        "threeLDK": null
+      }
+    },
+    {
       "name": "清須市",
       "averageRent": 78175,
       "minRent": 50100,
@@ -821,6 +1063,72 @@
         "oneLDK": 61900,
         "twoLDK": 71300,
         "threeLDK": 129400
+      }
+    },
+    {
+      "name": "北名古屋市",
+      "averageRent": 63000,
+      "minRent": 48400,
+      "maxRent": 76900,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "北名古屋市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 48400,
+        "oneLDK": 63700,
+        "twoLDK": 76900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "弥富市",
+      "averageRent": 57767,
+      "minRent": 54900,
+      "maxRent": 60700,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "弥富市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54900,
+        "oneLDK": 60700,
+        "twoLDK": 57700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "みよし市",
+      "averageRent": 59500,
+      "minRent": 59500,
+      "maxRent": 59500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "みよし市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 59500,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
       }
     },
     {
@@ -869,9 +1177,9 @@
     }
   ],
   "rentByRoomType": {
-    "oneRoom": 53023,
-    "oneLDK": 71592,
-    "twoLDK": 93997,
-    "threeLDK": 115644
+    "oneRoom": 52717,
+    "oneLDK": 69338,
+    "twoLDK": 88051,
+    "threeLDK": 115965
   }
 }

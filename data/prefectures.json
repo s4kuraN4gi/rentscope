@@ -4,17 +4,17 @@
     "name": "東京都",
     "slug": "tokyo",
     "region": "関東",
-    "averageRent": 186937,
+    "averageRent": 178802,
     "latitude": 35.6762,
     "longitude": 139.6503,
     "population": 14000000,
     "description": "日本の首都。ビジネス、文化、エンターテイメントの中心地。",
     "areas": [],
     "rentByRoomType": {
-      "oneRoom": 96178,
-      "oneLDK": 157958,
-      "twoLDK": 219240,
-      "threeLDK": 274373
+      "oneRoom": 93591,
+      "oneLDK": 151707,
+      "twoLDK": 213471,
+      "threeLDK": 269533
     }
   },
   {
@@ -22,17 +22,17 @@
     "name": "大阪府",
     "slug": "osaka",
     "region": "関西",
-    "averageRent": 103371,
+    "averageRent": 99559,
     "latitude": 34.6937,
     "longitude": 135.5023,
     "population": 8800000,
     "description": "西日本最大の都市。商業、グルメ、エンターテイメントが充実。",
     "areas": [],
     "rentByRoomType": {
-      "oneRoom": 60057,
-      "oneLDK": 87293,
-      "twoLDK": 124793,
-      "threeLDK": 141341
+      "oneRoom": 59730,
+      "oneLDK": 86967,
+      "twoLDK": 122193,
+      "threeLDK": 141640
     }
   },
   {
@@ -40,16 +40,16 @@
     "name": "神奈川県",
     "slug": "kanagawa",
     "region": "関東",
-    "averageRent": 131683,
+    "averageRent": 127663,
     "latitude": 35.4478,
     "longitude": 139.6425,
     "population": 9200000,
     "description": "横浜、川崎など都市部と湘南などのリゾート地が共存。",
     "areas": [],
     "rentByRoomType": {
-      "oneRoom": 71528,
-      "oneLDK": 115208,
-      "twoLDK": 157308,
+      "oneRoom": 70409,
+      "oneLDK": 112607,
+      "twoLDK": 153605,
       "threeLDK": 182688
     }
   },
@@ -58,17 +58,17 @@
     "name": "愛知県",
     "slug": "aichi",
     "region": "中部",
-    "averageRent": 83564,
+    "averageRent": 77917,
     "latitude": 35.1815,
     "longitude": 136.9066,
     "population": 7500000,
     "description": "製造業の中心地。名古屋めしなどの独自文化も魅力。",
     "areas": [],
     "rentByRoomType": {
-      "oneRoom": 53023,
-      "oneLDK": 71592,
-      "twoLDK": 93997,
-      "threeLDK": 115644
+      "oneRoom": 52717,
+      "oneLDK": 69338,
+      "twoLDK": 88051,
+      "threeLDK": 115965
     }
   },
   {

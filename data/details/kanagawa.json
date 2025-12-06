@@ -75,7 +75,7 @@
       "name": "横浜市中区",
       "averageRent": 179125,
       "minRent": 87500,
-      "maxRent": 225900,
+      "maxRent": 253600,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -96,7 +96,7 @@
       "name": "横浜市南区",
       "averageRent": 140350,
       "minRent": 75800,
-      "maxRent": 169500,
+      "maxRent": 189400,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -139,7 +139,7 @@
       "name": "横浜市磯子区",
       "averageRent": 141675,
       "minRent": 70900,
-      "maxRent": 152900,
+      "maxRent": 189800,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -568,7 +568,7 @@
       "name": "相模原市中央区",
       "averageRent": 96750,
       "minRent": 62000,
-      "maxRent": 114400,
+      "maxRent": 121400,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -741,10 +741,76 @@
       }
     },
     {
+      "name": "逗子市",
+      "averageRent": 114767,
+      "minRent": 66800,
+      "maxRent": 171600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "逗子市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 66800,
+        "oneLDK": 105900,
+        "twoLDK": 171600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "三浦市",
+      "averageRent": 83233,
+      "minRent": 57400,
+      "maxRent": 118000,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "三浦市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57400,
+        "oneLDK": 74300,
+        "twoLDK": 118000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "秦野市",
+      "averageRent": 76900,
+      "minRent": 54800,
+      "maxRent": 92500,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "秦野市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 54800,
+        "oneLDK": 92500,
+        "twoLDK": 83400,
+        "threeLDK": null
+      }
+    },
+    {
       "name": "厚木市",
       "averageRent": 120175,
       "minRent": 70600,
-      "maxRent": 143300,
+      "maxRent": 165200,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -871,12 +937,34 @@
         "twoLDK": 61500,
         "threeLDK": 67100
       }
+    },
+    {
+      "name": "綾瀬市",
+      "averageRent": 74967,
+      "minRent": 57900,
+      "maxRent": 93300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "綾瀬市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 57900,
+        "oneLDK": 73700,
+        "twoLDK": 93300,
+        "threeLDK": null
+      }
     }
   ],
   "rentByRoomType": {
-    "oneRoom": 71528,
-    "oneLDK": 115208,
-    "twoLDK": 157308,
+    "oneRoom": 70409,
+    "oneLDK": 112607,
+    "twoLDK": 153605,
     "threeLDK": 182688
   }
 }

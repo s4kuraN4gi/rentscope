@@ -7,10 +7,10 @@ import fs from 'fs';
 import path from 'path';
 
 interface RentByRoomType {
-  oneRoom: number;
-  oneLDK: number;
-  twoLDK: number;
-  threeLDK: number;
+  oneRoom: number | null;
+  oneLDK: number | null;
+  twoLDK: number | null;
+  threeLDK: number | null;
 }
 
 interface Area {
@@ -69,9 +69,16 @@ const COORDINATES: Record<string, { lat: number; lng: number; station: string }>
 };
 
 // 特徴を自動的に割り当て（家賃に基づく）
+// 特徴を自動的に割り当て（家賃に基づく）
 function assignFeatures(rentByRoomType: RentByRoomType): string[] {
   const features: string[] = [];
-  const avgRent = (rentByRoomType.oneRoom + rentByRoomType.oneLDK) / 2;
+  
+  // 有効な家賃のみで平均を計算
+  const validRents = [rentByRoomType.oneRoom, rentByRoomType.oneLDK].filter((r): r is number => r !== null);
+  
+  if (validRents.length === 0) return ['cost_performance'];
+
+  const avgRent = validRents.reduce((a, b) => a + b, 0) / validRents.length;
 
   if (avgRent < 100000) {
     features.push('cost_performance');
@@ -126,54 +133,69 @@ function parseMarkdownData(filePath: string): Area[] {
 
     if (!currentRoomType) continue;
 
-    // データ行をパース（例: "千代田区 15.18 万円"）
-    const match = trimmed.match(/^(.+?)\s+([\d.]+)\s*万円/);
+    // データ行をパース（例: "千代田区 15.18 万円" または "千代田区 -"）
+    const match = trimmed.match(/^(.+?)\s+([\d.-]+)\s*(万円)?/);
     if (match) {
       const areaName = match[1].trim();
-      const rent = parseFloat(match[2]) * 10000; // 万円を円に変換
+      const rentStr = match[2];
+      
+      let rent: number | null = null;
+      if (rentStr !== '-') {
+        rent = parseFloat(rentStr) * 10000; // 万円を円に変換
+        rent = Math.round(rent);
+      }
 
       if (!areas.has(areaName)) {
         areas.set(areaName, {});
       }
       const areaData = areas.get(areaName)!;
-      areaData[currentRoomType] = Math.round(rent);
-      console.log(`  ✓ ${areaName}: ${currentRoomType} = ${Math.round(rent).toLocaleString()}円`);
+      areaData[currentRoomType] = rent;
+      
+      const displayRent = rent ? `${rent.toLocaleString()}円` : '-';
+      console.log(`  ✓ ${areaName}: ${currentRoomType} = ${displayRent}`);
     }
   }
 
   // Area オブジェクトに変換
   const result: Area[] = [];
   for (const [areaName, rentData] of areas.entries()) {
-    // 4つの間取りデータが揃っているもののみ
-    if (!rentData.oneRoom || !rentData.oneLDK || !rentData.twoLDK || !rentData.threeLDK) {
+    // 4つの間取りデータが揃っているもののみ（nullも許容）
+    if (rentData.oneRoom === undefined || rentData.oneLDK === undefined || rentData.twoLDK === undefined || rentData.threeLDK === undefined) {
       console.warn(`⚠️  ${areaName}: データ不完全（スキップ）`);
       continue;
     }
 
     const rentByRoomType: RentByRoomType = {
-      oneRoom: rentData.oneRoom,
-      oneLDK: rentData.oneLDK,
-      twoLDK: rentData.twoLDK,
-      threeLDK: rentData.threeLDK,
+      oneRoom: rentData.oneRoom ?? null,
+      oneLDK: rentData.oneLDK ?? null,
+      twoLDK: rentData.twoLDK ?? null,
+      threeLDK: rentData.threeLDK ?? null,
     };
 
-    const averageRent = Math.round(
-      (rentByRoomType.oneRoom + rentByRoomType.oneLDK + rentByRoomType.twoLDK + rentByRoomType.threeLDK) / 4
-    );
+    // 有効な家賃のみで平均を計算
+    const validRents = [rentByRoomType.oneRoom, rentByRoomType.oneLDK, rentByRoomType.twoLDK, rentByRoomType.threeLDK].filter((r): r is number => r !== null);
+    
+    const averageRent = validRents.length > 0
+      ? Math.round(validRents.reduce((a, b) => a + b, 0) / validRents.length)
+      : 0;
 
     const coords = COORDINATES[areaName] || { lat: 35.6762, lng: 139.6503, station: '最寄駅' };
+
+    // min/max も有効な値から計算
+    const minRent = validRents.length > 0 ? Math.min(...validRents) : 0;
+    const maxRent = validRents.length > 0 ? Math.max(...validRents) : 0;
 
     result.push({
       name: areaName,
       averageRent,
-      minRent: rentByRoomType.oneRoom,
-      maxRent: rentByRoomType.threeLDK,
+      minRent,
+      maxRent,
       latitude: coords.lat,
       longitude: coords.lng,
       nearestStation: coords.station,
       distanceToStation: 10,
       description: `${areaName}エリア。`,
-      features: assignFeatures(rentByRoomType),
+      features: assignFeatures(rentByRoomType), // assignFeatures も null 対応が必要
       rentByRoomType,
     });
   }
@@ -234,19 +256,19 @@ function main() {
 
       areas.forEach(area => {
         if (area.rentByRoomType) {
-          if (area.rentByRoomType.oneRoom > 0) {
+          if (area.rentByRoomType.oneRoom !== null && area.rentByRoomType.oneRoom > 0) {
             rentTotals.oneRoom += area.rentByRoomType.oneRoom;
             rentCounts.oneRoom++;
           }
-          if (area.rentByRoomType.oneLDK > 0) {
+          if (area.rentByRoomType.oneLDK !== null && area.rentByRoomType.oneLDK > 0) {
             rentTotals.oneLDK += area.rentByRoomType.oneLDK;
             rentCounts.oneLDK++;
           }
-          if (area.rentByRoomType.twoLDK > 0) {
+          if (area.rentByRoomType.twoLDK !== null && area.rentByRoomType.twoLDK > 0) {
             rentTotals.twoLDK += area.rentByRoomType.twoLDK;
             rentCounts.twoLDK++;
           }
-          if (area.rentByRoomType.threeLDK > 0) {
+          if (area.rentByRoomType.threeLDK !== null && area.rentByRoomType.threeLDK > 0) {
             rentTotals.threeLDK += area.rentByRoomType.threeLDK;
             rentCounts.threeLDK++;
           }
@@ -278,7 +300,7 @@ function main() {
       const newAverageRent = Math.round(totalRent / areas.length);
       prefectures[prefectureIndex].averageRent = newAverageRent;
       console.log(`✅ ${prefectures[prefectureIndex].name}の平均家賃を更新: ${newAverageRent.toLocaleString()}円`);
-      console.log(`   (1R: ${prefectureRentByRoomType.oneRoom.toLocaleString()}円, 1LDK: ${prefectureRentByRoomType.oneLDK.toLocaleString()}円, 2LDK: ${prefectureRentByRoomType.twoLDK.toLocaleString()}円, 3LDK: ${prefectureRentByRoomType.threeLDK.toLocaleString()}円)`);
+      console.log(`   (1R: ${prefectureRentByRoomType.oneRoom ? prefectureRentByRoomType.oneRoom.toLocaleString() + '円' : '-'}, 1LDK: ${prefectureRentByRoomType.oneLDK ? prefectureRentByRoomType.oneLDK.toLocaleString() + '円' : '-'}, 2LDK: ${prefectureRentByRoomType.twoLDK ? prefectureRentByRoomType.twoLDK.toLocaleString() + '円' : '-'}, 3LDK: ${prefectureRentByRoomType.threeLDK ? prefectureRentByRoomType.threeLDK.toLocaleString() + '円' : '-'})`);
       
       // 軽量化のため areas を空にする
       prefectures[prefectureIndex].areas = [];

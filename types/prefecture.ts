@@ -1,8 +1,8 @@
 export interface RentByRoomType {
-    oneRoom: number
-    oneLDK: number
-    twoLDK: number
-    threeLDK: number
+    oneRoom: number | null
+    oneLDK: number | null
+    twoLDK: number | null
+    threeLDK: number | null
 }
 
 export interface Review {

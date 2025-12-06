@@ -488,7 +488,7 @@
       "name": "八王子市",
       "averageRent": 138225,
       "minRent": 67700,
-      "maxRent": 179900,
+      "maxRent": 186200,
       "latitude": 35.6762,
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
@@ -566,6 +566,28 @@
         "oneLDK": 157900,
         "twoLDK": 185700,
         "threeLDK": 296100
+      }
+    },
+    {
+      "name": "青梅市",
+      "averageRent": 78933,
+      "minRent": 60500,
+      "maxRent": 96600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "青梅市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 60500,
+        "oneLDK": 79700,
+        "twoLDK": 96600,
+        "threeLDK": null
       }
     },
     {
@@ -809,6 +831,50 @@
       }
     },
     {
+      "name": "東大和市",
+      "averageRent": 108067,
+      "minRent": 63100,
+      "maxRent": 167200,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "東大和市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 63100,
+        "oneLDK": 93900,
+        "twoLDK": null,
+        "threeLDK": 167200
+      }
+    },
+    {
+      "name": "東久留米市",
+      "averageRent": 116033,
+      "minRent": 68000,
+      "maxRent": 178300,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "東久留米市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 68000,
+        "oneLDK": 101800,
+        "twoLDK": null,
+        "threeLDK": 178300
+      }
+    },
+    {
       "name": "稲城市",
       "averageRent": 127700,
       "minRent": 65300,
@@ -828,6 +894,28 @@
         "oneLDK": 119400,
         "twoLDK": 138200,
         "threeLDK": 187900
+      }
+    },
+    {
+      "name": "羽村市",
+      "averageRent": 86767,
+      "minRent": 79300,
+      "maxRent": 99600,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "nearestStation": "最寄駅",
+      "distanceToStation": 10,
+      "description": "羽村市エリア。",
+      "features": [
+        "cost_performance",
+        "child_rearing",
+        "pet_friendly"
+      ],
+      "rentByRoomType": {
+        "oneRoom": 79300,
+        "oneLDK": 81400,
+        "twoLDK": 99600,
+        "threeLDK": null
       }
     },
     {
@@ -854,9 +942,9 @@
     }
   ],
   "rentByRoomType": {
-    "oneRoom": 96178,
-    "oneLDK": 157958,
-    "twoLDK": 219240,
-    "threeLDK": 274373
+    "oneRoom": 93591,
+    "oneLDK": 151707,
+    "twoLDK": 213471,
+    "threeLDK": 269533
   }
 }

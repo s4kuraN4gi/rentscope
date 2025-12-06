@@ -63,25 +63,25 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
                         <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
                             <p className="text-sm text-gray-500 mb-1">ワンルーム/1K</p>
                             <p className="text-xl font-bold text-primary-600">
-                                {data.rentByRoomType.oneRoom.toLocaleString()}円
+                                {data.rentByRoomType.oneRoom ? data.rentByRoomType.oneRoom.toLocaleString() + '円' : '-'}
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
                             <p className="text-sm text-gray-500 mb-1">1LDK/2K</p>
                             <p className="text-xl font-bold text-primary-600">
-                                {data.rentByRoomType.oneLDK.toLocaleString()}円
+                                {data.rentByRoomType.oneLDK ? data.rentByRoomType.oneLDK.toLocaleString() + '円' : '-'}
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
                             <p className="text-sm text-gray-500 mb-1">2LDK/3K</p>
                             <p className="text-xl font-bold text-primary-600">
-                                {data.rentByRoomType.twoLDK.toLocaleString()}円
+                                {data.rentByRoomType.twoLDK ? data.rentByRoomType.twoLDK.toLocaleString() + '円' : '-'}
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center">
                             <p className="text-sm text-gray-500 mb-1">3LDK/4K~</p>
                             <p className="text-xl font-bold text-primary-600">
-                                {data.rentByRoomType.threeLDK.toLocaleString()}円
+                                {data.rentByRoomType.threeLDK ? data.rentByRoomType.threeLDK.toLocaleString() + '円' : '-'}
                             </p>
                         </div>
                     </div>
@@ -115,10 +115,10 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
                                 <div className="mt-4 text-sm">
                                     <p className="text-gray-500">間取り別家賃:</p>
                                     <ul className="mt-2 space-y-1">
-                                        <li>ワンルーム/1K: {area.rentByRoomType.oneRoom.toLocaleString()}円</li>
-                                        <li>1LDK/2K: {area.rentByRoomType.oneLDK.toLocaleString()}円</li>
-                                        <li>2LDK/3K: {area.rentByRoomType.twoLDK.toLocaleString()}円</li>
-                                        <li>3LDK/4K~: {area.rentByRoomType.threeLDK.toLocaleString()}円</li>
+                                        <li>ワンルーム/1K: {area.rentByRoomType.oneRoom ? area.rentByRoomType.oneRoom.toLocaleString() + '円' : '-'}</li>
+                                        <li>1LDK/2K: {area.rentByRoomType.oneLDK ? area.rentByRoomType.oneLDK.toLocaleString() + '円' : '-'}</li>
+                                        <li>2LDK/3K: {area.rentByRoomType.twoLDK ? area.rentByRoomType.twoLDK.toLocaleString() + '円' : '-'}</li>
+                                        <li>3LDK/4K~: {area.rentByRoomType.threeLDK ? area.rentByRoomType.threeLDK.toLocaleString() + '円' : '-'}</li>
                                     </ul>
                                 </div>
                             </div>
