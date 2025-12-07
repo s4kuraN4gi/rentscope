@@ -3,15 +3,7 @@ import Link from 'next/link'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
 import { getPrefectureDetail, getPrefectures } from '@/lib/data'
 import { Area } from '@/types/prefecture'
-
-const FEATURE_LABELS: Record<string, string> = {
-    pet_friendly: '🐶 ペット可',
-    safe_area: '🛡️ 治安重視',
-    child_rearing: '👶 子育て環境',
-    access_good: '🚃 アクセス重視',
-    cost_performance: '💰 コスパ重視',
-    shopping_convenient: '🛍️ 買い物便利',
-}
+import AreaList from '@/components/prefecture/AreaList'
 
 export async function generateStaticParams() {
     const prefectures = getPrefectures()
@@ -112,53 +104,7 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
             {/* エリア別家賃 */}
             <section className="glass rounded-2xl p-8 mb-8">
                 <h2 className="text-2xl font-bold mb-4">🏘️ エリア別家賃</h2>
-                <div className="grid md:grid-cols-3 gap-4">
-                    {data.areas && data.areas.length > 0 ? (
-                        data.areas.map((area: Area, index: number) => (
-                            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg">
-                                <h3 className="text-xl font-semibold mb-2">{area.name}</h3>
-                                <p className="text-3xl font-bold text-primary-600 mb-2">
-                                    {area.averageRent.toLocaleString()}円
-                                </p>
-                                <p className="text-sm text-gray-600 dark:text-gray-400">{area.description}</p>
-                                <div className="mt-4 text-sm">
-                                    <p className="text-gray-500">間取り別家賃:</p>
-                                    <ul className="mt-2 space-y-1">
-                                        <li>ワンルーム/1K: {area.rentByRoomType.oneRoom ? area.rentByRoomType.oneRoom.toLocaleString() + '円' : '-'}</li>
-                                        <li>1LDK/2K: {area.rentByRoomType.oneLDK ? area.rentByRoomType.oneLDK.toLocaleString() + '円' : '-'}</li>
-                                        <li>2LDK/3K: {area.rentByRoomType.twoLDK ? area.rentByRoomType.twoLDK.toLocaleString() + '円' : '-'}</li>
-                                        <li>3LDK/4K~: {area.rentByRoomType.threeLDK ? area.rentByRoomType.threeLDK.toLocaleString() + '円' : '-'}</li>
-                                    </ul>
-
-                                </div>
-                                {area.features && (
-                                    <div className="mt-4 grid grid-cols-2 gap-2">
-                                        {Object.entries(FEATURE_LABELS).map(([key, label]) => {
-                                            const isActive = area.features?.includes(key)
-                                            return (
-                                                <div 
-                                                    key={key} 
-                                                    className={`
-                                                        flex items-center p-2 rounded-lg border text-sm transition-colors
-                                                        ${isActive 
-                                                            ? 'bg-primary-50 border-primary-200 text-primary-800 font-medium' 
-                                                            : 'bg-gray-50 border-gray-100 text-gray-400'
-                                                        }
-                                                    `}
-                                                >
-                                                    <span>{label}</span>
-                                                    {isActive && <span className="ml-auto text-primary-600">★</span>}
-                                                </div>
-                                            )
-                                        })}
-                                    </div>
-                                )}
-                            </div>
-                        ))
-                    ) : (
-                        <p className="col-span-3 text-center text-gray-500">エリアデータがありません</p>
-                    )}
-                </div>
+                <AreaList areas={data.areas} />
             </section>
 
             {/* 広告 */}
