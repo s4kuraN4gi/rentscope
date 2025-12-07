@@ -168,20 +168,15 @@ function AreaCard({ area }: { area: Area }) {
 
     return (
         <>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
-                {/* ヘッダー: エリア名と家賃レベル */}
+            <div 
+                onClick={() => setIsOpen(true)}
+                className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer group flex flex-col h-full border border-transparent hover:border-primary-100 dark:hover:border-primary-900"
+            >
+                {/* ヘッダー: エリア名 */}
                 <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">{area.name}</h3>
-                    <div className="flex space-x-0.5" title={`家賃レベル: ${rentLevel}/3`}>
-                        {[1, 2, 3].map((level) => (
-                            <span 
-                                key={level}
-                                className={`text-sm font-bold ${level <= rentLevel ? 'text-primary-600' : 'text-gray-200 dark:text-gray-700'}`}
-                            >
-                                ¥
-                            </span>
-                        ))}
-                    </div>
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary-600 transition-colors">
+                        {area.name}
+                    </h3>
                 </div>
                 
                 {/* メイン: 家賃レンジ */}
@@ -196,23 +191,18 @@ function AreaCard({ area }: { area: Area }) {
                 </div>
 
                 {/* ボディ: 説明文チラ見せ */}
-                <div className="mb-6 flex-grow">
+                <div className="flex-grow">
                     <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed line-clamp-3">
                         {area.description}
                     </p>
                 </div>
 
-                {/* フッター: ボタン */}
-                <div className="mt-auto">
-                    <button
-                        onClick={() => setIsOpen(true)}
-                        className="w-full py-2.5 px-4 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 text-primary-600 dark:text-primary-400 rounded-lg transition-colors flex items-center justify-center font-medium text-sm group"
-                    >
-                        <span>詳細・家賃相場を見る</span>
-                        <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                    </button>
+                {/* ホバー時のヒント（視覚的なアフォーダンス） */}
+                <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-700 opacity-0 group-hover:opacity-100 transition-opacity flex justify-end items-center text-primary-600 text-sm font-medium">
+                    <span>詳細を見る</span>
+                    <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
                 </div>
             </div>
 
