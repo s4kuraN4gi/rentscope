@@ -18,7 +18,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市千種区エリア。",
+      "description": "東山動植物園や星ヶ丘テラスがあり、洗練された雰囲気と豊かな自然が共存する人気の区です。覚王山エリアはおしゃれなカフェや雑貨店が多く、散策が楽しい街。文教地区としても知られ、教育環境を重視するファミリー層に支持されています。",
       "features": [
         "safe_area",
         "child_rearing",
@@ -40,7 +40,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市東区エリア。",
+      "description": "ナゴヤドーム（バンテリンドーム）や徳川園がある歴史と文化の街。白壁・主税町エリアは武家屋敷の面影を残す高級住宅街です。栄や名駅へのアクセスも良く、都会的な暮らしと落ち着いた住環境の両方を享受できます。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -62,7 +62,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市北区エリア。",
+      "description": "名城公園や庄内川の河川敷など、緑豊かなスポットが多いエリアです。地下鉄名城線や上飯田線が利用でき、栄や大曽根へのアクセスが良好。北区役所周辺や黒川エリアは飲食店やスーパーが充実しており、生活しやすい環境です。",
       "features": [
         "access_good",
         "cost_performance",
@@ -84,7 +84,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市西区エリア。",
+      "description": "名古屋駅の北側に位置し、「ノリタケの森」や「イオンモール Nagoya Noritake Garden」などの再開発エリアが注目されています。円頓寺商店街のようなレトロな街並みも魅力。庄内緑地公園は広大で、休日のレジャーに最適です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -106,7 +106,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市中村区エリア。",
+      "description": "リニア中央新幹線の開業に向けて再開発が進む「名古屋駅」を擁する、東海地方の玄関口。超高層ビル群と、駅西側の昔ながらの商店街が対照的です。交通利便性は最強で、出張が多いビジネスマンや、都会の刺激を求める人に最適です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -128,7 +128,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市中区エリア。",
+      "description": "名古屋最大の繁華街「栄」や「大須商店街」、官庁街を擁する都心部。久屋大通公園（レイヤードヒサヤオオドリパーク）は都会のオアシスとしてリニューアルされました。職住近接が可能で、ショッピングやグルメを日常的に楽しめます。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -150,7 +150,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市昭和区エリア。",
+      "description": "名古屋大学や南山大学などがある「学生の街」であり、高級住宅街としても知られる八事エリアを擁します。鶴舞公園は桜の名所。落ち着いた雰囲気とアカデミックな空気が漂い、治安も良いため、安心して暮らせるエリアです。",
       "features": [
         "safe_area",
         "child_rearing",
@@ -172,7 +172,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市瑞穂区エリア。",
+      "description": "パロマ瑞穂スポーツパークがあり、Jリーグ名古屋グランパスのホームタウンの一つ。山崎川の桜並木は「日本さくら名所100選」に選ばれた絶景です。閑静な住宅街が広がり、地下鉄桜通線と名城線が利用できるため利便性も高いです。",
       "features": [
         "safe_area",
         "child_rearing",
@@ -194,7 +194,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市熱田区エリア。",
+      "description": "三種の神器の一つを祀る「熱田神宮」があり、緑豊かな杜が広がります。名鉄・JR・地下鉄が利用できる金山総合駅に近く、交通アクセスは抜群。白鳥庭園や名古屋国際会議場もあり、歴史と文化、自然が調和した街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -216,7 +216,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市中川区エリア。",
+      "description": "名古屋駅へのアクセスが良い割に家賃が手頃なエリア。中川運河沿いは「キャナルリゾート」などの再開発でおしゃれなスポットに変貌中。あおなみ線や近鉄、JR、地下鉄が利用でき、車移動もしやすい平坦な地形です。",
       "features": [
         "cost_performance",
         "access_good",
@@ -238,7 +238,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市港区エリア。",
+      "description": "「レゴランド・ジャパン」や「ららぽーと名古屋みなとアクルス」、「名古屋港水族館」など、大型レジャー施設が集結するベイエリア。再開発により活気あふれる街になりました。海風を感じながら、休日は家族で一日中楽しめます。",
       "features": [
         "cost_performance",
         "shopping_convenient",
@@ -260,7 +260,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市南区エリア。",
+      "description": "日本ガイシホールがあり、コンサートやイベントで賑わいます。JR東海道線、名鉄、地下鉄桜通線が通り、名古屋駅や金山駅へのアクセスが良好。呼続公園などの緑地もあり、下町情緒と利便性が共存する住みやすいエリアです。",
       "features": [
         "cost_performance",
         "access_good",
@@ -282,7 +282,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市守山区エリア。",
+      "description": "名古屋市内で最も自然が豊かな区の一つ。「東谷山フルーツパーク」や小幡緑地があり、四季折々の自然を楽しめます。ゆとりーとラインやJR中央線、名鉄瀬戸線が利用可能。コストコ守山倉庫店もオープンし、買い物の利便性が向上しました。",
       "features": [
         "child_rearing",
         "pet_friendly",
@@ -304,7 +304,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市緑区エリア。",
+      "description": "「大高緑地」などの広大な公園があり、子育て世帯に大人気のエリア。JR東海道線（大高駅・南大高駅）や地下鉄桜通線（徳重駅）が利用可能。「イオンモール大高」などの商業施設も充実しており、新しい住宅が増え続けている活気ある街です。",
       "features": [
         "child_rearing",
         "shopping_convenient",
@@ -326,7 +326,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市名東区エリア。",
+      "description": "転勤族が多く住むエリアとして知られ、社宅やマンションが多いです。地下鉄東山線（藤が丘駅・一社駅）で栄・名駅へ直通アクセス。藤が丘駅周辺はおしゃれな店が多く、並木道が美しい街並み。「牧野ヶ池緑地」もあり、住環境は抜群です。",
       "features": [
         "child_rearing",
         "access_good",
@@ -348,7 +348,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "名古屋市天白区エリア。",
+      "description": "天白川が流れ、農業センター（delaふぁーむ）のしだれ梅が有名。地下鉄鶴舞線（植田駅・平針駅）が利用でき、豊田市方面への通勤にも便利。大学キャンパスも多く、学生とファミリーが共存する活気ある街です。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -370,7 +370,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "豊橋市エリア。",
+      "description": "愛知県南東部の中核都市。新幹線停車駅であり、東京・大阪方面へのアクセスも良好。路面電車が走る街並みは風情があります。「のんほいパーク（豊橋総合動植物公園）」は動物園・植物園・遊園地が一体となった人気スポット。手筒花火発祥の地でもあります。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -392,7 +392,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "岡崎市エリア。",
+      "description": "徳川家康生誕の地であり、岡崎城や八丁味噌の蔵など歴史的な魅力にあふれています。名鉄（東岡崎駅）やJR（岡崎駅）が利用可能。「イオンモール岡崎」は県内屈指の規模。乙川沿いの桜並木や花火大会など、四季を通じて楽しめる街です。",
       "features": [
         "child_rearing",
         "shopping_convenient",
@@ -414,7 +414,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "一宮市エリア。",
+      "description": "「モーニング発祥の地」として知られ、喫茶店文化が根付いています。JR東海道線（尾張一宮駅）で名古屋駅まで快速で約10分という驚異的なアクセスの良さ。駅ビルや商店街も充実しており、ベッドタウンとして非常に人気があります。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -436,7 +436,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "瀬戸市エリア。",
+      "description": "「瀬戸焼」で有名な陶磁器の街。瀬戸蔵や窯垣の小径など、焼き物文化を体感できるスポットが多数。名鉄瀬戸線（尾張瀬戸駅）が利用可能。山に囲まれた自然豊かな環境で、工芸好きには特におすすめの街です。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -458,7 +458,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "半田市エリア。",
+      "description": "ミツカンの本社があり、「ミツカンミュージアム」では酢の歴史を学べます。JR武豊線や名鉄河和線が利用可能。「半田運河」は蔵が並ぶレトロな景観。春の山車まつりは有名で、活気ある伝統文化が根付いています。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -480,7 +480,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "春日井市エリア。",
+      "description": "「サボテンのまち」として有名。JR中央線（勝川駅・春日井駅）で名古屋駅までアクセス良好。勝川駅周辺は再開発で綺麗になり、住みやすさが向上しました。落合公園などの大きな公園もあり、子育て支援も充実しています。",
       "features": [
         "access_good",
         "child_rearing",
@@ -502,7 +502,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "豊川市エリア。",
+      "description": "日本三大稲荷の一つ「豊川稲荷」の門前町。B級グルメ「豊川いなり寿司」が有名です。名鉄とJRが利用でき、豊橋や名古屋へのアクセスも可能。本宮山などの自然もあり、歴史と自然を感じながら暮らせる街です。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -524,7 +524,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "津島市エリア。",
+      "description": "「津島神社」は尾張津島天王祭で知られ、ユネスコ無形文化遺産に登録。名鉄津島線（津島駅）が利用可能。歴史ある街並みと田園風景が広がり、のどかな雰囲気。家賃相場も手頃で、落ち着いて暮らせます。",
       "features": [
         "access_good",
         "cost_performance",
@@ -546,7 +546,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "碧南市エリア。",
+      "description": "「へきなん」と読む、海沿いの工業都市。名鉄三河線が利用可能。「明石公園」は桜の名所で、観覧車もあります。釣りやマリンスポーツが楽しめる海辺の環境と、温暖な気候が魅力です。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -568,7 +568,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "刈谷市エリア。",
+      "description": "トヨタグループの主要企業が集まる産業都市。JR東海道線（刈谷駅）は快速停車駅で名古屋まで約20分。「刈谷ハイウェイオアシス」は観覧車や温泉があり、一般道からも利用できる人気スポット。財政が豊かで公共サービスが充実しています。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -590,7 +590,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "豊田市エリア。",
+      "description": "「クルマのまち」として世界的に有名な企業城下町。豊田市駅周辺は百貨店や映画館、スタジアムなどが集積し、都市機能が非常に充実しています。一方で、香嵐渓などの豊かな自然も市内にあり、紅葉の季節は多くの観光客で賑わいます。",
       "features": [
         "shopping_convenient",
         "child_rearing",
@@ -612,7 +612,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "安城市エリア。",
+      "description": "「日本のデンマーク」と呼ばれ、農業公園「デンパーク」があります。JR東海道線（安城駅・三河安城駅）が利用でき、三河安城駅には新幹線も停車。名古屋へのアクセスも良く、住みよさランキングで上位に入る人気の街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -634,7 +634,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "西尾市エリア。",
+      "description": "「抹茶の街」として有名で、西尾茶は全国的なブランド。名鉄西尾線・蒲郡線が利用可能。一色のうなぎも特産品。三河湾に面し、海の幸が豊富。歴史ある城下町の風情と、海の自然を楽しめます。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -656,7 +656,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "蒲郡市エリア。",
+      "description": "「蒲郡温泉郷」があり、三河湾を望む景観が美しいリゾート地。JR東海道線と名鉄蒲郡線が利用可能。「ラグーナテンボス」はテーマパークと温泉が融合したエンタメスポット。海辺の暮らしを満喫できます。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -678,7 +678,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "犬山市エリア。",
+      "description": "「国宝犬山城」や「明治村」「リトルワールド」など観光資源が豊富。名鉄犬山線が利用可能。木曽川の鵜飼いも有名。歴史と文化が息づき、観光客で賑わいながらも、落ち着いた住環境が整っています。",
       "features": [
         "pet_friendly",
         "child_rearing",
@@ -700,7 +700,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "常滑市エリア。",
+      "description": "「常滑焼」の産地で、やきもの散歩道は情緒あふれる観光スポット。中部国際空港（セントレア）があり、空の旅が身近。名鉄常滑線が利用可能。招き猫の生産でも有名で、独特の文化が魅力です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -722,7 +722,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "江南市エリア。",
+      "description": "藤の名所「曼陀羅寺公園」があり、春には藤まつりで賑わいます。名鉄犬山線（江南駅）で名古屋駅まで特急で約20分。平坦な地形で自転車移動が楽。ベッドタウンとして住宅開発が進み、住みやすい環境が整っています。",
       "features": [
         "access_good",
         "child_rearing",
@@ -744,7 +744,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "小牧市エリア。",
+      "description": "小牧山城（小牧山）がシンボル。名古屋高速や東名高速のICがあり、車でのアクセスが非常に便利です。県営名古屋空港にも近く、空の旅も身近。子育て支援に力を入れており、新しい図書館「ラピオ」などが市民に親しまれています。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -766,7 +766,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "稲沢市エリア。",
+      "description": "「国府宮はだか祭」で有名な国府宮神社があります。JR東海道線（稲沢駅）で名古屋駅まで約10分。「リーフウォーク稲沢」などのショッピングモールがあり、買い物に便利。植木・苗木の産地としても知られ、緑豊かな環境です。",
       "features": [
         "access_good",
         "cost_performance",
@@ -810,7 +810,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "東海市エリア。",
+      "description": "製鉄所がある工業都市ですが、聚楽園公園の大仏や大池公園など、緑も豊富です。名鉄常滑線（太田川駅）周辺は再開発で芸術劇場などが整備され、綺麗になりました。名古屋駅まで特急で約15分とアクセスも良好です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -832,7 +832,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "大府市エリア。",
+      "description": "「健康都市」を掲げ、ウォーキングコースや健康施設が充実。JR東海道線（大府駅）が利用可能で、名古屋まで快速で約15分。トヨタ系企業も多く、工業と住宅が調和。住みよさランキングでも高評価の街です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -854,7 +854,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "知多市エリア。",
+      "description": "知多半島の中央に位置し、新舞子マリンパークなど海のレジャースポットが豊富。名鉄常滑線が利用可能。「佐布里池」の梅まつりも有名。海と緑に囲まれた環境で、のびのびと暮らせます。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -876,7 +876,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "知立市エリア。",
+      "description": "かつての東海道の宿場町。名鉄名古屋本線・三河線が交わる知立駅は交通の要衝。「知立神社」のかきつばたは有名。名古屋へのアクセスが良く、コンパクトで住みやすい街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -898,7 +898,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "尾張旭市エリア。",
+      "description": "名古屋市に隣接するベッドタウン。名鉄瀬戸線が利用可能。「愛知県森林公園」は広大で、バーベキューやスポーツが楽しめます。閑静な住宅街が広がり、子育て世帯に人気です。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -920,7 +920,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "高浜市エリア。",
+      "description": "三州瓦の産地として知られる工業都市。名鉄三河線が利用可能。コンパクトな市域で、海にも近く開放的。衣浦港の工業地帯もあり、働く場所にも恵まれています。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -942,7 +942,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "岩倉市エリア。",
+      "description": "愛知県で最も小さな市ですが、名鉄犬山線（岩倉駅）で名古屋駅まで約15分と抜群のアクセス。五条川の桜並木は「日本さくら名所100選」。コンパクトで住みやすく、若い世代に人気です。",
       "features": [
         "access_good",
         "cost_performance",
@@ -964,7 +964,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "豊明市エリア。",
+      "description": "「桶狭間の戦い」の古戦場がある歴史の街。名鉄名古屋本線が利用可能で、名古屋駅まで約20分。藤田医科大学病院があり、医療環境が充実。住宅開発が進み、ファミリー層に人気です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -986,7 +986,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "日進市エリア。",
+      "description": "名古屋市の東側に隣接し、地下鉄鶴舞線（赤池駅）や名鉄豊田線が利用可能。「プライムツリー赤池」などの商業施設が人気。大学が多く、アカデミックな雰囲気と田園風景が調和した、住み心地の良いベッドタウンです。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -1008,7 +1008,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "田原市エリア。",
+      "description": "渥美半島に位置し、三方を海に囲まれた自然豊かな街。「伊良湖岬」や「恋路ヶ浜」は絶景スポット。メロンやキャベツの一大産地。サーフィンやウインドサーフィンのメッカで、マリンスポーツ愛好家に人気です。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -1030,7 +1030,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "愛西市エリア。",
+      "description": "木曽川に囲まれた水郷地帯。蓮根の産地として有名。名鉄津島線や尾西線が利用可能。「船頭平閘門」は国の重要文化財。のどかな田園風景が広がり、静かな環境で暮らせます。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -1052,7 +1052,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "清須市エリア。",
+      "description": "織田信長ゆかりの「清洲城」がある歴史の街。JR東海道線や名鉄名古屋本線が利用でき、名古屋駅まで約10分。キリンビール工場もあります。都心に近い割に家賃が手頃で、コスパの良い街です。",
       "features": [
         "access_good",
         "cost_performance",
@@ -1074,7 +1074,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北名古屋市エリア。",
+      "description": "名古屋市の北に隣接するベッドタウン。名鉄犬山線（徳重・名古屋芸大駅など）が利用可能。「ジャンボエンチョー」などの大型店もあり、買い物環境が良好。新しい住宅が増え、若いファミリー層に人気です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -1096,7 +1096,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "弥富市エリア。",
+      "description": "金魚の産地として全国的に有名。近鉄名古屋線やJR関西本線が利用可能。名古屋駅や津方面へのアクセスが良好。伊勢湾岸自動車道の弥富ICもあり、車移動も便利です。",
       "features": [
         "access_good",
         "cost_performance",
@@ -1118,7 +1118,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "みよし市エリア。",
+      "description": "トヨタの企業城下町の一つ。名鉄豊田線（三好ヶ丘駅など）が利用可能。「三好公園」は広大で、スポーツ施設が充実。財政が豊かで公共サービスが充実しており、子育て支援も手厚い街です。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -1140,7 +1140,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "あま市エリア。",
+      "description": "甚目寺観音で知られる歴史ある街。名鉄津島線が利用可能。七宝焼の伝統工芸も有名。名古屋市に隣接し、ベッドタウンとして発展。家賃相場が手頃で、住みやすい環境が整っています。",
       "features": [
         "access_good",
         "cost_performance",
@@ -1162,7 +1162,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "長久手市エリア。",
+      "description": "「日本一若いまち」として知られ、平均年齢が若く活気があります。「愛・地球博記念公園（モリコロパーク）」には「ジブリパーク」が開業し、世界中から注目されています。IKEAやイオンモールもあり、おしゃれで便利な暮らしが叶います。",
       "features": [
         "child_rearing",
         "shopping_convenient",

@@ -18,7 +18,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市門司区エリア。",
+      "description": "「門司港レトロ」地区は、大正ロマン漂う歴史的建造物が並ぶ人気の観光地。関門海峡を望む景色は絶景です。焼きカレーなどのグルメも有名。九州の鉄道の起点としての歴史を持ち、落ち着いた雰囲気の中で暮らせます。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -40,7 +40,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市若松区エリア。",
+      "description": "洞海湾に面した港湾工業地帯と、響灘に面したビーチが共存。筑豊電鉄や若戸大橋でアクセス。「グリーンパーク」は大規模な公園で、カンガルーにも会えます。風力発電所など環境エネルギー産業も盛ん。海辺の開放的な暮らしが魅力です。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -62,7 +62,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市戸畑区エリア。",
+      "description": "北九州市で最も小さな区ですが、JR鹿児島本線（戸畑駅）で交通至便。新日鉄の企業城下町として発展。コンパクトで生活に必要な施設が揃い、住みやすいと評判。「夜宮公園」の藤棚は見事です。",
       "features": [
         "cost_performance",
         "shopping_convenient",
@@ -84,7 +84,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市小倉北区エリア。",
+      "description": "北九州市の中心で、小倉駅には新幹線が停車します。小倉城や旦過市場、リバーウォーク北九州など、観光・商業スポットが集積。「あるあるCity」などポップカルチャーの発信地でもあります。都市機能がコンパクトにまとまった住みやすい街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -106,7 +106,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市小倉南区エリア。",
+      "description": "小倉駅南側に広がる広大なエリア。北九州モノレール（企救丘駅など）やJR日田彦山線が利用可能。「平尾台」はカルスト台地で、ハイキングや鍾乳洞探検が楽しめます。自然豊かで、のどかな田園風景も広がります。",
       "features": [
         "child_rearing",
         "cost_performance",
@@ -128,7 +128,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市八幡東区エリア。",
+      "description": "「官営八幡製鐵所」があり、世界遺産の構成資産を含む工業の街。JR鹿児島本線（スペースワールド駅など）が利用可能。「いのちのたび博物館」は恐竜の展示で有名。レトロな工業遺産と新しい文化施設が共存します。",
       "features": [
         "shopping_convenient",
         "child_rearing",
@@ -150,7 +150,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "北九州市八幡西区エリア。",
+      "description": "黒崎駅を中心とした副都心エリアと、折尾などの学園都市エリアがあります。JR鹿児島本線や筑豊電鉄が利用可能。住宅地が多く、ベッドタウンとして機能しています。コストコ北九州倉庫店もあり、買い物環境も充実しています。",
       "features": [
         "child_rearing",
         "shopping_convenient",
@@ -172,7 +172,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市東区エリア。",
+      "description": "「海の中道海浜公園」や「マリンワールド海の中道」があり、レジャー環境が抜群。香椎・千早エリアは再開発でタワーマンションや商業施設が整備され、近代的な街並みに。JRと西鉄が並走しており、博多・天神へのアクセスも良好です。",
       "features": [
         "child_rearing",
         "shopping_convenient",
@@ -194,7 +194,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市博多区エリア。",
+      "description": "九州の陸の玄関口「博多駅」と空の玄関口「福岡空港」を擁する、交通とビジネスの拠点。キャナルシティ博多や中洲の屋台街など、観光スポットも満載。新幹線通勤も可能で、バリバリ働くビジネスマンに最適なエネルギッシュな街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -216,7 +216,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市中央区エリア。",
+      "description": "九州最大の繁華街「天神」や、おしゃれな店が並ぶ「大名」「薬院」があるトレンド発信地。大濠公園や舞鶴公園などの広大な緑地もあり、都会の利便性と豊かな自然環境が奇跡的に共存しています。「住みたい街」として圧倒的な人気を誇ります。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -238,7 +238,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市南区エリア。",
+      "description": "西鉄天神大牟田線（大橋駅など）沿線に広がる住宅街。大橋駅は特急停車駅で、天神まで約5分という近さ。駅ビルがリニューアルされ、さらに便利になりました。平尾や高宮などはおしゃれなカフェやパン屋が多く、女性に人気のエリアです。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -260,7 +260,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市西区エリア。",
+      "description": "「姪浜」は地下鉄空港線の始発駅で、天神・博多・空港へ座って一本でアクセス可能。「マリノアシティ福岡」などのアウトレットモールも人気。九州大学の伊都キャンパスがあり、学園都市として発展中。海も山も近く、自然環境は最高です。",
       "features": [
         "child_rearing",
         "pet_friendly",
@@ -282,7 +282,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市城南区エリア。",
+      "description": "福岡大学があり、学生が多く活気ある街。地下鉄七隈線（別府駅・七隈駅）の延伸により、博多駅へのアクセスが飛躍的に向上しました。油山などの自然も身近で、閑静な住宅街が広がっています。家賃相場も比較的リーズナブルです。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -304,7 +304,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福岡市早良区エリア。",
+      "description": "「西新」は商店街が活気にあふれ、文教地区としても有名で修猷館高校などがあります。「福岡タワー」や「福岡PayPayドーム」がある百道浜エリアは、近未来的な景観とビーチが広がる人気のウォーターフロント。多様な魅力を持つ区です。",
       "features": [
         "safe_area",
         "child_rearing",
@@ -326,7 +326,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "大牟田市エリア。",
+      "description": "かつての炭鉱の街で、世界遺産の宮原坑などがあります。西鉄とJRが乗り入れる大牟田駅が中心。「大牟田動物園」は動物福祉の取り組みで全国的に注目されています。独自の食文化や祭りがあり、地元愛の強い街です。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -348,7 +348,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "久留米市エリア。",
+      "description": "福岡県第三の都市で、JR久留米駅には新幹線が停車します。ゴム産業の街として発展し、ブリヂストンの創業地。ラーメンや焼き鳥などのB級グルメが豊富で、食のレベルが高い街です。筑後川が流れ、医療機関も多いため、安心して暮らせます。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -370,7 +370,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "直方市エリア。",
+      "description": "筑豊地方の中心都市の一つ。JR筑豊本線と平成筑豊鉄道が交わる交通の要衝。「直方チューリップフェア」は春の風物詩。炭鉱の歴史を伝える「直方石炭記念館」もあります。家賃相場が安く、のんびりとした暮らしが送れます。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -392,7 +392,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "飯塚市エリア。",
+      "description": "筑豊地方の中心都市。「シュガーロード」の経由地で、ひよ子本舗吉野堂など有名菓子店発祥の地。近畿大学産業理工学部などのキャンパスがあり、学生も多いです。家賃相場が安く、自然に囲まれたのんびりとした生活が送れます。",
       "features": [
         "cost_performance",
         "child_rearing",
@@ -414,7 +414,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "田川市エリア。",
+      "description": "かつての炭鉱の街で、「田川市石炭・歴史博物館」や世界遺産の「三井三池炭鉱宮原坑」などがあります。JR日田彦山線・後藤寺線が利用可能。「風治八幡宮川渡り神幸祭」は山笠で有名。歴史と伝統が息づく街です。",
       "features": [
         "cost_performance",
         "pet_friendly",
@@ -436,7 +436,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "柳川市エリア。",
+      "description": "「川下り」で有名な水郷の街。掘割が巡る美しい景観は必見です。北原白秋の生誕地でもあります。西鉄天神大牟田線（西鉄柳川駅）が利用可能。うなぎのせいろ蒸しは絶品。観光地の賑わいと、水辺の静けさが共存しています。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -458,7 +458,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "八女市エリア。",
+      "description": "高級茶「八女茶」の産地として全国的に有名。白壁の町並みや「八女福島の燈籠人形」など、伝統文化が色濃く残ります。西鉄バスが主な交通手段。手すき和紙や提灯などの伝統工芸も盛ん。静かで文化的な暮らしが送れます。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -480,7 +480,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "筑後市エリア。",
+      "description": "筑後平野の中心に位置する農業の街。JR鹿児島本線（羽犬塚駅）が利用可能。「恋木神社」は恋愛のパワースポットとして人気。広大な田園風景が広がり、のどかで穏やかな環境。九州新幹線・筑後船小屋駅もあり、交通至便です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -502,7 +502,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "大川市エリア。",
+      "description": "「家具の街」として有名で、大川家具は全国的なブランド。筑後川沿いに位置し、水郷の風景が広がります。西鉄バスが主な交通手段。木工職人の技が光る街で、家具好きにはたまらない環境です。",
       "features": [
         "cost_performance",
         "pet_friendly",
@@ -524,7 +524,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "行橋市エリア。",
+      "description": "北九州市のベッドタウンとして発展。JR日豊本線（行橋駅）は特急停車駅で、小倉や博多へアクセス可能。東九州自動車道の開通でさらに便利になりました。周防灘に面し、カキなどの海産物も豊富。住みよさランキングでも評価が高い街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -546,7 +546,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "豊前市エリア。",
+      "description": "宇島港があり、海の幸が豊富。JR日豊本線（宇島駅）が利用可能。「求菩提山」は修験道の霊場で、ハイキングスポット。のどかな田舎町で、海と山の自然に囲まれた静かな暮らしが楽しめます。",
       "features": [
         "cost_performance",
         "pet_friendly",
@@ -568,7 +568,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "中間市エリア。",
+      "description": "北九州市と直方市の中間に位置するベッドタウン。筑豊電鉄が利用可能。コンパクトな市域で、生活に必要な施設が揃っています。遠賀川の河川敷は散策やジョギングに最適。家賃相場が手頃で、住みやすい街です。",
       "features": [
         "access_good",
         "cost_performance",
@@ -590,7 +590,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "小郡市エリア。",
+      "description": "「九州自動車道小郡IC」があり、車でのアクセスが便利。西鉄大牟田線（小郡駅）や甘木鉄道も利用可能。「小郡運動公園」は大規模で、スポーツ施設が充実。福岡市や久留米市へのアクセスが良く、ベッドタウンとして人気です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -612,7 +612,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "筑紫野市エリア。",
+      "description": "二日市温泉という歴史ある温泉地があり、日常的に温泉を楽しめます。JR（二日市駅）と西鉄（紫駅・西鉄二日市駅）が利用可能。「イオンモール筑紫野」は県内最大級の規模で、休日は多くの人で賑わいます。自然と利便性のバランスが良い街です。",
       "features": [
         "access_good",
         "shopping_convenient",
@@ -634,7 +634,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "春日市エリア。",
+      "description": "福岡市に隣接し、日本一人口密度が高い市（東京23区を除く）として知られる人気のベッドタウン。JR（春日駅）と西鉄（春日原駅）が利用でき、天神・博多へのアクセスが抜群。「春日公園」などの大きな公園もあり、子育て環境が非常に良いです。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -656,7 +656,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "大野城市エリア。",
+      "description": "福岡市の南に位置し、西鉄（下大利駅など）とJR（大野城駅）が並行して走る交通至便な街。九州自動車道のICもあり、車での移動も便利。まどかぴあなどの文化施設も充実。地形が細長く、どこに住んでも駅に近いのが特徴です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -678,7 +678,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "宗像市エリア。",
+      "description": "世界遺産「神宿る島」宗像・沖ノ島と関連遺産群がある歴史ある街。JR鹿児島本線（赤間駅・東郷駅）で博多・小倉の両方へアクセス可能。教育大があり、文教地区の雰囲気も。ベッドタウンとして整備されており、住環境は良好です。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -700,7 +700,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "太宰府市エリア。",
+      "description": "「太宰府天満宮」の門前町として、年間を通して多くの参拝客が訪れます。西鉄太宰府線が利用可能。九州国立博物館もあり、歴史と文化の薫り高い街。令和ゆかりの地としても話題に。緑豊かで落ち着いた住環境です。",
       "features": [
         "safe_area",
         "child_rearing",
@@ -722,7 +722,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "古賀市エリア。",
+      "description": "福岡市と福津市の間に位置するベッドタウン。JR鹿児島本線（古賀駅）で博多まで約20分。「古賀グリーンパーク」は緑豊かな憩いの場。新しい住宅が増え、若いファミリー層に人気の成長中の街です。",
       "features": [
         "access_good",
         "child_rearing",
@@ -744,7 +744,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "福津市エリア。",
+      "description": "「宮地嶽神社」の「光の道」が嵐のCMで有名になりました。福間駅周辺は区画整理が進み、新しいマンションや商業施設が増加中。イオンモール福津もあり便利。福間海岸はウインドサーフィンのメッカで、海辺の暮らしを楽しめます。",
       "features": [
         "child_rearing",
         "safe_area",
@@ -766,7 +766,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "うきは市エリア。",
+      "description": "「筑後吉井」は白壁の町並みが美しい重要伝統的建造物群保存地区。フルーツ王国として知られ、ぶどうや梨、柿などの果樹園が多数。JR久大本線が利用可能。自然と歴史が調和した、のどかで美しい街です。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -788,7 +788,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "宮若市エリア。",
+      "description": "日産自動車九州工場があり、自動車産業の街。「脇田温泉」は歴史ある温泉地。JR筑豊本線（教育大前駅など）が利用可能。豊かな自然に囲まれ、温泉も楽しめる、リラックスした暮らしができます。",
       "features": [
         "cost_performance",
         "pet_friendly",
@@ -810,7 +810,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "嘉麻市エリア。",
+      "description": "「嘉麻三山」に囲まれた山あいの街。筑豊地方の炭鉱の歴史を伝える施設も。JR筑豊本線や平成筑豊鉄道が利用可能。自然豊かで、キャンプやハイキングが楽しめます。家賃相場が非常に安く、スローライフに最適です。",
       "features": [
         "cost_performance",
         "pet_friendly",
@@ -832,7 +832,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "朝倉市エリア。",
+      "description": "「秋月城下町」は小京都と呼ばれる美しい街並み。「朝倉の三連水車」は国の史跡で、田園風景の中で回る姿は圧巻。西鉄バスや甘木鉄道が利用可能。フルーツや温泉も豊富で、自然と歴史を満喫できます。",
       "features": [
         "pet_friendly",
         "cost_performance",
@@ -854,7 +854,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "みやま市エリア。",
+      "description": "有明海に面し、海苔の養殖が盛ん。西鉄天神大牟田線（江の浦駅など）が利用可能。「道の駅みやま」では地元の農産物や海産物が手に入ります。のどかな田園と海辺の風景が広がり、静かに暮らせます。",
       "features": [
         "cost_performance",
         "pet_friendly",
@@ -876,7 +876,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "糸島市エリア。",
+      "description": "「輝く小さな街」ランキングで世界3位に選ばれたこともある、今最も注目されるエリア。美しい海岸線にはおしゃれなカフェや工房が点在し、サーファーや移住者に大人気。福岡市内へも電車で通える距離で、ロハスな生活が実現できます。",
       "features": [
         "pet_friendly",
         "child_rearing",
@@ -898,7 +898,7 @@
       "longitude": 139.6503,
       "nearestStation": "最寄駅",
       "distanceToStation": 10,
-      "description": "那珂川市エリア。",
+      "description": "福岡市の南に隣接し、「那珂川清流」が流れる自然豊かな街。西鉄バスが主な交通手段ですが、博多南駅（新幹線の車両基地）も利用可能。住宅開発が進み、福岡市のベッドタウンとして人気急上昇中です。",
       "features": [
         "child_rearing",
         "safe_area",
