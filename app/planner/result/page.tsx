@@ -3,6 +3,7 @@
 import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
+import AdSenseUnit from '@/components/features/AdSenseUnit'
 import { FEATURE_LABELS } from '@/lib/constants'
 import type { AffordableArea } from '@/types/rent'
 
@@ -194,6 +195,16 @@ function ResultContent() {
                                 >
                                     エリア詳細を見る
                                 </Link>
+                            </div>
+
+                            {/* 広告ユニット: アクション直後の一等地 */}
+                            <div className="mt-8">
+                                <p className="text-xs text-center text-gray-400 mb-2">- PR -</p>
+                                <AdSenseUnit
+                                    slot="1234567890" // 共通スロットID（実際は適切なIDに分けることを推奨）
+                                    format="horizontal"
+                                    className="max-w-full mx-auto"
+                                />
                             </div>
                         </div>
                     </div>

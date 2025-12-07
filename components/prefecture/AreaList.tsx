@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
+import AdSenseUnit from '@/components/features/AdSenseUnit'
 import { Area } from '@/types/prefecture'
 import { FEATURE_LABELS } from '@/lib/constants'
 
@@ -295,6 +296,16 @@ function AreaCard({ area }: { area: Area }) {
                                     </tbody>
                                 </table>
                             </div>
+                        </div>
+
+                        {/* 広告ユニット: 詳細を見たユーザーへの訴求 */}
+                        <div className="mt-8">
+                            <p className="text-xs text-center text-gray-400 mb-2">- PR -</p>
+                            <AdSenseUnit
+                                slot="6666666666" // モーダル用スロットID
+                                format="rectangle"
+                                className="max-w-full mx-auto"
+                            />
                         </div>
                     </div>
                 </div>
