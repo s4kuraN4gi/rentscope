@@ -8,6 +8,7 @@ export interface AffordableArea {
     longitude: number
     features?: string[]
     matchedFeatures?: string[]
+    description?: string
 }
 
 export interface RentData {
