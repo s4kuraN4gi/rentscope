@@ -26,6 +26,9 @@ export default function Header() {
                         <Link href="/about" className="hover:text-primary-600 transition-colors">
                             使い方
                         </Link>
+                        <Link href="/contact" className="hover:text-primary-600 transition-colors">
+                            お問い合わせ
+                        </Link>
                     </div>
 
                     {/* モバイルメニューボタン */}
@@ -55,6 +58,9 @@ export default function Header() {
                         </Link>
                         <Link href="/about" className="block py-2 hover:text-primary-600 transition-colors">
                             使い方
+                        </Link>
+                        <Link href="/contact" className="block py-2 hover:text-primary-600 transition-colors">
+                            お問い合わせ
                         </Link>
                     </div>
                 )}

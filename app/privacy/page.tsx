@@ -68,6 +68,19 @@ export default function PrivacyPolicyPage() {
                     </p>
                 </section>
 
+                <section>
+                    <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">6. お問い合わせ</h2>
+                    <p className="leading-relaxed">
+                        本ポリシーに関するお問い合わせは、下記の窓口までお願いいたします。<br />
+                        <a 
+                            href="/contact" 
+                            className="text-primary-600 hover:underline font-bold"
+                        >
+                            お問い合わせページへ
+                        </a>
+                    </p>
+                </section>
+
                 <section className="pt-8 border-t border-gray-200 dark:border-gray-700">
                     <p>制定日：2025年11月30日</p>
                     <p>運営者：RentScope運営事務局</p>
