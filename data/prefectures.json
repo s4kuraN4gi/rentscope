@@ -90,6 +90,24 @@
     }
   },
   {
+    "id": 7,
+    "name": "千葉県",
+    "slug": "chiba",
+    "region": "関東",
+    "averageRent": 74382,
+    "latitude": 35.6074,
+    "longitude": 140.1065,
+    "population": 6280000,
+    "description": "東京ディズニーリゾートや成田空港があり、都心へのアクセスも良好。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 60942,
+      "oneLDK": 82709,
+      "twoLDK": 110348,
+      "threeLDK": 154230
+    }
+  },
+  {
     "id": 6,
     "name": "埼玉県",
     "slug": "saitama",

@@ -4,6 +4,15 @@ import AdSenseUnit from '@/components/features/AdSenseUnit'
 import { getPrefectureDetail, getPrefectures } from '@/lib/data'
 import { Area } from '@/types/prefecture'
 
+const FEATURE_LABELS: Record<string, string> = {
+    pet_friendly: '🐶 ペット可',
+    safe_area: '🛡️ 治安重視',
+    child_rearing: '👶 子育て環境',
+    access_good: '🚃 アクセス重視',
+    cost_performance: '💰 コスパ重視',
+    shopping_convenient: '🛍️ 買い物便利',
+}
+
 export async function generateStaticParams() {
     const prefectures = getPrefectures()
     return prefectures.map(prefecture => ({
@@ -120,7 +129,17 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
                                         <li>2LDK/3K: {area.rentByRoomType.twoLDK ? area.rentByRoomType.twoLDK.toLocaleString() + '円' : '-'}</li>
                                         <li>3LDK/4K~: {area.rentByRoomType.threeLDK ? area.rentByRoomType.threeLDK.toLocaleString() + '円' : '-'}</li>
                                     </ul>
+
                                 </div>
+                                {area.features && area.features.length > 0 && (
+                                    <div className="mt-4 flex flex-wrap gap-2">
+                                        {area.features.map(feature => (
+                                            <span key={feature} className="px-2 py-1 bg-primary-50 text-primary-700 text-xs rounded-full border border-primary-100">
+                                                {FEATURE_LABELS[feature] || feature}
+                                            </span>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
                         ))
                     ) : (
