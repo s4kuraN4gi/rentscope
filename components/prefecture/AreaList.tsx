@@ -3,15 +3,7 @@
 import { useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { Area } from '@/types/prefecture'
-
-const FEATURE_LABELS: Record<string, string> = {
-    pet_friendly: '🐶 ペット可',
-    safe_area: '🛡️ 治安重視',
-    child_rearing: '👶 子育て環境',
-    access_good: '🚃 アクセス重視',
-    cost_performance: '💰 コスパ重視',
-    shopping_convenient: '🛍️ 買い物便利',
-}
+import { FEATURE_LABELS } from '@/lib/constants'
 
 export default function AreaList({ areas }: { areas: Area[] }) {
     const [selectedRoomType, setSelectedRoomType] = useState<string>('default')

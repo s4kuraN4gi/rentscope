@@ -1,46 +1,55 @@
-import SalaryInput from '@/components/features/SalaryInput'
+import RentalPlannerForm from '@/components/features/RentalPlannerForm'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
 
 export default function Home() {
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 py-12">
             {/* ヒーローセクション */}
             <section className="text-center mb-12 animate-fadeIn">
-                <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent">
-                    あなたの給料で住める家賃は?
+                <div className="inline-block px-4 py-1 mb-4 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-300 font-bold text-sm tracking-wide">
+                    ✨ AIがあなたにぴったりの街を提案
+                </div>
+                <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
+                    最適な暮らし、<br className="md:hidden" />
+                    見つけよう。
                 </h1>
-                <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                    給料を入力するだけで、最適な家賃帯とおすすめエリアをAIが分析します
+                <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                    給料とライフスタイルを入力するだけ。<br />
+                    膨大なデータとAI分析で、あなたが最も幸せに暮らせる街を導き出します。
                 </p>
 
                 {/* ヘッダー下広告 */}
-                <AdSenseUnit slot="1234567890" format="horizontal" className="max-w-4xl mx-auto" />
+                <AdSenseUnit slot="1234567890" format="horizontal" className="max-w-4xl mx-auto mb-8" />
             </section>
 
-            {/* メインコンテンツ */}
-            <section className="max-w-2xl mx-auto">
-                <div className="glass rounded-2xl p-8 shadow-2xl">
-                    <SalaryInput />
-                </div>
+            {/* メインコンテンツ（診断フォーム） */}
+            <section className="max-w-4xl mx-auto mb-24 relative">
+                {/* 背景装飾 */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-primary-200/20 via-indigo-200/20 to-pink-200/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
+                
+                <RentalPlannerForm />
             </section>
 
             {/* 特徴セクション */}
-            <section className="mt-16 grid md:grid-cols-3 gap-8">
-                <FeatureCard
-                    icon="💰"
-                    title="最適な家賃帯を算出"
-                    description="あなたの給料から、無理のない家賃範囲を計算します"
-                />
-                <FeatureCard
-                    icon="🗺️"
-                    title="おすすめエリア提案"
-                    description="予算内で住めるエリアを地図で可視化します"
-                />
-                <FeatureCard
-                    icon="📈"
-                    title="収入アップ目標"
-                    description="理想のエリアに住むために必要な収入を提示します"
-                />
+            <section className="text-center mb-20">
+                <h2 className="text-3xl font-bold mb-12">RentScopeの3つの特徴</h2>
+                <div className="grid md:grid-cols-3 gap-8">
+                    <FeatureCard
+                        icon="🤖"
+                        title="AI分析 × リアルデータ"
+                        description="家賃相場データとAIの推論を組み合わせ、論理的かつ感性豊かな提案を行います"
+                    />
+                    <FeatureCard
+                        icon="💰"
+                        title="無理のない家賃設計"
+                        description="手取り月収から適正家賃を算出し、生活に余裕が生まれるエリアを厳選します"
+                    />
+                    <FeatureCard
+                        icon="🔍"
+                        title="見落としていた街を発見"
+                        description="検索条件だけでは出会えなかった、あなたにとっての穴場スポットが見つかります"
+                    />
+                </div>
             </section>
 
             {/* フッター上広告 */}
@@ -57,10 +66,12 @@ export default function Home() {
 
 function FeatureCard({ icon, title, description }: { icon: string; title: string; description: string }) {
     return (
-        <div className="glass rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
-            <div className="text-5xl mb-4">{icon}</div>
-            <h3 className="text-xl font-semibold mb-2">{title}</h3>
-            <p className="text-gray-600 dark:text-gray-300">{description}</p>
+        <div className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 dark:border-gray-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="text-6xl mb-6 bg-gray-50 dark:bg-gray-700 w-24 h-24 mx-auto rounded-full flex items-center justify-center">
+                {icon}
+            </div>
+            <h3 className="text-xl font-bold mb-3">{title}</h3>
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{description}</p>
         </div>
     )
 }
