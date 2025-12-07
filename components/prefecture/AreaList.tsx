@@ -47,6 +47,14 @@ function AreaCard({ area }: { area: Area }) {
         }
     }, [isOpen])
 
+    // 家賃レベル判定 (〜7万:1, 〜11万:2, 11万〜:3)
+    const getRentLevel = (price: number) => {
+        if (price < 70000) return 1
+        if (price < 110000) return 2
+        return 3
+    }
+    const rentLevel = getRentLevel(area.averageRent)
+
     const modalContent = (
         <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
             <div 
@@ -68,6 +76,29 @@ function AreaCard({ area }: { area: Area }) {
                     </div>
 
                     <div className="space-y-8">
+                        {/* 特徴タグ（モーダル内に移動） */}
+                        {area.features && (
+                            <div>
+                                <h3 className="text-lg font-semibold mb-3 flex items-center text-primary-600">
+                                    <span className="mr-2">✨</span>こだわり条件
+                                </h3>
+                                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                                    {Object.entries(FEATURE_LABELS).map(([key, label]) => {
+                                        const isActive = area.features?.includes(key)
+                                        if (!isActive) return null
+                                        return (
+                                            <div 
+                                                key={key} 
+                                                className="flex items-center p-2 rounded-lg border bg-primary-50 border-primary-200 text-primary-800 font-medium text-sm"
+                                            >
+                                                <span>{label}</span>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </div>
+                        )}
+
                         {/* 街の特徴 */}
                         <div>
                             <h3 className="text-lg font-semibold mb-3 flex items-center text-primary-600">
@@ -138,38 +169,49 @@ function AreaCard({ area }: { area: Area }) {
     return (
         <>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
-                <h3 className="text-xl font-semibold mb-4">{area.name}</h3>
-                
-                {/* 特徴タグ */}
-                {area.features && (
-                    <div className="grid grid-cols-2 gap-2 mb-6">
-                        {Object.entries(FEATURE_LABELS).map(([key, label]) => {
-                            const isActive = area.features?.includes(key)
-                            return (
-                                <div 
-                                    key={key} 
-                                    className={`
-                                        flex items-center p-2 rounded-lg border text-sm transition-colors
-                                        ${isActive 
-                                            ? 'bg-primary-50 border-primary-200 text-primary-800 font-medium' 
-                                            : 'bg-gray-50 border-gray-100 text-gray-400'
-                                        }
-                                    `}
-                                >
-                                    <span>{label}</span>
-                                    {isActive && <span className="ml-auto text-primary-600">★</span>}
-                                </div>
-                            )
-                        })}
+                {/* ヘッダー: エリア名と家賃レベル */}
+                <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">{area.name}</h3>
+                    <div className="flex space-x-0.5" title={`家賃レベル: ${rentLevel}/3`}>
+                        {[1, 2, 3].map((level) => (
+                            <span 
+                                key={level}
+                                className={`text-sm font-bold ${level <= rentLevel ? 'text-primary-600' : 'text-gray-200 dark:text-gray-700'}`}
+                            >
+                                ¥
+                            </span>
+                        ))}
                     </div>
-                )}
+                </div>
+                
+                {/* メイン: 家賃レンジ */}
+                <div className="mb-4">
+                    <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">家賃相場</p>
+                    <p className="text-2xl font-bold text-primary-600">
+                        {(area.minRent / 10000).toFixed(1)}
+                        <span className="text-sm text-gray-500 font-normal mx-1">〜</span>
+                        {(area.maxRent / 10000).toFixed(1)}
+                        <span className="text-sm text-gray-500 font-normal ml-1">万円</span>
+                    </p>
+                </div>
 
+                {/* ボディ: 説明文チラ見せ */}
+                <div className="mb-6 flex-grow">
+                    <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed line-clamp-3">
+                        {area.description}
+                    </p>
+                </div>
+
+                {/* フッター: ボタン */}
                 <div className="mt-auto">
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="w-full py-2 px-4 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors flex items-center justify-center font-medium shadow-sm"
+                        className="w-full py-2.5 px-4 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 text-primary-600 dark:text-primary-400 rounded-lg transition-colors flex items-center justify-center font-medium text-sm group"
                     >
                         <span>詳細・家賃相場を見る</span>
+                        <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
                     </button>
                 </div>
             </div>
