@@ -14,15 +14,168 @@ const FEATURE_LABELS: Record<string, string> = {
 }
 
 export default function AreaList({ areas }: { areas: Area[] }) {
+    const [selectedRoomType, setSelectedRoomType] = useState<string>('default')
+    const [sortOrder, setSortOrder] = useState<string>('default')
+    const [selectedFeatures, setSelectedFeatures] = useState<string[]>([])
+    const [isFilterOpen, setIsFilterOpen] = useState(false) // モバイル用開閉状態
+
+    // フィルタリングとソートのロジック
+    const filteredAndSortedAreas = areas
+        .filter(area => {
+            // 特徴フィルター
+            if (selectedFeatures.length === 0) return true
+            return selectedFeatures.every(feature => area.features?.includes(feature))
+        })
+        .sort((a, b) => {
+            // ソート
+            if (sortOrder === 'default') return 0
+
+            const getPrice = (area: Area) => {
+                switch (selectedRoomType) {
+                    case 'oneRoom': return area.rentByRoomType.oneRoom
+                    case 'oneLDK': return area.rentByRoomType.oneLDK
+                    case 'twoLDK': return area.rentByRoomType.twoLDK
+                    case 'threeLDK': return area.rentByRoomType.threeLDK
+                    default: return area.averageRent
+                }
+            }
+
+            const priceA = getPrice(a)
+            const priceB = getPrice(b)
+
+            // データなし(null)は常に最後に回す
+            if (priceA === null && priceB === null) return 0
+            if (priceA === null) return 1
+            if (priceB === null) return -1
+
+            if (sortOrder === 'price_asc') return priceA - priceB
+            if (sortOrder === 'price_desc') return priceB - priceA
+            return 0
+        })
+
+    const toggleFeature = (key: string) => {
+        setSelectedFeatures(prev => 
+            prev.includes(key) 
+                ? prev.filter(k => k !== key)
+                : [...prev, key]
+        )
+    }
+
     if (!areas || areas.length === 0) {
         return <p className="col-span-3 text-center text-gray-500">エリアデータがありません</p>
     }
 
     return (
-        <div className="grid md:grid-cols-3 gap-4">
-            {areas.map((area, index) => (
-                <AreaCard key={index} area={area} />
-            ))}
+        <div className="space-y-6">
+            {/* コントロールパネル */}
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-4 border border-gray-100 dark:border-gray-700">
+                <div className="flex flex-col space-y-4">
+                    
+                    {/* 上段: ソートとモバイル用フィルターボタン */}
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                        <div className="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar w-full sm:w-auto">
+                            <select 
+                                value={selectedRoomType}
+                                onChange={(e) => setSelectedRoomType(e.target.value)}
+                                className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+                            >
+                                <option value="default">家賃相場 (全体)</option>
+                                <option value="oneRoom">ワンルーム</option>
+                                <option value="oneLDK">1LDK</option>
+                                <option value="twoLDK">2LDK</option>
+                                <option value="threeLDK">3LDK</option>
+                            </select>
+
+                            <select 
+                                value={sortOrder}
+                                onChange={(e) => setSortOrder(e.target.value)}
+                                className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+                            >
+                                <option value="default">おすすめ順</option>
+                                <option value="price_asc">家賃が安い順</option>
+                                <option value="price_desc">家賃が高い順</option>
+                            </select>
+                        </div>
+
+                        <button 
+                            onClick={() => setIsFilterOpen(!isFilterOpen)}
+                            className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg px-4 py-2 text-sm font-medium flex items-center space-x-2 sm:hidden w-full justify-center"
+                        >
+                            <span>こだわり条件</span>
+                            <span className="bg-primary-100 text-primary-700 rounded-full px-2 py-0.5 text-xs">
+                                {selectedFeatures.length}
+                            </span>
+                            <svg className={`w-4 h-4 transition-transform ${isFilterOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    {/* 下段: 特徴フィルター (PCでは常に表示、モバイルでは開閉) */}
+                    <div className={`${isFilterOpen ? 'block' : 'hidden'} sm:block`}>
+                        <div className="flex flex-wrap gap-2">
+                            {Object.entries(FEATURE_LABELS).map(([key, label]) => {
+                                const isSelected = selectedFeatures.includes(key)
+                                return (
+                                    <button
+                                        key={key}
+                                        onClick={() => toggleFeature(key)}
+                                        className={`
+                                            px-3 py-1.5 rounded-full text-sm font-medium transition-all
+                                            ${isSelected 
+                                                ? 'bg-primary-600 text-white shadow-sm ring-2 ring-primary-600 ring-offset-1' 
+                                                : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                                            }
+                                        `}
+                                    >
+                                        {label.replace(/^[^\s]+\s/, '')} {/* 絵文字を除去して表示する場合 */}
+                                        {/* 絵文字ありならそのまま label を使う */}
+                                    </button>
+                                )
+                            })}
+                            {selectedFeatures.length > 0 && (
+                                <button 
+                                    onClick={() => setSelectedFeatures([])}
+                                    className="px-3 py-1.5 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 underline decoration-dotted"
+                                >
+                                    クリア
+                                </button>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* 検索結果カウント */}
+            <div className="flex justify-between items-center px-2">
+                <p className="text-sm text-gray-500">
+                    <span className="font-bold text-gray-900 dark:text-white text-lg">{filteredAndSortedAreas.length}</span>
+                    <span className="ml-1">エリアが見つかりました</span>
+                </p>
+            </div>
+
+            {/* リスト表示 */}
+            <div className="grid md:grid-cols-3 gap-4">
+                {filteredAndSortedAreas.map((area, index) => (
+                    <AreaCard key={area.name} area={area} />
+                ))}
+            </div>
+            
+            {filteredAndSortedAreas.length === 0 && (
+                <div className="text-center py-12 bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-dashed border-gray-300 dark:border-gray-700">
+                    <p className="text-gray-500 text-lg">条件に一致するエリアが見つかりませんでした</p>
+                    <button 
+                        onClick={() => {
+                            setSelectedFeatures([])
+                            setSelectedRoomType('default')
+                            setSortOrder('default')
+                        }}
+                        className="mt-4 text-primary-600 font-medium hover:underline"
+                    >
+                        条件をリセットする
+                    </button>
+                </div>
+            )}
         </div>
     )
 }
