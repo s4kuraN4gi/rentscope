@@ -76,7 +76,7 @@ export default function RootLayout({
                     />
                 )}
             </head>
-            <body className={inter.className} suppressHydrationWarning>
+            <body className={`${inter.className} overflow-x-hidden w-full`} suppressHydrationWarning>
                 <div className="min-h-screen flex flex-col">
                     <Header />
                     <main className="flex-grow">
