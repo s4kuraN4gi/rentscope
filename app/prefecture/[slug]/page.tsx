@@ -131,13 +131,26 @@ export default async function PrefectureDetailPage({ params }: { params: Promise
                                     </ul>
 
                                 </div>
-                                {area.features && area.features.length > 0 && (
-                                    <div className="mt-4 flex flex-wrap gap-2">
-                                        {area.features.map(feature => (
-                                            <span key={feature} className="px-2 py-1 bg-primary-50 text-primary-700 text-xs rounded-full border border-primary-100">
-                                                {FEATURE_LABELS[feature] || feature}
-                                            </span>
-                                        ))}
+                                {area.features && (
+                                    <div className="mt-4 grid grid-cols-2 gap-2">
+                                        {Object.entries(FEATURE_LABELS).map(([key, label]) => {
+                                            const isActive = area.features?.includes(key)
+                                            return (
+                                                <div 
+                                                    key={key} 
+                                                    className={`
+                                                        flex items-center p-2 rounded-lg border text-sm transition-colors
+                                                        ${isActive 
+                                                            ? 'bg-primary-50 border-primary-200 text-primary-800 font-medium' 
+                                                            : 'bg-gray-50 border-gray-100 text-gray-400'
+                                                        }
+                                                    `}
+                                                >
+                                                    <span>{label}</span>
+                                                    {isActive && <span className="ml-auto text-primary-600">★</span>}
+                                                </div>
+                                            )
+                                        })}
                                     </div>
                                 )}
                             </div>
