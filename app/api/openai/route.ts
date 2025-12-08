@@ -4,7 +4,9 @@ import OpenAI from 'openai'
 
 
 interface OpenAIRequest {
-    salary: number
+    salary?: number
+    budget?: number
+    isStudent?: boolean
     recommendedRent: number
     areas: string[]
 }
@@ -12,12 +14,13 @@ interface OpenAIRequest {
 export async function POST(request: NextRequest) {
     try {
         const body: OpenAIRequest = await request.json()
-        const { salary, recommendedRent, areas } = body
+        const { salary, budget, isStudent, recommendedRent, areas } = body
 
         // APIキーが設定されていない場合はモックレスポンス
         if (!process.env.OPENAI_API_KEY) {
+            const incomeInfo = isStudent ? `予算${budget?.toLocaleString()}円` : `月収${salary?.toLocaleString()}円`
             return NextResponse.json({
-                analysis: `月収${salary.toLocaleString()}円の場合、推奨家賃は${recommendedRent.toLocaleString()}円です。${areas.join('、')}などのエリアがおすすめです。`,
+                analysis: `${incomeInfo}の場合、推奨家賃は${recommendedRent.toLocaleString()}円です。${areas.join('、')}などのエリアがおすすめです。`,
                 tips: [
                     '固定費を見直して貯蓄を増やしましょう',
                     '副業やスキルアップで収入アップを目指しましょう',
@@ -26,10 +29,12 @@ export async function POST(request: NextRequest) {
             })
         }
 
+        const incomeStr = isStudent ? `予算: ${budget?.toLocaleString()}円` : `月収: ${salary?.toLocaleString()}円`
+
         const prompt = `
 あなたは賃貸住宅のアドバイザーです。以下の情報をもとに、ユーザーにアドバイスをしてください。
 
-- 月収: ${salary.toLocaleString()}円
+- ${incomeStr}
 - 推奨家賃: ${recommendedRent.toLocaleString()}円
 - おすすめエリア: ${areas.join('、')}
 

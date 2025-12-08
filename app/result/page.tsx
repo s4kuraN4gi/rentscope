@@ -59,15 +59,19 @@ function ResultPageContent() {
     const [showAiAd, setShowAiAd] = useState(false)
     const [aiError, setAiError] = useState<string | null>(null)
     const [selectedArea, setSelectedArea] = useState<AnalysisResult['affordableAreas'][0] | null>(null)
-
+    
+    // URLパラメータの取得
     const salary = searchParams.get('salary')
+    const budget = searchParams.get('budget')
+    const isStudent = searchParams.get('isStudent') === 'true'
     const familySize = searchParams.get('familySize')
     const location = searchParams.get('location')
     const featuresParam = searchParams.get('features')
 
     useEffect(() => {
         async function fetchAnalysis() {
-            if (!salary) {
+            // 給与も予算もない場合はリターン
+            if (!salary && !budget) {
                 setIsLoading(false)
                 return
             }
@@ -78,7 +82,9 @@ function ResultPageContent() {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        salary: Number(salary),
+                        salary: salary ? Number(salary) : undefined,
+                        budget: budget ? Number(budget) : undefined,
+                        isStudent: isStudent,
                         familySize: Number(familySize) || 1,
                         location: location || undefined,
                         features: featuresParam ? featuresParam.split(',') : [],
@@ -102,13 +108,13 @@ function ResultPageContent() {
         }
 
         fetchAnalysis()
-    }, [salary, familySize, location, featuresParam])
+    }, [salary, budget, isStudent, familySize, location, featuresParam])
 
     const handleAiAnalysis = async () => {
-        if (!result || !salary) return
+        if (!result || (!salary && !budget)) return
         
         // Google Analytics イベント送信
-        trackAIAnalysisClick(Number(salary))
+        if (salary) trackAIAnalysisClick(Number(salary))
         
         setShowAiAd(true)
         setIsAiLoading(true)
@@ -120,7 +126,9 @@ function ResultPageContent() {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        salary: Number(salary),
+                        salary: salary ? Number(salary) : undefined,
+                        budget: budget ? Number(budget) : undefined,
+                        isStudent: isStudent,
                         recommendedRent: result.recommendedRent.ideal,
                         areas: result.affordableAreas.map((a: any) => a.name),
                     }),
@@ -160,7 +168,7 @@ function ResultPageContent() {
         return (
             <div className="container mx-auto px-4 py-16 text-center">
                 <p className="text-xl text-red-500 mb-4">
-                    {!salary ? '給与情報が見つかりません' : 'データの取得に失敗しました'}
+                    {!salary && !budget ? '条件情報が見つかりません' : 'データの取得に失敗しました'}
                 </p>
                 <Link
                     href="/"
@@ -241,7 +249,9 @@ function ResultPageContent() {
                             <p className="text-primary-600 font-semibold mb-1">
                                 平均家賃: {area.averageRent.toLocaleString()}円
                             </p>
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{area.distance}</p>
+                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                                {area.distance.includes('から') ? area.distance : `最寄駅から ${area.distance}`}
+                            </p>
                             
                             {/* その他の特徴タグ */}
                             <div className="flex flex-wrap gap-1 mt-2 mb-3">
@@ -254,7 +264,7 @@ function ResultPageContent() {
 
                             <button
                                 onClick={() => setSelectedArea(area)}
-                                className="w-full mt-2 bg-white border border-primary-500 text-primary-600 py-2 rounded-lg hover:bg-primary-50 transition-colors text-sm font-semibold"
+                                className="w-full mt-2 bg-white border border-primary-500 text-primary-600 dark:bg-gray-700 dark:text-primary-300 dark:border-primary-400 py-2 rounded-lg hover:bg-primary-50 dark:hover:bg-gray-600 transition-colors text-sm font-semibold"
                             >
                                 詳細を見る
                             </button>
