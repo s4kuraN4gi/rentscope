@@ -5,6 +5,8 @@ import { getPrefectureDetail, getPrefectures } from '@/lib/data'
 import { Area } from '@/types/prefecture'
 import AreaList from '@/components/prefecture/AreaList'
 
+export const runtime = 'edge'
+
 export async function generateStaticParams() {
     const prefectures = getPrefectures()
     return prefectures.map(prefecture => ({

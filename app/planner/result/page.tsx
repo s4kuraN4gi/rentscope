@@ -8,6 +8,7 @@ import { FEATURE_LABELS } from '@/lib/constants'
 import type { AffordableArea } from '@/types/rent'
 
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge'
 
 // 型定義
 interface PlannerResult {
