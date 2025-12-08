@@ -7,7 +7,7 @@ export default function Home() {
             {/* ヒーローセクション */}
             <section className="text-center mb-12 animate-fadeIn">
                 <div className="inline-block px-4 py-1 mb-4 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-300 font-bold text-sm tracking-wide">
-                    ✨ AIがあなたにぴったりの街を提案
+                    ✨ AIがあなたにぴったりの街を提案 v2.0.1
                 </div>
                 <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
                     最適な暮らし、<br className="md:hidden" />

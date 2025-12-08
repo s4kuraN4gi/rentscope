@@ -7,6 +7,8 @@ import AdSenseUnit from '@/components/features/AdSenseUnit'
 import { FEATURE_LABELS } from '@/lib/constants'
 import type { AffordableArea } from '@/types/rent'
 
+export const dynamic = 'force-dynamic'
+
 // 型定義
 interface PlannerResult {
     rentRange: {
