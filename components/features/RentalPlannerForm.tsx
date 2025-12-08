@@ -143,31 +143,33 @@ export default function RentalPlannerForm() {
                 </div>
             )}
 
-            <div>
-                <label className="block text-lg font-bold mb-3">家族構成</label>
-                <div className="grid grid-cols-2 gap-3">
-                    {[
-                        { value: '1', label: '一人暮らし', icon: '🧍' },
-                        { value: '2', label: '二人暮らし', icon: '👫' },
-                        { value: '3', label: 'ファミリー', icon: '👨‍👩‍👧' },
-                    ].map((opt) => (
-                        <button
-                            key={opt.value}
-                            onClick={() => setFamilySize(opt.value)}
-                            className={`
-                                p-4 rounded-xl border-2 transition-all flex flex-col items-center justify-center gap-2
-                                ${familySize === opt.value
-                                    ? 'border-primary-500 bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-200'
-                                    : 'border-gray-200 hover:border-gray-300 dark:border-gray-700 dark:hover:border-gray-600'
-                                }
-                            `}
-                        >
-                            <span className="text-2xl">{opt.icon}</span>
-                            <span className="font-bold">{opt.label}</span>
-                        </button>
-                    ))}
+            {!isStudentMode && (
+                <div>
+                    <label className="block text-lg font-bold mb-3">家族構成</label>
+                    <div className="grid grid-cols-2 gap-3">
+                        {[
+                            { value: '1', label: '一人暮らし', icon: '🧍' },
+                            { value: '2', label: '二人暮らし', icon: '👫' },
+                            { value: '3', label: 'ファミリー', icon: '👨‍👩‍👧' },
+                        ].map((opt) => (
+                            <button
+                                key={opt.value}
+                                onClick={() => setFamilySize(opt.value)}
+                                className={`
+                                    p-4 rounded-xl border-2 transition-all flex flex-col items-center justify-center gap-2
+                                    ${familySize === opt.value
+                                        ? 'border-primary-500 bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-200'
+                                        : 'border-gray-200 hover:border-gray-300 dark:border-gray-700 dark:hover:border-gray-600'
+                                    }
+                                `}
+                            >
+                                <span className="text-2xl">{opt.icon}</span>
+                                <span className="font-bold">{opt.label}</span>
+                            </button>
+                        ))}
+                    </div>
                 </div>
-            </div>
+            )}
         </div>
     )
 
@@ -210,45 +212,84 @@ export default function RentalPlannerForm() {
     )
 
     // Step 3: こだわり条件
-    const renderStep3 = () => (
-        <div className="space-y-6 animate-fadeIn">
-            <h3 className="text-lg font-bold">重視するポイントを選んでください</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {Object.entries(FEATURE_LABELS).map(([key, label]) => {
-                    const isSelected = selectedFeatures.includes(key)
-                    const description = FEATURE_DESCRIPTIONS[key]
-                    
+    const renderStep3 = () => {
+        // カテゴリ定義
+        const categories = [
+            {
+                title: '基本条件',
+                keys: ['access_good', 'cost_performance', 'safe_area', 'shopping_convenient']
+            },
+            {
+                title: 'ライフスタイル・趣味',
+                keys: ['gym_sauna', 'sports_park', 'library_cafe', 'pet_friendly']
+            },
+            {
+                title: '属性・その他',
+                keys: ['single_friendly', 'student_friendly', 'child_rearing']
+            }
+        ]
+
+        return (
+            <div className="space-y-8 animate-fadeIn">
+                <h3 className="text-lg font-bold">重視するポイントを選んでください</h3>
+                
+                {categories.map((cat) => {
+                    const displayKeys = cat.keys.filter(key => {
+                        // 学生モード時は「子育て」を非表示
+                        if (isStudentMode && key === 'child_rearing') return false
+                        // 通常モード時は「学生」を非表示にする（推奨）
+                        if (!isStudentMode && key === 'student_friendly') return false
+                        return true
+                    })
+
+                    if (displayKeys.length === 0) return null
+
                     return (
-                        <button
-                            key={key}
-                            onClick={() => {
-                                setSelectedFeatures(prev => 
-                                    isSelected 
-                                        ? prev.filter(f => f !== key)
-                                        : [...prev, key]
-                                )
-                            }}
-                            className={`
-                                text-left p-4 rounded-xl border transition-all h-full
-                                ${isSelected
-                                    ? 'border-primary-500 bg-primary-50 ring-1 ring-primary-500 dark:bg-primary-900/20'
-                                    : 'border-gray-200 hover:border-gray-300 dark:border-gray-700'
-                                }
-                            `}
-                        >
-                            <div className="flex items-center justify-between mb-1">
-                                <span className="font-bold text-gray-900 dark:text-white">{label}</span>
-                                {isSelected && <span className="text-primary-500">✓</span>}
+                        <div key={cat.title}>
+                            <h4 className="text-sm font-bold text-gray-500 dark:text-gray-400 mb-3 border-l-4 border-primary-500 pl-3">
+                                {cat.title}
+                            </h4>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                {displayKeys.map(key => {
+                                    const label = FEATURE_LABELS[key]
+                                    const description = FEATURE_DESCRIPTIONS[key]
+                                    const isSelected = selectedFeatures.includes(key)
+                                    
+                                    return (
+                                        <button
+                                            key={key}
+                                            onClick={() => {
+                                                setSelectedFeatures(prev => 
+                                                    isSelected 
+                                                        ? prev.filter(f => f !== key)
+                                                        : [...prev, key]
+                                                )
+                                            }}
+                                            className={`
+                                                text-left p-4 rounded-xl border transition-all h-full
+                                                ${isSelected
+                                                    ? 'border-primary-500 bg-primary-50 ring-1 ring-primary-500 dark:bg-primary-900/20'
+                                                    : 'border-gray-200 hover:border-gray-300 dark:border-gray-700'
+                                                }
+                                            `}
+                                        >
+                                            <div className="flex items-center justify-between mb-1">
+                                                <span className="font-bold text-gray-900 dark:text-white">{label}</span>
+                                                {isSelected && <span className="text-primary-500">✓</span>}
+                                            </div>
+                                            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">
+                                                {description}
+                                            </p>
+                                        </button>
+                                    )
+                                })}
                             </div>
-                            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">
-                                {description}
-                            </p>
-                        </button>
+                        </div>
                     )
                 })}
             </div>
-        </div>
-    )
+        )
+    }
 
     const isStep1Valid = isStudentMode ? budget > 0 : Boolean(salary && Number(salary) > 0)
     
