@@ -7,12 +7,14 @@ import AreaList from '@/components/prefecture/AreaList'
 
 export const runtime = 'edge'
 
-export async function generateStaticParams() {
-    const prefectures = getPrefectures()
-    return prefectures.map(prefecture => ({
-        slug: prefecture.slug,
-    }))
-}
+
+// export async function generateStaticParams() {
+//     const prefectures = getPrefectures()
+//     return prefectures.map(prefecture => ({
+//         slug: prefecture.slug,
+//     }))
+// }
+
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params
