@@ -1,13 +1,19 @@
 import RentalPlannerForm from '@/components/features/RentalPlannerForm'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
 
+export const runtime = 'edge'
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
+    const timestamp = new Date().toLocaleTimeString('ja-JP')
+
     return (
         <div className="container mx-auto px-4 py-12">
             {/* ヒーローセクション */}
-            <section className="text-center mb-12 animate-fadeIn">
-                <div className="inline-block px-4 py-1 mb-4 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-300 font-bold text-sm tracking-wide">
-                    ✨ AIがあなたにぴったりの街を提案 v2.0.1
+            <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
+                <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-sm text-white mb-8 animate-fadeIn">
+                    <span className="bg-primary-500 rounded-full px-2 py-0.5 text-xs font-bold">New</span>
+                    <span>AIがあなたの理想の街をご提案 v2.0.2 ({timestamp})</span>
                 </div>
                 <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
                     最適な暮らし、<br className="md:hidden" />
