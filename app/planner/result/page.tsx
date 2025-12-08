@@ -37,7 +37,9 @@ function ResultContent() {
                 setLoadingStage(1)
                 
                 const payload = {
-                    salary: Number(searchParams.get('salary')),
+                    salary: searchParams.get('salary') ? Number(searchParams.get('salary')) : undefined,
+                    budget: searchParams.get('budget') ? Number(searchParams.get('budget')) : undefined,
+                    isStudent: searchParams.get('isStudent') === 'true',
                     familySize: Number(searchParams.get('familySize')),
                     prefectures: searchParams.get('prefectures')?.split(',').filter(Boolean) || [],
                     features: searchParams.get('features')?.split(',').filter(Boolean) || [],
@@ -68,9 +70,7 @@ function ResultContent() {
             }
         }
 
-        if (searchParams.get('salary')) {
-            fetchData()
-        }
+        fetchData() // 給与がなくても（学生モードなら）実行する必要があるため、条件判定を外すか調整が必要
     }, [searchParams])
 
     // ローディング画面
@@ -93,7 +93,7 @@ function ResultContent() {
                     />
                 </div>
                 <p className="text-gray-500 animate-pulse">
-                    {loadingStage === 1 && '適正家賃を計算しています...'}
+                    {loadingStage === 1 && '条件を分析しています...'}
                     {loadingStage === 2 && '条件に合うエリアを探しています...'}
                     {loadingStage === 3 && 'AIがおすすめ理由を生成しています...'}
                 </p>
@@ -157,11 +157,21 @@ function ResultContent() {
                                 <div className="col-span-2 bg-gray-50 dark:bg-gray-700 p-4 rounded-xl">
                                     <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">特徴</p>
                                     <div className="flex flex-wrap gap-1">
+                                        {/* マッチした特徴 */}
                                         {bestArea.matchedFeatures?.map(f => (
-                                            <span key={f} className="text-xs bg-white dark:bg-gray-600 border border-gray-200 dark:border-gray-500 px-2 py-1 rounded-full">
+                                            <span key={f} className="text-xs bg-primary-100 text-primary-700 border border-primary-200 px-2 py-1 rounded-full font-medium">
                                                 {FEATURE_LABELS[f] || f}
                                             </span>
                                         ))}
+                                        {/* マッチしていないその他の特徴 */}
+                                        {bestArea.features?.filter(f => !bestArea.matchedFeatures?.includes(f)).map(f => (
+                                            <span key={`other-${f}`} className="text-xs bg-white dark:bg-gray-600 border border-gray-200 dark:border-gray-500 text-gray-500 dark:text-gray-400 px-2 py-1 rounded-full">
+                                                {FEATURE_LABELS[f] || f}
+                                            </span>
+                                        ))}
+                                        {(!bestArea.features || bestArea.features.length === 0) && (
+                                            <span className="text-xs text-gray-400">登録された特徴はありません</span>
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +198,7 @@ function ResultContent() {
                                 </a>
                                 <Link 
                                     href={`/prefecture/tokyo`} // ※実際にはprefecture slugを動的に取得すべき
-                                    className="flex-1 bg-white border-2 border-gray-200 text-gray-700 font-bold py-4 rounded-xl text-center hover:bg-gray-50 transition-all dark:bg-gray-800 dark:border-gray-600 dark:text-gray-200"
+                                    className="flex-1 bg-white border-2 border-indigo-100 text-indigo-600 font-bold py-4 rounded-xl text-center hover:bg-indigo-50 hover:border-indigo-200 transition-all dark:bg-gray-800 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-700"
                                 >
                                     エリア詳細を見る
                                 </Link>
