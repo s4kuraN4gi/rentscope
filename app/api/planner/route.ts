@@ -4,6 +4,8 @@ import { getPrefectures, getPrefectureDetail } from '@/lib/data'
 import type { AffordableArea } from '@/types/rent'
 import { FEATURE_LABELS } from '@/lib/constants'
 
+export const runtime = 'edge'
+
 // OpenAI初期化
 
 

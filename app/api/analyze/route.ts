@@ -3,6 +3,8 @@ import type { SalaryInput, RecommendedRent, IncomeGap } from '@/types/salary'
 import type { AffordableArea } from '@/types/rent'
 import prefecturesData from '@/data/prefectures.json'
 
+export const runtime = 'edge'
+
 // 家賃計算ロジック
 function calculateRecommendedRent(salary: number, familySize: number = 1): RecommendedRent {
     // 一般的な家賃目安: 手取りの25-30%
