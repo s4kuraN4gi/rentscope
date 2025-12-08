@@ -20,6 +20,8 @@ export default function RentalPlannerForm() {
     const [familySize, setFamilySize] = useState('1')
     const [selectedPrefectures, setSelectedPrefectures] = useState<string[]>([])
     const [selectedFeatures, setSelectedFeatures] = useState<string[]>([])
+    const [isStudentMode, setIsStudentMode] = useState(false)
+    const [budget, setBudget] = useState(60000)
     const [isLoading, setIsLoading] = useState(false)
 
     // 推奨家賃の計算（手取りの20-30%）
@@ -49,6 +51,8 @@ export default function RentalPlannerForm() {
             familySize: familySize,
             prefectures: selectedPrefectures.join(','),
             features: selectedFeatures.join(','),
+            isStudent: isStudentMode.toString(),
+            budget: budget.toString(),
         })
 
         // 結果ページへ遷移（少し遅延させて読み込み感を出す演出も可）
@@ -59,25 +63,76 @@ export default function RentalPlannerForm() {
     // Step 1: 予算と家族構成
     const renderStep1 = () => (
         <div className="space-y-6 animate-fadeIn">
-            <div>
-                <label className="block text-lg font-bold mb-2">
-                    手取り月収を入力してください
-                    <span className="text-red-500 ml-1">*</span>
-                </label>
-                <div className="relative">
-                    <input
-                        type="number"
-                        value={salary}
-                        onChange={(e) => setSalary(e.target.value)}
-                        placeholder="例: 250000"
-                        className="w-full text-2xl p-4 pl-6 pr-12 border-2 border-gray-200 rounded-xl focus:border-primary-500 focus:ring-0 transition-colors bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
-                        min="0"
+            <label className="flex items-center gap-3 p-4 rounded-xl border-2 cursor-pointer transition-all border-indigo-100 bg-indigo-50 dark:border-indigo-900/50 dark:bg-indigo-900/20 hover:border-indigo-200">
+                <div className="relative flex items-center">
+                    <input 
+                        type="checkbox" 
+                        checked={isStudentMode} 
+                        onChange={(e) => setIsStudentMode(e.target.checked)}
+                        className="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 border-gray-300"
                     />
-                    <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-400 font-bold">円</span>
                 </div>
-            </div>
+                <div className="flex-1">
+                    <span className="font-bold text-gray-900 dark:text-white block">
+                        学生・新社会人として一人暮らしをする
+                    </span>
+                    <span className="text-xs text-gray-500 dark:text-gray-400 block mt-0.5">
+                        年収ではなく、毎月の家賃予算から探せます
+                    </span>
+                </div>
+            </label>
 
-            {recommendedRent && (
+            {isStudentMode ? (
+                // 学生モード: 家賃予算入力
+                <div className="bg-white dark:bg-gray-800 rounded-xl">
+                    <label className="block text-lg font-bold mb-4">
+                        毎月の家賃予算はいくらですか？
+                    </label>
+                    <div className="flex items-baseline gap-2 mb-6">
+                        <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-indigo-600">
+                            {(budget / 10000).toFixed(1)}
+                        </span>
+                        <span className="text-xl font-bold text-gray-500">万円</span>
+                    </div>
+                    <input 
+                        type="range" 
+                        min="30000" 
+                        max="200000" 
+                        step="1000" 
+                        value={budget} 
+                        onChange={(e) => setBudget(Number(e.target.value))}
+                        className="w-full h-3 bg-gray-200 rounded-full appearance-none cursor-pointer accent-primary-600 hover:accent-primary-700"
+                    />
+                    <div className="flex justify-between text-xs font-bold text-gray-400 mt-3 px-1">
+                        <span>3万円</span>
+                        <span>20万円</span>
+                    </div>
+                    <p className="text-sm text-center text-gray-500 mt-4 bg-gray-50 dark:bg-gray-900/50 py-2 rounded-lg">
+                        💡 相場より少し高めに設定すると選択肢が広がります
+                    </p>
+                </div>
+            ) : (
+                // 通常モード: 年収入力
+                <div>
+                    <label className="block text-lg font-bold mb-2">
+                        手取り月収を入力してください
+                        <span className="text-red-500 ml-1">*</span>
+                    </label>
+                    <div className="relative">
+                        <input
+                            type="number"
+                            value={salary}
+                            onChange={(e) => setSalary(e.target.value)}
+                            placeholder="例: 250000"
+                            className="w-full text-2xl p-4 pl-6 pr-12 border-2 border-gray-200 rounded-xl focus:border-primary-500 focus:ring-0 transition-colors bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+                            min="0"
+                        />
+                        <span className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-400 font-bold">円</span>
+                    </div>
+                </div>
+            )}
+
+            {!isStudentMode && recommendedRent && (
                 <div className="bg-primary-50 dark:bg-primary-900/30 p-4 rounded-xl border border-primary-100 dark:border-primary-800">
                     <p className="text-sm text-primary-600 dark:text-primary-300 font-bold mb-1">
                         あなたにおすすめの家賃目安
@@ -195,7 +250,7 @@ export default function RentalPlannerForm() {
         </div>
     )
 
-    const isStep1Valid = Boolean(salary && Number(salary) > 0)
+    const isStep1Valid = isStudentMode ? budget > 0 : Boolean(salary && Number(salary) > 0)
     
     return (
         <div className="w-full max-w-2xl mx-auto">

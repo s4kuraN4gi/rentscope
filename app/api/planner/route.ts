@@ -84,14 +84,27 @@ async function findTopAreas(
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json()
-        const { salary, familySize = 1, prefectures = [], features = [] } = body
-
-        if (!salary || salary <= 0) {
-            return NextResponse.json({ error: '正しい給与額を入力してください' }, { status: 400 })
-        }
+        const { salary, familySize = 1, prefectures = [], features = [], isStudent = 'false', budget } = body
+        
+        const isStudentMode = String(isStudent) === 'true'
 
         // 1. 家賃計算
-        const rentRange = calculateRecommendedRent(Number(salary), Number(familySize))
+        let rentRange;
+        if (isStudentMode && budget) {
+            // 学生モード: 直接予算を指定
+            const budgetNum = Number(budget)
+            rentRange = {
+                min: Math.max(0, budgetNum - 5000),
+                ideal: budgetNum,
+                max: budgetNum + 5000
+            }
+        } else {
+            // 通常モード: 給料から計算
+            if (!salary || salary <= 0) {
+                return NextResponse.json({ error: '正しい給与額を入力してください' }, { status: 400 })
+            }
+            rentRange = calculateRecommendedRent(Number(salary), Number(familySize))
+        }
 
         // 2. ベストエリア選定
         const topAreas = await findTopAreas(rentRange.min, rentRange.max, prefectures, features)
@@ -114,8 +127,13 @@ export async function POST(request: NextRequest) {
             `${index + 1}. ${area.prefecture}${area.name} (家賃相場: ${(area.averageRent/10000).toFixed(1)}万円)\n特徴: ${area.description}`
         ).join('\n\n')
 
-        const systemPrompt = `あなたはプロの不動産コンサルタントです。ユーザーの希望条件に基づき、推奨されたエリアについて魅力的にプレゼンしてください。
-ユーザー属性: 手取り月収${(salary/10000).toFixed(0)}万円、${familySize}人暮らし
+        const systemPrompt = isStudentMode
+            ? `あなたは学生や新社会人の初めての一人暮らしをサポートする、親身で頼れる先輩アドバイザーです。ユーザーの不安に寄り添いながら、推奨エリアの魅力を伝えてください。
+ユーザー属性: 学生・新社会人（一人暮らし）、予算${(rentRange.ideal/10000).toFixed(1)}万円
+重視する条件: ${featureNames || '特になし'}
+解説のポイント: 治安の良さ、安くて美味しいお店、通学・通勤の利便性、初めてでも住みやすい雰囲気`
+            : `あなたはプロの不動産コンサルタントです。ユーザーの希望条件に基づき、推奨されたエリアについて魅力的にプレゼンしてください。
+ユーザー属性: 手取り月収${(Number(salary)/10000).toFixed(0)}万円、${familySize}人暮らし
 重視する条件: ${featureNames || '特になし'}
 予算目安: ${(rentRange.min/10000).toFixed(1)}万〜${(rentRange.max/10000).toFixed(1)}万円`
 
