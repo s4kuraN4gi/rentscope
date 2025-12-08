@@ -263,6 +263,7 @@ function ResultContent() {
                 >
                     条件を変更して再診断する
                 </button>
+                <p className="mt-4 text-xs text-center text-gray-300 dark:text-gray-700">RentScope v2.0.1 (Fix Applied)</p>
             </div>
         </div>
     )
