@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import OpenAI from 'openai'
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-})
+
 
 interface OpenAIRequest {
     salary: number
@@ -41,7 +39,7 @@ export async function POST(request: NextRequest) {
 3. 節約・収入アップのヒント(3つ、箇条書き)
 `
 
-        const completion = await openai.chat.completions.create({
+        const completion = await new OpenAI({ apiKey: process.env.OPENAI_API_KEY }).chat.completions.create({
             model: 'gpt-3.5-turbo',
             messages: [
                 {

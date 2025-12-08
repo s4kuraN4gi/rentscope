@@ -5,9 +5,7 @@ import type { AffordableArea } from '@/types/rent'
 import { FEATURE_LABELS } from '@/lib/constants'
 
 // OpenAI初期化
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-})
+
 
 // 家賃計算ロジック
 function calculateRecommendedRent(salary: number, familySize: number = 1) {
@@ -146,6 +144,7 @@ ${areaInfos}`
 
         if (process.env.OPENAI_API_KEY) {
             try {
+                const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
                 const completion = await openai.chat.completions.create({
                     model: 'gpt-3.5-turbo',
                     messages: [
