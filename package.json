@@ -22,6 +22,7 @@
     "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@types/leaflet": "^1.9.8",
     "@types/node": "^20.19.25",
     "@types/react": "^18.2.48",
