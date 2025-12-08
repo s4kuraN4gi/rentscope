@@ -249,9 +249,7 @@ function ResultPageContent() {
                             <p className="text-primary-600 font-semibold mb-1">
                                 平均家賃: {area.averageRent.toLocaleString()}円
                             </p>
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
-                                {area.distance.includes('から') ? area.distance : `最寄駅から ${area.distance}`}
-                            </p>
+
                             
                             {/* その他の特徴タグ */}
                             <div className="flex flex-wrap gap-1 mt-2 mb-3">
