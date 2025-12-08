@@ -23,7 +23,7 @@ export default function Home() {
             </section>
 
             {/* メインコンテンツ（診断フォーム） */}
-            <section className="max-w-4xl mx-auto mb-24 relative">
+            <section className="max-w-4xl mx-auto mb-24 relative z-0">
                 {/* 背景装飾 */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-primary-200/20 via-indigo-200/20 to-pink-200/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
                 
