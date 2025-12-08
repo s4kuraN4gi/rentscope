@@ -26,7 +26,7 @@ export default function Home() {
 
                 {/* ヘッダー下広告 */}
                 <AdSenseUnit slot="1234567890" format="horizontal" className="max-w-4xl mx-auto mb-8" />
-            </section>
+            </div>
 
             {/* メインコンテンツ（診断フォーム） */}
             <section className="max-w-4xl mx-auto mb-24 relative z-0">
