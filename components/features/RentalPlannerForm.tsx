@@ -62,7 +62,7 @@ export default function RentalPlannerForm() {
 
     // Step 1: 予算と家族構成
     const renderStep1 = () => (
-        <div className="space-y-6 animate-fadeIn">
+        <div key="step1" className="space-y-6 animate-fadeIn">
             <label className="flex items-center gap-3 p-4 rounded-xl border-2 cursor-pointer transition-all border-indigo-100 bg-indigo-50 dark:border-indigo-900/50 dark:bg-indigo-900/20 hover:border-indigo-200">
                 <div className="relative flex items-center">
                     <input 
@@ -84,7 +84,7 @@ export default function RentalPlannerForm() {
 
             {isStudentMode ? (
                 // 学生モード: 家賃予算入力
-                <div className="bg-white dark:bg-gray-800 rounded-xl">
+                <div key="student" className="bg-white dark:bg-gray-800 rounded-xl animate-fadeIn">
                     <label className="block text-lg font-bold mb-4">
                         毎月の家賃予算はいくらですか？
                     </label>
@@ -113,7 +113,7 @@ export default function RentalPlannerForm() {
                 </div>
             ) : (
                 // 通常モード: 年収入力
-                <div>
+                <div key="normal" className="animate-fadeIn">
                     <label className="block text-lg font-bold mb-2">
                         手取り月収を入力してください
                         <span className="text-red-500 ml-1">*</span>
@@ -133,7 +133,7 @@ export default function RentalPlannerForm() {
             )}
 
             {!isStudentMode && recommendedRent && (
-                <div className="bg-primary-50 dark:bg-primary-900/30 p-4 rounded-xl border border-primary-100 dark:border-primary-800">
+                <div className="bg-primary-50 dark:bg-primary-900/30 p-4 rounded-xl border border-primary-100 dark:border-primary-800 animate-fadeIn">
                     <p className="text-sm text-primary-600 dark:text-primary-300 font-bold mb-1">
                         あなたにおすすめの家賃目安
                     </p>
@@ -144,7 +144,7 @@ export default function RentalPlannerForm() {
             )}
 
             {!isStudentMode && (
-                <div>
+                <div className="animate-fadeIn">
                     <label className="block text-lg font-bold mb-3">家族構成</label>
                     <div className="grid grid-cols-2 gap-3">
                         {[
@@ -175,7 +175,7 @@ export default function RentalPlannerForm() {
 
     // Step 2: エリア選択
     const renderStep2 = () => (
-        <div className="space-y-6 animate-fadeIn">
+        <div key="step2" className="space-y-6 animate-fadeIn">
             <h3 className="text-lg font-bold">興味のある都道府県を選んでください（複数可）</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {PREFECTURE_LABELS.map((pref) => {
@@ -230,7 +230,7 @@ export default function RentalPlannerForm() {
         ]
 
         return (
-            <div className="space-y-8 animate-fadeIn">
+            <div key="step3" className="space-y-8 animate-fadeIn">
                 <h3 className="text-lg font-bold">重視するポイントを選んでください</h3>
                 
                 {categories.map((cat) => {
@@ -245,7 +245,7 @@ export default function RentalPlannerForm() {
                     if (displayKeys.length === 0) return null
 
                     return (
-                        <div key={cat.title}>
+                        <div key={cat.title} className="animate-fadeIn">
                             <h4 className="text-sm font-bold text-gray-500 dark:text-gray-400 mb-3 border-l-4 border-primary-500 pl-3">
                                 {cat.title}
                             </h4>
