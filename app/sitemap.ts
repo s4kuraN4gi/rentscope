@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next'
 import prefecturesData from '@/data/prefectures.json'
 
+export const runtime = 'edge'
+
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://rentscope.jp'
 
