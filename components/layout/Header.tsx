@@ -49,17 +49,17 @@ export default function Header() {
 
                 {/* モバイルメニュー */}
                 {isMenuOpen && (
-                    <div className="md:hidden mt-4 space-y-2">
-                        <Link href="/" className="block py-2 hover:text-primary-600 transition-colors">
+                    <div className="md:hidden mt-4 grid grid-cols-2 gap-3 pb-4">
+                        <Link href="/" className="block py-3 px-4 text-center rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-primary-50 dark:hover:bg-gray-700 hover:text-primary-600 transition-colors">
                             ホーム
                         </Link>
-                        <Link href="/prefecture" className="block py-2 hover:text-primary-600 transition-colors">
+                        <Link href="/prefecture" className="block py-3 px-4 text-center rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-primary-50 dark:hover:bg-gray-700 hover:text-primary-600 transition-colors">
                             都道府県別
                         </Link>
-                        <Link href="/about" className="block py-2 hover:text-primary-600 transition-colors">
+                        <Link href="/about" className="block py-3 px-4 text-center rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-primary-50 dark:hover:bg-gray-700 hover:text-primary-600 transition-colors">
                             使い方
                         </Link>
-                        <Link href="/contact" className="block py-2 hover:text-primary-600 transition-colors">
+                        <Link href="/contact" className="block py-3 px-4 text-center rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-primary-50 dark:hover:bg-gray-700 hover:text-primary-600 transition-colors">
                             お問い合わせ
                         </Link>
                     </div>
