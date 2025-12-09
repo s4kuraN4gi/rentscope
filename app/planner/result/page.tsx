@@ -149,19 +149,27 @@ function ResultContent() {
         <div className="container mx-auto px-4 py-8 max-w-4xl space-y-12 animate-fadeIn">
             
             {/* 総合コメント */}
-            {result.aiAdvice?.summary && (
-                <div className="bg-gradient-to-r from-indigo-50 to-primary-50 dark:from-indigo-900/20 dark:to-primary-900/20 p-6 rounded-2xl border border-primary-100 dark:border-primary-800 shadow-sm">
-                    <div className="flex gap-4 items-start">
-                        <div className="text-4xl">🤖</div>
-                        <div>
-                            <h3 className="font-bold text-lg mb-2 text-indigo-900 dark:text-indigo-200">AIコンシェルジュより</h3>
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
+            {/* 総合コメント */}
+            <div className="bg-gradient-to-r from-indigo-50 to-primary-50 dark:from-indigo-900/20 dark:to-primary-900/20 p-6 rounded-2xl border border-primary-100 dark:border-primary-800 shadow-sm min-h-[140px]">
+                <div className="flex gap-4 items-start">
+                    <div className="text-4xl">🤖</div>
+                    <div className="w-full">
+                        <h3 className="font-bold text-lg mb-2 text-indigo-900 dark:text-indigo-200">AIコンシェルジュより</h3>
+                        {result.aiAdvice ? (
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed font-medium animate-fadeIn">
                                 {result.aiAdvice.summary}
                             </p>
-                        </div>
+                        ) : (
+                            <div className="space-y-2 animate-pulse">
+                                <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-full"></div>
+                                <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-[90%]"></div>
+                                <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-[80%]"></div>
+                                <p className="text-xs text-primary-500 font-medium pt-2">AIが詳細なアドバイスを生成中...</p>
+                            </div>
+                        )}
                     </div>
                 </div>
-            )}
+            </div>
 
             {/* 第1位（ベストマッチ） */}
             {bestArea ? (
@@ -212,12 +220,20 @@ function ResultContent() {
                             </div>
 
                             {/* AIコメント */}
-                            <div className="bg-indigo-50 dark:bg-indigo-900/30 p-6 rounded-2xl relative mb-8">
+                            <div className="bg-indigo-50 dark:bg-indigo-900/30 p-6 rounded-2xl relative mb-8 min-h-[120px]">
                                 <div className="absolute -top-3 left-8 w-6 h-6 bg-indigo-50 dark:bg-indigo-900/30 transform rotate-45"></div>
                                 <h4 className="font-bold text-indigo-900 dark:text-indigo-200 mb-2">💡 おすすめポイント</h4>
-                                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                                    {result.aiAdvice?.area1_comment || bestArea.description}
-                                </p>
+                                {result.aiAdvice ? (
+                                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed animate-fadeIn">
+                                        {result.aiAdvice.area1_comment}
+                                    </p>
+                                ) : (
+                                    <div className="space-y-2 animate-pulse mt-4">
+                                        <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-full"></div>
+                                        <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-[95%]"></div>
+                                        <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-[90%]"></div>
+                                    </div>
+                                )}
                             </div>
 
                             {/* アクションボタン */}
@@ -274,9 +290,19 @@ function ResultContent() {
                                 <p className="text-3xl font-bold text-primary-600 mb-4">
                                     {(area.averageRent / 10000).toFixed(1)}<span className="text-sm text-gray-500 font-normal">万円</span>
                                 </p>
-                                <p className="text-sm text-gray-600 dark:text-gray-400 mb-6 bg-gray-50 dark:bg-gray-900/50 p-4 rounded-lg">
-                                    {idx === 0 ? result.aiAdvice?.area2_comment : result.aiAdvice?.area3_comment || area.description}
-                                </p>
+                                <div className="text-sm text-gray-600 dark:text-gray-400 mb-6 bg-gray-50 dark:bg-gray-900/50 p-4 rounded-lg min-h-[100px]">
+                                    {result.aiAdvice ? (
+                                        <p className="animate-fadeIn">
+                                            {idx === 0 ? result.aiAdvice.area2_comment : result.aiAdvice.area3_comment}
+                                        </p>
+                                    ) : (
+                                        <div className="space-y-2 animate-pulse">
+                                            <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-full"></div>
+                                            <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-[90%]"></div>
+                                            <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-[80%]"></div>
+                                        </div>
+                                    )}
+                                </div>
                                 <a 
                                     href={`https://www.google.com/search?q=${encodeURIComponent(area.prefecture + area.name + " 賃貸")}`}
                                     target="_blank"
