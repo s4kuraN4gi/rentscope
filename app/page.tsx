@@ -15,7 +15,7 @@ export default function Home() {
                     <span className="bg-primary-500 rounded-full px-2 py-0.5 text-xs font-bold">New</span>
                     <span>AIがあなたの理想の街をご提案 v2.0.2 ({timestamp})</span>
                 </div>
-                <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
+                <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
                     <span className="md:hidden block">
                         <span className="block">最適な暮らし、</span>
                         <span className="block">見つけよう。</span>
