@@ -17,8 +17,8 @@ export default function Home() {
                 </div>
                 <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
                     <span className="md:hidden block">
-                        <span className="inline-block">最適な暮らし、</span><br />
-                        <span className="inline-block">見つけよう。</span>
+                        <span className="block">最適な暮らし、</span>
+                        <span className="block">見つけよう。</span>
                     </span>
                     <span className="hidden md:inline">
                         最適な暮らし、見つけよう。
