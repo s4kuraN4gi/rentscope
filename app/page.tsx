@@ -17,30 +17,26 @@ export default function Home() {
                 </div>
                 <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
                     <span className="md:hidden block">
-                        <span className="block">手取り月収から、</span>
-                        <span className="block">あなたが「無理なく</span>
-                        <span className="block">住める街」を</span>
-                        <span className="block">AIが即座に診断。</span>
+                        <span className="block">給料を入力。</span>
+                        <span className="block">住める街がわかる。</span>
                     </span>
                     <span className="hidden md:inline">
-                        手取り月収から、<br />
-                        あなたが「無理なく住める街」を<br />
-                        AIが即座に診断。
+                        給料を入力。<br />
+                        住める街がわかる。
                     </span>
                 </h1>
                 
                 {/* モバイル用テキスト */}
                 <p className="md:hidden text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
-                    6万件の家賃データから、<br />
-                    コスパの良い穴場エリアを<br />
-                    導き出します。<br />
-                    もう、家賃で悩みたくないあなたへ。
+                    AIがあなたの適正家賃と<br />
+                    穴場エリアを即座に診断。<br />
+                    失敗しないお部屋探しをサポートします。
                 </p>
 
                 {/* デスクトップ用テキスト */}
                 <p className="hidden md:block text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-                    6万件の家賃データから、コスパの良い穴場エリアを導き出します。<br />
-                    もう、家賃で悩みたくないあなたへ。
+                    AIがあなたの適正家賃と穴場エリアを即座に診断。<br />
+                    失敗しないお部屋探しをサポートします。
                 </p>
 
                 {/* ヘッダー下広告 */}
@@ -55,34 +51,50 @@ export default function Home() {
                 <RentalPlannerForm />
             </section>
 
-            {/* こんな方におすすめ */}
-            <section className="mb-20 px-4">
-                <div className="bg-slate-50 dark:bg-slate-800/50 rounded-3xl p-8 md:p-12 max-w-5xl mx-auto border border-slate-100 dark:border-slate-700">
-                    <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">RentScopeはこんな方におすすめ</h2>
-                    <div className="grid md:grid-cols-3 gap-6">
-                        <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 text-center">
-                            <div className="text-4xl mb-4">🎓</div>
-                            <h3 className="font-bold mb-2">初めての一人暮らし</h3>
-                            <p className="text-sm text-slate-600 dark:text-slate-300">
-                                「手取り20万でいくらの家に住める？」<br />
-                                誰も教えてくれない適正家賃がわかります。
-                            </p>
+            {/* こんな方におすすめ（チャット形式） */}
+            <section className="mb-24 px-4">
+                <div className="max-w-4xl mx-auto">
+                    <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">RentScopeはこんな悩みを解決します</h2>
+                    <div className="space-y-8">
+                        {/* Case 1 */}
+                        <div className="flex items-start gap-4">
+                            <div className="text-4xl flex-shrink-0 bg-white dark:bg-slate-800 p-2 rounded-full shadow-sm">🎓</div>
+                            <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl rounded-tl-none shadow-md border border-slate-100 dark:border-slate-700 flex-grow max-w-2xl relative">
+                                <h3 className="font-bold text-primary-600 mb-2">初めての一人暮らし</h3>
+                                <p className="font-bold text-slate-800 dark:text-slate-200 mb-2">「手取り20万なんですが、いくらの家に住めばいいですか？」</p>
+                                <div className="bg-primary-50 dark:bg-slate-700 p-3 rounded-lg text-sm text-slate-600 dark:text-slate-300">
+                                    <span className="font-bold mr-2">✅ AIの回答:</span>
+                                    手取りの25~30%が目安です。5~6万円台で治安が良く、通勤しやすいエリアをご提案します！
+                                </div>
+                            </div>
                         </div>
-                        <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 text-center">
-                            <div className="text-4xl mb-4">📉</div>
-                            <h3 className="font-bold mb-2">家賃を見直したい</h3>
-                            <p className="text-sm text-slate-600 dark:text-slate-300">
-                                今の家賃が高すぎると感じていませんか？<br />
-                                生活レベルを落とさずに安く住める街見つかります。
-                            </p>
+
+                        {/* Case 2 */}
+                        <div className="flex items-start gap-4 justify-end">
+                            <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl rounded-tr-none shadow-md border border-slate-100 dark:border-slate-700 flex-grow max-w-2xl relative text-right">
+                                <div className="text-left">
+                                     <h3 className="font-bold text-indigo-600 mb-2">家賃を見直したい</h3>
+                                    <p className="font-bold text-slate-800 dark:text-slate-200 mb-2">「今の家賃が高くて貯金ができない…」</p>
+                                    <div className="bg-indigo-50 dark:bg-slate-700 p-3 rounded-lg text-sm text-slate-600 dark:text-slate-300 text-left">
+                                        <span className="font-bold mr-2">✅ AIの回答:</span>
+                                        生活レベルを落とさずに、家賃だけを1〜2万円下げられる「穴場駅」を見つけましょう。
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="text-4xl flex-shrink-0 bg-white dark:bg-slate-800 p-2 rounded-full shadow-sm">📉</div>
                         </div>
-                        <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 text-center">
-                            <div className="text-4xl mb-4">⚖️</div>
-                            <h3 className="font-bold mb-2">コスパ重視の学生さん</h3>
-                            <p className="text-sm text-slate-600 dark:text-slate-300">
-                                仕送りやバイト代の範囲内で、<br />
-                                学校に通いやすく治安の良いエリアを提案します。
-                            </p>
+
+                        {/* Case 3 */}
+                        <div className="flex items-start gap-4">
+                            <div className="text-4xl flex-shrink-0 bg-white dark:bg-slate-800 p-2 rounded-full shadow-sm">⚖️</div>
+                            <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl rounded-tl-none shadow-md border border-slate-100 dark:border-slate-700 flex-grow max-w-2xl relative">
+                                <h3 className="font-bold text-pink-600 mb-2">コスパ重視の学生さん</h3>
+                                <p className="font-bold text-slate-800 dark:text-slate-200 mb-2">「バイト代だけで住める、安くて安全な街はありますか？」</p>
+                                <div className="bg-pink-50 dark:bg-slate-700 p-3 rounded-lg text-sm text-slate-600 dark:text-slate-300">
+                                    <span className="font-bold mr-2">✅ AIの回答:</span>
+                                    学生モードで予算を指定してください！学校へのアクセスも考慮してベストな街を探します。
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
