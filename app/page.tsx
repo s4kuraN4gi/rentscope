@@ -35,7 +35,7 @@ export default function Home() {
                 </p>
 
                 {/* デスクトップ用テキスト */}
-                <p className="hidden md:block text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                <p className="hidden md:block text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto mb-10 leading-relaxed">
                     給料とライフスタイルを入力するだけ。<br />
                     膨大なデータとAI分析で、あなたが最も幸せに暮らせる街を導き出します。
                 </p>
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
 
             {/* メインコンテンツ（診断フォーム） */}
-            <section className="max-w-4xl mx-auto mb-24 relative z-0">
+            <section className="max-w-4xl mx-auto mb-24 relative z-0 overflow-hidden">
                 {/* 背景装飾 */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-primary-200/20 via-indigo-200/20 to-pink-200/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
                 
