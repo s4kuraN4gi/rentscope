@@ -52,6 +52,7 @@ function ResultContent() {
                 await new Promise(r => setTimeout(r, 600))
                 setLoadingStage(2)
 
+                // 1. エリア選定API（高速）
                 const res = await fetch('/api/planner', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -59,14 +60,40 @@ function ResultContent() {
                 })
 
                 if (!res.ok) throw new Error('診断に失敗しました')
+                const initialData = await res.json()
+                
+                // 初回データをセット（AIアドバイスなし）
+                setResult(initialData)
 
+                // データがなければここで終了
+                if (!initialData.topAreas || initialData.topAreas.length === 0) return
+
+                // 2. AIアドバイスAPI（低速・非同期）
                 setLoadingStage(3)
-                const data = await res.json()
                 
-                // AI分析演出のため少し待つ
-                await new Promise(r => setTimeout(r, 800))
+                // 演出のため少し待つのは削除（即時リクエスト開始）
+                // await new Promise(r => setTimeout(r, 800))
                 
-                setResult(data)
+                try {
+                    const adviceRes = await fetch('/api/planner/advice', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            topAreas: initialData.topAreas,
+                            features: payload.features,
+                            isStudent: payload.isStudent
+                        }),
+                    })
+
+                    if (adviceRes.ok) {
+                        const { aiAdvice } = await adviceRes.json()
+                        setResult(prev => prev ? { ...prev, aiAdvice } : null)
+                    }
+                } catch (aiError) {
+                    console.error('AI Advice Error:', aiError)
+                    // AIエラー時は何もしない（エリア情報だけで表示）
+                }
+
             } catch (err) {
                 console.error(err)
                 setError('データの取得中にエラーが発生しました')
