@@ -16,26 +16,35 @@ export default function AboutPage() {
                 {/* 使い方 */}
                 <section className="glass rounded-2xl p-8">
                     <h2 className="text-2xl font-bold mb-4">🔍 使い方</h2>
-                    <ol className="space-y-4">
+                    <ol className="space-y-6">
                         <li className="flex items-start">
-                            <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">1</span>
+                            <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 font-bold">1</span>
                             <div>
-                                <h3 className="font-semibold text-lg">月収を入力</h3>
-                                <p className="text-gray-600 dark:text-gray-300">手取り額を入力してください</p>
+                                <h3 className="font-semibold text-lg mb-1">基本情報を入力</h3>
+                                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                                    <span className="font-bold text-primary-600">通常モード:</span> 月収（手取り）を入力すると、家賃目安を自動計算します。<br />
+                                    <span className="font-bold text-indigo-600">学生モード:</span> 予算を直接指定して探すことができます。
+                                </p>
                             </div>
                         </li>
                         <li className="flex items-start">
-                            <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">2</span>
+                            <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 font-bold">2</span>
                             <div>
-                                <h3 className="font-semibold text-lg">家族構成を選択</h3>
-                                <p className="text-gray-600 dark:text-gray-300">一人暮らしか家族暮らしかを選択</p>
+                                <h3 className="font-semibold text-lg mb-1">エリアと条件を選択</h3>
+                                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                                    住みたい都道府県を選び、「コスパ重視」「治安重視」などの<span className="font-bold">こだわり条件</span>を選択してください。
+                                    AIがあなたの好みに合わせた街を提案します。
+                                </p>
                             </div>
                         </li>
                         <li className="flex items-start">
-                            <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">3</span>
+                            <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 font-bold">3</span>
                             <div>
-                                <h3 className="font-semibold text-lg">分析結果を確認</h3>
-                                <p className="text-gray-600 dark:text-gray-300">推奨家賃、住めるエリア、収入アップ目標を確認</p>
+                                <h3 className="font-semibold text-lg mb-1">AI分析結果を確認</h3>
+                                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                                    おすすめの街ランキングと、AIコンシェルジュによる詳しい解説が表示されます。
+                                    気になった街はSUUMOで実際の物件を探せます。
+                                </p>
                             </div>
                         </li>
                     </ol>
