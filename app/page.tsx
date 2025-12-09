@@ -16,9 +16,9 @@ export default function Home() {
                     <span>AIがあなたの理想の街をご提案 v2.0.2 ({timestamp})</span>
                 </div>
                 <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
-                    <span className="md:hidden">
-                        最適な暮らし、<br />
-                        見つけよう。
+                    <span className="md:hidden block">
+                        <span className="inline-block">最適な暮らし、</span><br />
+                        <span className="inline-block">見つけよう。</span>
                     </span>
                     <span className="hidden md:inline">
                         最適な暮らし、見つけよう。
