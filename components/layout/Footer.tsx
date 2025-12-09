@@ -27,7 +27,7 @@ export default function Footer() {
                     {/* リンク */}
                     <div>
                         <h4 className="font-semibold mb-4">リンク</h4>
-                        <ul className="grid grid-cols-2 gap-2">
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             <li>
                                 <Link href="/" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
                                     ホーム

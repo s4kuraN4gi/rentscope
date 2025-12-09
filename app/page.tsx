@@ -16,14 +16,28 @@ export default function Home() {
                     <span>AIがあなたの理想の街をご提案 v2.0.2 ({timestamp})</span>
                 </div>
                 <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight bg-gradient-to-r from-primary-600 via-indigo-600 to-indigo-400 bg-clip-text text-transparent pb-1">
-                    最適な暮らし、<br className="md:hidden" />
-                    見つけよう。
+                    <span className="md:hidden">
+                        最適な暮らし、<br />
+                        見つけよう。
+                    </span>
+                    <span className="hidden md:inline">
+                        最適な暮らし、見つけよう。
+                    </span>
                 </h1>
-                <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                
+                {/* モバイル用テキスト */}
+                <p className="md:hidden text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                    給料とライフスタイルを<br />
+                    入力するだけ。<br />
+                    膨大なデータとAI分析で、<br />
+                    あなたが最も幸せに暮らせる街を<br />
+                    導き出します
+                </p>
+
+                {/* デスクトップ用テキスト */}
+                <p className="hidden md:block text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
                     給料とライフスタイルを入力するだけ。<br />
-                    <span className="inline-block">膨大なデータとAI分析で、</span>
-                    <span className="inline-block">あなたが最も幸せに暮らせる街を</span>
-                    <span className="inline-block">導き出します。</span>
+                    膨大なデータとAI分析で、あなたが最も幸せに暮らせる街を導き出します。
                 </p>
 
                 {/* ヘッダー下広告 */}
