@@ -21,7 +21,9 @@ export default function Home() {
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
                     給料とライフスタイルを入力するだけ。<br />
-                    膨大なデータとAI分析で、あなたが最も幸せに暮らせる街を<span className="inline-block">導き出します。</span>
+                    <span className="inline-block">膨大なデータとAI分析で、</span>
+                    <span className="inline-block">あなたが最も幸せに暮らせる街を</span>
+                    <span className="inline-block">導き出します。</span>
                 </p>
 
                 {/* ヘッダー下広告 */}

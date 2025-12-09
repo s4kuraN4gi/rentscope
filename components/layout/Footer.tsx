@@ -27,7 +27,7 @@ export default function Footer() {
                     {/* リンク */}
                     <div>
                         <h4 className="font-semibold mb-4">リンク</h4>
-                        <ul className="space-y-2">
+                        <ul className="grid grid-cols-2 gap-2">
                             <li>
                                 <Link href="/" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
                                     ホーム
@@ -50,7 +50,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link href="/privacy" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
-                                    プライバシーポリシー
+                                    プライバシー
                                 </Link>
                             </li>
                             <li>
