@@ -55,6 +55,7 @@ async function findAffordableAreas(maxRent: number, location?: string, features:
     return allAreas
         .filter(area => {
             // 家賃条件
+            if (area.averageRent <= 0) return false
             if (area.averageRent > maxRent) return false
             // エリア条件(指定がある場合)
             if (location && !area.prefecture.includes(location) && !area.name.includes(location)) return false

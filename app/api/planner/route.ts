@@ -47,6 +47,7 @@ async function findTopAreas(
         prefecture.areas.forEach((area) => {
             // 家賃フィルター（家賃が安すぎる＝質が低い可能性もあるので、下限は緩く、上限は厳しく）
             // ここでは簡易的に「平均家賃が予算上限以下」かつ「予算下限の-2万以上」とする
+            if (area.averageRent <= 0) return
             if (area.averageRent > maxRent) return
             // if (area.averageRent < minRent - 20000) return 
 

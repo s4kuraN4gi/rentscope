@@ -272,25 +272,25 @@ function AreaCard({ area }: { area: Area }) {
                                         <tr>
                                             <td className="px-4 py-3">ワンルーム / 1K</td>
                                             <td className="px-4 py-3 text-right font-semibold">
-                                                {area.rentByRoomType.oneRoom ? area.rentByRoomType.oneRoom.toLocaleString() + '円' : '-'}
+                                                {(area.rentByRoomType.oneRoom && area.rentByRoomType.oneRoom > 0) ? area.rentByRoomType.oneRoom.toLocaleString() + '円' : '-'}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td className="px-4 py-3">1LDK / 2K</td>
                                             <td className="px-4 py-3 text-right font-semibold">
-                                                {area.rentByRoomType.oneLDK ? area.rentByRoomType.oneLDK.toLocaleString() + '円' : '-'}
+                                                {(area.rentByRoomType.oneLDK && area.rentByRoomType.oneLDK > 0) ? area.rentByRoomType.oneLDK.toLocaleString() + '円' : '-'}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td className="px-4 py-3">2LDK / 3K</td>
                                             <td className="px-4 py-3 text-right font-semibold">
-                                                {area.rentByRoomType.twoLDK ? area.rentByRoomType.twoLDK.toLocaleString() + '円' : '-'}
+                                                {(area.rentByRoomType.twoLDK && area.rentByRoomType.twoLDK > 0) ? area.rentByRoomType.twoLDK.toLocaleString() + '円' : '-'}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td className="px-4 py-3">3LDK / 4K~</td>
                                             <td className="px-4 py-3 text-right font-semibold">
-                                                {area.rentByRoomType.threeLDK ? area.rentByRoomType.threeLDK.toLocaleString() + '円' : '-'}
+                                                {(area.rentByRoomType.threeLDK && area.rentByRoomType.threeLDK > 0) ? area.rentByRoomType.threeLDK.toLocaleString() + '円' : '-'}
                                             </td>
                                         </tr>
                                     </tbody>
@@ -338,12 +338,18 @@ function AreaCard({ area }: { area: Area }) {
                 {/* メイン: 家賃レンジ */}
                 <div className="mb-4">
                     <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">家賃相場</p>
-                    <p className="text-2xl font-bold text-primary-600">
-                        {(area.minRent / 10000).toFixed(1)}
-                        <span className="text-sm text-gray-500 font-normal mx-1">〜</span>
-                        {(area.maxRent / 10000).toFixed(1)}
-                        <span className="text-sm text-gray-500 font-normal ml-1">万円</span>
-                    </p>
+                    {area.minRent > 0 && area.maxRent > 0 ? (
+                        <p className="text-2xl font-bold text-primary-600">
+                            {(area.minRent / 10000).toFixed(1)}
+                            <span className="text-sm text-gray-500 font-normal mx-1">〜</span>
+                            {(area.maxRent / 10000).toFixed(1)}
+                            <span className="text-sm text-gray-500 font-normal ml-1">万円</span>
+                        </p>
+                    ) : (
+                        <p className="text-xl font-bold text-gray-400">
+                            データなし
+                        </p>
+                    )}
                 </div>
 
                 {/* ボディ: 説明文チラ見せ */}

@@ -154,7 +154,12 @@ function ResultContent() {
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
                                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-xl text-center">
                                     <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">平均家賃</p>
-                                    <p className="text-xl font-bold text-primary-600">{(bestArea.averageRent / 10000).toFixed(1)}万円</p>
+                                    <p className="text-xl font-bold text-primary-600">
+                                        {bestArea.averageRent > 0 
+                                            ? `${(bestArea.averageRent / 10000).toFixed(1)}万円` 
+                                            : 'データなし'
+                                        }
+                                    </p>
                                 </div>
 
                                 <div className="col-span-2 bg-gray-50 dark:bg-gray-700 p-4 rounded-xl">
