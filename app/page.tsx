@@ -119,7 +119,7 @@ export default function Home() {
             </section>
 
             {/* 特徴セクション */}
-            <section className="text-center mb-20">
+            <section className="text-center mb-24">
                 <h2 className="text-3xl font-bold mb-12">RentScopeの3つの特徴</h2>
                 <div className="grid md:grid-cols-3 gap-8">
                     <FeatureCard
@@ -137,6 +137,94 @@ export default function Home() {
                         title="見落としていた街を発見"
                         description="検索条件だけでは出会えなかった、あなたにとっての穴場スポットが見つかります"
                     />
+                </div>
+            </section>
+
+            {/* コンセプト / 読みものセクション（SEO・AdSense対策） */}
+            <section className="mb-24 px-4">
+                <div className="max-w-4xl mx-auto space-y-16">
+                    
+                    {/* Why RentScope? */}
+                    <div className="bg-white dark:bg-slate-800 p-8 md:p-12 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-700">
+                        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-800 dark:text-slate-100">
+                            なぜ「手取り」から家を探すのか？
+                        </h2>
+                        <div className="space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed text-lg">
+                            <p>
+                                従来の賃貸探しは「このエリアに住みたい」という場所ありきで始まることがほとんどでした。
+                                しかし、人気のエリアは当然家賃も高く、知らず知らずのうちに<strong>「家賃貧乏」</strong>に陥ってしまう人が後を絶ちません。
+                            </p>
+                            <p>
+                                RentScopeは、発想を逆転させました。
+                                <br/>
+                                <strong>「あなたの生活レベルを守れる適正家賃はいくらか？」</strong>
+                                <br/>
+                                まずここを出発点とし、その予算内で最もQOL（生活の質）が高くなる街をAIが世界中から探し出します。
+                            </p>
+                            <p>
+                                ただ安いだけの街ではありません。治安、アクセスの良さ、そして街の雰囲気。
+                                あなたがまだ知らない、けれど住めばきっと好きになる。そんな「穴場」との出会いを提供します。
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Usage Guide */}
+                    <div>
+                        <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center text-slate-800 dark:text-slate-100">
+                            RentScopeの使い方
+                        </h2>
+                        <div className="grid md:grid-cols-3 gap-8">
+                            <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-100 dark:border-slate-800">
+                                <div className="text-primary-600 font-bold text-xl mb-3">STEP 1</div>
+                                <h3 className="font-bold text-lg mb-2">手取り月収を入力</h3>
+                                <p className="text-slate-600 dark:text-slate-400">
+                                    まずはあなたの手取り月収を入力してください。AIが生活費をシミュレーションし、無理のない家賃上限を算出します。
+                                </p>
+                            </div>
+                            <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-100 dark:border-slate-800">
+                                <div className="text-primary-600 font-bold text-xl mb-3">STEP 2</div>
+                                <h3 className="font-bold text-lg mb-2">条件をリクエスト</h3>
+                                <p className="text-slate-600 dark:text-slate-400">
+                                    「30分以内で通勤したい」「治安重視」「おしゃれなカフェがある」など、あなたのわがままをAIに伝えてください。
+                                </p>
+                            </div>
+                            <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-100 dark:border-slate-800">
+                                <div className="text-primary-600 font-bold text-xl mb-3">STEP 3</div>
+                                <h3 className="font-bold text-lg mb-2">穴場エリアを発見</h3>
+                                <p className="text-slate-600 dark:text-slate-400">
+                                    AIが条件に合致する「コスパ最強」の街を提案。なぜ選ばれたのかという理由とともに、あなたにお届けします。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* FAQ */}
+                    <div className="bg-slate-50 dark:bg-slate-800/20 p-8 md:p-12 rounded-3xl">
+                        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center text-slate-800 dark:text-slate-100">
+                            よくある質問
+                        </h2>
+                        <div className="space-y-6">
+                            <div className="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700">
+                                <h3 className="font-bold text-lg mb-2 text-slate-800 dark:text-slate-100">Q. 利用にお金はかかりますか？</h3>
+                                <p className="text-slate-600 dark:text-slate-300">
+                                    A. いいえ、RentScopeは完全無料でご利用いただけます。何度でも診断を試して、納得のいくお部屋探しにお役立てください。
+                                </p>
+                            </div>
+                            <div className="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700">
+                                <h3 className="font-bold text-lg mb-2 text-slate-800 dark:text-slate-100">Q. 提案された家賃は管理費込みですか？</h3>
+                                <p className="text-slate-600 dark:text-slate-300">
+                                    A. はい、基本的に管理費・共益費を含んだ「支払い総額」の目安として提示しています。実際の物件ごとの詳細な金額は、不動産サイト等でご確認ください。
+                                </p>
+                            </div>
+                            <div className="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700">
+                                <h3 className="font-bold text-lg mb-2 text-slate-800 dark:text-slate-100">Q. 対応しているエリアはどこですか？</h3>
+                                <p className="text-slate-600 dark:text-slate-300">
+                                    A. 現在は東京・大阪・神奈川・埼玉・千葉などの主要都市圏を中心にデータを強化していますが、日本全国のデータに基づいた推論が可能です。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 

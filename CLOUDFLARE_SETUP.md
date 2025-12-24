@@ -48,5 +48,17 @@
 
 ---
 
-**次のステップ:**
 VPS を構築してタイルサーバーを立ち上げたら、Cloudflare の DNS 設定でサブドメイン（例: `tiles.rentscope.com`）を VPS の IP アドレスに向け、Page Rules でキャッシュ設定を行います（詳細は `OPS_MAP_SETUP.md` 参照）。
+
+## 6. Google AdSense / Bot 設定（重要）
+
+Google AdSense の審査ロボットやクローラーが Cloudflare の WAF (Web Application Firewall) によってブロックされるのを防ぐため、以下の設定が必要です。
+
+1.  **Bot Fight Mode**: `Security` > `Bots` で **OFF** に設定（無料版の場合）。
+2.  **WAF ホワイトリストルールの作成**:
+    - `Security` > `WAF` > `Custom rules` で「Create rule」をクリック。
+    - **Name**: `Allow AdSense`
+    - **Field**: `ASN` equals `15169` (Google)
+    - **Action**: `Skip`
+    - **Components to skip**: `All managed rules`, `All super bot fight mode rules`, `All rate limiting rules`.
+    - これにより、Google からのアクセスのみ WAF を通過させることができます。
