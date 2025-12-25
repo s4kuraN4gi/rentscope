@@ -1,0 +1,373 @@
+{
+  "id": 13,
+  "name": "静岡県",
+  "slug": "shizuoka",
+  "region": "中部",
+  "averageRent": 58000,
+  "latitude": 34.9756,
+  "longitude": 138.3828,
+  "population": 3600000,
+  "description": "富士山を望む日本の東西結節点。温暖な気候と豊かな産業。",
+  "areas": [
+    {
+      "name": "静岡市葵区",
+      "averageRent": 65000,
+      "minRent": 62600,
+      "maxRent": 146200,
+      "latitude": 34.97,
+      "longitude": 138.38,
+      "nearestStation": "静岡",
+      "distanceToStation": 10,
+      "description": "県庁や静岡駅がある行政・商業の中心地。アーケード街「呉服町」など繁華街が賑わう一方、駿府城公園などの歴史スポットも。北部は南アルプスまで続く広大な山間部で、自然も豊かです。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 62600,
+        "oneLDK": 84800,
+        "twoLDK": 111400,
+        "threeLDK": 146200
+      }
+    },
+    {
+      "name": "静岡市駿河区",
+      "averageRent": 60000,
+      "minRent": 58500,
+      "maxRent": 121800,
+      "latitude": 34.95,
+      "longitude": 138.4,
+      "nearestStation": "静岡",
+      "distanceToStation": 15,
+      "description": "静岡大学があり、学生が多い文教エリア。登呂遺跡などの史跡も点在。東名高速のインターチェンジがあり、車での移動が便利。海岸線からは富士山を望む絶景スポットがあります。",
+      "features": ["student_friendly", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 58500,
+        "oneLDK": 72200,
+        "twoLDK": 108900,
+        "threeLDK": 121800
+      }
+    },
+    {
+      "name": "静岡市清水区",
+      "averageRent": 58000,
+      "minRent": 56000,
+      "maxRent": 113600,
+      "latitude": 35.01,
+      "longitude": 138.49,
+      "nearestStation": "清水",
+      "distanceToStation": 10,
+      "description": "ちびまる子ちゃんの舞台として有名。清水港は国際貿易港で、マグロの水揚げ日本一。「エスパルスドリームプラザ」など海沿いの商業施設が人気。三保の松原は世界遺産構成資産です。",
+      "features": ["culture", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 56000,
+        "oneLDK": 72100,
+        "twoLDK": 78800,
+        "threeLDK": 113600
+      }
+    },
+    {
+      "name": "浜松市中央区",
+      "averageRent": 60000,
+      "minRent": 53000,
+      "maxRent": 128500,
+      "latitude": 34.71,
+      "longitude": 137.73,
+      "nearestStation": "浜松",
+      "distanceToStation": 10,
+      "description": "政令指定都市・浜松の中心。浜松駅周辺はアクトシティなど高層ビルが立ち並びます。音楽の街として知られ、楽器メーカーの本社が多数。新幹線利用者も多く、東西へのアクセスが良好です。",
+      "features": ["access_good", "culture", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 53000,
+        "oneLDK": 71200,
+        "twoLDK": 95700,
+        "threeLDK": 128500
+      }
+    },
+    {
+      "name": "浜松市浜名区",
+      "averageRent": 55000,
+      "minRent": 47900,
+      "maxRent": 80000,
+      "latitude": 34.8,
+      "longitude": 137.75,
+      "nearestStation": "浜北",
+      "distanceToStation": 10,
+      "description": "旧浜北区を含むエリア。「浜北森林公園」など緑が多く、子育て世代に人気。ショッピングモール「プレ葉ウォーク浜北」があり、生活に便利。遠州鉄道が通っており、中心部への通勤も可能です。",
+      "features": ["child_rearing", "nature", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 47900,
+        "oneLDK": 62100,
+        "twoLDK": 62400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "沼津市",
+      "averageRent": 55000,
+      "minRent": 52100,
+      "maxRent": 71200,
+      "latitude": 35.1,
+      "longitude": 138.86,
+      "nearestStation": "沼津",
+      "distanceToStation": 10,
+      "description": "県東部の中心都市。沼津港は新鮮な魚介類を楽しめる観光地として大人気。アニメ「ラブライブ！サンシャイン!!」の聖地。伊豆半島の玄関口でもあり、海と山のアクティビティが身近です。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 52100,
+        "oneLDK": 68700,
+        "twoLDK": 68800,
+        "threeLDK": 71200
+      }
+    },
+    {
+      "name": "三島市",
+      "averageRent": 60000,
+      "minRent": 54300,
+      "maxRent": 80100,
+      "latitude": 35.12,
+      "longitude": 138.91,
+      "nearestStation": "三島",
+      "distanceToStation": 10,
+      "description": "新幹線通勤者のベッドタウンとして人気。品川まで最短37分。湧水が豊かな「水の都」で、三嶋大社などの歴史的スポットも。駅周辺は整備され、治安も良く、落ち着いた暮らしができる街です。",
+      "features": ["access_good", "nature", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 54300,
+        "oneLDK": 74800,
+        "twoLDK": 80100,
+        "threeLDK": 65400
+      }
+    },
+    {
+      "name": "富士市",
+      "averageRent": 50000,
+      "minRent": 47000,
+      "maxRent": 73200,
+      "latitude": 35.16,
+      "longitude": 138.68,
+      "nearestStation": "富士",
+      "distanceToStation": 15,
+      "description": "富士山のお膝元。製紙業が盛んな工業都市。「富士山夢の大橋」などフォトスポットも多数。新幹線新富士駅があり、車社会ですが道が広くて運転しやすい。物価も比較的安く住みやすい街です。",
+      "features": ["nature", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 47000,
+        "oneLDK": 54700,
+        "twoLDK": 62400,
+        "threeLDK": 73200
+      }
+    },
+    {
+      "name": "磐田市",
+      "averageRent": 50000,
+      "minRent": 42300,
+      "maxRent": 63600,
+      "latitude": 34.71,
+      "longitude": 137.85,
+      "nearestStation": "磐田",
+      "distanceToStation": 15,
+      "description": "ジュビロ磐田のホームタウンとして知られるスポーツの街。ヤマハ発動機の本社があり、製造業が盛ん。子育て支援が手厚く、公園も多いのでファミリー層に支持されています。",
+      "features": ["child_rearing", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 42300,
+        "oneLDK": 63600,
+        "twoLDK": 63000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "掛川市",
+      "averageRent": 50000,
+      "minRent": 40100,
+      "maxRent": 85200,
+      "latitude": 34.77,
+      "longitude": 138.01,
+      "nearestStation": "掛川",
+      "distanceToStation": 10,
+      "description": "掛川城がシンボルの城下町。新幹線停車駅で交通の便が良い。お茶の産地として有名で、茶畑の風景が広がります。「掛川花鳥園」は大人気スポット。歴史と自然、利便性が調和した街です。",
+      "features": ["history_culture", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 40100,
+        "oneLDK": 53800,
+        "twoLDK": 85200,
+        "threeLDK": 78600
+      }
+    },
+    {
+      "name": "藤枝市",
+      "averageRent": 55000,
+      "minRent": 48900,
+      "maxRent": 87600,
+      "latitude": 34.87,
+      "longitude": 138.25,
+      "nearestStation": "藤枝",
+      "distanceToStation": 10,
+      "description": "「サッカーのまち」として有名。静岡市のベッドタウンとして発展し、人口が増加傾向にあります。駅周辺の再開発が進み、映画館を含む複合施設も。活気があり、若い世代も多いエリアです。",
+      "features": ["child_rearing", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 48900,
+        "oneLDK": 70100,
+        "twoLDK": 77000,
+        "threeLDK": 87600
+      }
+    },
+    {
+      "name": "焼津市",
+      "averageRent": 50000,
+      "minRent": 44300,
+      "maxRent": 77300,
+      "latitude": 34.87,
+      "longitude": 138.32,
+      "nearestStation": "焼津",
+      "distanceToStation": 10,
+      "description": "全国有数の水揚げ量を誇る焼津港がある漁業の街。新鮮な魚が安く手に入ります。「焼津さかなセンター」は観光客で賑わいます。温泉施設も多く、海産物と温泉を楽しみたい人におすすめ。",
+      "features": ["cost_performance", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 44300,
+        "oneLDK": 64100,
+        "twoLDK": 77300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "御殿場市",
+      "averageRent": 60000,
+      "minRent": 55300,
+      "maxRent": 76900,
+      "latitude": 35.3,
+      "longitude": 138.93,
+      "nearestStation": "御殿場",
+      "distanceToStation": 15,
+      "description": "富士山の東麓に位置する高原都市。「御殿場プレミアム・アウトレット」は日本最大級。避暑地としても人気で、夏は涼しいですが、冬は雪が降ることも。自衛隊の駐屯地があり、独特の活気があります。",
+      "features": ["shopping_convenient", "nature", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": 65600,
+        "twoLDK": 76900,
+        "threeLDK": 68500
+      }
+    },
+    {
+      "name": "熱海市",
+      "averageRent": 60000,
+      "minRent": 55000,
+      "maxRent": 70000,
+      "latitude": 35.09,
+      "longitude": 139.07,
+      "nearestStation": "熱海",
+      "distanceToStation": 10,
+      "description": "日本を代表する温泉リゾート。新幹線で東京から約45分と近く、二拠点生活や移住先として再注目されています。坂が多いですが、海と山に囲まれた眺望は最高。レトロな商店街もおしゃれに進化中。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "伊東市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 34.97,
+      "longitude": 139.09,
+      "nearestStation": "伊東",
+      "distanceToStation": 10,
+      "description": "伊豆半島の東海岸に位置する温泉観光地。「伊豆シャボテン公園」などレジャー施設が豊富。気候が温暖で、老後の移住先としても人気。新鮮な海の幸と温泉が日常にある贅沢な暮らしができます。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "袋井市",
+      "averageRent": 50000,
+      "minRent": 46800,
+      "maxRent": 65400,
+      "latitude": 34.75,
+      "longitude": 137.92,
+      "nearestStation": "袋井",
+      "distanceToStation": 15,
+      "description": "東海道の宿場町として栄えた歴史ある街。「エコパスタジアム」があり、大規模イベントが開催されます。メロンの栽培が盛ん。全体的に平坦で住みやすく、のどかな田園風景と都市機能が程よく混在しています。",
+      "features": ["cost_performance", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 46800,
+        "oneLDK": 57600,
+        "twoLDK": 65400,
+        "threeLDK": 64700
+      }
+    },
+    {
+      "name": "富士宮市",
+      "averageRent": 50000,
+      "minRent": 42800,
+      "maxRent": 62900,
+      "latitude": 35.22,
+      "longitude": 138.61,
+      "nearestStation": "富士宮",
+      "distanceToStation": 10,
+      "description": "富士山本宮浅間大社の門前町。「富士宮やきそば」で全国的に有名。富士山の構成資産である白糸の滝など観光名所も。水が綺麗で、キャンプ場も多く、アウトドア好きにはたまらない環境です。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 42800,
+        "oneLDK": 54900,
+        "twoLDK": 62900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "裾野市",
+      "averageRent": 55000,
+      "minRent": 45100,
+      "maxRent": 73700,
+      "latitude": 35.17,
+      "longitude": 138.9,
+      "nearestStation": "裾野",
+      "distanceToStation": 15,
+      "description": "富士山の裾野に広がる街。トヨタ自動車の未来都市「ウーブン・シティ」の建設地として世界中から注目されています。先端技術と豊かな自然が融合する、将来性が非常に高いエリアです。",
+      "features": ["nature", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 45100,
+        "oneLDK": 58500,
+        "twoLDK": 66900,
+        "threeLDK": 73700
+      }
+    },
+    {
+      "name": "湖西市",
+      "averageRent": 55000,
+      "minRent": 44100,
+      "maxRent": 92000,
+      "latitude": 34.72,
+      "longitude": 137.53,
+      "nearestStation": "鷲津",
+      "distanceToStation": 15,
+      "description": "静岡県の最西端、浜名湖の西岸に位置します。トヨタグループ創始者の豊田佐吉の出身地で、自動車産業が盛ん。浜松や豊橋（愛知県）への通勤圏。釣りやマリンスポーツが身近に楽しめます。",
+      "features": ["nature", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 44100,
+        "oneLDK": 59000,
+        "twoLDK": 62500,
+        "threeLDK": 92000
+      }
+    },
+    {
+      "name": "伊豆の国市",
+      "averageRent": 50000,
+      "minRent": 43300,
+      "maxRent": 65200,
+      "latitude": 35.04,
+      "longitude": 138.94,
+      "nearestStation": "伊豆長岡",
+      "distanceToStation": 15,
+      "description": "伊豆長岡温泉があり、世界遺産「韮山反射炉」などの史跡も豊富。イチゴ狩りが楽しめます。伊豆箱根鉄道で三島まで出れば新幹線も利用可能。温泉情緒あふれる静かな街です。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 43300,
+        "oneLDK": 57400,
+        "twoLDK": 65200,
+        "threeLDK": null
+      }
+    }
+  ]
+}

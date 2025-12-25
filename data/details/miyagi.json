@@ -1,0 +1,283 @@
+{
+  "id": 11,
+  "name": "宮城県",
+  "slug": "miyagi",
+  "region": "東北",
+  "averageRent": 58000,
+  "latitude": 38.2682,
+  "longitude": 140.8694,
+  "population": 2280000,
+  "description": "杜の都・仙台を中心とした東北の経済・文化の要衝。",
+  "areas": [
+    {
+      "name": "仙台市青葉区",
+      "averageRent": 75000,
+      "minRent": 60000,
+      "maxRent": 188700,
+      "latitude": 38.26,
+      "longitude": 140.87,
+      "nearestStation": "仙台",
+      "distanceToStation": 5,
+      "description": "仙台市の中心。仙台駅、国分町、東北大学などを擁し、ビジネス・商業・学術の中核です。広瀬川や青葉山など「杜の都」らしい自然も豊か。家賃は高いですが、東北で最も都会的な生活が送れます。",
+      "features": ["access_good", "shopping_convenient", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 60000,
+        "oneLDK": 100700,
+        "twoLDK": 155100,
+        "threeLDK": 188700
+      }
+    },
+    {
+      "name": "仙台市宮城野区",
+      "averageRent": 63000,
+      "minRent": 58700,
+      "maxRent": 120300,
+      "latitude": 38.27,
+      "longitude": 140.92,
+      "nearestStation": "宮城野原",
+      "distanceToStation": 10,
+      "description": "楽天モバイルパーク宮城がある野球の街。仙台港周辺にはアウトレットモールや水族館があり、レジャー施設が充実。仙台駅東口の再開発により、人気が急上昇しているエリアです。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 58700,
+        "oneLDK": 79900,
+        "twoLDK": 110100,
+        "threeLDK": 120300
+      }
+    },
+    {
+      "name": "仙台市若林区",
+      "averageRent": 65000,
+      "minRent": 60000,
+      "maxRent": 159000,
+      "latitude": 38.24,
+      "longitude": 140.9,
+      "nearestStation": "河原町",
+      "distanceToStation": 10,
+      "description": "地下鉄東西線の開通で利便性が飛躍的に向上。卸町駅周辺はおしゃれな街へと変貌中。昔ながらの田園風景と新しい住宅街が共存し、静かで住みやすい環境が整っています。",
+      "features": ["cost_performance", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 60000,
+        "oneLDK": 88600,
+        "twoLDK": 142900,
+        "threeLDK": 159000
+      }
+    },
+    {
+      "name": "仙台市太白区",
+      "averageRent": 62000,
+      "minRent": 58800,
+      "maxRent": 137400,
+      "latitude": 38.22,
+      "longitude": 140.86,
+      "nearestStation": "長町",
+      "distanceToStation": 10,
+      "description": "副都心「長町」エリアが特に人気。IKEAや大型モールがあり、仙台駅までも地下鉄・JRですぐ。秋保温泉もこの区にあり、週末は気軽に温泉へ。ファミリー層からの支持が厚いエリアです。",
+      "features": ["child_rearing", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 58800,
+        "oneLDK": 74400,
+        "twoLDK": 117900,
+        "threeLDK": 137400
+      }
+    },
+    {
+      "name": "仙台市泉区",
+      "averageRent": 60000,
+      "minRent": 55200,
+      "maxRent": 104800,
+      "latitude": 38.33,
+      "longitude": 140.88,
+      "nearestStation": "泉中央",
+      "distanceToStation": 5,
+      "description": "仙台のベッドタウンとして発展。地下鉄南北線の始発駅「泉中央」周辺は商業施設が充実し、非常に便利。泉パークタウンなど美しい街並みの住宅地が多く、子育て環境としてブランド力があります。",
+      "features": ["child_rearing", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 55200,
+        "oneLDK": 72600,
+        "twoLDK": 97200,
+        "threeLDK": 104800
+      }
+    },
+    {
+      "name": "名取市",
+      "averageRent": 65000,
+      "minRent": 53300,
+      "maxRent": 92200,
+      "latitude": 38.17,
+      "longitude": 140.89,
+      "nearestStation": "名取",
+      "distanceToStation": 10,
+      "description": "仙台空港がある街。「イオンモール名取」は東北最大級の規模。JR名取駅から仙台駅まで約15分と近く、空港アクセス線も使えて便利。震災復興で新しい街並みが生まれ、若い世代が増えています。",
+      "features": ["access_good", "shopping_convenient", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 53300,
+        "oneLDK": 74600,
+        "twoLDK": 92200,
+        "threeLDK": 88900
+      }
+    },
+    {
+      "name": "多賀城市",
+      "averageRent": 55000,
+      "minRent": 51100,
+      "maxRent": 69800,
+      "latitude": 38.29,
+      "longitude": 141.0,
+      "nearestStation": "多賀城",
+      "distanceToStation": 10,
+      "description": "仙台市の北東に隣接するベッドタウン。「多賀城市立図書館」は蔦屋書店が入るおしゃれなスポットとして全国的に有名。JR仙石線で仙台中心部へアクセスしやすく、歴史と文化が香る街です。",
+      "features": ["culture", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51100,
+        "oneLDK": 58500,
+        "twoLDK": 69800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "石巻市",
+      "averageRent": 50000,
+      "minRent": 45200,
+      "maxRent": 58200,
+      "latitude": 38.43,
+      "longitude": 141.3,
+      "nearestStation": "石巻",
+      "distanceToStation": 15,
+      "description": "宮城県第二の都市。石ノ森萬画館があり「マンガの街」として知られます。世界三大漁場の一つ、金華山沖の恩恵を受ける水産都市。復興が進み、新しい公共施設や商業施設が整備されています。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45200,
+        "oneLDK": 50700,
+        "twoLDK": 58200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "塩竈市",
+      "averageRent": 50000,
+      "minRent": 44000,
+      "maxRent": 66600,
+      "latitude": 38.31,
+      "longitude": 141.02,
+      "nearestStation": "塩釜",
+      "distanceToStation": 10,
+      "description": "「寿司の街」として知られ、人口あたりの寿司屋数が日本一とも。塩竈神社などの歴史あるスポットも。仙台へのアクセスも良く、美味しい魚を食べながら落ち着いて暮らしたい人にぴったり。",
+      "features": ["culture", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 44000,
+        "oneLDK": 58400,
+        "twoLDK": 66600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "岩沼市",
+      "averageRent": 50000,
+      "minRent": 48400,
+      "maxRent": 59800,
+      "latitude": 38.1,
+      "longitude": 140.87,
+      "nearestStation": "岩沼",
+      "distanceToStation": 10,
+      "description": "仙台空港の南側に位置し、交通の便が良い街。竹駒神社は東北有数の参拝客数を誇ります。コンパクトシティ化が進んでおり、生活機能が中心部に集まっていて便利。子育て支援にも力を入れています。",
+      "features": ["access_good", "child_rearing", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 48400,
+        "oneLDK": 52500,
+        "twoLDK": 59800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大崎市",
+      "averageRent": 50000,
+      "minRent": 45500,
+      "maxRent": 63500,
+      "latitude": 38.57,
+      "longitude": 140.95,
+      "nearestStation": "古川",
+      "distanceToStation": 15,
+      "description": "県北部の中心都市。古川駅は新幹線停車駅で、仙台まで15分と通勤圏内。「あ・ら・伊達な道の駅」は全国屈指の人気。鳴子温泉郷を擁し、休日には温泉巡りを楽しめます。",
+      "features": ["nature", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45500,
+        "oneLDK": 52100,
+        "twoLDK": 63500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "富谷市",
+      "averageRent": 60000,
+      "minRent": 55000,
+      "maxRent": 70000,
+      "latitude": 38.39,
+      "longitude": 140.88,
+      "nearestStation": "泉中央（バス移動）",
+      "distanceToStation": 20,
+      "description": "近年市制施行した、全国で最も若い街の一つ。人口増加率が高く、新しい住宅地が広がります。コストコ富谷倉庫店があり、買い物環境は抜群。ファミリー層が多く、活気があふれています。",
+      "features": ["child_rearing", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "気仙沼市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 38.9,
+      "longitude": 141.57,
+      "nearestStation": "気仙沼",
+      "distanceToStation": 15,
+      "description": "世界に知られる漁業の街。フカヒレの生産量は日本一。NHK朝ドラ「おかえりモネ」の舞台。海と共に生きる独自の文化があり、地域の絆が強いエリア。美味しい海産物が日常の食卓を彩ります。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "白石市",
+      "averageRent": 50000,
+      "minRent": 46100,
+      "maxRent": 68200,
+      "latitude": 38.0,
+      "longitude": 140.62,
+      "nearestStation": "白石蔵王",
+      "distanceToStation": 15,
+      "description": "県最南端に位置する城下町。白石城や武家屋敷など歴史的な情緒があります。新幹線停車駅があり、東京へのアクセスも可能。蔵王山麓の豊かな自然に囲まれ、四季の移ろいを感じられます。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 46100,
+        "oneLDK": 48000,
+        "twoLDK": 50200,
+        "threeLDK": 68200
+      }
+    },
+    {
+      "name": "東松島市",
+      "averageRent": 50000,
+      "minRent": 46300,
+      "maxRent": 53000,
+      "latitude": 38.42,
+      "longitude": 141.21,
+      "nearestStation": "矢本",
+      "distanceToStation": 15,
+      "description": "ブルーインパルスの本拠地、松島基地がある街。航空ファンにはたまりません。野蒜海岸など美しい海岸線があり、自然環境も良好。石巻と仙台の中間に位置し、両方面へのアクセスが可能です。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 46300,
+        "oneLDK": 48100,
+        "twoLDK": 53000,
+        "threeLDK": null
+      }
+    }
+  ]
+}

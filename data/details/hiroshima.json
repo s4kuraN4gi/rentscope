@@ -1,0 +1,355 @@
+{
+  "id": 12,
+  "name": "広島県",
+  "slug": "hiroshima",
+  "region": "中国",
+  "averageRent": 60000,
+  "latitude": 34.3853,
+  "longitude": 132.4553,
+  "population": 2800000,
+  "description": "平和都市ヒロシマ。瀬戸内の穏やかな気候と都市機能が調和。",
+  "areas": [
+    {
+      "name": "広島市中区",
+      "averageRent": 70000,
+      "minRent": 63900,
+      "maxRent": 155400,
+      "latitude": 34.39,
+      "longitude": 132.46,
+      "nearestStation": "八丁堀",
+      "distanceToStation": 5,
+      "description": "広島市の中心部。紙屋町・八丁堀のビジネス街や、中四国最大の繁華街・流川があります。平和記念公園もこの区に。路面電車が走り、利便性は抜群。家賃は高いですが、職住近接が叶うエリアです。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 63900,
+        "oneLDK": 88700,
+        "twoLDK": 120100,
+        "threeLDK": 155400
+      }
+    },
+    {
+      "name": "広島市東区",
+      "averageRent": 60000,
+      "minRent": 58700,
+      "maxRent": 127000,
+      "latitude": 34.4,
+      "longitude": 132.48,
+      "nearestStation": "広島",
+      "distanceToStation": 5,
+      "description": "広島駅の新幹線口（北口）側を含むエリア。再開発で新しいホテルや商業施設が増えています。牛田地区などは閑静な住宅街として人気。中心部へのアクセスと住環境のバランスが良いです。",
+      "features": ["access_good", "shopping_convenient", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 58700,
+        "oneLDK": 76400,
+        "twoLDK": 127000,
+        "threeLDK": 111900
+      }
+    },
+    {
+      "name": "広島市南区",
+      "averageRent": 65000,
+      "minRent": 61300,
+      "maxRent": 127800,
+      "latitude": 34.37,
+      "longitude": 132.47,
+      "nearestStation": "広島",
+      "distanceToStation": 5,
+      "description": "広島駅の南口側やマツダスタジアムがある活気あるエリア。宇品地区には大型ショッピングモールや港があり、海を感じられます。広島大学霞キャンパスもあり、学生や医療関係者にも人気。",
+      "features": ["shopping_convenient", "access_good", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 61300,
+        "oneLDK": 78400,
+        "twoLDK": 127800,
+        "threeLDK": 124500
+      }
+    },
+    {
+      "name": "広島市西区",
+      "averageRent": 60000,
+      "minRent": 54600,
+      "maxRent": 130500,
+      "latitude": 34.39,
+      "longitude": 132.42,
+      "nearestStation": "横川",
+      "distanceToStation": 5,
+      "description": "JR横川駅や西広島駅があり、交通の便が良いエリア。「アルパーク」や「LECT」などの大型商業施設が充実しており、ファミリー層に非常に人気。平坦な場所が多く、自転車移動も快適です。",
+      "features": ["shopping_convenient", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 54600,
+        "oneLDK": 77300,
+        "twoLDK": 106800,
+        "threeLDK": 130500
+      }
+    },
+    {
+      "name": "広島市安佐南区",
+      "averageRent": 55000,
+      "minRent": 47300,
+      "maxRent": 95700,
+      "latitude": 34.45,
+      "longitude": 132.47,
+      "nearestStation": "大町",
+      "distanceToStation": 10,
+      "description": "アストラムライン沿線に広がるニュータウン。広島市内でも特に人口が多く、子育て世帯が密集しています。広島修道大学などの大学もあり、学生向け物件も豊富。家賃相場と利便性のバランスが絶妙。",
+      "features": ["child_rearing", "student_friendly", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 72300,
+        "twoLDK": 88500,
+        "threeLDK": 95700
+      }
+    },
+    {
+      "name": "広島市安佐北区",
+      "averageRent": 50000,
+      "minRent": 43300,
+      "maxRent": 70400,
+      "latitude": 34.51,
+      "longitude": 132.5,
+      "nearestStation": "可部",
+      "distanceToStation": 15,
+      "description": "自然豊かで落ち着いたエリア。可部線が延伸され、交通利便性が少し向上しました。広々とした一戸建てやアパートが多く、静かな環境で子育てしたい人に適しています。家賃は非常にリーズナブル。",
+      "features": ["nature", "cost_performance", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 43300,
+        "oneLDK": 55700,
+        "twoLDK": 59500,
+        "threeLDK": 70400
+      }
+    },
+    {
+      "name": "広島市佐伯区",
+      "averageRent": 55000,
+      "minRent": 49100,
+      "maxRent": 98500,
+      "latitude": 34.37,
+      "longitude": 132.35,
+      "nearestStation": "五日市",
+      "distanceToStation": 10,
+      "description": "「コイン通り」の商店街が有名。西のベッドタウンとして発展し、広電とJRの両方が使えます。「ジ・アウトレット広島」へのアクセスも良好。湯来温泉など豊かな自然も背後に控えています。",
+      "features": ["shopping_convenient", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 49100,
+        "oneLDK": 62400,
+        "twoLDK": 73900,
+        "threeLDK": 98500
+      }
+    },
+    {
+      "name": "広島市安芸区",
+      "averageRent": 50000,
+      "minRent": 45600,
+      "maxRent": 67800,
+      "latitude": 34.37,
+      "longitude": 132.53,
+      "nearestStation": "海田市",
+      "distanceToStation": 10,
+      "description": "広島市の東の入り口。JR山陽本線が通り、広島駅までのアクセスが良いベッドタウン。瀬野川沿いの散歩道など自然も残っています。家賃相場が安く、コストパフォーマンス重視の人におすすめ。",
+      "features": ["cost_performance", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 45600,
+        "oneLDK": 62500,
+        "twoLDK": 66700,
+        "threeLDK": 67800
+      }
+    },
+    {
+      "name": "福山市",
+      "averageRent": 55000,
+      "minRent": 47000,
+      "maxRent": 94600,
+      "latitude": 34.48,
+      "longitude": 133.36,
+      "nearestStation": "福山",
+      "distanceToStation": 10,
+      "description": "広島県第二の都市。新幹線「のぞみ」の一部が停車し、大阪方面へのアクセスも便利。鉄鋼業などの産業が盛ん。鞆の浦など観光名所もあり、都会的な機能と観光地の魅力が融合した住みやすい街です。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 47000,
+        "oneLDK": 57700,
+        "twoLDK": 74000,
+        "threeLDK": 94600
+      }
+    },
+    {
+      "name": "呉市",
+      "averageRent": 55000,
+      "minRent": 53300,
+      "maxRent": 84700,
+      "latitude": 34.24,
+      "longitude": 132.56,
+      "nearestStation": "呉",
+      "distanceToStation": 10,
+      "description": "戦艦大和の建造地として知られる港町。「大和ミュージアム」や海上自衛隊の艦船が見える公園など、独自の雰囲気があります。広島市への通勤圏でもあり、海を眺めながらの生活が楽しめます。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 53300,
+        "oneLDK": 63500,
+        "twoLDK": 84700,
+        "threeLDK": 83700
+      }
+    },
+    {
+      "name": "東広島市",
+      "averageRent": 55000,
+      "minRent": 55500,
+      "maxRent": 75200,
+      "latitude": 34.42,
+      "longitude": 132.74,
+      "nearestStation": "西条",
+      "distanceToStation": 10,
+      "description": "伏見・灘と並ぶ酒どころ「西条」で有名。広島大学のキャンパスがあり、学園都市として活気があります。若い世代が多く、飲食店やスーパーも充実。新幹線東広島駅もあり、広域アクセスも可能です。",
+      "features": ["student_friendly", "culture", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 55500,
+        "oneLDK": 66400,
+        "twoLDK": 65200,
+        "threeLDK": 75200
+      }
+    },
+    {
+      "name": "尾道市",
+      "averageRent": 55000,
+      "minRent": 48500,
+      "maxRent": 99200,
+      "latitude": 34.4,
+      "longitude": 133.19,
+      "nearestStation": "尾道",
+      "distanceToStation": 15,
+      "description": "映画の舞台として有名な坂の街。瀬戸内しまなみ海道の起点で、サイクリストの聖地。ノスタルジックな街並みと新しいおしゃれなお店が混在し、移住者にも大人気のエリアです。",
+      "features": ["culture", "nature", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 48500,
+        "oneLDK": 63700,
+        "twoLDK": 66400,
+        "threeLDK": 99200
+      }
+    },
+    {
+      "name": "廿日市市",
+      "averageRent": 55000,
+      "minRent": 47300,
+      "maxRent": 91700,
+      "latitude": 34.34,
+      "longitude": 132.33,
+      "nearestStation": "宮島口",
+      "distanceToStation": 10,
+      "description": "世界遺産「宮島」の対岸に位置する街。「けん玉」発祥の地。広島市の西のベッドタウンとして人気で、ショッピングモールも充実。海と山に囲まれ、自然と利便性が調和した住みやすい環境。",
+      "features": ["nature", "culture", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 61800,
+        "twoLDK": 91700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "三原市",
+      "averageRent": 50000,
+      "minRent": 48300,
+      "maxRent": 71000,
+      "latitude": 34.4,
+      "longitude": 133.08,
+      "nearestStation": "三原",
+      "distanceToStation": 10,
+      "description": "交通の要衝で、新幹線停車駅と広島空港へのアクセス拠点を持ちます。タコ料理が名物。城下町の風情も残り、落ち着いた雰囲気。瀬戸内の多島美を望めるスポットが多くあります。",
+      "features": ["access_good", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 48300,
+        "oneLDK": 71000,
+        "twoLDK": 67200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大竹市",
+      "averageRent": 50000,
+      "minRent": 47000,
+      "maxRent": 56300,
+      "latitude": 34.21,
+      "longitude": 132.22,
+      "nearestStation": "大竹",
+      "distanceToStation": 15,
+      "description": "山口県との県境に位置する工業都市。工場夜景が美しく、近年注目されています。広島市や岩国市へのアクセスが良く、通勤圏内。自然も豊かで、釣りなどのレジャーも楽しめます。",
+      "features": ["cost_performance", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 47000,
+        "oneLDK": 56300,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "竹原市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 34.34,
+      "longitude": 132.91,
+      "nearestStation": "竹原",
+      "distanceToStation": 15,
+      "description": "「安芸の小京都」と呼ばれる美しい町並み保存地区があります。アニメ「たまゆら」の舞台。ウサギの島「大久野島」への玄関口。歴史と癒やしを感じながらスローライフを送りたい人に。",
+      "features": ["culture", "nature", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "府中市",
+      "averageRent": 40000,
+      "minRent": 36200,
+      "maxRent": 48500,
+      "latitude": 34.56,
+      "longitude": 133.23,
+      "nearestStation": "府中",
+      "distanceToStation": 15,
+      "description": "家具の街として有名。「府中家具」や「府中味噌」など伝統産業が息づいています。お好み焼きの中でもひき肉を使う「府中焼き」は絶品。内陸部にあり、災害が少なく安心して暮らせる街。",
+      "features": ["culture", "cost_performance", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 36200,
+        "oneLDK": 42500,
+        "twoLDK": 48500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "三次市",
+      "averageRent": 50000,
+      "minRent": 44800,
+      "maxRent": 60100,
+      "latitude": 34.8,
+      "longitude": 132.85,
+      "nearestStation": "三次",
+      "distanceToStation": 15,
+      "description": "県北部の中心都市。ワイナリーや広大な公園があり、自然と共生した暮らしができます。江の川の鵜飼など伝統行事も。高速道路のインターチェンジがあり、車での県内移動は比較的便利です。",
+      "features": ["nature", "child_rearing", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 44800,
+        "oneLDK": null,
+        "twoLDK": 60100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "江田島市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 34.2,
+      "longitude": 132.48,
+      "nearestStation": "中町港（船移動）",
+      "distanceToStation": 20,
+      "description": "瀬戸内海に浮かぶ島々の街。広島市からフェリーですぐの距離にありながら、リゾートのような非日常感を味わえます。サイクリングやマリンスポーツが盛ん。海辺で静かに暮らしたい人に最適。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

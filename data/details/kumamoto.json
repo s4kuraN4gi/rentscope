@@ -1,0 +1,319 @@
+{
+  "id": 15,
+  "name": "熊本県",
+  "slug": "kumamoto",
+  "region": "九州",
+  "averageRent": 50000,
+  "latitude": 32.7898,
+  "longitude": 130.7416,
+  "population": 1730000,
+  "description": "火の国・熊本。世界的な半導体産業の集積地として急成長中。",
+  "areas": [
+    {
+      "name": "熊本市中央区",
+      "averageRent": 75000,
+      "minRent": 51800,
+      "maxRent": 135700,
+      "latitude": 32.8,
+      "longitude": 130.7,
+      "nearestStation": "通町筋",
+      "distanceToStation": 5,
+      "description": "熊本城のお膝元。上通・下通という巨大なアーケード街があり、九州でも屈指の繁華街です。サクラマチクマモトなどの再開発も進み、利便性は抜群。都市機能と歴史が融合した活気あるエリア。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 51800,
+        "oneLDK": 65800,
+        "twoLDK": 96000,
+        "threeLDK": 135700
+      }
+    },
+    {
+      "name": "熊本市東区",
+      "averageRent": 70000,
+      "minRent": 42200,
+      "maxRent": 125600,
+      "latitude": 32.79,
+      "longitude": 130.75,
+      "nearestStation": "健軍町",
+      "distanceToStation": 10,
+      "description": "熊本市内で最も人口が多い住宅地。陸上自衛隊の駐屯地や県民総合運動公園があります。TSMC工場がある菊陽町へのアクセスが良いため、関連企業の従業員にも人気のエリアです。",
+      "features": ["child_rearing", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 42200,
+        "oneLDK": 67400,
+        "twoLDK": 100400,
+        "threeLDK": 125600
+      }
+    },
+    {
+      "name": "熊本市西区",
+      "averageRent": 65000,
+      "minRent": 49600,
+      "maxRent": 149400,
+      "latitude": 32.78,
+      "longitude": 130.68,
+      "nearestStation": "熊本",
+      "distanceToStation": 5,
+      "description": "熊本駅周辺の再開発で激変したエリア。「アミュプラザくまもと」ができ、買い物や食事が便利になりました。新幹線利用が多い人には最高の立地。金峰山などの自然も身近です。",
+      "features": ["access_good", "shopping_convenient", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 49600,
+        "oneLDK": 63700,
+        "twoLDK": 115700,
+        "threeLDK": 149400
+      }
+    },
+    {
+      "name": "熊本市南区",
+      "averageRent": 55000,
+      "minRent": 45300,
+      "maxRent": 61000,
+      "latitude": 32.75,
+      "longitude": 130.68,
+      "nearestStation": "西熊本",
+      "distanceToStation": 10,
+      "description": "イオンモール熊本などの大型商業施設があり、ファミリー層に人気。西熊本駅周辺は公共施設も整っています。農業も盛んで、のんびりとした雰囲気と利便性のバランスが良い街。",
+      "features": ["child_rearing", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45300,
+        "oneLDK": 57900,
+        "twoLDK": 61000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "熊本市北区",
+      "averageRent": 55000,
+      "minRent": 54700,
+      "maxRent": 87400,
+      "latitude": 32.85,
+      "longitude": 130.7,
+      "nearestStation": "植木",
+      "distanceToStation": 15,
+      "description": "スイカの名産地として知られる植木地区などを擁するエリア。植木温泉は「美肌の湯」として有名。自然豊かで静かな住環境。家賃が比較的安く、広めの物件を探している人におすすめ。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 54700,
+        "oneLDK": 63800,
+        "twoLDK": 66900,
+        "threeLDK": 87400
+      }
+    },
+    {
+      "name": "合志市",
+      "averageRent": 70000,
+      "minRent": 61700,
+      "maxRent": 74700,
+      "latitude": 32.88,
+      "longitude": 130.78,
+      "nearestStation": "御代志",
+      "distanceToStation": 10,
+      "description": "半導体バブルで沸く菊陽町の隣で、ベッドタウンとして人気急上昇中。人口増加率が高く、新しい住宅や店舗が次々とできています。熊本電鉄で市内中心部へもアクセス可能。活気ある成長都市。",
+      "features": ["child_rearing", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 70800,
+        "oneLDK": 66600,
+        "twoLDK": 61700,
+        "threeLDK": 74700
+      }
+    },
+    {
+      "name": "八代市",
+      "averageRent": 55000,
+      "minRent": 54200,
+      "maxRent": 61400,
+      "latitude": 32.5,
+      "longitude": 130.6,
+      "nearestStation": "新八代",
+      "distanceToStation": 10,
+      "description": "県内第二の都市。新八代駅は新幹線停車駅で、博多や熊本市内へのアクセスが良好。いぐさの生産日本一。八代港には豪華客船も寄港します。歴史と産業が共存する落ち着いた街。",
+      "features": ["culture", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 54200,
+        "twoLDK": 61400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "荒尾市",
+      "averageRent": 45000,
+      "minRent": 43600,
+      "maxRent": 49400,
+      "latitude": 32.99,
+      "longitude": 130.43,
+      "nearestStation": "荒尾",
+      "distanceToStation": 10,
+      "description": "福岡県との県境に位置し、大牟田市と生活圏が一体化しています。グリーンランド（遊園地）があり、休日は賑わいます。万田坑は世界遺産。家賃が安く、福岡方面への通勤も可能な穴場エリア。",
+      "features": ["cost_performance", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 43600,
+        "oneLDK": 49400,
+        "twoLDK": 45300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宇土市",
+      "averageRent": 50000,
+      "minRent": 48000,
+      "maxRent": 54700,
+      "latitude": 32.69,
+      "longitude": 130.66,
+      "nearestStation": "宇土",
+      "distanceToStation": 10,
+      "description": "熊本市の南に隣接するベッドタウン。御輿来海岸（おこしきかいがん）の夕景は絶景スポットとして有名。宇土シティモールなどの商業施設があり、生活利便性は高いです。",
+      "features": ["shopping_convenient", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 48000,
+        "twoLDK": 54700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "玉名市",
+      "averageRent": 48000,
+      "minRent": 46500,
+      "maxRent": 49900,
+      "latitude": 32.93,
+      "longitude": 130.56,
+      "nearestStation": "玉名",
+      "distanceToStation": 10,
+      "description": "1300年の歴史を誇る玉名温泉で有名。新玉名駅があり、新幹線も利用可能。有明海に面し、海苔の養殖やトマト栽培も盛ん。温泉に癒やされながら静かに暮らせる街です。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 48300,
+        "oneLDK": 49900,
+        "twoLDK": 46500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宇城市",
+      "averageRent": 48000,
+      "minRent": 45200,
+      "maxRent": 51500,
+      "latitude": 32.65,
+      "longitude": 130.68,
+      "nearestStation": "松橋",
+      "distanceToStation": 10,
+      "description": "熊本市のベッドタウンとして発展。不知火海・有明海に面し、デコポンの発祥地。イオンモール宇城があり、日常の買い物に便利。自然豊かで、子育て世帯にも優しい環境です。",
+      "features": ["nature", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 45200,
+        "oneLDK": 47900,
+        "twoLDK": 51500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "水俣市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.21,
+      "longitude": 130.4,
+      "nearestStation": "新水俣",
+      "distanceToStation": 15,
+      "description": "「環境モデル都市」として再生に取り組む街。湯の児温泉・湯の鶴温泉があり、海と山の温泉を楽しめます。エコパーク水俣のバラ園は九州随一の規模。新幹線停車駅で鹿児島方面へのアクセスも便利。",
+      "features": ["nature", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "人吉市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.21,
+      "longitude": 130.76,
+      "nearestStation": "人吉温泉",
+      "distanceToStation": 15,
+      "description": "「九州の小京都」と呼ばれる城下町。球磨川下りや人吉温泉で知られる観光地。国宝・青井阿蘇神社など文化財も豊富。アニメ「夏目友人帳」のモデル地。歴史と自然に囲まれたスローライフに最適。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "天草市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.46,
+      "longitude": 130.19,
+      "nearestStation": "熊本駅からバス",
+      "distanceToStation": 90,
+      "description": "大小120の島々からなる諸島。「長崎と天草地方の潜伏キリシタン関連遺産」の世界遺産登録で注目。イルカウォッチングや新鮮な魚介類が魅力。海と共に生きる、穏やかで美しい暮らしがあります。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "阿蘇市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.94,
+      "longitude": 131.12,
+      "nearestStation": "阿蘇",
+      "distanceToStation": 15,
+      "description": "世界最大級のカルデラの中に位置する街。雄大な阿蘇五岳を望む景色は圧巻。阿蘇神社や内牧温泉など観光資源も豊富。大自然の中で農業やアウトドアを楽しみたい移住者に人気のエリアです。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "山鹿市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.01,
+      "longitude": 130.69,
+      "nearestStation": "新玉名（車移動）",
+      "distanceToStation": 30,
+      "description": "山鹿灯籠まつりで知られる歴史ある街。芝居小屋「八千代座」は国の重要文化財。まろやかな泉質の山鹿温泉・平山温泉があります。古き良き日本の風情が残り、落ち着いた時間を過ごせます。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "菊池市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.98,
+      "longitude": 130.81,
+      "nearestStation": "御代志（車移動）",
+      "distanceToStation": 20,
+      "description": "菊池渓谷の美しい水と緑に恵まれた街。美肌の湯として名高い菊池温泉があります。菊池一族の歴史ロマンも漂います。農業が盛んでお米やメロンが美味。半導体関連企業の進出で活気づいています。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

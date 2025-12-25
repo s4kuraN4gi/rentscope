@@ -1,0 +1,175 @@
+{
+  "id": 34,
+  "name": "大分県",
+  "slug": "oita",
+  "region": "九州",
+  "averageRent": 55000,
+  "latitude": 33.2382,
+  "longitude": 131.6126,
+  "population": 1120000,
+  "description": "日本一の「おんせん県」。別府、由布院など名湯がズラリ。",
+  "areas": [
+    {
+      "name": "大分市",
+      "averageRent": 65000,
+      "minRent": 44100,
+      "maxRent": 126200,
+      "latitude": 33.23,
+      "longitude": 131.61,
+      "nearestStation": "大分",
+      "distanceToStation": 5,
+      "description": "県庁所在地。JR大分駅周辺は再開発で「アミュプラザおおいた」などができ、非常に便利で綺麗。海と山に囲まれ、美味しい魚ととり天が楽しめます。温泉や公園も身近にあり、暮らしやすい街。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 44100,
+        "oneLDK": 66900,
+        "twoLDK": 74700,
+        "threeLDK": 126200
+      }
+    },
+    {
+      "name": "別府市",
+      "averageRent": 60000,
+      "minRent": 39300,
+      "maxRent": 72400,
+      "latitude": 33.28,
+      "longitude": 131.5,
+      "nearestStation": "別府",
+      "distanceToStation": 10,
+      "description": "源泉数・湧出量ともに日本一の温泉都市。街のあちこちから湯けむりが立ち上ります。「地獄めぐり」などの観光名所も。立命館アジア太平洋大学があり、国際色豊かな一面も。毎日温泉三昧の生活が叶います。",
+      "features": ["culture", "nature", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 39300,
+        "oneLDK": 70600,
+        "twoLDK": 72400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "由布市",
+      "averageRent": 60000,
+      "minRent": 50000,
+      "maxRent": 70000,
+      "latitude": 33.2,
+      "longitude": 131.36,
+      "nearestStation": "由布院",
+      "distanceToStation": 15,
+      "description": "全国的に有名な温泉地・由布院（湯布院）がある街。由布岳の麓に広がる田園風景とおしゃれな店が調和。観光地でありながら、静かで落ち着いた時間が流れます。自然の中で感性を磨きたい人に。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "中津市",
+      "averageRent": 55000,
+      "minRent": 46600,
+      "maxRent": 60300,
+      "latitude": 33.6,
+      "longitude": 131.19,
+      "nearestStation": "中津",
+      "distanceToStation": 10,
+      "description": "福沢諭吉の旧居がある歴史の街。「中津からあげ」の聖地として有名。ダイハツ九州の工場があり、産業も活発。北九州方面へのアクセスも便利。歴史とグルメと産業がバランス良い街。",
+      "features": ["history_culture", "culture", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 46600,
+        "oneLDK": 60300,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "日田市",
+      "averageRent": 55000,
+      "minRent": 56200,
+      "maxRent": 56500,
+      "latitude": 33.32,
+      "longitude": 130.94,
+      "nearestStation": "日田",
+      "distanceToStation": 10,
+      "description": "「天領日田」として栄えた歴史ある街。豆田町は重要伝統的建造物群保存地区。水郷としても知られ、夏は鵜飼いも。福岡へのアクセスが比較的良く、ベッドタウンとしても機能しています。",
+      "features": ["history_culture", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 56200,
+        "oneLDK": 56500,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "佐伯市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 32.96,
+      "longitude": 131.9,
+      "nearestStation": "佐伯",
+      "distanceToStation": 15,
+      "description": "九州一広い面積を持つ市。豊後水道の恵みを受けた「世界一の佐伯寿司」は絶品。リアス式海岸が美しく、釣りやマリンレジャーに最適。造船業も盛ん。食通と海好きにはたまらない街。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宇佐市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 33.53,
+      "longitude": 131.35,
+      "nearestStation": "宇佐",
+      "distanceToStation": 15,
+      "description": "全国4万社あまりの八幡宮の総本宮「宇佐神宮」があります。唐揚げ専門店発祥の地とも言われます。広大な平野が広がり、のんびりとした雰囲気。神聖な空気と美味しいグルメが魅力。",
+      "features": ["history_culture", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "竹田市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.97,
+      "longitude": 131.4,
+      "nearestStation": "豊後竹田",
+      "distanceToStation": 15,
+      "description": "「荒城の月」のモデルとなった岡城跡があります。城下町の風情が残る美しい街。長湯温泉などの炭酸泉が有名で、湯治客も訪れます。水と緑に囲まれた、静かで文化的な生活が送れます。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "杵築市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.41,
+      "longitude": 131.62,
+      "nearestStation": "杵築",
+      "distanceToStation": 15,
+      "description": "「サンドイッチ型城下町」として知られ、着物が似合う街並み。坂道が多く、風光明媚。大分空港に近く、空へのアクセスが良い。海産物も豊富で、安くて美味しい牡蠣などが楽しめます。",
+      "features": ["history_culture", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

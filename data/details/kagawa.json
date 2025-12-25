@@ -1,0 +1,157 @@
+{
+  "id": 16,
+  "name": "香川県",
+  "slug": "kagawa",
+  "region": "四国",
+  "averageRent": 50000,
+  "latitude": 34.3401,
+  "longitude": 134.0433,
+  "population": 950000,
+  "description": "うどん県として有名。瀬戸内の多島美と穏やかな気候が魅力。",
+  "areas": [
+    {
+      "name": "高松市",
+      "averageRent": 55000,
+      "minRent": 46900,
+      "maxRent": 94100,
+      "latitude": 34.34,
+      "longitude": 134.04,
+      "nearestStation": "高松",
+      "distanceToStation": 5,
+      "description": "四国の玄関口。サンポート高松などの再開発が進むウォーターフロントエリアと、日本一長いアーケード街が魅力。転勤族が多く、よそ者に優しい街風。栗林公園など緑も豊かです。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 46900,
+        "oneLDK": 60900,
+        "twoLDK": 67000,
+        "threeLDK": 94100
+      }
+    },
+    {
+      "name": "丸亀市",
+      "averageRent": 50000,
+      "minRent": 43000,
+      "maxRent": 117500,
+      "latitude": 34.29,
+      "longitude": 133.79,
+      "nearestStation": "丸亀",
+      "distanceToStation": 10,
+      "description": "現存天守12城の一つ、丸亀城の城下町。「骨付鳥」発祥の地。うちわの生産量日本一。瀬戸大橋の四国側基点に近く、岡山へのアクセスも便利。歴史と生活利便性が調和した街です。",
+      "features": ["culture", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 43000,
+        "oneLDK": 53200,
+        "twoLDK": 75100,
+        "threeLDK": 117500
+      }
+    },
+    {
+      "name": "坂出市",
+      "averageRent": 45000,
+      "minRent": 41300,
+      "maxRent": 73800,
+      "latitude": 34.31,
+      "longitude": 133.86,
+      "nearestStation": "坂出",
+      "distanceToStation": 10,
+      "description": "瀬戸大橋の四国側の玄関口。番の州工業地帯を擁する産業都市。JR快速マリンライナーの全列車が停車し、岡山まで約40分と通勤圏内。夕日が美しい瀬戸大橋記念公園は人気スポット。",
+      "features": ["access_good", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 41300,
+        "oneLDK": 42500,
+        "twoLDK": 59700,
+        "threeLDK": 73800
+      }
+    },
+    {
+      "name": "善通寺市",
+      "averageRent": 50000,
+      "minRent": 47800,
+      "maxRent": 61700,
+      "latitude": 34.22,
+      "longitude": 133.77,
+      "nearestStation": "善通寺",
+      "distanceToStation": 15,
+      "description": "弘法大師・空海の生誕地。総本山善通寺の門前町として栄えた歴史ある街。四国学院大学があり、学生も多い。コンパクトな文教都市で、静かで落ち着いた住環境が魅力。",
+      "features": ["culture", "student_friendly", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 47800,
+        "oneLDK": 51200,
+        "twoLDK": 61700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "観音寺市",
+      "averageRent": 45000,
+      "minRent": 45300,
+      "maxRent": 54400,
+      "latitude": 34.13,
+      "longitude": 133.65,
+      "nearestStation": "観音寺",
+      "distanceToStation": 15,
+      "description": "巨大な砂絵「銭形砂寛永通宝」で有名。伊吹島産のいりこは全国ブランド。有明浜など美しい海岸線があり、夏は海水浴客で賑わいます。のんびりとした港町の風情が残る街。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45300,
+        "oneLDK": 48100,
+        "twoLDK": 54400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "三豊市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 56800,
+      "latitude": 34.13,
+      "longitude": 133.7,
+      "nearestStation": "詫間",
+      "distanceToStation": 15,
+      "description": "「日本のウユニ塩湖」と呼ばれる父母ヶ浜（ちちぶがはま）が一躍有名に。おしゃれなカフェが増え、若者に人気のエリア。自然とフォトジェニックなスポットが融合した、新しい田舎暮らしが楽しめます。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 56800,
+        "oneLDK": 42100,
+        "twoLDK": 50900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "東かがわ市",
+      "averageRent": 45000,
+      "minRent": 42000,
+      "maxRent": 50600,
+      "latitude": 34.25,
+      "longitude": 134.26,
+      "nearestStation": "三本松",
+      "distanceToStation": 15,
+      "description": "手袋の生産日本一の街。はまちの養殖発祥の地でもあります。徳島県に近く、高松と徳島の両方へアクセス可能。しろとり動物園などユニークな施設も。自然豊かでコミュニティが温かいエリア。",
+      "features": ["industry", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 42000,
+        "oneLDK": 46000,
+        "twoLDK": 50600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "さぬき市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 59500,
+      "latitude": 34.3,
+      "longitude": 134.17,
+      "nearestStation": "志度",
+      "distanceToStation": 15,
+      "description": "高松市の東のベッドタウン。志度寺や津田の松原など名所旧跡が点在。海と山が近く、釣りやハイキングが気軽に楽しめます。家賃も手頃で、のびのびと子育てしたい世帯に適しています。",
+      "features": ["child_rearing", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 40000,
+        "oneLDK": 54800,
+        "twoLDK": 59500,
+        "threeLDK": null
+      }
+    }
+  ]
+}

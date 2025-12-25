@@ -1,0 +1,463 @@
+{
+  "id": 8,
+  "name": "京都府",
+  "slug": "kyoto",
+  "region": "関西",
+  "averageRent": 68000,
+  "latitude": 35.0116,
+  "longitude": 135.7681,
+  "population": 2500000,
+  "description": "千年の都。歴史ある街並みと学生の街としての活気が共存。",
+  "areas": [
+    {
+      "name": "京都市北区",
+      "averageRent": 62000,
+      "minRent": 58400,
+      "maxRent": 151900,
+      "latitude": 35.045,
+      "longitude": 135.74,
+      "nearestStation": "北大路",
+      "distanceToStation": 10,
+      "description": "金閣寺や大徳寺など世界的な名刹が集まるエリア。立命館大学や京都産業大学へのアクセスも良く、学生の姿も多く見られます。鴨川の上流など自然も豊かで、閑静な住宅街が広がっています。",
+      "features": ["student_friendly", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 58400,
+        "oneLDK": 96500,
+        "twoLDK": 140100,
+        "threeLDK": 151900
+      }
+    },
+    {
+      "name": "京都市上京区",
+      "averageRent": 70000,
+      "minRent": 62700,
+      "maxRent": 175000,
+      "latitude": 35.03,
+      "longitude": 135.75,
+      "nearestStation": "今出川",
+      "distanceToStation": 10,
+      "description": "京都御所を擁する京都の中心部。同志社大学があり、歴史とアカデミズムが融合した高貴な雰囲気。西陣織の工房など伝統産業も息づいています。地下鉄烏丸線が通り、どこへ行くにも便利です。",
+      "features": ["access_good", "culture", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 62700,
+        "oneLDK": 112300,
+        "twoLDK": 174200,
+        "threeLDK": 175000
+      }
+    },
+    {
+      "name": "京都市左京区",
+      "averageRent": 68000,
+      "minRent": 62200,
+      "maxRent": 173200,
+      "latitude": 35.05,
+      "longitude": 135.78,
+      "nearestStation": "出町柳",
+      "distanceToStation": 10,
+      "description": "京都大学を筆頭に多くの大学が集まる「学生の街」。安くて美味しい定食屋や個性的な書店、カフェが多く、独特のカルチャーが育まれています。銀閣寺や平安神宮など観光スポットも多数。",
+      "features": ["student_friendly", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 62200,
+        "oneLDK": 113400,
+        "twoLDK": 167700,
+        "threeLDK": 173200
+      }
+    },
+    {
+      "name": "京都市中京区",
+      "averageRent": 85000,
+      "minRent": 66000,
+      "maxRent": 225700,
+      "latitude": 35.01,
+      "longitude": 135.75,
+      "nearestStation": "烏丸御池",
+      "distanceToStation": 5,
+      "description": "京都のビジネス・商業の中心地。二条城などの史跡と、新しいマンションやブランドショップが混在。家賃は高めですが、利便性とステータスは抜群。祇園祭の山鉾巡行の中心地でもあります。",
+      "features": ["access_good", "shopping_convenient", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 66000,
+        "oneLDK": 127600,
+        "twoLDK": 189600,
+        "threeLDK": 225700
+      }
+    },
+    {
+      "name": "京都市東山区",
+      "averageRent": 70000,
+      "minRent": 61200,
+      "maxRent": 196700,
+      "latitude": 34.995,
+      "longitude": 135.775,
+      "nearestStation": "祇園四条",
+      "distanceToStation": 10,
+      "description": "清水寺や祇園など、京都を代表する観光地が集まるエリア。古い町並みが残る一方、観光客で常に賑わっています。住む場所としては、鴨川沿いや少し路地に入った静かなエリアが人気です。",
+      "features": ["culture", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 61200,
+        "oneLDK": 110700,
+        "twoLDK": 184800,
+        "threeLDK": 196700
+      }
+    },
+    {
+      "name": "京都市下京区",
+      "averageRent": 75000,
+      "minRent": 67900,
+      "maxRent": 188100,
+      "latitude": 34.985,
+      "longitude": 135.755,
+      "nearestStation": "京都",
+      "distanceToStation": 5,
+      "description": "京都駅を玄関口とするエリア。駅周辺は再開発で近代的なビルが立ち並びますが、少し離れると昔ながらの商店街も。交通アクセスは最強で、新幹線利用のビジネスマンにもおすすめ。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 67900,
+        "oneLDK": 117400,
+        "twoLDK": 173500,
+        "threeLDK": 188100
+      }
+    },
+    {
+      "name": "京都市南区",
+      "averageRent": 60000,
+      "minRent": 67600,
+      "maxRent": 126400,
+      "latitude": 34.97,
+      "longitude": 135.745,
+      "nearestStation": "東寺",
+      "distanceToStation": 10,
+      "description": "東寺の五重塔がシンボル。京都駅の南側に位置し、比較的家賃がリーズナブルな穴場エリア。イオンモールKYOTOなどの大型商業施設もあり、生活利便性が高いです。開発が進む注目の地域。",
+      "features": ["cost_performance", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 67600,
+        "oneLDK": 86900,
+        "twoLDK": 106400,
+        "threeLDK": 126400
+      }
+    },
+    {
+      "name": "京都市右京区",
+      "averageRent": 62000,
+      "minRent": 63800,
+      "maxRent": 154500,
+      "latitude": 35.015,
+      "longitude": 135.71,
+      "nearestStation": "太秦天神川",
+      "distanceToStation": 10,
+      "description": "嵐山や太秦映画村があるエリア。観光地のイメージが強いですが、西院周辺などは飲食店が多く、生活しやすい住宅街です。阪急と地下鉄が利用でき、大阪方面へのアクセスも良好。",
+      "features": ["nature", "culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 63800,
+        "oneLDK": 82800,
+        "twoLDK": 115600,
+        "threeLDK": 154500
+      }
+    },
+    {
+      "name": "京都市伏見区",
+      "averageRent": 58000,
+      "minRent": 58600,
+      "maxRent": 129900,
+      "latitude": 34.95,
+      "longitude": 135.76,
+      "nearestStation": "伏見桃山",
+      "distanceToStation": 10,
+      "description": "酒蔵の街として知られ、伏見稲荷大社があります。京阪・近鉄・JRが使え、大阪への通勤通学も便利。大手筋商店街など活気ある商店街があり、物価も安く、非常に住みやすいエリアです。",
+      "features": ["cost_performance", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 58600,
+        "oneLDK": 84600,
+        "twoLDK": 129900,
+        "threeLDK": 122400
+      }
+    },
+    {
+      "name": "京都市山科区",
+      "averageRent": 55000,
+      "minRent": 57300,
+      "maxRent": 128200,
+      "latitude": 34.98,
+      "longitude": 135.81,
+      "nearestStation": "山科",
+      "distanceToStation": 10,
+      "description": "京都の東の玄関口。JRで京都駅まで1駅5分、大阪へも35分とアクセス抜群。自然豊かで閑静な住宅街が多く、家賃相場も京都市内ではかなりリーズナブル。滋賀県へのアクセスも良いです。",
+      "features": ["cost_performance", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 57300,
+        "oneLDK": 77900,
+        "twoLDK": 116600,
+        "threeLDK": 128200
+      }
+    },
+    {
+      "name": "京都市西京区",
+      "averageRent": 56000,
+      "minRent": 55800,
+      "maxRent": 140100,
+      "latitude": 34.98,
+      "longitude": 135.69,
+      "nearestStation": "桂",
+      "distanceToStation": 10,
+      "description": "桂離宮や苔寺がある落ち着いたエリア。阪急桂駅は特急停車駅で、大阪梅田と京都河原町の両方にアクセスしやすいのが最大の魅力。桂川イオンもあり、ファミリー層に圧倒的な人気を誇ります。",
+      "features": ["child_rearing", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 55800,
+        "oneLDK": 80700,
+        "twoLDK": 115000,
+        "threeLDK": 140100
+      }
+    },
+    {
+      "name": "福知山市",
+      "averageRent": 50000,
+      "minRent": 53400,
+      "maxRent": 71300,
+      "latitude": 35.295,
+      "longitude": 135.12,
+      "nearestStation": "福知山",
+      "distanceToStation": 15,
+      "description": "京都府北部の中核都市。福知山城の城下町として発展。JRと京都丹後鉄道が交わる交通の要衝。自然豊かでありながら都市機能も整っており、ほどよい田舎暮らしを楽しめます。",
+      "features": ["cost_performance", "nature", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 53400,
+        "oneLDK": 68100,
+        "twoLDK": 69900,
+        "threeLDK": 71300
+      }
+    },
+    {
+      "name": "舞鶴市",
+      "averageRent": 48000,
+      "minRent": 49500,
+      "maxRent": 69000,
+      "latitude": 35.47,
+      "longitude": 135.39,
+      "nearestStation": "西舞鶴",
+      "distanceToStation": 15,
+      "description": "旧海軍ゆかりの港町で、赤れんが倉庫群が有名。日本海に面し、魚介類が安くて美味しいのが自慢。海と山に囲まれた美しい景観の中で、のんびり暮らしたい人におすすめです。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 49500,
+        "oneLDK": 62000,
+        "twoLDK": 69000,
+        "threeLDK": 68500
+      }
+    },
+    {
+      "name": "綾部市",
+      "averageRent": 50000,
+      "minRent": 56600,
+      "maxRent": 72500,
+      "latitude": 35.3,
+      "longitude": 135.26,
+      "nearestStation": "綾部",
+      "distanceToStation": 15,
+      "description": "グンゼ発祥の地として知られる「ものづくりの街」。豊かな里山の風景が広がり、京都市内へのアクセスも特急で約1時間。移住支援にも力を入れており、田舎暮らしのモデル地区としても注目されています。",
+      "features": ["nature", "child_rearing", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 56600,
+        "oneLDK": 65400,
+        "twoLDK": null,
+        "threeLDK": 72500
+      }
+    },
+    {
+      "name": "宇治市",
+      "averageRent": 60000,
+      "minRent": 55400,
+      "maxRent": 101900,
+      "latitude": 34.89,
+      "longitude": 135.8,
+      "nearestStation": "宇治",
+      "distanceToStation": 10,
+      "description": "「宇治茶」と世界遺産「平等院鳳凰堂」で有名な街。京都市の南に隣接し、JRと京阪が使えるベッドタウン。宇治川の景観も美しく、歴史、文化、自然、利便性のバランスが取れた人気のエリアです。",
+      "features": ["culture", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 55400,
+        "oneLDK": 81800,
+        "twoLDK": 97500,
+        "threeLDK": 101900
+      }
+    },
+    {
+      "name": "宮津市",
+      "averageRent": 0,
+      "minRent": 0,
+      "maxRent": 0,
+      "latitude": 35.535,
+      "longitude": 135.195,
+      "nearestStation": "宮津",
+      "distanceToStation": 15,
+      "description": "日本三景「天橋立」がある観光都市。海の幸が豊富で、夏は海水浴、冬はカニ料理が楽しめます。観光業が盛んで、リゾートバイトや二拠点生活の候補地としても人気があります。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "亀岡市",
+      "averageRent": 55000,
+      "minRent": 46700,
+      "maxRent": 85400,
+      "latitude": 35.01,
+      "longitude": 135.58,
+      "nearestStation": "亀岡",
+      "distanceToStation": 10,
+      "description": "京都市の西隣、保津川下りで有名。JR快速で京都駅まで約20分という近さから、ベッドタウンとして急速に発展。サンガスタジアム by KYOCERAが開業し、スポーツ観戦も身近に。霧の都としても知られます。",
+      "features": ["access_good", "cost_performance", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 46700,
+        "oneLDK": 69700,
+        "twoLDK": 84400,
+        "threeLDK": 85400
+      }
+    },
+    {
+      "name": "城陽市",
+      "averageRent": 60000,
+      "minRent": 59100,
+      "maxRent": 91500,
+      "latitude": 34.85,
+      "longitude": 135.78,
+      "nearestStation": "城陽",
+      "distanceToStation": 15,
+      "description": "京都と奈良の中間に位置する「五里五里の里」。JR奈良線と近鉄京都線が利用可能。新名神高速道路の開通で物流拠点としても発展中。総合運動公園（鴻ノ巣山運動公園）はイルミネーションの名所。",
+      "features": ["access_good", "child_rearing", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 59100,
+        "oneLDK": 74500,
+        "twoLDK": 91500,
+        "threeLDK": 79500
+      }
+    },
+    {
+      "name": "向日市",
+      "averageRent": 65000,
+      "minRent": 55400,
+      "maxRent": 185600,
+      "latitude": 34.95,
+      "longitude": 135.7,
+      "nearestStation": "西向日",
+      "distanceToStation": 10,
+      "description": "西日本で最も面積が小さい市ですが、人口密度は高く活気があります。阪急とJRが利用でき、京都・大阪へのアクセスが抜群。「激辛商店街」で町おこしをしており、ユニークなグルメも楽しめます。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 55400,
+        "oneLDK": 85200,
+        "twoLDK": 102800,
+        "threeLDK": 185600
+      }
+    },
+    {
+      "name": "長岡京市",
+      "averageRent": 70000,
+      "minRent": 58400,
+      "maxRent": 148200,
+      "latitude": 34.92,
+      "longitude": 135.7,
+      "nearestStation": "長岡京",
+      "distanceToStation": 10,
+      "description": "「長岡京」の都があった歴史の街。現在は阪急とJRのダブルアクセスが魅力の高級ベッドタウン。サントリー山崎蒸溜所にも近く、水が綺麗で自然も豊富。教育環境も整っており、ファミリー層に人気です。",
+      "features": ["access_good", "child_rearing", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 58400,
+        "oneLDK": 93300,
+        "twoLDK": 148200,
+        "threeLDK": 135100
+      }
+    },
+    {
+      "name": "八幡市",
+      "averageRent": 60000,
+      "minRent": 55300,
+      "maxRent": 85000,
+      "latitude": 34.87,
+      "longitude": 135.7,
+      "nearestStation": "石清水八幡宮",
+      "distanceToStation": 15,
+      "description": "国宝・石清水八幡宮とかわらけ投げで有名な淀川河川敷がある街。京阪本線で大阪の京橋まで特急で約20分。コストコ京都八幡倉庫店があり、買い物客で賑わいます。大阪への通勤圏として便利です。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": 85000,
+        "twoLDK": 76700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "京田辺市",
+      "averageRent": 60000,
+      "minRent": 57200,
+      "maxRent": 97000,
+      "latitude": 34.82,
+      "longitude": 135.77,
+      "nearestStation": "新田辺",
+      "distanceToStation": 10,
+      "description": "同志社大学京田辺キャンパスがある学研都市。学生が多く、活気があります。JRと近鉄が利用でき、京都・大阪・奈良の3方面へアクセス可能。区画整理された綺麗な街並みが広がり、子育て世代に選ばれています。",
+      "features": ["student_friendly", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 57200,
+        "oneLDK": 63800,
+        "twoLDK": 90800,
+        "threeLDK": 97000
+      }
+    },
+    {
+      "name": "京丹後市",
+      "averageRent": 50000,
+      "minRent": 57200,
+      "maxRent": 57200,
+      "latitude": 35.62,
+      "longitude": 135.06,
+      "nearestStation": "網野",
+      "distanceToStation": 20,
+      "description": "京都府の最北端、日本海に面した絶景の宝庫。「夕日ヶ浦」の夕日は必見。カニや牡蠣など海産物が豊富で、温泉もあります。サーフィンや釣りのスポットも多く、自然と共に生きる豊かな暮らしが叶います。",
+      "features": ["nature", "cost_performance", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 57200,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "南丹市",
+      "averageRent": 50000,
+      "minRent": 41500,
+      "maxRent": 68400,
+      "latitude": 35.1,
+      "longitude": 135.48,
+      "nearestStation": "園部",
+      "distanceToStation": 15,
+      "description": "美山のかやぶき屋根の里など、日本の原風景が残るエリア。JR園部駅は京都方面への快足始発駅になることが多く、座って通勤可能。自然豊かな環境で、農業体験やアウトドアを楽しみながらのスローライフに最適です。",
+      "features": ["nature", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 41500,
+        "oneLDK": 68400,
+        "twoLDK": 66500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "木津川市",
+      "averageRent": 60000,
+      "minRent": 51000,
+      "maxRent": 83100,
+      "latitude": 34.73,
+      "longitude": 135.82,
+      "nearestStation": "木津",
+      "distanceToStation": 15,
+      "description": "関西文化学術研究都市の一部で、人口増加率が高い人気の街。新しい住宅地と歴史ある社寺が共存。JR大和路線・奈良線・学研都市線が交わり、大阪・奈良・京都へアクセス良好。子育て支援も手厚く、ファミリー層に強く支持されています。",
+      "features": ["child_rearing", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 51000,
+        "oneLDK": 60100,
+        "twoLDK": 66200,
+        "threeLDK": 83100
+      }
+    }
+  ]
+}

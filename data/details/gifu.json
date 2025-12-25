@@ -1,0 +1,193 @@
+{
+  "id": 24,
+  "name": "岐阜県",
+  "slug": "gifu",
+  "region": "中部",
+  "averageRent": 58000,
+  "latitude": 35.4233,
+  "longitude": 136.7607,
+  "population": 1960000,
+  "description": "清流の国。世界遺産・白川郷や鵜飼など伝統文化が息づく。",
+  "areas": [
+    {
+      "name": "岐阜市",
+      "averageRent": 70000,
+      "minRent": 60000,
+      "maxRent": 117200,
+      "latitude": 35.42,
+      "longitude": 136.76,
+      "nearestStation": "岐阜",
+      "distanceToStation": 5,
+      "description": "織田信長ゆかりの岐阜城を擁する県都。長良川の鵜飼は千年の歴史。名古屋まで電車で約20分とアクセス抜群で、ベッドタウンとしても人気。都市機能と清流の自然が見事に融合した街。",
+      "features": ["access_good", "culture", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 60000,
+        "oneLDK": 69900,
+        "twoLDK": 97100,
+        "threeLDK": 117200
+      }
+    },
+    {
+      "name": "大垣市",
+      "averageRent": 65000,
+      "minRent": 51400,
+      "maxRent": 123000,
+      "latitude": 35.36,
+      "longitude": 136.61,
+      "nearestStation": "大垣",
+      "distanceToStation": 10,
+      "description": "「水の都」として知られ、街中に自噴水があります。松尾芭蕉「奥の細道」むすびの地。電子部品などの工場が多く、産業が盛ん。名古屋への通勤も便利で、子育て支援も充実しています。",
+      "features": ["nature", "industry", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 51400,
+        "oneLDK": 60200,
+        "twoLDK": 69100,
+        "threeLDK": 123000
+      }
+    },
+    {
+      "name": "各務原市",
+      "averageRent": 65000,
+      "minRent": 50400,
+      "maxRent": 84200,
+      "latitude": 35.4,
+      "longitude": 136.83,
+      "nearestStation": "各務原市役所前",
+      "distanceToStation": 10,
+      "description": "航空自衛隊岐阜基地があり、「航空宇宙都市」を掲げます。かかみがはら航空宇宙博物館は人気スポット。公園が多く、緑豊か。名古屋へもアクセスしやすく、ファミリー層に人気のベッドタウン。",
+      "features": ["child_rearing", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 50400,
+        "oneLDK": 66100,
+        "twoLDK": 76800,
+        "threeLDK": 84200
+      }
+    },
+    {
+      "name": "多治見市",
+      "averageRent": 60000,
+      "minRent": 56300,
+      "maxRent": 70000,
+      "latitude": 35.33,
+      "longitude": 137.13,
+      "nearestStation": "多治見",
+      "distanceToStation": 10,
+      "description": "美濃焼の産地として知られる陶磁器の街。「日本一暑い街」としてニュースになることも。セラミックパークMINOなどアートな施設も。名古屋市内への通勤圏内で、オシャレなカフェも増えています。",
+      "features": ["culture", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 56300,
+        "oneLDK": 56800,
+        "twoLDK": 63500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "可児市",
+      "averageRent": 60000,
+      "minRent": 44700,
+      "maxRent": 72800,
+      "latitude": 35.42,
+      "longitude": 137.06,
+      "nearestStation": "可児",
+      "distanceToStation": 15,
+      "description": "明智光秀生誕の地の一つとされる明智城跡があります。春には「花フェスタ記念公園」のバラが見事。ニュータウン開発が進み、整った街並みが広がる住みやすい住宅都市。",
+      "features": ["nature", "child_rearing", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 44700,
+        "oneLDK": 60300,
+        "twoLDK": 66100,
+        "threeLDK": 72800
+      }
+    },
+    {
+      "name": "関市",
+      "averageRent": 50000,
+      "minRent": 36200,
+      "maxRent": 60100,
+      "latitude": 35.49,
+      "longitude": 136.92,
+      "nearestStation": "関",
+      "distanceToStation": 15,
+      "description": "「刃物のまち」として世界的に有名。刀匠の伝統を受け継ぎ、包丁やハサミの生産が盛ん。「モネの池」として話題になった名もなき池もここにあります。伝統産業と自然が魅力。",
+      "features": ["industry", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 36200,
+        "oneLDK": 55200,
+        "twoLDK": 60100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "中津川市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 65000,
+      "latitude": 35.49,
+      "longitude": 137.5,
+      "nearestStation": "中津川",
+      "distanceToStation": 10,
+      "description": "中山道の宿場町・馬籠宿があり、江戸時代の面影を残します。栗きんとん発祥の地。リニア中央新幹線の駅が設置される予定で、将来の発展が期待されるエリア。自然豊かな山あいの街。",
+      "features": ["culture", "nature", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 64300,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "土岐市",
+      "averageRent": 55000,
+      "minRent": 53400,
+      "maxRent": 60000,
+      "latitude": 35.35,
+      "longitude": 137.18,
+      "nearestStation": "土岐市",
+      "distanceToStation": 15,
+      "description": "陶磁器生産日本一の街。土岐プレミアム・アウトレットがあり、県内外から多くの人が訪れます。名古屋へのアクセスも比較的良く、休日はショッピングと自然散策の両方が楽しめます。",
+      "features": ["industry", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 53400,
+        "oneLDK": 56000,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "美濃加茂市",
+      "averageRent": 50000,
+      "minRent": 37400,
+      "maxRent": 53800,
+      "latitude": 35.44,
+      "longitude": 137.02,
+      "nearestStation": "美濃太田",
+      "distanceToStation": 10,
+      "description": "中山道の宿場町・太田宿として栄えました。昭和の里山の風景を再現した「ぎふ清流里山公園」が人気。多文化共生の街づくりを進めており、外国人住民も多い活気ある街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 37400,
+        "oneLDK": 49900,
+        "twoLDK": 53500,
+        "threeLDK": 53800
+      }
+    },
+    {
+      "name": "高山市",
+      "averageRent": 60000,
+      "minRent": 50000,
+      "maxRent": 70000,
+      "latitude": 36.14,
+      "longitude": 137.25,
+      "nearestStation": "高山",
+      "distanceToStation": 10,
+      "description": "「飛騨の小京都」。古い街並みは外国人観光客にも大人気。飛騨牛などのグルメや、高山祭も魅力。日本一広い市町村面積を持ち、大部分が山林。歴史と自然に囲まれた観光都市。",
+      "features": ["culture", "history_culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

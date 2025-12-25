@@ -1,0 +1,157 @@
+{
+  "id": 37,
+  "name": "佐賀県",
+  "slug": "saga",
+  "region": "九州",
+  "averageRent": 53000,
+  "latitude": 33.2494,
+  "longitude": 130.2988,
+  "population": 800000,
+  "description": "伊万里焼・有田焼の産地。吉野ヶ里遺跡や佐賀牛も有名。",
+  "areas": [
+    {
+      "name": "佐賀市",
+      "averageRent": 60000,
+      "minRent": 53800,
+      "maxRent": 92600,
+      "latitude": 33.26,
+      "longitude": 130.3,
+      "nearestStation": "佐賀",
+      "distanceToStation": 5,
+      "description": "県庁所在地で、平坦な地形が広がる住みやすい街。熱気球の世界大会「バルーンフェスタ」が有名。福岡市内への通勤・通学圏内でもあり、物価が安く生活しやすいと人気。",
+      "features": ["cost_performance", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 53800,
+        "oneLDK": 78100,
+        "twoLDK": 92600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "唐津市",
+      "averageRent": 55000,
+      "minRent": 47800,
+      "maxRent": 64200,
+      "latitude": 33.45,
+      "longitude": 129.97,
+      "nearestStation": "唐津",
+      "distanceToStation": 10,
+      "description": "「唐津くんち」で知られる城下町。美しい海岸線と虹の松原があり、景観が素晴らしい。新鮮なイカの活造りは絶品。福岡方面へのアクセスも筑肥線一本で意外と便利。",
+      "features": ["history_culture", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 47800,
+        "oneLDK": 56100,
+        "twoLDK": 64200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "鳥栖市",
+      "averageRent": 55000,
+      "minRent": 43500,
+      "maxRent": 75600,
+      "latitude": 33.37,
+      "longitude": 130.51,
+      "nearestStation": "鳥栖",
+      "distanceToStation": 5,
+      "description": "九州の交通の要所（クロスロード）。福岡市のベッドタウンとして発展し、人口増加中。プレミアム・アウトレットやサッカースタジアムがあり、活気があります。",
+      "features": ["access_good", "shopping_convenient", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 43500,
+        "oneLDK": 56300,
+        "twoLDK": 67500,
+        "threeLDK": 75600
+      }
+    },
+    {
+      "name": "伊万里市",
+      "averageRent": 50000,
+      "minRent": 44900,
+      "maxRent": 54500,
+      "latitude": 33.27,
+      "longitude": 129.88,
+      "nearestStation": "伊万里",
+      "distanceToStation": 10,
+      "description": "世界に誇る「古伊万里」の積出港として栄えた街。焼き物の窯元が多く点在。伊万里牛や梨などの特産品も豊富。落ち着いた雰囲気の中で、伝統文化に触れる暮らし。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 44900,
+        "oneLDK": 49600,
+        "twoLDK": 54500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "武雄市",
+      "averageRent": 55000,
+      "minRent": 51000,
+      "maxRent": 56300,
+      "latitude": 33.19,
+      "longitude": 130.02,
+      "nearestStation": "武雄温泉",
+      "distanceToStation": 10,
+      "description": "武雄温泉と、話題の「武雄市図書館」がある街。西九州新幹線の開業でアクセスが向上。御船山楽園の自然美や焼き物文化もあり、知的で文化的な生活が送れます。",
+      "features": ["culture", "history_culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 51000,
+        "twoLDK": 56300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "嬉野市",
+      "averageRent": 60000,
+      "minRent": 59800,
+      "maxRent": 59800,
+      "latitude": 33.13,
+      "longitude": 130.0,
+      "nearestStation": "嬉野温泉",
+      "distanceToStation": 10,
+      "description": "「日本三大美肌の湯」嬉野温泉。お茶の産地としても有名。新幹線駅ができ、これからの発展が期待されるエリア。毎日温泉に入れる贅沢な暮らしも夢ではありません。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 59800,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "小城市",
+      "averageRent": 50000,
+      "minRent": 49700,
+      "maxRent": 54800,
+      "latitude": 33.28,
+      "longitude": 130.2,
+      "nearestStation": "小城",
+      "distanceToStation": 15,
+      "description": "「九州の小京都」と呼ばれる美しい街。小城羊羹が名物。桜の名所・小城公園や蛍が見られる清流など、豊かな自然環境が魅力。佐賀市の隣で、住環境が良いベッドタウン。",
+      "features": ["nature", "history_culture", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 49700,
+        "twoLDK": 54800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "神埼市",
+      "averageRent": 45000,
+      "minRent": 39200,
+      "maxRent": 50000,
+      "latitude": 33.31,
+      "longitude": 130.37,
+      "nearestStation": "神埼",
+      "distanceToStation": 15,
+      "description": "吉野ヶ里遺跡の大部分を有する歴史の街。神埼そうめんで有名。脊振山系の自然が豊か。佐賀市と鳥栖市の中間に位置し、どちらへもアクセスしやすい。",
+      "features": ["history_culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 39200,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

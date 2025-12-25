@@ -1,0 +1,121 @@
+{
+  "id": 39,
+  "name": "島根県",
+  "slug": "shimane",
+  "region": "中国",
+  "averageRent": 53000,
+  "latitude": 35.4723,
+  "longitude": 133.0505,
+  "population": 660000,
+  "description": "縁結びの神様・出雲大社。宍道湖の夕日や石見銀山など神話と歴史の地。",
+  "areas": [
+    {
+      "name": "松江市",
+      "averageRent": 60000,
+      "minRent": 61900,
+      "maxRent": 78300,
+      "latitude": 35.47,
+      "longitude": 133.05,
+      "nearestStation": "松江",
+      "distanceToStation": 10,
+      "description": "「水の都」と呼ばれる美しい城下町。国宝・松江城を囲む堀川めぐりが有名。宍道湖の夕日は絶景。茶の湯文化が根付く、落ち着いた大人の街。行政の中心で生活機能も充実。",
+      "features": ["history_culture", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 61900,
+        "oneLDK": 66000,
+        "twoLDK": 78300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "出雲市",
+      "averageRent": 55000,
+      "minRent": 46700,
+      "maxRent": 69100,
+      "latitude": 35.36,
+      "longitude": 132.75,
+      "nearestStation": "出雲市",
+      "distanceToStation": 10,
+      "description": "「神話の国」の中心地。出雲大社には全国から参拝客が訪れます。出雲そばやぜんざいなどのグルメも。住宅地の整備が進み、ショッピングモールもあるため、暮らしやすい環境です。",
+      "features": ["history_culture", "culture", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 46700,
+        "oneLDK": 51600,
+        "twoLDK": 59600,
+        "threeLDK": 69100
+      }
+    },
+    {
+      "name": "浜田市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 34.9,
+      "longitude": 132.08,
+      "nearestStation": "浜田",
+      "distanceToStation": 15,
+      "description": "県西部の中心都市。石見神楽（いわみかぐら）の伝統が息づく街。日本海に面し、魚介類が非常に美味しい。広大な自然と美しい海があり、のびのびと暮らせます。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "益田市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 34.67,
+      "longitude": 131.84,
+      "nearestStation": "益田",
+      "distanceToStation": 15,
+      "description": "「萩・石見空港」があり、東京へのアクセスが可能。清流日本一に何度も選ばれた高津川が流れます。自然豊かで静かな環境。サイクリングの聖地としてもPR中。",
+      "features": ["nature", "quiet", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "安来市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 35.43,
+      "longitude": 133.24,
+      "nearestStation": "安来",
+      "distanceToStation": 15,
+      "description": "どじょう掬い踊りで有名な「安来節」発祥の地。世界的な評価を受ける「足立美術館」があります。鉄鋼業が盛んなものづくりの街。鳥取県米子市に隣接し、生活圏が広いです。",
+      "features": ["culture", "industry", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大田市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 35.19,
+      "longitude": 132.5,
+      "nearestStation": "大田市",
+      "distanceToStation": 15,
+      "description": "世界遺産「石見銀山」遺跡がある歴史の街。鳴き砂で有名な琴ヶ浜など美しい海岸も。三瓶山の自然も豊か。歴史と自然に囲まれたスローライフを送りたい人に。",
+      "features": ["history_culture", "nature", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

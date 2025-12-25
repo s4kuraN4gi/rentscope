@@ -1,0 +1,193 @@
+{
+  "id": 36,
+  "name": "沖縄県",
+  "slug": "okinawa",
+  "region": "九州・沖縄",
+  "averageRent": 60000,
+  "latitude": 26.2124,
+  "longitude": 127.6809,
+  "population": 1460000,
+  "description": "日本屈指のリゾートアイランド。美しい海と独自の琉球文化。",
+  "areas": [
+    {
+      "name": "那覇市",
+      "averageRent": 75000,
+      "minRent": 63000,
+      "maxRent": 153000,
+      "latitude": 26.21,
+      "longitude": 127.68,
+      "nearestStation": "県庁前（ゆいレール）",
+      "distanceToStation": 5,
+      "description": "県都であり、政治・経済・文化の中心。国際通りは観光客で賑わい、活気にあふれます。ゆいレールが走り、車がなくても生活しやすいエリア。都会的な便利さと南国の空気が同居する街。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 63000,
+        "oneLDK": 99800,
+        "twoLDK": 127200,
+        "threeLDK": 153000
+      }
+    },
+    {
+      "name": "沖縄市",
+      "averageRent": 65000,
+      "minRent": 55000,
+      "maxRent": 100000,
+      "latitude": 26.33,
+      "longitude": 127.8,
+      "nearestStation": "那覇空港（車移動）",
+      "distanceToStation": 40,
+      "description": "「コザ」の愛称で親しまれる、音楽とエイサーの街。嘉手納基地に隣接し、アメリカ文化の影響が色濃く残るチャンプルー文化の発信地。異国情緒あふれる独特の雰囲気が魅力。",
+      "features": ["culture", "cost_performance", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "浦添市",
+      "averageRent": 70000,
+      "minRent": 60000,
+      "maxRent": 120000,
+      "latitude": 26.25,
+      "longitude": 127.72,
+      "nearestStation": "浦添前田（ゆいレール）",
+      "distanceToStation": 10,
+      "description": "那覇市の北に位置するベッドタウン。西海岸道路の開通やパルコシティの開業で利便性が飛躍的に向上。子育て世帯に大人気で、人口増加率が高い。歴史ある浦添城跡などの史跡も。",
+      "features": ["access_good", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宜野湾市",
+      "averageRent": 65000,
+      "minRent": 55000,
+      "maxRent": 110000,
+      "latitude": 26.28,
+      "longitude": 127.76,
+      "nearestStation": "那覇空港（車移動）",
+      "distanceToStation": 30,
+      "description": "西海岸にはコンベンションエリアや美しいビーチがあり、リゾート感もあります。普天間基地を抱えつつも、発展を続ける街。大学もあり、若者の姿も目立ちます。",
+      "features": ["access_good", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "石垣市",
+      "averageRent": 70000,
+      "minRent": 60000,
+      "maxRent": 130000,
+      "latitude": 24.34,
+      "longitude": 124.15,
+      "nearestStation": "石垣空港（車移動）",
+      "distanceToStation": 20,
+      "description": "八重山諸島の中心地。川平湾など世界的な絶景スポットが点在。マンタに出会える海はダイバーの聖地。都会からの移住者も非常に多く、リゾートライフと仕事の両立がしやすい環境。",
+      "features": ["nature", "climate", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宮古島市",
+      "averageRent": 75000,
+      "minRent": 65000,
+      "maxRent": 140000,
+      "latitude": 24.8,
+      "longitude": 125.28,
+      "nearestStation": "宮古空港（車移動）",
+      "distanceToStation": 15,
+      "description": "「宮古ブルー」と呼ばれる透明度抜群の海が自慢。東洋一白い砂浜といわれる与那覇前浜ビーチは圧巻。伊良部大橋開通でさらに人気沸騰。バブル的な建設ラッシュもあり、南国の活気を感じる島。",
+      "features": ["nature", "climate", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "名護市",
+      "averageRent": 60000,
+      "minRent": 50000,
+      "maxRent": 90000,
+      "latitude": 26.59,
+      "longitude": 127.98,
+      "nearestStation": "那覇空港（車移動）",
+      "distanceToStation": 60,
+      "description": "本島北部の中心都市。美ら海水族館への玄関口。オリオンビールの工場があります。自然が豊かで静かな環境。リゾートホテルも多いですが、生活費は比較的安く、ゆったり暮らせます。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "豊見城市",
+      "averageRent": 65000,
+      "minRent": 55000,
+      "maxRent": 110000,
+      "latitude": 26.17,
+      "longitude": 127.66,
+      "nearestStation": "赤嶺（ゆいレール等）",
+      "distanceToStation": 10,
+      "description": "那覇市の南隣で、空港に最も近い市。アウトレットモールあしびなーやビーチ、DMMかりゆし水族館など新スポットが続々。人口増加率が高く、若くて活力のある街。",
+      "features": ["access_good", "shopping_convenient", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "うるま市",
+      "averageRent": 60000,
+      "minRent": 50000,
+      "maxRent": 90000,
+      "latitude": 26.38,
+      "longitude": 127.85,
+      "nearestStation": "那覇空港（車移動）",
+      "distanceToStation": 50,
+      "description": "世界遺産・勝連城跡や海中道路などドライブスポットが充実。闘牛が盛んで「闘牛のまち」として有名。エイサーの伝統も根強い。中部の中では比較的家賃が手頃で、広い物件が見つかりやすい。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "南城市",
+      "averageRent": 60000,
+      "minRent": 50000,
+      "maxRent": 90000,
+      "latitude": 26.15,
+      "longitude": 127.77,
+      "nearestStation": "那覇空港（車移動）",
+      "distanceToStation": 40,
+      "description": "ハートの形のまち。世界遺産・斎場御嶽（せーふぁうたき）がある聖地。海を見下ろす絶景カフェが多く、癒やしのスポット。那覇への通勤圏内ながら、田舎の良さも残る人気のエリア。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "id": 9,
+  "name": "兵庫県",
+  "slug": "hyogo",
+  "region": "関西",
+  "averageRent": 66000,
+  "latitude": 34.6901,
+  "longitude": 135.1955,
+  "population": 5400000,
+  "description": "港町神戸から豊かな自然まで。洗練と多様性が魅力のエリア。",
+  "areas": [
+    {
+      "name": "神戸市東灘区",
+      "averageRent": 75000,
+      "minRent": 63000,
+      "maxRent": 173900,
+      "latitude": 34.72,
+      "longitude": 135.26,
+      "nearestStation": "岡本",
+      "distanceToStation": 10,
+      "description": "神戸屈指の文教地区。岡本や御影などは高級住宅街として知られ、おしゃれなカフェやスイーツ店が点在。大学も多く、学生から富裕層まで幅広い層に人気。落ち着いた治安の良さが魅力です。",
+      "features": ["safe_area", "culture", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 63000,
+        "oneLDK": 102500,
+        "twoLDK": 146500,
+        "threeLDK": 173900
+      }
+    },
+    {
+      "name": "神戸市灘区",
+      "averageRent": 72000,
+      "minRent": 57900,
+      "maxRent": 164700,
+      "latitude": 34.71,
+      "longitude": 135.23,
+      "nearestStation": "六甲道",
+      "distanceToStation": 10,
+      "description": "酒造メーカーが並ぶ「灘五郷」で有名。六甲山の麓に位置し、神戸大学などの教育機関も多数。JR六甲道周辺は商業施設が充実し、生活利便性が抜群。海と山、両方の自然を楽しめるエリアです。",
+      "features": ["student_friendly", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 57900,
+        "oneLDK": 99300,
+        "twoLDK": 133800,
+        "threeLDK": 164700
+      }
+    },
+    {
+      "name": "神戸市中央区",
+      "averageRent": 95000,
+      "minRent": 69900,
+      "maxRent": 198500,
+      "latitude": 34.69,
+      "longitude": 135.19,
+      "nearestStation": "三ノ宮",
+      "distanceToStation": 5,
+      "description": "神戸の中心地。三宮・元町・ハーバーランドなど主要スポットが集結。異人館が並ぶ北野エリアなど異国情緒も満載。家賃は高いですが、都市の利便性と洗練されたライフスタイルを求めるならここ。",
+      "features": ["access_good", "shopping_convenient", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 69900,
+        "oneLDK": 116900,
+        "twoLDK": 175300,
+        "threeLDK": 198500
+      }
+    },
+    {
+      "name": "神戸市兵庫区",
+      "averageRent": 68000,
+      "minRent": 64800,
+      "maxRent": 138500,
+      "latitude": 34.67,
+      "longitude": 135.16,
+      "nearestStation": "兵庫",
+      "distanceToStation": 10,
+      "description": "下町情緒が残るエリア。平清盛ゆかりの地としても知られます。神戸の台所「神戸市中央卸売市場」があり、美味しい飲食店も豊富。三宮へのアクセスも良く、コストパフォーマンスの高い地域です。",
+      "features": ["cost_performance", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 64800,
+        "oneLDK": 92600,
+        "twoLDK": 119500,
+        "threeLDK": 138500
+      }
+    },
+    {
+      "name": "神戸市長田区",
+      "averageRent": 58000,
+      "minRent": 58700,
+      "maxRent": 103000,
+      "latitude": 34.66,
+      "longitude": 135.14,
+      "nearestStation": "新長田",
+      "distanceToStation": 10,
+      "description": "「鉄人28号」のモニュメントがシンボル。コリアンタウンや「そばめし」発祥の地など、独特の食文化が根付いています。物価が安く、人情味あふれる商店街があり、生活費を抑えたい人におすすめ。",
+      "features": ["cost_performance", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 58700,
+        "oneLDK": 72700,
+        "twoLDK": 103000,
+        "threeLDK": 89900
+      }
+    },
+    {
+      "name": "神戸市須磨区",
+      "averageRent": 60000,
+      "minRent": 53700,
+      "maxRent": 123600,
+      "latitude": 34.65,
+      "longitude": 135.11,
+      "nearestStation": "板宿",
+      "distanceToStation": 10,
+      "description": "源平合戦の舞台や、白砂青松の須磨海岸で有名。夏は海水浴客で賑わいます。須磨浦公園など緑も豊か。JRと山陽電鉄が並走し、中心部への通勤も便利。海のある暮らしを楽しめるリゾート感のある街です。",
+      "features": ["nature", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 53700,
+        "oneLDK": 78000,
+        "twoLDK": 123600,
+        "threeLDK": 104700
+      }
+    },
+    {
+      "name": "神戸市垂水区",
+      "averageRent": 65000,
+      "minRent": 55300,
+      "maxRent": 143200,
+      "latitude": 34.63,
+      "longitude": 135.05,
+      "nearestStation": "垂水",
+      "distanceToStation": 10,
+      "description": "明石海峡大橋を望む絶景エリア。「三井アウトレットパーク マリンピア神戸」があり、買い物も楽しい。JRの快速停車駅で、大阪方面への通勤者も多い人気ベッドタウン。坂が多いですが、その分眺望は最高です。",
+      "features": ["child_rearing", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": 81100,
+        "twoLDK": 94000,
+        "threeLDK": 143200
+      }
+    },
+    {
+      "name": "神戸市西区",
+      "averageRent": 62000,
+      "minRent": 57500,
+      "maxRent": 120200,
+      "latitude": 34.7,
+      "longitude": 135.02,
+      "nearestStation": "西神中央",
+      "distanceToStation": 10,
+      "description": "「西神ニュータウン」を中心とした計画都市。道路が広く、緑豊かな公園が整備されており、子育て環境は抜群。地下鉄で三宮まで一直線。農業も盛んで、直売所では新鮮な野菜が手に入ります。",
+      "features": ["child_rearing", "safe_area", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 57500,
+        "oneLDK": 61000,
+        "twoLDK": 102600,
+        "threeLDK": 120200
+      }
+    },
+    {
+      "name": "神戸市北区",
+      "averageRent": 60000,
+      "minRent": 57800,
+      "maxRent": 101500,
+      "latitude": 34.78,
+      "longitude": 135.18,
+      "nearestStation": "岡場",
+      "distanceToStation": 15,
+      "description": "有馬温泉を擁する自然豊かなエリア。六甲山の北側に位置し、神戸の避暑地的存在。「神戸三田プレミアム・アウトレット」にもアクセス良好。ニュータウン開発も進んでおり、静かでゆとりのある暮らしが叶います。",
+      "features": ["nature", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 57800,
+        "oneLDK": 65500,
+        "twoLDK": 76400,
+        "threeLDK": 101500
+      }
+    },
+    {
+      "name": "西宮市",
+      "averageRent": 80000,
+      "minRent": 60900,
+      "maxRent": 152700,
+      "latitude": 34.73,
+      "longitude": 135.34,
+      "nearestStation": "西宮北口",
+      "distanceToStation": 10,
+      "description": "阪急西宮北口駅周辺は「住みたい街ランキング」関西No.1の常連。「西宮ガーデンズ」などの大型商業施設、甲子園球場、そして西宮神社の十日戎など魅力満載。大阪・神戸のちょうど中間で、アクセスも最強です。",
+      "features": ["access_good", "shopping_convenient", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 60900,
+        "oneLDK": 104800,
+        "twoLDK": 143400,
+        "threeLDK": 152700
+      }
+    },
+    {
+      "name": "尼崎市",
+      "averageRent": 75000,
+      "minRent": 60000,
+      "maxRent": 171600,
+      "latitude": 34.71,
+      "longitude": 135.41,
+      "nearestStation": "尼崎",
+      "distanceToStation": 10,
+      "description": "大阪へのアクセスがとにかく良い街。JR尼崎駅周辺は再開発で近代的なビルが立ち並び、イメージが一新されました。阪神尼崎周辺は活気ある商店街があり、下町グルメも充実。利便性重視の人に強くおすすめ。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 60000,
+        "oneLDK": 83900,
+        "twoLDK": 133000,
+        "threeLDK": 171600
+      }
+    },
+    {
+      "name": "明石市",
+      "averageRent": 65000,
+      "minRent": 62300,
+      "maxRent": 117100,
+      "latitude": 34.65,
+      "longitude": 134.99,
+      "nearestStation": "明石",
+      "distanceToStation": 10,
+      "description": "子育て支援策が全国的に有名で、人口が増加し続けている人気の街。JR新快速で三宮まで15分、大阪まで37分。「魚の棚商店街」では明石焼（玉子焼）や新鮮な鯛・タコが楽しめます。海も公園も近く、ファミリーに最適。",
+      "features": ["child_rearing", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 62300,
+        "oneLDK": 75100,
+        "twoLDK": 98500,
+        "threeLDK": 117100
+      }
+    },
+    {
+      "name": "姫路市",
+      "averageRent": 58000,
+      "minRent": 52700,
+      "maxRent": 90500,
+      "latitude": 34.81,
+      "longitude": 134.7,
+      "nearestStation": "姫路",
+      "distanceToStation": 10,
+      "description": "世界遺産「姫路城」の城下町。播磨地方の中心都市で、新幹線も停車します。駅周辺は大規模な再開発で非常に綺麗になりました。商業施設、病院、学校が全て揃っており、コンパクトで便利な都市生活が送れます。",
+      "features": ["culture", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 52700,
+        "oneLDK": 64500,
+        "twoLDK": 69700,
+        "threeLDK": 90500
+      }
+    },
+    {
+      "name": "芦屋市",
+      "averageRent": 90000,
+      "minRent": 65900,
+      "maxRent": 186700,
+      "latitude": 34.73,
+      "longitude": 135.3,
+      "nearestStation": "芦屋",
+      "distanceToStation": 10,
+      "description": "関西有数の高級住宅街。六麓荘町などは豪邸が並ぶことで有名。街並み条例により美しい景観が守られています。JR芦屋駅周辺はおしゃれなお店も多く、利便性も高い。ステータスと落ち着きを兼ね備えた憧れの街。",
+      "features": ["high_class", "safe_area", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 65900,
+        "oneLDK": 99700,
+        "twoLDK": 137700,
+        "threeLDK": 186700
+      }
+    },
+    {
+      "name": "伊丹市",
+      "averageRent": 68000,
+      "minRent": 59300,
+      "maxRent": 130400,
+      "latitude": 34.78,
+      "longitude": 135.41,
+      "nearestStation": "伊丹",
+      "distanceToStation": 10,
+      "description": "大阪国際空港（伊丹空港）がある空の玄関口。「ダイヤモンドシティ（イオンモール伊丹）」があり、買い物環境が非常に良いです。地形が平坦で自転車移動が楽。大阪・梅田へのアクセスも良く、バランスの取れた住みやすい街。",
+      "features": ["shopping_convenient", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 59300,
+        "oneLDK": 84200,
+        "twoLDK": 110000,
+        "threeLDK": 130400
+      }
+    },
+    {
+      "name": "宝塚市",
+      "averageRent": 72000,
+      "minRent": 61100,
+      "maxRent": 150900,
+      "latitude": 34.8,
+      "longitude": 135.35,
+      "nearestStation": "宝塚",
+      "distanceToStation": 15,
+      "description": "宝塚歌劇団の本拠地であり、華やかな雰囲気が漂う「歌劇の街」。手塚治虫記念館もあります。武庫川沿いの景観が美しく、散歩に最適。阪急とJRが利用でき、大阪都心へのベッドタウンとして長い歴史を持ちます。",
+      "features": ["culture", "nature", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 61100,
+        "oneLDK": 81100,
+        "twoLDK": 150900,
+        "threeLDK": 128600
+      }
+    },
+    {
+      "name": "加古川市",
+      "averageRent": 55000,
+      "minRent": 52900,
+      "maxRent": 128500,
+      "latitude": 34.76,
+      "longitude": 134.84,
+      "nearestStation": "加古川",
+      "distanceToStation": 15,
+      "description": "一級河川「加古川」が流れる水の都。JR新快速停車駅で、神戸・大阪への通勤圏。B級グルメ「かつめし」が有名。医療機関も充実しており、ファミリー層が安心して暮らせる環境が整っています。",
+      "features": ["child_rearing", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 52900,
+        "oneLDK": 74800,
+        "twoLDK": 73200,
+        "threeLDK": 128500
+      }
+    },
+    {
+      "name": "川西市",
+      "averageRent": 65000,
+      "minRent": 56500,
+      "maxRent": 119600,
+      "latitude": 34.83,
+      "longitude": 135.41,
+      "nearestStation": "川西能勢口",
+      "distanceToStation": 10,
+      "description": "大阪の北側に隣接し、阪急とJRで梅田まで約20分。駅前は百貨店などがあり非常に栄えていますが、少し離れると緑豊かな里山が広がります。イチジクの産地としても有名。利便性と自然の癒やしが共存する街。",
+      "features": ["access_good", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 56500,
+        "oneLDK": 79100,
+        "twoLDK": 83800,
+        "threeLDK": 119600
+      }
+    },
+    {
+      "name": "三田市",
+      "averageRent": 65000,
+      "minRent": 59200,
+      "maxRent": 86900,
+      "latitude": 34.88,
+      "longitude": 135.22,
+      "nearestStation": "三田",
+      "distanceToStation": 15,
+      "description": "「阪神間の奥座敷」とも呼ばれる、自然溢れるニュータウン。「ウッディタウン」などの計画的な街並みは美しく、歩道も広くて安全。JR快速で大阪駅まで約40分と意外と近く、子育て世代の移住者が多いエリアです。",
+      "features": ["child_rearing", "nature", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 59200,
+        "oneLDK": 86900,
+        "twoLDK": 80200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "淡路市",
+      "averageRent": 55000,
+      "minRent": 55000,
+      "maxRent": 55000,
+      "latitude": 34.43,
+      "longitude": 134.9,
+      "nearestStation": "舞子（バス移動）",
+      "distanceToStation": 30,
+      "description": "明石海峡大橋を渡ってすぐの淡路島北部。「ニジゲンノモリ」等の観光開発が進み、おしゃれなカフェやリゾート施設が急増中。海を身近に感じるリゾートライフが可能。神戸への通勤もバスで可能です。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 45,
+  "name": "山形県",
+  "slug": "yamagata",
+  "region": "東北",
+  "averageRent": 50000,
+  "latitude": 38.2404,
+  "longitude": 140.3636,
+  "population": 1060000,
+  "description": "「さくらんぼ県」。全市町村に温泉がある。蔵王の樹氷や最上川など四季が美しい。",
+  "areas": [
+    {
+      "name": "山形市",
+      "averageRent": 60000,
+      "minRent": 45200,
+      "maxRent": 80000,
+      "latitude": 38.25,
+      "longitude": 140.33,
+      "nearestStation": "山形",
+      "distanceToStation": 10,
+      "description": "県庁所在地。山形新幹線の終点で、東京からのアクセスも良好。蔵王温泉や山寺（立石寺）など観光名所も近い。「花笠まつり」や「日本一の芋煮会」などイベントも盛大。",
+      "features": ["culture", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 45200,
+        "oneLDK": 59400,
+        "twoLDK": 75000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "米沢市",
+      "averageRent": 55000,
+      "minRent": 44600,
+      "maxRent": 55100,
+      "latitude": 37.91,
+      "longitude": 140.11,
+      "nearestStation": "米沢",
+      "distanceToStation": 10,
+      "description": "上杉家ゆかりの城下町。米沢牛の本場として有名。歴史的な街並みと、美味しい食文化が魅力。冬は雪深いですが、それが育む文化や温泉もまた格別です。",
+      "features": ["history_culture", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": 44600,
+        "oneLDK": 50800,
+        "twoLDK": 55100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "天童市",
+      "averageRent": 55000,
+      "minRent": 51600,
+      "maxRent": 65000,
+      "latitude": 38.35,
+      "longitude": 140.37,
+      "nearestStation": "天童",
+      "distanceToStation": 10,
+      "description": "将棋の駒と温泉のまち。山形市の北に隣接し、ベッドタウンとして発展。大型商業施設（イオンモール天童）があり、買い物も非常に便利。子育て世帯に人気のエリア。",
+      "features": ["shopping_convenient", "child_rearing", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 51600,
+        "oneLDK": 59400,
+        "twoLDK": 65000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "東根市",
+      "averageRent": 55000,
+      "minRent": 45000,
+      "maxRent": 64300,
+      "latitude": 38.43,
+      "longitude": 140.4,
+      "nearestStation": "さくらんぼ東根",
+      "distanceToStation": 15,
+      "description": "さくらんぼ生産量日本一の果樹王国。山形空港があり、空の便も便利。住みよさランキングで上位に入るなど、生活環境が整っており、若い世代が増えています。",
+      "features": ["nature", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 45000,
+        "oneLDK": 52600,
+        "twoLDK": 64300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "寒河江市",
+      "averageRent": 55000,
+      "minRent": 44400,
+      "maxRent": 59900,
+      "latitude": 38.38,
+      "longitude": 140.28,
+      "nearestStation": "寒河江",
+      "distanceToStation": 15,
+      "description": "サクランボ狩りで賑わう観光農園が多い。月山や朝日連峰の眺めが美しい。山形市への通勤圏内で、自然豊かな環境でのびのび子育てができます。スマートICもあり車移動も便利。",
+      "features": ["nature", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 44400,
+        "oneLDK": 52400,
+        "twoLDK": 59900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "長井市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 38.1,
+      "longitude": 140.03,
+      "nearestStation": "長井",
+      "distanceToStation": 15,
+      "description": "「水と緑と花のまち」。あやめ公園や白つつじ公園など花の名所が多い。最上川舟運の港町としての歴史も。静かで落ち着いた街で、スローライフを楽しめます。",
+      "features": ["nature", "quiet", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 48900,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "上山市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 60000,
+      "latitude": 38.15,
+      "longitude": 140.27,
+      "nearestStation": "かみのやま温泉",
+      "distanceToStation": 15,
+      "description": "かみのやま温泉と蔵王坊平高原を擁する観光都市。「クアオルト（健康保養地）」として認定され、健康づくりに適した環境。山形市の南に隣接し、生活も便利。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 60000,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "村山市",
+      "averageRent": 45000,
+      "minRent": 43900,
+      "maxRent": 50000,
+      "latitude": 38.48,
+      "longitude": 140.38,
+      "nearestStation": "村山",
+      "distanceToStation": 15,
+      "description": "「そば街道」が有名で、美味しい蕎麦屋がたくさん。バラ公園も人気。最上川の雄大な流れを感じられる自然豊かな街。新幹線停車駅があり意外とアクセス便利。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 43900,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

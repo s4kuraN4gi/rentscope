@@ -1,0 +1,157 @@
+{
+  "id": 40,
+  "name": "栃木県",
+  "slug": "tochigi",
+  "region": "関東",
+  "averageRent": 55000,
+  "latitude": 36.5657,
+  "longitude": 139.8836,
+  "population": 1920000,
+  "description": "日光東照宮や那須高原など観光資源が豊富。宇都宮餃子も有名。",
+  "areas": [
+    {
+      "name": "宇都宮市",
+      "averageRent": 70000,
+      "minRent": 62200,
+      "maxRent": 112200,
+      "latitude": 36.55,
+      "longitude": 139.88,
+      "nearestStation": "宇都宮",
+      "distanceToStation": 5,
+      "description": "北関東最大の都市。「餃子の街」として有名。新幹線で都心へも約50分と通勤圏内。LRTが開業し、交通の便がさらに向上。商業施設も多く、非常に暮らしやすい。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 62200,
+        "oneLDK": 84000,
+        "twoLDK": 108100,
+        "threeLDK": 112200
+      }
+    },
+    {
+      "name": "小山市",
+      "averageRent": 65000,
+      "minRent": 53900,
+      "maxRent": 97300,
+      "latitude": 36.31,
+      "longitude": 139.8,
+      "nearestStation": "小山",
+      "distanceToStation": 5,
+      "description": "新幹線停車駅で、東京へのアクセスが抜群。工業団地が多く、雇用も安定。人口が増加傾向にある元気な街。駅周辺の再開発も進んでいます。",
+      "features": ["access_good", "shopping_convenient", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 53900,
+        "oneLDK": 68200,
+        "twoLDK": 90100,
+        "threeLDK": 97300
+      }
+    },
+    {
+      "name": "栃木市",
+      "averageRent": 55000,
+      "minRent": 46000,
+      "maxRent": 68100,
+      "latitude": 36.38,
+      "longitude": 139.73,
+      "nearestStation": "栃木",
+      "distanceToStation": 10,
+      "description": "「蔵の街」として知られる情緒ある街並み。巴波川（うずまがわ）の舟行は観光客に人気。東武線で浅草へ直結しており、都心へのアクセス（特に城東方面）も良好。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 46000,
+        "oneLDK": 54600,
+        "twoLDK": 59600,
+        "threeLDK": 68100
+      }
+    },
+    {
+      "name": "足利市",
+      "averageRent": 55000,
+      "minRent": 43900,
+      "maxRent": 65100,
+      "latitude": 36.33,
+      "longitude": 139.45,
+      "nearestStation": "足利市",
+      "distanceToStation": 10,
+      "description": "日本最古の学校「足利学校」やあしかがフラワーパークが有名。歴史と文化が香る街。映画のロケ地としても人気。群馬県に近く、両県の文化が混ざり合うエリア。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 43900,
+        "oneLDK": 53800,
+        "twoLDK": 64900,
+        "threeLDK": 65100
+      }
+    },
+    {
+      "name": "佐野市",
+      "averageRent": 50000,
+      "minRent": 38500,
+      "maxRent": 54800,
+      "latitude": 36.31,
+      "longitude": 139.57,
+      "nearestStation": "佐野",
+      "distanceToStation": 15,
+      "description": "「佐野ラーメン」と「佐野プレミアム・アウトレット」で全国的に有名。厄除け大師も。高速道路のインターチェンジがあり、車での移動が便利。水が綺麗な街としても知られます。",
+      "features": ["shopping_convenient", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 38500,
+        "oneLDK": 54800,
+        "twoLDK": 53600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "那須塩原市",
+      "averageRent": 55000,
+      "minRent": 44600,
+      "maxRent": 76000,
+      "latitude": 36.96,
+      "longitude": 139.91,
+      "nearestStation": "那須塩原",
+      "distanceToStation": 10,
+      "description": "新幹線の駅があり、東京への通勤も可能。塩原温泉郷や板室温泉など温泉地としても有名。自然豊かで酪農が盛ん。リゾート気分で暮らせる、広々としたエリア。",
+      "features": ["nature", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 44600,
+        "oneLDK": 54300,
+        "twoLDK": 76000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "鹿沼市",
+      "averageRent": 60000,
+      "minRent": 53700,
+      "maxRent": 80000,
+      "latitude": 36.57,
+      "longitude": 139.75,
+      "nearestStation": "新鹿沼",
+      "distanceToStation": 15,
+      "description": "「木工の街」として知られ、また「いちご市」を宣言するほどイチゴ栽培が盛ん。宇都宮市のベッドタウンとしても機能。自然が近く、のどかな暮らしができます。",
+      "features": ["nature", "industry", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 53700,
+        "oneLDK": 55100,
+        "twoLDK": 60500,
+        "threeLDK": 80000
+      }
+    },
+    {
+      "name": "下野市",
+      "averageRent": 70000,
+      "minRent": 49100,
+      "maxRent": 142600,
+      "latitude": 36.39,
+      "longitude": 139.85,
+      "nearestStation": "小金井",
+      "distanceToStation": 10,
+      "description": "自治医科大学があり、医療環境が充実。宇都宮線沿線で都心へのアクセスも良好。子育て支援にも力を入れており、ファミリー層に選ばれている街。",
+      "features": ["access_good", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 49100,
+        "oneLDK": 65300,
+        "twoLDK": 82000,
+        "threeLDK": 142600
+      }
+    }
+  ]
+}

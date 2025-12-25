@@ -1,0 +1,193 @@
+{
+  "id": 35,
+  "name": "岡山県",
+  "slug": "okayama",
+  "region": "中国",
+  "averageRent": 54000,
+  "latitude": 34.6618,
+  "longitude": 133.9344,
+  "population": 1880000,
+  "description": "「晴れの国」。日本三名園の後楽園や倉敷美観地区など。",
+  "areas": [
+    {
+      "name": "岡山市北区",
+      "averageRent": 70000,
+      "minRent": 50700,
+      "maxRent": 126400,
+      "latitude": 34.66,
+      "longitude": 133.92,
+      "nearestStation": "岡山",
+      "distanceToStation": 5,
+      "description": "県庁や岡山駅がある中心エリア。新幹線全列車停車駅で交通至便。イオンモール岡山など商業施設が充実。岡山城や後楽園もあり、都市機能と歴史・自然が見事に融合した住みやすい街。",
+      "features": ["access_good", "shopping_convenient", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 50700,
+        "oneLDK": 69100,
+        "twoLDK": 99300,
+        "threeLDK": 126400
+      }
+    },
+    {
+      "name": "倉敷市",
+      "averageRent": 65000,
+      "minRent": 42600,
+      "maxRent": 89900,
+      "latitude": 34.6,
+      "longitude": 133.77,
+      "nearestStation": "倉敷",
+      "distanceToStation": 10,
+      "description": "白壁の街並みが美しい「美観地区」で有名。大原美術館など文化施設も豊富。水島コンビナートでの雇用も手厚い。ジーンズの聖地・児島地区など、エリアごとに多彩な顔を持つ魅力的な街。",
+      "features": ["culture", "industry", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 42600,
+        "oneLDK": 59900,
+        "twoLDK": 72800,
+        "threeLDK": 89900
+      }
+    },
+    {
+      "name": "岡山市中区",
+      "averageRent": 60000,
+      "minRent": 43500,
+      "maxRent": 91000,
+      "latitude": 34.65,
+      "longitude": 133.95,
+      "nearestStation": "西川原",
+      "distanceToStation": 10,
+      "description": "旭川の東岸に位置し、文教地区として知られます。岡山大学教育学部附属学校園などがあり、教育環境が良好。静かな住宅街が広がり、ファミリー層に特に人気の高いエリア。",
+      "features": ["child_rearing", "student_friendly", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 43500,
+        "oneLDK": 59100,
+        "twoLDK": 80100,
+        "threeLDK": 91000
+      }
+    },
+    {
+      "name": "岡山市南区",
+      "averageRent": 60000,
+      "minRent": 45700,
+      "maxRent": 93900,
+      "latitude": 34.58,
+      "longitude": 133.93,
+      "nearestStation": "備前西市",
+      "distanceToStation": 15,
+      "description": "児島湖や児島湾に面したエリア。映画のロケ地にもなるのどかな風景と、住宅地が混在。国道2号線バイパスへのアクセスが良く、車での移動が便利。家賃相場が比較的安く、穴場な地域。",
+      "features": ["cost_performance", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 45700,
+        "oneLDK": 59900,
+        "twoLDK": 72900,
+        "threeLDK": 93900
+      }
+    },
+    {
+      "name": "津山市",
+      "averageRent": 50000,
+      "minRent": 47600,
+      "maxRent": 65000,
+      "latitude": 35.07,
+      "longitude": 134.0,
+      "nearestStation": "津山",
+      "distanceToStation": 10,
+      "description": "県北部の中心都市。B-1グランプリ王者「津山ホルモンうどん」で有名。津山城（鶴山公園）は西日本有数の桜の名所。歴史の風情と豊かな自然、美味しい肉料理が楽しめる街。",
+      "features": ["culture", "history_culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 47600,
+        "oneLDK": null,
+        "twoLDK": 57400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "総社市",
+      "averageRent": 55000,
+      "minRent": 44900,
+      "maxRent": 60700,
+      "latitude": 34.67,
+      "longitude": 133.75,
+      "nearestStation": "総社",
+      "distanceToStation": 10,
+      "description": "「子育て王国そうじゃ」を掲げ、子育て支援が非常に手厚いことで有名。人口増加中。吉備路の史跡が多く残ります。岡山・倉敷へのアクセスも良く、ベッドタウンとして最適。",
+      "features": ["child_rearing", "access_good", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 44900,
+        "oneLDK": 56200,
+        "twoLDK": 60700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "玉野市",
+      "averageRent": 50000,
+      "minRent": 41900,
+      "maxRent": 60300,
+      "latitude": 34.49,
+      "longitude": 133.94,
+      "nearestStation": "宇野",
+      "distanceToStation": 10,
+      "description": "瀬戸内海に面した港町。宇野港は直島・豊島などアートの島への玄関口。造船業が盛ん。海が見える暮らしができ、移住者にも人気。穏やかな気候と美しい景観が魅力。",
+      "features": ["nature", "climate", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 41900,
+        "oneLDK": 44000,
+        "twoLDK": 53700,
+        "threeLDK": 60300
+      }
+    },
+    {
+      "name": "笠岡市",
+      "averageRent": 55000,
+      "minRent": 54000,
+      "maxRent": 95300,
+      "latitude": 34.5,
+      "longitude": 133.51,
+      "nearestStation": "笠岡",
+      "distanceToStation": 10,
+      "description": "カブトガニの繁殖地として国の天然記念物に指定。笠岡諸島への玄関口。「笠岡ラーメン」が有名。干拓地の広大な花畑は圧巻。広島県福山市に近く、生活圏が一体化しています。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 56400,
+        "twoLDK": 54000,
+        "threeLDK": 95300
+      }
+    },
+    {
+      "name": "備前市",
+      "averageRent": 50000,
+      "minRent": 43400,
+      "maxRent": 52000,
+      "latitude": 34.74,
+      "longitude": 134.19,
+      "nearestStation": "伊部",
+      "distanceToStation": 10,
+      "description": "日本六古窯の一つ「備前焼」の里。土と炎の芸術が息づく街。日生（ひなせ）のカキオコ（牡蠣入りお好み焼き）は大人気グルメ。歴史と伝統工芸、そして美味しい海産物が自慢。",
+      "features": ["culture", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 52000,
+        "oneLDK": 43400,
+        "twoLDK": 46600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "瀬戸内市",
+      "averageRent": 50000,
+      "minRent": 48100,
+      "maxRent": 53700,
+      "latitude": 34.66,
+      "longitude": 134.09,
+      "nearestStation": "邑久",
+      "distanceToStation": 15,
+      "description": "「日本のエーゲ海」牛窓があります。オリーブ園やヨットハーバーがあり、リゾート感満載。長船地区は日本刀の産地として有名。美しい海と伝統工芸、豊かな自然に囲まれたスローライフ。",
+      "features": ["nature", "climate", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 48100,
+        "oneLDK": 48400,
+        "twoLDK": 53700,
+        "threeLDK": null
+      }
+    }
+  ]
+}

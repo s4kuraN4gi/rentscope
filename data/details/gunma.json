@@ -1,0 +1,193 @@
+{
+  "id": 25,
+  "name": "群馬県",
+  "slug": "gunma",
+  "region": "関東",
+  "averageRent": 53000,
+  "latitude": 36.3907,
+  "longitude": 139.0604,
+  "population": 1930000,
+  "description": "温泉王国ぐんま。草津、伊香保など名湯が点在。自動車産業も盛ん。",
+  "areas": [
+    {
+      "name": "前橋市",
+      "averageRent": 60000,
+      "minRent": 58500,
+      "maxRent": 71100,
+      "latitude": 36.39,
+      "longitude": 139.06,
+      "nearestStation": "前橋",
+      "distanceToStation": 10,
+      "description": "県庁所在地。「水と緑と詩のまち」。赤城山の裾野に広がり、利根川が流れる美しい街。医療機関や行政機能が充実。東京への通勤者も意外と多く、静かで落ち着いた暮らしができます。",
+      "features": ["nature", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 58500,
+        "oneLDK": 68200,
+        "twoLDK": 71100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "高崎市",
+      "averageRent": 70000,
+      "minRent": 58200,
+      "maxRent": 140700,
+      "latitude": 36.32,
+      "longitude": 139.0,
+      "nearestStation": "高崎",
+      "distanceToStation": 5,
+      "description": "北関東交通の要衝。上越・北陸新幹線の分岐点で、都心へのアクセスが抜群。駅周辺は高層ビルが立ち並び、商業施設も充実。「パスタの街」としても知られ、食文化が豊かです。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 58200,
+        "oneLDK": 84700,
+        "twoLDK": 108400,
+        "threeLDK": 140700
+      }
+    },
+    {
+      "name": "太田市",
+      "averageRent": 55000,
+      "minRent": 52000,
+      "maxRent": 63300,
+      "latitude": 36.29,
+      "longitude": 139.37,
+      "nearestStation": "太田",
+      "distanceToStation": 10,
+      "description": "ＳＵＢＡＲＵ（スバル）の企業城下町。北関東随一の工業都市で、雇用が豊富。外国人も多く暮らす国際色豊かな街。イオンモール太田があり、買い物も便利。活気と安定感のあるエリア。",
+      "features": ["industry", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 52000,
+        "oneLDK": 59000,
+        "twoLDK": 63300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "伊勢崎市",
+      "averageRent": 55000,
+      "minRent": 44100,
+      "maxRent": 62600,
+      "latitude": 36.32,
+      "longitude": 139.19,
+      "nearestStation": "伊勢崎",
+      "distanceToStation": 15,
+      "description": "古くは銘仙の産地、現在は商業都市。北関東自動車道が通り、物流拠点としても発展。スマーク伊勢崎などの大型店が多く、ファミリー層に人気。公園も整備され、子育てしやすい環境。",
+      "features": ["shopping_convenient", "child_rearing", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 44100,
+        "oneLDK": 62600,
+        "twoLDK": 60300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "桐生市",
+      "averageRent": 50000,
+      "minRent": 38200,
+      "maxRent": 95000,
+      "latitude": 36.41,
+      "longitude": 139.33,
+      "nearestStation": "桐生",
+      "distanceToStation": 10,
+      "description": "「西の西陣、東の桐生」と称された織物の街。のこぎり屋根の工場など、歴史的な建物が残ります。群馬大学工学部があり、学生も多い。レトロな街並みと、ひもかわうどんなどの名物が魅力。",
+      "features": ["culture", "history_culture", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 38200,
+        "oneLDK": 47000,
+        "twoLDK": 48800,
+        "threeLDK": 95000
+      }
+    },
+    {
+      "name": "館林市",
+      "averageRent": 55000,
+      "minRent": 50600,
+      "maxRent": 66400,
+      "latitude": 36.24,
+      "longitude": 139.54,
+      "nearestStation": "館林",
+      "distanceToStation": 10,
+      "description": "「つつじ」と「分福茶釜」のお寺（茂林寺）で有名。夏は暑いことで知られますが、その分緑と水辺が多く涼を感じるスポットも。東武線利用で都心への通勤も可能な、自然豊かな街。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 50600,
+        "oneLDK": 59500,
+        "twoLDK": 66400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "渋川市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 36.49,
+      "longitude": 139.0,
+      "nearestStation": "渋川",
+      "distanceToStation": 10,
+      "description": "「日本のへそ」。伊香保温泉への玄関口であり、観光資源が豊富。赤城山、榛名山を望む景観は見事。温泉と自然に囲まれながら、のんびりと暮らせる保養地のようなエリア。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "藤岡市",
+      "averageRent": 50000,
+      "minRent": 51100,
+      "maxRent": 57200,
+      "latitude": 36.25,
+      "longitude": 139.07,
+      "nearestStation": "群馬藤岡",
+      "distanceToStation": 15,
+      "description": "藤の花の名所「ふじの咲く丘」があります。交通の便が良く、物流・工業団地が立地。イチゴ栽培などの農業も盛ん。素朴で温かいコミュニティが残る、住みやすい街。",
+      "features": ["nature", "industry", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 54300,
+        "oneLDK": 51100,
+        "twoLDK": 57200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "富岡市",
+      "averageRent": 55000,
+      "minRent": 43800,
+      "maxRent": 67400,
+      "latitude": 36.26,
+      "longitude": 138.89,
+      "nearestStation": "上州富岡",
+      "distanceToStation": 10,
+      "description": "世界遺産「富岡製糸場」のある街。明治のレンガ造りの建物が今も残ります。こんにゃくパークなど観光施設も充実。歴史を感じながら散策するのが楽しい、風情あるエリア。",
+      "features": ["history_culture", "culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 43800,
+        "oneLDK": 59400,
+        "twoLDK": 67400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "みどり市",
+      "averageRent": 45000,
+      "minRent": 39200,
+      "maxRent": 100000,
+      "latitude": 36.43,
+      "longitude": 139.28,
+      "nearestStation": "赤城",
+      "distanceToStation": 15,
+      "description": "旧石器時代の遺跡「岩宿遺跡」で有名。わたらせ渓谷鐵道が走り、紅葉の季節は絶景。自然豊かで、キャンプやハイキングに最適。静かな環境で子供を育てたい人におすすめ。",
+      "features": ["nature", "child_rearing", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 39200,
+        "oneLDK": 48200,
+        "twoLDK": 56000,
+        "threeLDK": 100000
+      }
+    }
+  ]
+}

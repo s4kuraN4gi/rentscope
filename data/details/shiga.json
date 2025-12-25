@@ -1,0 +1,175 @@
+{
+  "id": 38,
+  "name": "滋賀県",
+  "slug": "shiga",
+  "region": "関西",
+  "averageRent": 60000,
+  "latitude": 35.0045,
+  "longitude": 135.8686,
+  "population": 1410000,
+  "description": "日本一の湖・琵琶湖を有する県。京都・大阪のベッドタウンとしても人気。",
+  "areas": [
+    {
+      "name": "大津市",
+      "averageRent": 70000,
+      "minRent": 56800,
+      "maxRent": 127200,
+      "latitude": 35.0,
+      "longitude": 135.86,
+      "nearestStation": "大津",
+      "distanceToStation": 5,
+      "description": "県庁所在地で、京都駅まで電車で約10分という抜群のアクセス。琵琶湖畔の散歩が日常。子育て環境も整備されており、関西で最も人口が増え続けている人気エリアの一つ。",
+      "features": ["access_good", "child_rearing", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 56800,
+        "oneLDK": 71500,
+        "twoLDK": 82800,
+        "threeLDK": 127200
+      }
+    },
+    {
+      "name": "草津市",
+      "averageRent": 75000,
+      "minRent": 59500,
+      "maxRent": 131700,
+      "latitude": 35.02,
+      "longitude": 135.96,
+      "nearestStation": "草津",
+      "distanceToStation": 5,
+      "description": "県内屈指の活気ある街。立命館大学Biwako-Kusatsu Campus（BKC）があり学生も多いですが、大型ショッピングモールや新快速停車駅でファミリー層にも大人気。住みよさランキング常連。",
+      "features": ["shopping_convenient", "access_good", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 59500,
+        "oneLDK": 79500,
+        "twoLDK": 117400,
+        "threeLDK": 131700
+      }
+    },
+    {
+      "name": "彦根市",
+      "averageRent": 55000,
+      "minRent": 46300,
+      "maxRent": 66500,
+      "latitude": 35.27,
+      "longitude": 136.26,
+      "nearestStation": "彦根",
+      "distanceToStation": 10,
+      "description": "国宝・彦根城とひこにゃんの街。城下町の風情が残る美しい街並みと、琵琶湖の自然が調和。滋賀大学などがあり学園都市の側面も。落ち着いて暮らしたい人におすすめ。",
+      "features": ["history_culture", "nature", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 46300,
+        "oneLDK": 63100,
+        "twoLDK": 66500,
+        "threeLDK": 65700
+      }
+    },
+    {
+      "name": "長浜市",
+      "averageRent": 60000,
+      "minRent": 47300,
+      "maxRent": 104000,
+      "latitude": 35.38,
+      "longitude": 136.27,
+      "nearestStation": "長浜",
+      "distanceToStation": 10,
+      "description": "黒壁スクエアなど観光地として有名。豊臣秀吉ゆかりの地。ガラス工芸や祭りが盛ん。湖北の中心都市で、買い物や医療も充実。歴史を感じながら便利に暮らせます。",
+      "features": ["culture", "history_culture", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 66200,
+        "twoLDK": 74500,
+        "threeLDK": 104000
+      }
+    },
+    {
+      "name": "近江八幡市",
+      "averageRent": 60000,
+      "minRent": 50800,
+      "maxRent": 73600,
+      "latitude": 35.13,
+      "longitude": 136.1,
+      "nearestStation": "近江八幡",
+      "distanceToStation": 10,
+      "description": "近江商人の発祥地。八幡堀やヴォーリズ建築など、情緒ある街並みが魅力。水郷めぐりも楽しめます。新快速停車駅で、買い物施設も豊富。歴史と生活利便性が高い次元で融合。",
+      "features": ["history_culture", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 50800,
+        "oneLDK": 60900,
+        "twoLDK": 68800,
+        "threeLDK": 73600
+      }
+    },
+    {
+      "name": "守山市",
+      "averageRent": 65000,
+      "minRent": 57700,
+      "maxRent": 84700,
+      "latitude": 35.05,
+      "longitude": 135.99,
+      "nearestStation": "守山",
+      "distanceToStation": 10,
+      "description": "「住みよさランキング」で全国トップクラスの常連。京都・大阪への通勤が便利。子育て支援が手厚く、若い世代の人口が増加中。ほどよい田舎と都会への近さが絶妙なバランス。",
+      "features": ["child_rearing", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 57700,
+        "oneLDK": 65300,
+        "twoLDK": 84700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "栗東市",
+      "averageRent": 70000,
+      "minRent": 72700,
+      "maxRent": 87400,
+      "latitude": 35.02,
+      "longitude": 136.0,
+      "nearestStation": "栗東",
+      "distanceToStation": 10,
+      "description": "JRAのトレーニングセンターがある「馬のまち」。草津市に隣接し、国道1号線や高速道路へのアクセスが良い。車移動が中心の人にとって非常に便利なベッドタウン。",
+      "features": ["access_good", "child_rearing", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 72700,
+        "twoLDK": 83100,
+        "threeLDK": 87400
+      }
+    },
+    {
+      "name": "甲賀市",
+      "averageRent": 60000,
+      "minRent": 54900,
+      "maxRent": 64600,
+      "latitude": 34.9,
+      "longitude": 136.17,
+      "nearestStation": "貴生川",
+      "distanceToStation": 15,
+      "description": "甲賀忍者の里、そして信楽焼の産地として有名。新名神高速道路が通り、車での広域移動が便利。自然豊かで、ゴルフ場も多い。のどかな環境で広い家に住みたい人におすすめ。",
+      "features": ["culture", "history_culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 54900,
+        "oneLDK": 64600,
+        "twoLDK": 63100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "野洲市",
+      "averageRent": 65000,
+      "minRent": 61100,
+      "maxRent": 81800,
+      "latitude": 35.07,
+      "longitude": 136.02,
+      "nearestStation": "野洲",
+      "distanceToStation": 10,
+      "description": "「近江富士」こと三上山がシンボル。新快速の始発駅となることが多く、座って通勤できるのが大きな魅力。自然豊かで住環境が静か。ワークライフバランスを重視する人に。",
+      "features": ["access_good", "nature", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 61100,
+        "oneLDK": 73800,
+        "twoLDK": 72900,
+        "threeLDK": 81800
+      }
+    }
+  ]
+}

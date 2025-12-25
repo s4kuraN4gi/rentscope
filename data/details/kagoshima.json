@@ -1,0 +1,175 @@
+{
+  "id": 27,
+  "name": "鹿児島県",
+  "slug": "kagoshima",
+  "region": "九州",
+  "averageRent": 50000,
+  "latitude": 31.5966,
+  "longitude": 130.5571,
+  "population": 1580000,
+  "description": "桜島を望む南国。黒豚、焼酎、温泉など豊かな資源に恵まれる。",
+  "areas": [
+    {
+      "name": "鹿児島市",
+      "averageRent": 65000,
+      "minRent": 46200,
+      "maxRent": 134100,
+      "latitude": 31.59,
+      "longitude": 130.55,
+      "nearestStation": "鹿児島中央",
+      "distanceToStation": 5,
+      "description": "「東洋のナポリ」と称される、桜島を正面に望む美しい街。九州新幹線の終点。天文館などの繁華街も賑わいます。歴史上の偉人を多く輩出。温泉銭湯が日常に溶け込む、活気ある県都。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 46200,
+        "oneLDK": 65500,
+        "twoLDK": 117100,
+        "threeLDK": 134100
+      }
+    },
+    {
+      "name": "霧島市",
+      "averageRent": 60000,
+      "minRent": 44900,
+      "maxRent": 94000,
+      "latitude": 31.74,
+      "longitude": 130.76,
+      "nearestStation": "国分",
+      "distanceToStation": 10,
+      "description": "坂本龍馬が新婚旅行で訪れた霧島温泉郷があります。鹿児島空港が立地し、空の便が便利。京セラなどの工場もあり、産業も盛ん。高原のリゾート感と都市機能が調和した人気エリア。",
+      "features": ["nature", "access_good", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 44900,
+        "oneLDK": 56800,
+        "twoLDK": 66200,
+        "threeLDK": 94000
+      }
+    },
+    {
+      "name": "薩摩川内市",
+      "averageRent": 55000,
+      "minRent": 51900,
+      "maxRent": 59800,
+      "latitude": 31.81,
+      "longitude": 130.3,
+      "nearestStation": "川内",
+      "distanceToStation": 10,
+      "description": "県北西部の中心都市。川内川が流れ、東シナ海に面します。新幹線停車駅があり、交通の便が良い。甑島列島などの観光地も。エネルギー関連施設が多く、財政が比較的豊かで住みやすい。",
+      "features": ["access_good", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 59800,
+        "oneLDK": 51900,
+        "twoLDK": 57100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "姶良市",
+      "averageRent": 55000,
+      "minRent": 44200,
+      "maxRent": 57100,
+      "latitude": 31.73,
+      "longitude": 130.62,
+      "nearestStation": "帖佐",
+      "distanceToStation": 10,
+      "description": "鹿児島市のベッドタウンとして人口増加中。イオンタウン姶良などの大型商業施設ができ、利便性が向上。空港へのアクセスも良い。子育て世帯が多く、新しくて綺麗な街並みが広がります。",
+      "features": ["child_rearing", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 44200,
+        "oneLDK": 52500,
+        "twoLDK": 57100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "鹿屋市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 31.37,
+      "longitude": 130.85,
+      "nearestStation": "鹿児島中央（バス移動）",
+      "distanceToStation": 30,
+      "description": "大隅半島の中心都市。鉄道はありませんが、道路網が整備されています。「ばらと海と空のまち」。かのやばら園は日本最大級。農業・畜産が盛んで、食の宝庫。自然の中でゆったり暮らせます。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "指宿市",
+      "averageRent": 50000,
+      "minRent": 47800,
+      "maxRent": 56600,
+      "latitude": 31.23,
+      "longitude": 130.63,
+      "nearestStation": "指宿",
+      "distanceToStation": 15,
+      "description": "世界的に珍しい「砂むし温泉」で有名。薩摩富士と呼ばれる開聞岳の絶景。温暖な気候で、冬でも菜の花が咲きます。観光客が多く訪れるリゾート地で、南国情緒を満喫できる街。",
+      "features": ["nature", "climate", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 47800,
+        "twoLDK": 56600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "いちき串木野市",
+      "averageRent": 50000,
+      "minRent": 51200,
+      "maxRent": 55000,
+      "latitude": 31.71,
+      "longitude": 130.27,
+      "nearestStation": "神村学園前",
+      "distanceToStation": 15,
+      "description": "マグロの遠洋漁業の母港。さつま揚げ発祥の地とも言われます。焼酎の蔵元も多く、食通にはたまりません。吹上浜の夕日は絶景。食と海と歴史が楽しめる、味わい深い港町。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 51200,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "枕崎市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 31.27,
+      "longitude": 130.3,
+      "nearestStation": "枕崎",
+      "distanceToStation": 15,
+      "description": "本土最南端の始発・終着駅がある街。カツオの水揚げで有名。鰹節の生産量は日本一。台風銀座とも呼ばれますが、人々はたくましく陽気。新鮮な魚料理が安くて美味。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "奄美市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 28.38,
+      "longitude": 129.49,
+      "nearestStation": "奄美空港（車移動）",
+      "distanceToStation": 40,
+      "description": "世界自然遺産の奄美大島。「東洋のガラパゴス」とも呼ばれる独自の生態系と、美しい海が魅力。郷土料理「鶏飯」は絶品。スローライフやワーケーション移住者に大人気の離島エリア。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

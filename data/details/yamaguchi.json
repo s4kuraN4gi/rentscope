@@ -1,0 +1,157 @@
+{
+  "id": 46,
+  "name": "山口県",
+  "slug": "yamaguchi",
+  "region": "中国",
+  "averageRent": 52000,
+  "latitude": 34.1859,
+  "longitude": 131.4714,
+  "population": 1340000,
+  "description": "本州最西端。歴史の舞台となった萩や下関。秋芳洞のカルスト台地も有名。",
+  "areas": [
+    {
+      "name": "下関市",
+      "averageRent": 60000,
+      "minRent": 44500,
+      "maxRent": 96800,
+      "latitude": 33.95,
+      "longitude": 130.94,
+      "nearestStation": "下関",
+      "distanceToStation": 10,
+      "description": "県最大の都市で、九州・福岡との結びつきが強い。フグ（ふく）の取扱量は日本一。海に囲まれた美しい景観と、歴史的な街並みが魅力。新幹線で福岡への通勤も可能。",
+      "features": ["access_good", "history_culture", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 44500,
+        "oneLDK": 57300,
+        "twoLDK": 64600,
+        "threeLDK": 96800
+      }
+    },
+    {
+      "name": "山口市",
+      "averageRent": 60000,
+      "minRent": 48500,
+      "maxRent": 87000,
+      "latitude": 34.17,
+      "longitude": 131.47,
+      "nearestStation": "山口",
+      "distanceToStation": 15,
+      "description": "「西の京」と呼ばれる県庁所在地。瑠璃光寺五重塔は国宝。湯田温泉が市街地にあり、足湯なども楽しめる。落ち着いた雰囲気で、文化的な暮らしができる街。",
+      "features": ["history_culture", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": 48500,
+        "oneLDK": 62500,
+        "twoLDK": 64300,
+        "threeLDK": 87000
+      }
+    },
+    {
+      "name": "宇部市",
+      "averageRent": 55000,
+      "minRent": 42900,
+      "maxRent": 91500,
+      "latitude": 33.95,
+      "longitude": 131.24,
+      "nearestStation": "宇部新川",
+      "distanceToStation": 10,
+      "description": "「緑と花と彫刻のまち」。山口宇部空港があり、東京へのアクセスが便利。ときわ公園など憩いの場が充実。工業都市としての基盤があり、生活利便性が高い。",
+      "features": ["access_good", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 42900,
+        "oneLDK": 52100,
+        "twoLDK": 58400,
+        "threeLDK": 91500
+      }
+    },
+    {
+      "name": "防府市",
+      "averageRent": 55000,
+      "minRent": 44800,
+      "maxRent": 74200,
+      "latitude": 34.05,
+      "longitude": 131.56,
+      "nearestStation": "防府",
+      "distanceToStation": 10,
+      "description": "防府天満宮の門前町。瀬戸内海に面し、マツダの工場など産業が盛ん。コンパクトな街で、買い物や移動が便利。歴史と産業が共存する活気あるエリア。",
+      "features": ["history_culture", "industry", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 44800,
+        "oneLDK": 74200,
+        "twoLDK": 72900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "岩国市",
+      "averageRent": 55000,
+      "minRent": 46600,
+      "maxRent": 59700,
+      "latitude": 34.16,
+      "longitude": 132.22,
+      "nearestStation": "岩国",
+      "distanceToStation": 10,
+      "description": "日本三名橋「錦帯橋」で有名。広島県に隣接し、広島市内への通勤・通学も可能。岩国錦帯橋空港があり、東京への移動もスムーズ。基地の街としての国際色豊かな一面も。",
+      "features": ["history_culture", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 46600,
+        "oneLDK": 53000,
+        "twoLDK": 56300,
+        "threeLDK": 59700
+      }
+    },
+    {
+      "name": "周南市",
+      "averageRent": 60000,
+      "minRent": 52300,
+      "maxRent": 67400,
+      "latitude": 34.05,
+      "longitude": 131.8,
+      "nearestStation": "徳山",
+      "distanceToStation": 10,
+      "description": "県内有数の工業地帯で、工場夜景が美しい。新幹線停車駅（徳山駅）があり、駅周辺がリニューアルされ非常に綺麗で便利。都会的な利便性と瀬戸内の自然が融合。",
+      "features": ["industry", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 52300,
+        "oneLDK": 67400,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "萩市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 34.41,
+      "longitude": 131.4,
+      "nearestStation": "東萩",
+      "distanceToStation": 15,
+      "description": "明治維新胎動の地。城下町の古い町並みがそのまま残り、世界遺産にも登録。歴史好きにはたまらない環境。夏ミカンの香りが漂う、静かで文化的な街。",
+      "features": ["history_culture", "culture", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "下松市",
+      "averageRent": 65000,
+      "minRent": 51900,
+      "maxRent": 80500,
+      "latitude": 34.01,
+      "longitude": 131.87,
+      "nearestStation": "下松",
+      "distanceToStation": 15,
+      "description": "「住みよさランキング」で常に上位に入る人気エリア。大型ショッピングモールがあり買い物が便利。子育て支援も充実しており、ファミリー層にの支持が厚い。",
+      "features": ["shopping_convenient", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 51900,
+        "oneLDK": 64500,
+        "twoLDK": 80500,
+        "threeLDK": null
+      }
+    }
+  ]
+}

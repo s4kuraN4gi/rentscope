@@ -1,0 +1,85 @@
+{
+  "id": 42,
+  "name": "鳥取県",
+  "slug": "tottori",
+  "region": "中国",
+  "averageRent": 52000,
+  "latitude": 35.5036,
+  "longitude": 134.2383,
+  "population": 550000,
+  "description": "日本一の砂丘・鳥取砂丘。カニの水揚げ量日本一。漫画「コナン」「鬼太郎」の作者出身地。",
+  "areas": [
+    {
+      "name": "鳥取市",
+      "averageRent": 55000,
+      "minRent": 42800,
+      "maxRent": 61200,
+      "latitude": 35.5,
+      "longitude": 134.23,
+      "nearestStation": "鳥取",
+      "distanceToStation": 10,
+      "description": "県庁所在地。なんといっても「鳥取砂丘」が有名ですが、市街地には温泉（鳥取温泉）が湧く珍しい街。カニをはじめとする日本海の幸が安くて美味い。空港も近く便利です。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": 42800,
+        "oneLDK": 52800,
+        "twoLDK": 61200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "米子市",
+      "averageRent": 60000,
+      "minRent": 49300,
+      "maxRent": 69800,
+      "latitude": 35.43,
+      "longitude": 133.33,
+      "nearestStation": "米子",
+      "distanceToStation": 10,
+      "description": "「山陰の商都」として栄える交通の要衝。米子鬼太郎空港があり、東京へのアクセスも良好。大山（だいせん）が美しく見え、海と山のリゾート両方を楽しめます。医療機関も充実。",
+      "features": ["access_good", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 49300,
+        "oneLDK": 55700,
+        "twoLDK": 58400,
+        "threeLDK": 69800
+      }
+    },
+    {
+      "name": "倉吉市",
+      "averageRent": 50000,
+      "minRent": 50500,
+      "maxRent": 50500,
+      "latitude": 35.43,
+      "longitude": 133.82,
+      "nearestStation": "倉吉",
+      "distanceToStation": 10,
+      "description": "白壁土蔵群・赤瓦の美しい街並みが残る観光地。フィギュアミュージアムなど新しいカルチャーも。県中部の中心で、落ち着いた暮らしができます。二十世紀梨の産地としても有名。",
+      "features": ["history_culture", "culture", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 50500,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "境港市",
+      "averageRent": 50000,
+      "minRent": 35300,
+      "maxRent": 54300,
+      "latitude": 35.54,
+      "longitude": 133.23,
+      "nearestStation": "境港",
+      "distanceToStation": 10,
+      "description": "「ゲゲゲの鬼太郎」のブロンズ像が並ぶ「水木しげるロード」が大人気。日本有数の漁港があり、紅ズワイガニやマグロの水揚げが盛ん。魚好きにはたまらない街です。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 35300,
+        "oneLDK": 47100,
+        "twoLDK": 54300,
+        "threeLDK": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": 14,
+  "name": "石川県",
+  "slug": "ishikawa",
+  "region": "中部",
+  "averageRent": 55000,
+  "latitude": 36.5613,
+  "longitude": 136.6562,
+  "population": 1130000,
+  "description": "伝統とモダンが融合する城下町・金沢。美食と温泉の宝庫。",
+  "areas": [
+    {
+      "name": "金沢市",
+      "averageRent": 70000,
+      "minRent": 58000,
+      "maxRent": 122000,
+      "latitude": 36.56,
+      "longitude": 136.65,
+      "nearestStation": "金沢",
+      "distanceToStation": 5,
+      "description": "北陸の中心都市。兼六園や21世紀美術館など観光名所が多数。駅周辺は高層ビルが立ち並びますが、少し離れると古い茶屋街など情緒ある風景が広がります。食のレベルが非常に高く、暮らしが豊かになる街。",
+      "features": ["culture", "shopping_convenient", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 58000,
+        "oneLDK": 68100,
+        "twoLDK": 89100,
+        "threeLDK": 122000
+      }
+    },
+    {
+      "name": "野々市市",
+      "averageRent": 65000,
+      "minRent": 44200,
+      "maxRent": 106600,
+      "latitude": 36.53,
+      "longitude": 136.61,
+      "nearestStation": "野々市",
+      "distanceToStation": 10,
+      "description": "「住みよさランキング」全国上位の常連。金沢市のベッドタウン。コンパクトな市域に商業施設や公共施設が凝縮しており、非常に便利。金沢工業大学などがあり、学生も多く活気があります。",
+      "features": ["child_rearing", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 44200,
+        "oneLDK": 66400,
+        "twoLDK": 87300,
+        "threeLDK": 106600
+      }
+    },
+    {
+      "name": "白山市",
+      "averageRent": 55000,
+      "minRent": 48400,
+      "maxRent": 65000,
+      "latitude": 36.52,
+      "longitude": 136.56,
+      "nearestStation": "松任",
+      "distanceToStation": 15,
+      "description": "霊峰・白山を有する自然豊かなエリア。海から山まで広大な市域を持ちます。松任エリアはショッピングモールが集積し、生活利便性が高い。子育て支援が充実しており、ファミリー層に選ばれています。",
+      "features": ["nature", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 48400,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "小松市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 66800,
+      "latitude": 36.4,
+      "longitude": 136.45,
+      "nearestStation": "小松",
+      "distanceToStation": 10,
+      "description": "小松空港を擁する県南部の拠点。建設機械メーカー「コマツ」の発祥地として知られる産業都市。歌舞伎のまちとしても有名。空港へのアクセスが良く、国内外への移動が多い人に便利な立地です。",
+      "features": ["access_good", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": 66800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "加賀市",
+      "averageRent": 50000,
+      "minRent": 51700,
+      "maxRent": 60000,
+      "latitude": 36.3,
+      "longitude": 136.35,
+      "nearestStation": "加賀温泉",
+      "distanceToStation": 20,
+      "description": "加賀温泉郷（山代・山中・片山津）を擁する癒やしの街。九谷焼などの伝統工芸も盛ん。北陸新幹線の延伸で首都圏からのアクセスが向上しました。日常的に温泉を楽しめる贅沢な環境です。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51700,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "能美市",
+      "averageRent": 50000,
+      "minRent": 50100,
+      "maxRent": 51000,
+      "latitude": 36.44,
+      "longitude": 136.5,
+      "nearestStation": "能美根上",
+      "distanceToStation": 20,
+      "description": "「九谷焼」の主要産地。のどかな田園風景が広がり、いしかわ動物園などのレジャー施設があります。住みやすさ評価が高く、金沢や小松への通勤者のベッドタウンとして定着しています。",
+      "features": ["child_rearing", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 50100,
+        "oneLDK": 51000,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "かほく市",
+      "averageRent": 55000,
+      "minRent": 55000,
+      "maxRent": 62800,
+      "latitude": 36.72,
+      "longitude": 136.7,
+      "nearestStation": "宇野気",
+      "distanceToStation": 15,
+      "description": "県の中央部に位置し、金沢へのアクセスが良いベッドタウン。「イオンモールかほく」があり、買い物に困りません。海沿いのドライブコース「のと里山海道」へのアクセスも良好。",
+      "features": ["shopping_convenient", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 62800,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "七尾市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 37.04,
+      "longitude": 136.96,
+      "nearestStation": "七尾",
+      "distanceToStation": 15,
+      "description": "能登半島の中心都市。和倉温泉があり、観光客で賑わいます。「青柏祭」のでか山など伝統文化が色濃く残る街。新鮮な魚介類が安くて美味しく、食通にはたまらない環境です。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "輪島市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 37.39,
+      "longitude": 136.9,
+      "nearestStation": "穴水（バス移動）",
+      "distanceToStation": 60,
+      "description": "「輪島塗」と「朝市」で有名な伝統の街。能登半島の北部に位置し、美しい里海・里山の風景が広がります。NHK朝ドラ「まれ」の舞台。都会の喧騒を離れ、自然のリズムで暮らしたい人に。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "珠洲市",
+      "averageRent": 40000,
+      "minRent": 35000,
+      "maxRent": 50000,
+      "latitude": 37.43,
+      "longitude": 137.26,
+      "nearestStation": "穴水（バス移動）",
+      "distanceToStation": 90,
+      "description": "能登半島の最先端。見附島などの景勝地があり、手つかずの自然が残されています。国際芸術祭「奥能登国際芸術祭」の開催地。古き良き日本の原風景の中で、スローライフを満喫できます。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "羽咋市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 36.89,
+      "longitude": 136.78,
+      "nearestStation": "羽咋",
+      "distanceToStation": 15,
+      "description": "能登半島の入り口。車で走れる砂浜「千里浜なぎさドライブウェイ」で有名。UFO伝説があるユニークな街でもあります。自然豊かで農業が盛ん。「自然栽培の聖地」としても知られています。",
+      "features": ["nature", "cost_performance", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

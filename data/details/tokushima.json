@@ -1,0 +1,103 @@
+{
+  "id": 41,
+  "name": "徳島県",
+  "slug": "tokushima",
+  "region": "四国",
+  "averageRent": 52000,
+  "latitude": 34.0658,
+  "longitude": 134.5593,
+  "population": 720000,
+  "description": "阿波おどりの熱気。鳴門海峡の渦潮。LED産業の集積地。",
+  "areas": [
+    {
+      "name": "徳島市",
+      "averageRent": 65000,
+      "minRent": 42300,
+      "maxRent": 98300,
+      "latitude": 34.07,
+      "longitude": 134.55,
+      "nearestStation": "徳島",
+      "distanceToStation": 10,
+      "description": "県庁所在地。夏には「阿波おどり」で街中が熱狂に包まれます。水都としても有名で、川のある風景が美しい。関西（特に神戸・大阪）への高速バスが頻繁に出ており、アクセスも良好。",
+      "features": ["access_good", "culture", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 42300,
+        "oneLDK": 60800,
+        "twoLDK": 71600,
+        "threeLDK": 98300
+      }
+    },
+    {
+      "name": "鳴門市",
+      "averageRent": 55000,
+      "minRent": 48000,
+      "maxRent": 58200,
+      "latitude": 34.18,
+      "longitude": 134.61,
+      "nearestStation": "鳴門",
+      "distanceToStation": 15,
+      "description": "世界最大級の渦潮が見られる鳴門海峡や、大塚国際美術館が有名。四国の玄関口として、本州へのアクセスが最も便利。鳴門金時（サツマイモ）などのグルメも豊富。",
+      "features": ["nature", "culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 48000,
+        "twoLDK": 52000,
+        "threeLDK": 58200
+      }
+    },
+    {
+      "name": "小松島市",
+      "averageRent": 50000,
+      "minRent": 44100,
+      "maxRent": 53800,
+      "latitude": 34.0,
+      "longitude": 134.58,
+      "nearestStation": "南小松島",
+      "distanceToStation": 10,
+      "description": "徳島市の南に隣接する港町。伝説「阿波狸合戦」の舞台。住宅地が多く、徳島市のベッドタウンとして機能。家賃が手頃で、のんびりとした暮らしができます。",
+      "features": ["cost_performance", "quiet", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 44100,
+        "oneLDK": 49900,
+        "twoLDK": 53800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "阿南市",
+      "averageRent": 55000,
+      "minRent": 44000,
+      "maxRent": 52900,
+      "latitude": 33.92,
+      "longitude": 134.66,
+      "nearestStation": "阿南",
+      "distanceToStation": 10,
+      "description": "「光のまち阿南」。LED関連企業が集積し、産業が盛ん。四国最東端の蒲生田岬など、美しい海岸線も魅力。野球を通じた街おこしを行い、「野球のまち」としても知られます。",
+      "features": ["industry", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 44000,
+        "oneLDK": 46700,
+        "twoLDK": 52900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "吉野川市",
+      "averageRent": 50000,
+      "minRent": 48200,
+      "maxRent": 52700,
+      "latitude": 34.07,
+      "longitude": 134.35,
+      "nearestStation": "鴨島",
+      "distanceToStation": 15,
+      "description": "四国三郎・吉野川の中流域に位置します。自然豊かで、農業が盛ん。ホタルが見られる清流も。静かな環境で、自然と触れ合いながら子育てをしたい世帯におすすめ。",
+      "features": ["nature", "child_rearing", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 48200,
+        "twoLDK": 52700,
+        "threeLDK": null
+      }
+    }
+  ]
+}

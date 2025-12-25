@@ -1,0 +1,193 @@
+{
+  "id": 29,
+  "name": "三重県",
+  "slug": "mie",
+  "region": "近畿・中部",
+  "averageRent": 55000,
+  "latitude": 34.7303,
+  "longitude": 136.5086,
+  "population": 1770000,
+  "description": "伊勢神宮や伊賀忍者、松阪牛など世界に誇る観光資源が豊富。",
+  "areas": [
+    {
+      "name": "四日市市",
+      "averageRent": 65000,
+      "minRent": 51200,
+      "maxRent": 86100,
+      "latitude": 34.96,
+      "longitude": 136.62,
+      "nearestStation": "近鉄四日市",
+      "distanceToStation": 5,
+      "description": "県内最大の人口を誇る商工業都市。工場夜景ブームの火付け役として有名。名古屋へのアクセスが良く、ベッドタウンとしても機能。駅周辺は賑やかで、生活利便性が非常に高いエリアです。",
+      "features": ["industry", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 51200,
+        "oneLDK": 65800,
+        "twoLDK": 76600,
+        "threeLDK": 86100
+      }
+    },
+    {
+      "name": "津市",
+      "averageRent": 60000,
+      "minRent": 41400,
+      "maxRent": 95900,
+      "latitude": 34.73,
+      "longitude": 136.51,
+      "nearestStation": "津",
+      "distanceToStation": 10,
+      "description": "県庁所在地。「世界一短い地名（Tsu）」としてギネス記録も。うなぎ店が人口比で多く、うなぎ消費が盛ん。行政機関が集まり、落ち着いた雰囲気。海沿いの開放感ある街並みが魅力。",
+      "features": ["culture", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 41400,
+        "oneLDK": 58400,
+        "twoLDK": 66700,
+        "threeLDK": 95900
+      }
+    },
+    {
+      "name": "伊勢市",
+      "averageRent": 55000,
+      "minRent": 51200,
+      "maxRent": 60000,
+      "latitude": 34.49,
+      "longitude": 136.71,
+      "nearestStation": "伊勢市",
+      "distanceToStation": 10,
+      "description": "「お伊勢さん」として親しまれる伊勢神宮の門前町。年間を通じて多くの観光客で賑わいます。おかげ横丁など食べ歩きも楽しい。神聖な空気と、歴史情緒あふれる特別な街。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 51200,
+        "oneLDK": 51800,
+        "twoLDK": 57000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "松阪市",
+      "averageRent": 55000,
+      "minRent": 47500,
+      "maxRent": 71200,
+      "latitude": 34.57,
+      "longitude": 136.53,
+      "nearestStation": "松阪",
+      "distanceToStation": 10,
+      "description": "世界のブランド「松阪牛」の産地。豪商の街としての歴史を持ち、立派な日本家屋が残ります。駅弁の「モー太郎弁当」はメロディが流れることで有名。食と歴史が豊かな商都。",
+      "features": ["culture", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47500,
+        "oneLDK": 58600,
+        "twoLDK": 60200,
+        "threeLDK": 71200
+      }
+    },
+    {
+      "name": "桑名市",
+      "averageRent": 65000,
+      "minRent": 52500,
+      "maxRent": 96300,
+      "latitude": 35.06,
+      "longitude": 136.68,
+      "nearestStation": "桑名",
+      "distanceToStation": 10,
+      "description": "ナガシマスパーランドやなばなの里があり、レジャーが充実。名古屋駅まで電車で約20分と非常に近く、ベッドタウンとして大人気。はまぐり料理が名物。活気と潤いのある街。",
+      "features": ["access_good", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 52500,
+        "oneLDK": 61400,
+        "twoLDK": 80700,
+        "threeLDK": 96300
+      }
+    },
+    {
+      "name": "鈴鹿市",
+      "averageRent": 55000,
+      "minRent": 41200,
+      "maxRent": 71000,
+      "latitude": 34.88,
+      "longitude": 136.58,
+      "nearestStation": "白子",
+      "distanceToStation": 10,
+      "description": "F1日本グランプリが開催される「モータースポーツの聖地」。ホンダの巨大工場があり、自動車産業が盛ん。若者が多く、街に活気があります。海も山もあり、自然と産業が共存するエリア。",
+      "features": ["industry", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 41200,
+        "oneLDK": 56300,
+        "twoLDK": 55800,
+        "threeLDK": 71000
+      }
+    },
+    {
+      "name": "伊賀市",
+      "averageRent": 55000,
+      "minRent": 43400,
+      "maxRent": 69700,
+      "latitude": 34.76,
+      "longitude": 136.13,
+      "nearestStation": "伊賀上野",
+      "distanceToStation": 15,
+      "description": "伊賀流忍者発祥の地。上野城の城下町で、松尾芭蕉の生誕地でもあります。伊賀牛や伊賀焼など特産品も多彩。盆地特有の気候。歴史ロマンと忍者の里として、海外からも注目されています。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 43400,
+        "oneLDK": 53900,
+        "twoLDK": 57300,
+        "threeLDK": 69700
+      }
+    },
+    {
+      "name": "名張市",
+      "averageRent": 55000,
+      "minRent": 43300,
+      "maxRent": 66300,
+      "latitude": 34.62,
+      "longitude": 136.1,
+      "nearestStation": "名張",
+      "distanceToStation": 10,
+      "description": "大阪方面への通勤圏内にあるベッドタウン（近鉄大阪線沿線）。「関西の軽井沢」とも呼ばれる避暑地的な環境。赤目四十八滝はハイキングに最適。自然の中で静かに暮らしたい人に。",
+      "features": ["nature", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 43300,
+        "oneLDK": 57400,
+        "twoLDK": 63000,
+        "threeLDK": 66300
+      }
+    },
+    {
+      "name": "いなべ市",
+      "averageRent": 55000,
+      "minRent": 43400,
+      "maxRent": 63000,
+      "latitude": 35.15,
+      "longitude": 136.5,
+      "nearestStation": "楚原",
+      "distanceToStation": 15,
+      "description": "近年、アウトドアシティとして注目。青川峡キャンピングパークなど人気施設があります。トヨタ車体の工場があり、雇用も安定。名古屋方面へのアクセスも改善され、移住者が増えています。",
+      "features": ["nature", "child_rearing", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 43400,
+        "oneLDK": 58000,
+        "twoLDK": 63000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "志摩市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 34.32,
+      "longitude": 136.83,
+      "nearestStation": "賢島",
+      "distanceToStation": 10,
+      "description": "伊勢志摩サミット開催地。リアス式海岸の英虞湾は絶景。真珠養殖の発祥地。志摩スペイン村などのレジャー施設も。海女文化が残り、新鮮なアワビや伊勢海老が楽しめるリゾートエリア。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

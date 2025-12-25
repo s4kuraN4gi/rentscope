@@ -124,5 +124,725 @@
       "twoLDK": 115235,
       "threeLDK": 149903
     }
+  },
+  {
+    "id": 8,
+    "name": "京都府",
+    "slug": "kyoto",
+    "region": "関西",
+    "averageRent": 68000,
+    "latitude": 35.0116,
+    "longitude": 135.7681,
+    "population": 2500000,
+    "description": "千年の都。歴史ある街並みと学生の街としての活気が共存。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 56000,
+      "oneLDK": 85000,
+      "twoLDK": 115000,
+      "threeLDK": 135000
+    }
+  },
+  {
+    "id": 9,
+    "name": "兵庫県",
+    "slug": "hyogo",
+    "region": "関西",
+    "averageRent": 66000,
+    "latitude": 34.6901,
+    "longitude": 135.1955,
+    "population": 5400000,
+    "description": "港町神戸から豊かな自然まで。洗練と多様性が魅力のエリア。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 53000,
+      "oneLDK": 75000,
+      "twoLDK": 100000,
+      "threeLDK": 120000
+    }
+  },
+  {
+    "id": 10,
+    "name": "北海道",
+    "slug": "hokkaido",
+    "region": "北海道",
+    "averageRent": 55000,
+    "latitude": 43.0642,
+    "longitude": 141.3469,
+    "population": 5100000,
+    "description": "広大な大地と豊かな自然。四季折々の食と観光が魅力。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 58000,
+      "twoLDK": 80000,
+      "threeLDK": 110000
+    }
+  },
+  {
+    "id": 11,
+    "name": "宮城県",
+    "slug": "miyagi",
+    "region": "東北",
+    "averageRent": 58000,
+    "latitude": 38.2682,
+    "longitude": 140.8694,
+    "population": 2280000,
+    "description": "杜の都・仙台を中心とした東北の経済・文化の要衝。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 50000,
+      "oneLDK": 65000,
+      "twoLDK": 85000,
+      "threeLDK": 110000
+    }
+  },
+  {
+    "id": 12,
+    "name": "広島県",
+    "slug": "hiroshima",
+    "region": "中国",
+    "averageRent": 60000,
+    "latitude": 34.3853,
+    "longitude": 132.4553,
+    "population": 2800000,
+    "description": "平和都市ヒロシマ。瀬戸内の穏やかな気候と都市機能が調和。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 52000,
+      "oneLDK": 70000,
+      "twoLDK": 90000,
+      "threeLDK": 120000
+    }
+  },
+  {
+    "id": 13,
+    "name": "静岡県",
+    "slug": "shizuoka",
+    "region": "中部",
+    "averageRent": 58000,
+    "latitude": 34.9756,
+    "longitude": 138.3828,
+    "population": 3600000,
+    "description": "富士山を望む日本の東西結節点。温暖な気候と豊かな産業。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 65000,
+      "twoLDK": 78000,
+      "threeLDK": 110000
+    }
+  },
+  {
+    "id": 14,
+    "name": "石川県",
+    "slug": "ishikawa",
+    "region": "中部",
+    "averageRent": 55000,
+    "latitude": 36.5613,
+    "longitude": 136.6562,
+    "population": 1130000,
+    "description": "伝統とモダンが融合する城下町・金沢。美食と温泉の宝庫。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 52000,
+      "oneLDK": 65000,
+      "twoLDK": 80000,
+      "threeLDK": 110000
+    }
+  },
+  {
+    "id": 15,
+    "name": "熊本県",
+    "slug": "kumamoto",
+    "region": "九州",
+    "averageRent": 50000,
+    "latitude": 32.7898,
+    "longitude": 130.7416,
+    "population": 1730000,
+    "description": "火の国・熊本。世界的な半導体産業の集積地として急成長中。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 58000,
+      "twoLDK": 70000,
+      "threeLDK": 100000
+    }
+  },
+  {
+    "id": 16,
+    "name": "香川県",
+    "slug": "kagawa",
+    "region": "四国",
+    "averageRent": 50000,
+    "latitude": 34.3401,
+    "longitude": 134.0433,
+    "population": 950000,
+    "description": "うどん県として有名。瀬戸内の多島美と穏やかな気候が魅力。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 47000,
+      "oneLDK": 61000,
+      "twoLDK": 67000,
+      "threeLDK": 94000
+    }
+  },
+  {
+    "id": 17,
+    "name": "茨城県",
+    "slug": "ibaraki",
+    "region": "関東",
+    "averageRent": 55000,
+    "latitude": 36.3659,
+    "longitude": 140.4715,
+    "population": 2850000,
+    "description": "研究学園都市つくばと豊かな自然。都心へのアクセスも良好。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 50000,
+      "oneLDK": 62000,
+      "twoLDK": 72000,
+      "threeLDK": 100000
+    }
+  },
+  {
+    "id": 18,
+    "name": "新潟県",
+    "slug": "niigata",
+    "region": "中部",
+    "averageRent": 52000,
+    "latitude": 37.9022,
+    "longitude": 139.0236,
+    "population": 2200000,
+    "description": "日本海側最大の都市。米どころとして有名で、食と自然が豊か。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 58000,
+      "twoLDK": 70000,
+      "threeLDK": 110000
+    }
+  },
+  {
+    "id": 19,
+    "name": "青森県",
+    "slug": "aomori",
+    "region": "東北",
+    "averageRent": 55000,
+    "latitude": 40.8226,
+    "longitude": 140.7406,
+    "population": 1240000,
+    "description": "本州最北端。ねぶた祭やリンゴで有名。豊かな自然と食文化。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 47600,
+      "oneLDK": 56500,
+      "twoLDK": 66400,
+      "threeLDK": 80000
+    }
+  },
+  {
+    "id": 20,
+    "name": "秋田県",
+    "slug": "akita",
+    "region": "東北",
+    "averageRent": 55000,
+    "latitude": 39.72,
+    "longitude": 140.1025,
+    "population": 960000,
+    "description": "美人、米、酒で知られる秋田。四季折々の自然と温泉が魅力。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 49300,
+      "oneLDK": 63900,
+      "twoLDK": 72800,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 21,
+    "name": "愛媛県",
+    "slug": "ehime",
+    "region": "四国",
+    "averageRent": 50000,
+    "latitude": 33.8416,
+    "longitude": 132.7661,
+    "population": 1330000,
+    "description": "道後温泉とミカン王国。瀬戸内海の温暖な気候で住みやすい。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 43300,
+      "oneLDK": 59400,
+      "twoLDK": 69400,
+      "threeLDK": 103300
+    }
+  },
+  {
+    "id": 22,
+    "name": "福島県",
+    "slug": "fukushima",
+    "region": "東北",
+    "averageRent": 55000,
+    "latitude": 37.7608,
+    "longitude": 140.4748,
+    "population": 1830000,
+    "description": "広大な県土と豊かな自然。会津、中通り、浜通りと3つの異なる文化。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 55000,
+      "twoLDK": 65000,
+      "threeLDK": 85000
+    }
+  },
+  {
+    "id": 23,
+    "name": "福井県",
+    "slug": "fukui",
+    "region": "中部",
+    "averageRent": 55000,
+    "latitude": 36.0641,
+    "longitude": 136.2195,
+    "population": 760000,
+    "description": "幸福度ランキング常連。恐竜王国。食と子育て環境が充実。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 51000,
+      "oneLDK": 58000,
+      "twoLDK": 70000,
+      "threeLDK": 100000
+    }
+  },
+  {
+    "id": 24,
+    "name": "岐阜県",
+    "slug": "gifu",
+    "region": "中部",
+    "averageRent": 58000,
+    "latitude": 35.4233,
+    "longitude": 136.7607,
+    "population": 1960000,
+    "description": "清流の国。世界遺産・白川郷や鵜飼など伝統文化が息づく。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 52000,
+      "oneLDK": 62000,
+      "twoLDK": 75000,
+      "threeLDK": 110000
+    }
+  },
+  {
+    "id": 25,
+    "name": "群馬県",
+    "slug": "gunma",
+    "region": "関東",
+    "averageRent": 53000,
+    "latitude": 36.3907,
+    "longitude": 139.0604,
+    "population": 1930000,
+    "description": "温泉王国ぐんま。草津、伊香保など名湯が点在。自動車産業も盛ん。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 58000,
+      "twoLDK": 68000,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 26,
+    "name": "岩手県",
+    "slug": "iwate",
+    "region": "東北",
+    "averageRent": 50000,
+    "latitude": 39.7036,
+    "longitude": 141.1527,
+    "population": 1210000,
+    "description": "本州最大の面積。わんこそば、盛岡冷麺など食文化が豊か。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 49000,
+      "oneLDK": 58000,
+      "twoLDK": 68000,
+      "threeLDK": 85000
+    }
+  },
+  {
+    "id": 27,
+    "name": "鹿児島県",
+    "slug": "kagoshima",
+    "region": "九州",
+    "averageRent": 50000,
+    "latitude": 31.5966,
+    "longitude": 130.5571,
+    "population": 1580000,
+    "description": "桜島を望む南国。黒豚、焼酎、温泉など豊かな資源に恵まれる。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 46000,
+      "oneLDK": 55000,
+      "twoLDK": 65000,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 28,
+    "name": "高知県",
+    "slug": "kochi",
+    "region": "四国",
+    "averageRent": 55000,
+    "latitude": 33.5598,
+    "longitude": 133.5311,
+    "population": 690000,
+    "description": "坂本龍馬ゆかりの地。カツオのたたき、よさこい祭りなど情熱的な文化。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 46000,
+      "oneLDK": 61000,
+      "twoLDK": 75000,
+      "threeLDK": 88000
+    }
+  },
+  {
+    "id": 29,
+    "name": "三重県",
+    "slug": "mie",
+    "region": "関西",
+    "averageRent": 55000,
+    "latitude": 34.7303,
+    "longitude": 136.5086,
+    "population": 1770000,
+    "description": "伊勢神宮や伊賀忍者、松阪牛など世界に誇る観光資源が豊富。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 60000,
+      "twoLDK": 70000,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 30,
+    "name": "宮崎県",
+    "slug": "miyazaki",
+    "region": "九州",
+    "averageRent": 50000,
+    "latitude": 31.9111,
+    "longitude": 131.4239,
+    "population": 1070000,
+    "description": "南国リゾートの雰囲気。マンゴー、地鶏など食の宝庫。神話の舞台。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 47000,
+      "oneLDK": 54000,
+      "twoLDK": 65000,
+      "threeLDK": 95000
+    }
+  },
+  {
+    "id": 31,
+    "name": "長野県",
+    "slug": "nagano",
+    "region": "中部",
+    "averageRent": 55000,
+    "latitude": 36.6486,
+    "longitude": 138.1948,
+    "population": 2040000,
+    "description": "日本アルプスの絶景と温泉。避暑地・軽井沢、善光寺、スキー場など。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 55000,
+      "oneLDK": 79000,
+      "twoLDK": 83000,
+      "threeLDK": 135000
+    }
+  },
+  {
+    "id": 32,
+    "name": "長崎県",
+    "slug": "nagasaki",
+    "region": "九州",
+    "averageRent": 55000,
+    "latitude": 32.7503,
+    "longitude": 129.8777,
+    "population": 1310000,
+    "description": "異国情緒あふれる港町。ハウステンボス、軍艦島、美しい島々。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 68000,
+      "twoLDK": 92000,
+      "threeLDK": 156000
+    }
+  },
+  {
+    "id": 33,
+    "name": "奈良県",
+    "slug": "nara",
+    "region": "関西",
+    "averageRent": 58000,
+    "latitude": 34.6851,
+    "longitude": 135.8048,
+    "population": 1320000,
+    "description": "東大寺、法隆寺など国宝・世界遺産の宝庫。歴史と鹿の公園。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 50000,
+      "oneLDK": 84000,
+      "twoLDK": 119000,
+      "threeLDK": 125000
+    }
+  },
+  {
+    "id": 34,
+    "name": "大分県",
+    "slug": "oita",
+    "region": "九州",
+    "averageRent": 55000,
+    "latitude": 33.2382,
+    "longitude": 131.6126,
+    "population": 1120000,
+    "description": "日本一の「おんせん県」。別府、由布院など名湯がズラリ。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 46000,
+      "oneLDK": 65000,
+      "twoLDK": 73000,
+      "threeLDK": 120000
+    }
+  },
+  {
+    "id": 35,
+    "name": "岡山県",
+    "slug": "okayama",
+    "region": "中国",
+    "averageRent": 54000,
+    "latitude": 34.6618,
+    "longitude": 133.9344,
+    "population": 1880000,
+    "description": "「晴れの国」。日本三名園の後楽園や倉敷美観地区など。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 58000,
+      "twoLDK": 75000,
+      "threeLDK": 95000
+    }
+  },
+  {
+    "id": 36,
+    "name": "沖縄県",
+    "slug": "okinawa",
+    "region": "九州",
+    "averageRent": 60000,
+    "latitude": 26.2124,
+    "longitude": 127.6809,
+    "population": 1460000,
+    "description": "日本屈指のリゾートアイランド。美しい海と独自の琉球文化。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 63000,
+      "oneLDK": 90000,
+      "twoLDK": 120000,
+      "threeLDK": 150000
+    }
+  },
+  {
+    "id": 37,
+    "name": "佐賀県",
+    "slug": "saga",
+    "region": "九州",
+    "averageRent": 53000,
+    "latitude": 33.2494,
+    "longitude": 130.2988,
+    "population": 800000,
+    "description": "伊万里焼・有田焼の産地。吉野ヶ里遺跡や佐賀牛も有名。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 58000,
+      "twoLDK": 68000,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 38,
+    "name": "滋賀県",
+    "slug": "shiga",
+    "region": "関西",
+    "averageRent": 60000,
+    "latitude": 35.0045,
+    "longitude": 135.8686,
+    "population": 1410000,
+    "description": "日本一の湖・琵琶湖を有する県。京都・大阪のベッドタウンとしても人気。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 53000,
+      "oneLDK": 66000,
+      "twoLDK": 78000,
+      "threeLDK": 95000
+    }
+  },
+  {
+    "id": 39,
+    "name": "島根県",
+    "slug": "shimane",
+    "region": "中国",
+    "averageRent": 53000,
+    "latitude": 35.4723,
+    "longitude": 133.0505,
+    "population": 660000,
+    "description": "縁結びの神様・出雲大社。宍道湖の夕日や石見銀山など神話と歴史の地。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 50000,
+      "oneLDK": 58000,
+      "twoLDK": 68000,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 40,
+    "name": "栃木県",
+    "slug": "tochigi",
+    "region": "関東",
+    "averageRent": 55000,
+    "latitude": 36.5657,
+    "longitude": 139.8836,
+    "population": 1920000,
+    "description": "日光東照宮や那須高原など観光資源が豊富。宇都宮餃子も有名。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 49000,
+      "oneLDK": 58000,
+      "twoLDK": 68000,
+      "threeLDK": 95000
+    }
+  },
+  {
+    "id": 41,
+    "name": "徳島県",
+    "slug": "tokushima",
+    "region": "四国",
+    "averageRent": 52000,
+    "latitude": 34.0658,
+    "longitude": 134.5593,
+    "population": 720000,
+    "description": "阿波おどりの熱気。鳴門海峡の渦潮。LED産業の集積地。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 44000,
+      "oneLDK": 55000,
+      "twoLDK": 65000,
+      "threeLDK": 90000
+    }
+  },
+  {
+    "id": 42,
+    "name": "鳥取県",
+    "slug": "tottori",
+    "region": "中国",
+    "averageRent": 52000,
+    "latitude": 35.5036,
+    "longitude": 134.2383,
+    "population": 550000,
+    "description": "日本一の砂丘・鳥取砂丘。カニの水揚げ量日本一。漫画「コナン」「鬼太郎」の作者出身地。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 56000,
+      "twoLDK": 65000,
+      "threeLDK": 85000
+    }
+  },
+  {
+    "id": 43,
+    "name": "富山県",
+    "slug": "toyama",
+    "region": "中部",
+    "averageRent": 53000,
+    "latitude": 36.6953,
+    "longitude": 137.2113,
+    "population": 1030000,
+    "description": "北陸新幹線でアクセス良好。黒部ダムや立山黒部アルペンルートなどダイナミックな自然。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 48000,
+      "oneLDK": 58000,
+      "twoLDK": 70000,
+      "threeLDK": 95000
+    }
+  },
+  {
+    "id": 44,
+    "name": "和歌山県",
+    "slug": "wakayama",
+    "region": "関西",
+    "averageRent": 50000,
+    "latitude": 34.226,
+    "longitude": 135.1675,
+    "population": 910000,
+    "description": "世界遺産・熊野古道や高野山。白浜のパンダや温泉、ミカン、梅干しなど魅力満載。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 55000,
+      "twoLDK": 65000,
+      "threeLDK": 85000
+    }
+  },
+  {
+    "id": 45,
+    "name": "山形県",
+    "slug": "yamagata",
+    "region": "東北",
+    "averageRent": 50000,
+    "latitude": 38.2404,
+    "longitude": 140.3636,
+    "population": 1060000,
+    "description": "「さくらんぼ県」。全市町村に温泉がある。蔵王の樹氷や最上川など四季が美しい。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 53000,
+      "twoLDK": 65000,
+      "threeLDK": 85000
+    }
+  },
+  {
+    "id": 46,
+    "name": "山口県",
+    "slug": "yamaguchi",
+    "region": "中国",
+    "averageRent": 52000,
+    "latitude": 34.1859,
+    "longitude": 131.4714,
+    "population": 1340000,
+    "description": "本州最西端。歴史の舞台となった萩や下関。秋芳洞のカルスト台地も有名。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 45000,
+      "oneLDK": 58000,
+      "twoLDK": 64000,
+      "threeLDK": 88000
+    }
+  },
+  {
+    "id": 47,
+    "name": "山梨県",
+    "slug": "yamanashi",
+    "region": "中部",
+    "averageRent": 56000,
+    "latitude": 35.6639,
+    "longitude": 138.5684,
+    "population": 800000,
+    "description": "富士山と湖の県。ブドウ、桃、ワインの産地。都心へのアクセスも意外と良い。",
+    "areas": [],
+    "rentByRoomType": {
+      "oneRoom": 56000,
+      "oneLDK": 78000,
+      "twoLDK": 85000,
+      "threeLDK": 100000
+    }
   }
 ]

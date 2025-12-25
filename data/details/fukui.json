@@ -1,0 +1,157 @@
+{
+  "id": 23,
+  "name": "福井県",
+  "slug": "fukui",
+  "region": "中部",
+  "averageRent": 55000,
+  "latitude": 36.0641,
+  "longitude": 136.2195,
+  "population": 760000,
+  "description": "幸福度ランキング常連。恐竜王国。食と子育て環境が充実。",
+  "areas": [
+    {
+      "name": "福井市",
+      "averageRent": 65000,
+      "minRent": 51100,
+      "maxRent": 104800,
+      "latitude": 36.06,
+      "longitude": 136.22,
+      "nearestStation": "福井",
+      "distanceToStation": 10,
+      "description": "県庁所在地。北陸新幹線の開通で東京へのアクセスが飛躍的に向上。再開発が進む駅前と、足羽川の桜並木など自然が共存。教育水準が高く、子育て世帯に非常に人気のある街です。",
+      "features": ["child_rearing", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 51100,
+        "oneLDK": 68300,
+        "twoLDK": 73100,
+        "threeLDK": 104800
+      }
+    },
+    {
+      "name": "敦賀市",
+      "averageRent": 60000,
+      "minRent": 56800,
+      "maxRent": 69900,
+      "latitude": 35.65,
+      "longitude": 136.07,
+      "nearestStation": "敦賀",
+      "distanceToStation": 10,
+      "description": "日本海側の重要港湾都市。鉄道と港の街として栄えました。北陸新幹線の延伸により交通の要衝としての地位が復活。新鮮な魚介類が豊富で、気比の松原など景勝地も多いエリア。",
+      "features": ["access_good", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 56800,
+        "twoLDK": 69900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "坂井市",
+      "averageRent": 60000,
+      "minRent": 52700,
+      "maxRent": 69000,
+      "latitude": 36.16,
+      "longitude": 136.22,
+      "nearestStation": "丸岡",
+      "distanceToStation": 15,
+      "description": "東尋坊や丸岡城（現存最古の天守）を擁する観光都市。福井市のベッドタウンとしても機能。コシヒカリの発祥地の一つ。海・山・平野が揃い、バランスの取れた住環境です。",
+      "features": ["nature", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 52700,
+        "oneLDK": 57700,
+        "twoLDK": 69000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "越前市",
+      "averageRent": 60000,
+      "minRent": 55400,
+      "maxRent": 68600,
+      "latitude": 35.9,
+      "longitude": 136.17,
+      "nearestStation": "武生",
+      "distanceToStation": 10,
+      "description": "伝統工芸（越前和紙、越前打刃物など）の街。「武生（たけふ）」として知られ、紫式部ゆかりの地。電子部品産業も盛んで、雇用の場が多い。文化と産業が融合した職人の街。",
+      "features": ["culture", "industry", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 55400,
+        "oneLDK": 56900,
+        "twoLDK": 68600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "鯖江市",
+      "averageRent": 60000,
+      "minRent": 50400,
+      "maxRent": 66900,
+      "latitude": 35.95,
+      "longitude": 136.18,
+      "nearestStation": "鯖江",
+      "distanceToStation": 10,
+      "description": "「めがねのまち」として世界的に有名。国内シェアの9割以上を占めます。IT企業の誘致やオープンデータ活用など先進的な取り組みでも知られる。若者がチャレンジしやすい活気ある街。",
+      "features": ["industry", "culture", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 50400,
+        "oneLDK": 58800,
+        "twoLDK": 66900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "あわら市",
+      "averageRent": 55000,
+      "minRent": 51800,
+      "maxRent": 57200,
+      "latitude": 36.21,
+      "longitude": 136.23,
+      "nearestStation": "芦原温泉",
+      "distanceToStation": 15,
+      "description": "「関西の奥座敷」芦原温泉があります。温泉街の情緒と、田園風景が広がるのどかな街。北陸新幹線の停車駅となり、観光客が増加中。温泉好きにはたまらない贅沢な暮らしができます。",
+      "features": ["culture", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 51800,
+        "twoLDK": 57200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "小浜市",
+      "averageRent": 55000,
+      "minRent": 51900,
+      "maxRent": 60000,
+      "latitude": 35.49,
+      "longitude": 135.75,
+      "nearestStation": "小浜",
+      "distanceToStation": 15,
+      "description": "「海のある奈良」と呼ばれるほど寺社仏閣が多い古都。御食国（みけつくに）として朝廷に海産物を献上していた歴史を持ち、食文化が豊か。サバなどが美味。歴史ロマンを感じる静かな街。",
+      "features": ["history_culture", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51900,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大野市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 70000,
+      "latitude": 35.98,
+      "longitude": 136.49,
+      "nearestStation": "越前大野",
+      "distanceToStation": 15,
+      "description": "「北陸の小京都」。越前大野城の城下町で、碁盤の目の街並みが残ります。名水百選に選ばれた「御清水（おしょうず）」など水が綺麗。天空の城が現れることも。星空が美しい自然豊かな街。",
+      "features": ["nature", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": 69900,
+        "threeLDK": null
+      }
+    }
+  ]
+}

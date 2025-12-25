@@ -1,0 +1,193 @@
+{
+  "id": 33,
+  "name": "奈良県",
+  "slug": "nara",
+  "region": "近畿",
+  "averageRent": 58000,
+  "latitude": 34.6851,
+  "longitude": 135.8048,
+  "population": 1320000,
+  "description": "東大寺、法隆寺など国宝・世界遺産の宝庫。歴史と鹿の公園。",
+  "areas": [
+    {
+      "name": "奈良市",
+      "averageRent": 65000,
+      "minRent": 49500,
+      "maxRent": 125300,
+      "latitude": 34.68,
+      "longitude": 135.8,
+      "nearestStation": "近鉄奈良",
+      "distanceToStation": 5,
+      "description": "県庁所在地。奈良公園の鹿や東大寺の大仏で世界的に有名。大阪や京都へのアクセスが良く、ベッドタウンとしても人気。古都の風情と便利さが共存し、教育環境も良い住みやすい街。",
+      "features": ["history_culture", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 49500,
+        "oneLDK": 84300,
+        "twoLDK": 119200,
+        "threeLDK": 125300
+      }
+    },
+    {
+      "name": "橿原市",
+      "averageRent": 60000,
+      "minRent": 48700,
+      "maxRent": 101900,
+      "latitude": 34.51,
+      "longitude": 135.79,
+      "nearestStation": "大和八木",
+      "distanceToStation": 5,
+      "description": "日本最初の都・藤原京があった地。橿原神宮の門前町。大和八木駅は県内交通の要衝で、大阪・京都・名古屋へアクセス至便。イオンモール橿原があり、買い物環境も抜群です。",
+      "features": ["access_good", "shopping_convenient", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 48700,
+        "oneLDK": 68000,
+        "twoLDK": 74900,
+        "threeLDK": 101900
+      }
+    },
+    {
+      "name": "生駒市",
+      "averageRent": 70000,
+      "minRent": 52400,
+      "maxRent": 129600,
+      "latitude": 34.69,
+      "longitude": 135.7,
+      "nearestStation": "生駒",
+      "distanceToStation": 5,
+      "description": "大阪のベッドタウンとして発展。大阪中心部まで電車で約20分。生駒山を望む坂の多い街で、夜景が綺麗。教育熱心な家庭が多く、治安も良好。住みよさランキングで常に上位に入る人気エリア。",
+      "features": ["access_good", "child_rearing", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 52400,
+        "oneLDK": 77700,
+        "twoLDK": 98600,
+        "threeLDK": 129600
+      }
+    },
+    {
+      "name": "大和郡山市",
+      "averageRent": 60000,
+      "minRent": 47900,
+      "maxRent": 94500,
+      "latitude": 34.65,
+      "longitude": 135.78,
+      "nearestStation": "近鉄郡山",
+      "distanceToStation": 10,
+      "description": "「金魚のまち」として知られる城下町。郡山城跡の桜は見事。古い街並みが残り、散策が楽しい。交通の便も良く、落ち着いた住環境。夏には全国金魚すくい選手権大会が開催されます。",
+      "features": ["culture", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47900,
+        "oneLDK": 67000,
+        "twoLDK": 72200,
+        "threeLDK": 94500
+      }
+    },
+    {
+      "name": "天理市",
+      "averageRent": 55000,
+      "minRent": 48200,
+      "maxRent": 65600,
+      "latitude": 34.6,
+      "longitude": 135.83,
+      "nearestStation": "天理",
+      "distanceToStation": 10,
+      "description": "宗教都市としての顔を持つ一方で、古墳が多く残る歴史の街。「山の辺の道」はハイキングコースとして人気。天理大学があり、スポーツが盛ん。独特の雰囲気と、豊かな緑があるエリア。",
+      "features": ["culture", "history_culture", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 48200,
+        "oneLDK": 59200,
+        "twoLDK": 65600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "桜井市",
+      "averageRent": 55000,
+      "minRent": 39200,
+      "maxRent": 69300,
+      "latitude": 34.51,
+      "longitude": 135.85,
+      "nearestStation": "桜井",
+      "distanceToStation": 10,
+      "description": "「万葉集」ゆかりの地。三輪山をご神体とする大神神社は日本最古の神社の一つ。三輪そうめんが名物。古代ロマンを感じられる静かな環境。歴史好きにはたまらないスポットが点在します。",
+      "features": ["history_culture", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 39200,
+        "oneLDK": 57300,
+        "twoLDK": 60600,
+        "threeLDK": 69300
+      }
+    },
+    {
+      "name": "香芝市",
+      "averageRent": 60000,
+      "minRent": 42600,
+      "maxRent": 74900,
+      "latitude": 34.54,
+      "longitude": 135.7,
+      "nearestStation": "五位堂",
+      "distanceToStation": 10,
+      "description": "大阪への通勤・通学者急増中のベッドタウン。ニュータウン開発が進み、若い世代が多い。西名阪自動車道のインターもあり、車でのアクセスも便利。活気があり、これからの発展が期待される街。",
+      "features": ["access_good", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 42600,
+        "oneLDK": 63300,
+        "twoLDK": 68100,
+        "threeLDK": 74900
+      }
+    },
+    {
+      "name": "葛城市",
+      "averageRent": 55000,
+      "minRent": 56500,
+      "maxRent": 59000,
+      "latitude": 34.49,
+      "longitude": 135.72,
+      "nearestStation": "尺土",
+      "distanceToStation": 10,
+      "description": "二上山と葛城山の麓に位置する自然豊かな街。相撲発祥の地という伝説も。道の駅かつらぎなど、地元の新鮮な農産物が手に入るスポットが人気。のどかな風景の中で、ゆったり暮らせるエリア。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 56800,
+        "oneLDK": 57000,
+        "twoLDK": 56500,
+        "threeLDK": 59000
+      }
+    },
+    {
+      "name": "大和高田市",
+      "averageRent": 55000,
+      "minRent": 47300,
+      "maxRent": 60500,
+      "latitude": 34.52,
+      "longitude": 135.74,
+      "nearestStation": "大和高田",
+      "distanceToStation": 5,
+      "description": "県中西部の中心都市。鉄道3線が乗り入れ、交通利便性が高い。商業施設も多く、生活に必要なものがコンパクトに揃います。春には高田川沿いの「高田千本桜」が咲き誇る、桜の名所。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 60500,
+        "twoLDK": 59600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "五條市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 34.35,
+      "longitude": 135.7,
+      "nearestStation": "五条",
+      "distanceToStation": 15,
+      "description": "江戸時代の街並みが残る「新町通り」は重要伝統的建造物群保存地区。柿の生産日本一。吉野川でのアウトドアも楽しめます。和歌山県へのアクセスも良い、歴史と自然の街。",
+      "features": ["history_culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

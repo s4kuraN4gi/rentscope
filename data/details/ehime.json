@@ -1,0 +1,175 @@
+{
+  "id": 21,
+  "name": "愛媛県",
+  "slug": "ehime",
+  "region": "四国",
+  "averageRent": 50000,
+  "latitude": 33.8416,
+  "longitude": 132.7661,
+  "population": 1330000,
+  "description": "道後温泉とミカン王国。瀬戸内海の温暖な気候で住みやすい。",
+  "areas": [
+    {
+      "name": "松山市",
+      "averageRent": 60000,
+      "minRent": 43300,
+      "maxRent": 103300,
+      "latitude": 33.84,
+      "longitude": 132.76,
+      "nearestStation": "松山市",
+      "distanceToStation": 5,
+      "description": "四国最大の都市。日本最古の温泉「道後温泉」や松山城がシンボル。路面電車が走り、文学の香り漂う街。温暖で災害も比較的少なく、コンパクトシティとして非常に住みやすい人気のエリア。",
+      "features": ["culture", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 43300,
+        "oneLDK": 59400,
+        "twoLDK": 69400,
+        "threeLDK": 103300
+      }
+    },
+    {
+      "name": "今治市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 34.06,
+      "longitude": 133.0,
+      "nearestStation": "今治",
+      "distanceToStation": 10,
+      "description": "世界に誇る「今治タオル」と造船の街。しまなみ海道の四国側起点で、サイクリストの聖地。焼き鳥などのグルメも充実。瀬戸内の島々と橋が織りなす景観は素晴らしく、移住者も多い。",
+      "features": ["industry", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": 54000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "新居浜市",
+      "averageRent": 50000,
+      "minRent": 45700,
+      "maxRent": 57200,
+      "latitude": 33.96,
+      "longitude": 133.28,
+      "nearestStation": "新居浜",
+      "distanceToStation": 15,
+      "description": "四国屈指の工業都市。住友グループ発祥の地として発展。秋の「新居浜太鼓祭り」は四国三大祭りの一つで、勇壮華麗。雇用が豊富で、活気のある街。海と山が近く、レジャーも楽しめます。",
+      "features": ["industry", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45700,
+        "oneLDK": 47400,
+        "twoLDK": 57200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "西条市",
+      "averageRent": 45000,
+      "minRent": 38400,
+      "maxRent": 47900,
+      "latitude": 33.91,
+      "longitude": 133.18,
+      "nearestStation": "伊予西条",
+      "distanceToStation": 15,
+      "description": "西日本最高峰・石鎚山の麓。「うちぬき」と呼ばれる湧き水が豊富で、水の都として知られます。製造業が盛んで、移住者に人気の街ランキングで常に上位。水が美味しく、生活環境が良い。",
+      "features": ["nature", "industry", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 38400,
+        "oneLDK": 46300,
+        "twoLDK": 47900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "四国中央市",
+      "averageRent": 45000,
+      "minRent": 37500,
+      "maxRent": 55700,
+      "latitude": 33.98,
+      "longitude": 133.55,
+      "nearestStation": "伊予三島",
+      "distanceToStation": 15,
+      "description": "紙の生産量日本一を誇る製紙業の街。高速道路が交差する交通の要衝。煙突から煙がたなびく工場夜景は独特の美しさ。産業の安定性と、瀬戸内の自然が共存するエリア。",
+      "features": ["industry", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 37500,
+        "oneLDK": 48400,
+        "twoLDK": 55700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "東温市",
+      "averageRent": 50000,
+      "minRent": 37900,
+      "maxRent": 69900,
+      "latitude": 33.79,
+      "longitude": 132.87,
+      "nearestStation": "見奈良",
+      "distanceToStation": 10,
+      "description": "松山市のベッドタウン。アートと演劇の街づくりを推進。豊かな自然がありながら、松山市内へのアクセスも良好。静かな住環境を求めつつ、利便性も捨てがたい人に最適なエリア。",
+      "features": ["culture", "rich_green", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 37900,
+        "oneLDK": 50400,
+        "twoLDK": 59000,
+        "threeLDK": 69900
+      }
+    },
+    {
+      "name": "伊予市",
+      "averageRent": 50000,
+      "minRent": 41300,
+      "maxRent": 59800,
+      "latitude": 33.75,
+      "longitude": 132.7,
+      "nearestStation": "伊予市",
+      "distanceToStation": 5,
+      "description": "「双海（ふたみ）シーサイド公園」など、美しい夕日で知られる街。JR予讃線の下灘駅はフォトスポットとして有名。松山市に隣接し、通勤やお出かけに便利。海沿いのスローライフが叶います。",
+      "features": ["nature", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 41300,
+        "oneLDK": 49800,
+        "twoLDK": 56400,
+        "threeLDK": 59800
+      }
+    },
+    {
+      "name": "宇和島市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.22,
+      "longitude": 132.56,
+      "nearestStation": "宇和島",
+      "distanceToStation": 10,
+      "description": "愛媛県南部の中心都市。真珠養殖や闘牛で有名。現存天守の宇和島城があります。鯛めしなどのグルメも絶品。南国情緒が漂い、温暖な気候の中でゆったりと暮らせる街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "八幡浜市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.46,
+      "longitude": 132.42,
+      "nearestStation": "八幡浜",
+      "distanceToStation": 10,
+      "description": "「四国の西の玄関口」。九州・大分へのフェリーが発着します。ミカンの名産地であり、チャンポンもソウルフードとして人気。斜面に段々畑が広がる風景は美しく、地形を生かした農業が盛ん。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

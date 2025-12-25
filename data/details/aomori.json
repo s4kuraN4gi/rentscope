@@ -1,0 +1,157 @@
+{
+  "id": 19,
+  "name": "青森県",
+  "slug": "aomori",
+  "region": "東北",
+  "averageRent": 55000,
+  "latitude": 40.8226,
+  "longitude": 140.7406,
+  "population": 1240000,
+  "description": "本州最北端。ねぶた祭やリンゴで有名。豊かな自然と食文化。",
+  "areas": [
+    {
+      "name": "青森市",
+      "averageRent": 60000,
+      "minRent": 47600,
+      "maxRent": 66400,
+      "latitude": 40.82,
+      "longitude": 140.74,
+      "nearestStation": "青森",
+      "distanceToStation": 5,
+      "description": "県庁所在地で、北海道への玄関口。夏の「青森ねぶた祭」は全国から観光客が集まる熱狂的なイベント。冬は雪が多いですが、除雪体制は万全。新鮮な海産物が日常的に楽しめる食の都です。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 47600,
+        "oneLDK": 56500,
+        "twoLDK": 66400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "八戸市",
+      "averageRent": 55000,
+      "minRent": 47300,
+      "maxRent": 63800,
+      "latitude": 40.51,
+      "longitude": 141.48,
+      "nearestStation": "八戸",
+      "distanceToStation": 10,
+      "description": "太平洋側に位置する港町。「館鼻岸壁朝市」など朝市文化が根付いています。東北新幹線の停車駅で、首都圏へのアクセスも良好。冬の降雪量は県内では比較的少なく、住みやすいエリア。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 54100,
+        "twoLDK": 63800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "弘前市",
+      "averageRent": 55000,
+      "minRent": 43500,
+      "maxRent": 58500,
+      "latitude": 40.6,
+      "longitude": 140.46,
+      "nearestStation": "弘前",
+      "distanceToStation": 10,
+      "description": "津軽地方の中心都市。弘前城の桜は日本三大夜桜の一つ。歴史的な洋館が多く残り、レトロな雰囲気。リンゴ生産量日本一。弘前大学があり、学園都市としての顔も持ちます。",
+      "features": ["culture", "nature", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 43500,
+        "oneLDK": 58500,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "五所川原市",
+      "averageRent": 55000,
+      "minRent": 53900,
+      "maxRent": 60000,
+      "latitude": 40.8,
+      "longitude": 140.44,
+      "nearestStation": "五所川原",
+      "distanceToStation": 15,
+      "description": "「立佞武多（たちねぷた）」で知られる活気ある街。津軽鉄道のストーブ列車は冬の風物詩。ELM（エルム）という大型ショッピングセンターがあり、津軽地域の商業拠点となっています。",
+      "features": ["culture", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 53900,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "十和田市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 60000,
+      "latitude": 40.61,
+      "longitude": 141.21,
+      "nearestStation": "七戸十和田（バス移動）",
+      "distanceToStation": 20,
+      "description": "十和田湖や奥入瀬渓流への玄関口。「十和田市現代美術館」を中心としたアートの街づくりが進んでいます。碁盤の目に整備された美しい街並み。自然と芸術が融合した独自の魅力があります。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "三沢市",
+      "averageRent": 55000,
+      "minRent": 45000,
+      "maxRent": 65000,
+      "latitude": 40.68,
+      "longitude": 141.36,
+      "nearestStation": "三沢",
+      "distanceToStation": 10,
+      "description": "米軍基地と三沢空港がある国際色豊かな街。アメリカンバーなどが点在し、異国情緒を味わえます。航空科学館も人気。空港利用で東京へのアクセスも便利。英語教育に熱心なエリアです。",
+      "features": ["culture", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "むつ市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 41.29,
+      "longitude": 141.18,
+      "nearestStation": "下北",
+      "distanceToStation": 15,
+      "description": "本州最北の市。恐山や仏ヶ浦など、下北半島の観光拠点。新鮮な魚介類が安くて美味。「大湊」は海軍ゆかりの地。自然が厳しくも美しく、アウトドア好きにはたまらない環境。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "黒石市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 40.64,
+      "longitude": 140.59,
+      "nearestStation": "黒石",
+      "distanceToStation": 10,
+      "description": "「こみせ通り」という伝統的建造物が残る風情ある街。黒石やきそばがB級グルメとして有名。リンゴ園が広がり、温泉も豊富。弘前市へのアクセスも良く、ベッドタウンとしても機能。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

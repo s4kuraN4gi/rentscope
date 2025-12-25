@@ -1,0 +1,157 @@
+{
+  "id": 20,
+  "name": "秋田県",
+  "slug": "akita",
+  "region": "東北",
+  "averageRent": 55000,
+  "latitude": 39.72,
+  "longitude": 140.1025,
+  "population": 960000,
+  "description": "美人、米、酒で知られる秋田。四季折々の自然と温泉が魅力。",
+  "areas": [
+    {
+      "name": "秋田市",
+      "averageRent": 60000,
+      "minRent": 49300,
+      "maxRent": 72800,
+      "latitude": 39.72,
+      "longitude": 140.1,
+      "nearestStation": "秋田",
+      "distanceToStation": 10,
+      "description": "東北日本海側の中核都市。「秋田竿燈まつり」は夏の風物詩。秋田新幹線の終点で、首都圏とのアクセスも確保。千秋公園など緑が多く、都市機能と自然のバランスが良い住みやすい街。",
+      "features": ["culture", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 49300,
+        "oneLDK": 63900,
+        "twoLDK": 72800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "横手市",
+      "averageRent": 50000,
+      "minRent": 50200,
+      "maxRent": 55000,
+      "latitude": 39.31,
+      "longitude": 140.56,
+      "nearestStation": "横手",
+      "distanceToStation": 15,
+      "description": "かまくら発祥の地。B級グルメ「横手やきそば」で有名。のどかな田園風景が広がり、農業が盛ん。冬の積雪は多いですが、雪国ならではの温かい文化と、美味しい食が楽しめます。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 50200,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大仙市",
+      "averageRent": 50000,
+      "minRent": 48200,
+      "maxRent": 55000,
+      "latitude": 39.45,
+      "longitude": 140.47,
+      "nearestStation": "大曲",
+      "distanceToStation": 10,
+      "description": "日本最高峰の花火大会「大曲の花火」開催地。毎月花火が上がる街として有名。秋田新幹線大曲駅があり、交通の便が良い。雄物川などの自然に囲まれ、四季の移ろいを肌で感じられます。",
+      "features": ["culture", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 48200,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "能代市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 40.21,
+      "longitude": 140.02,
+      "nearestStation": "能代",
+      "distanceToStation": 15,
+      "description": "「バスケの街」として有名。能代工高（現・能代科学技術高）の活躍で知られます。日本海に面し、風の松原など自然豊か。宇宙科学の研究施設もあり、科学とスポーツの街です。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大館市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 40.27,
+      "longitude": 140.56,
+      "nearestStation": "大館",
+      "distanceToStation": 15,
+      "description": "「忠犬ハチ公」の故郷であり、秋田犬の聖地。きりたんぽの本場としても知られます。かつて鉱山で栄えた歴史を持ち、今は観光と自然が魅力。温泉も多く、ゆったりと暮らせるエリア。",
+      "features": ["culture", "pet_friendly", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "男鹿市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 39.88,
+      "longitude": 139.85,
+      "nearestStation": "男鹿",
+      "distanceToStation": 15,
+      "description": "ユネスコ無形文化遺産「ナマハゲ」の里。男鹿半島全体が絶景スポット。新鮮な魚介類を使った「石焼料理」は名物。ダイナミックな自然の中で、伝統文化と共に生きる暮らし。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "湯沢市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 39.16,
+      "longitude": 140.49,
+      "nearestStation": "湯沢",
+      "distanceToStation": 15,
+      "description": "小野小町の生誕伝説がある街。稲庭うどんの本場。日本酒の蔵元も多く、名水の里としても知られます。温泉地帯で地熱エネルギー利用も進む。歴史と食文化が豊かな静かな街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "由利本荘市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 39.38,
+      "longitude": 140.04,
+      "nearestStation": "羽後本荘",
+      "distanceToStation": 10,
+      "description": "県下面積最大。日本海と鳥海山に囲まれた自然豊かな街。電子部品などの製造業が盛んで求人も比較的安定。子育て支援に力を入れており、ファミリー層にとって住みやすい環境です。",
+      "features": ["child_rearing", "nature", "industry"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

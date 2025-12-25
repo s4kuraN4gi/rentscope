@@ -1,0 +1,193 @@
+{
+  "id": 31,
+  "name": "長野県",
+  "slug": "nagano",
+  "region": "中部",
+  "averageRent": 55000,
+  "latitude": 36.6486,
+  "longitude": 138.1948,
+  "population": 2040000,
+  "description": "日本アルプスの絶景と温泉。避暑地・軽井沢、善光寺、スキー場など。",
+  "areas": [
+    {
+      "name": "長野市",
+      "averageRent": 65000,
+      "minRent": 55900,
+      "maxRent": 135800,
+      "latitude": 36.64,
+      "longitude": 138.19,
+      "nearestStation": "長野",
+      "distanceToStation": 10,
+      "description": "善光寺の門前町。北陸新幹線の停車駅で、東京へのアクセスも良好。冬季オリンピック開催地でもあり、冬はスキー客で賑わいます。都市機能と豊かな自然が調和し、移住者にも人気の街。",
+      "features": ["culture", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 55900,
+        "oneLDK": 79400,
+        "twoLDK": 83500,
+        "threeLDK": 135800
+      }
+    },
+    {
+      "name": "松本市",
+      "averageRent": 65000,
+      "minRent": 55300,
+      "maxRent": 121700,
+      "latitude": 36.23,
+      "longitude": 137.97,
+      "nearestStation": "松本",
+      "distanceToStation": 10,
+      "description": "国宝・松本城を擁する城下町。北アルプスの玄関口で、登山やアウトドアの拠点。セイジ・オザワ 松本フェスティバルなど音楽の街としても有名。古い街並みと新しいカフェが混在するおしゃれな街。",
+      "features": ["culture", "history_culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": 76200,
+        "twoLDK": 85700,
+        "threeLDK": 121700
+      }
+    },
+    {
+      "name": "上田市",
+      "averageRent": 55000,
+      "minRent": 43800,
+      "maxRent": 64300,
+      "latitude": 36.39,
+      "longitude": 138.25,
+      "nearestStation": "上田",
+      "distanceToStation": 10,
+      "description": "真田幸村ゆかりの地、上田城エリア。ドラマの舞台としても注目されました。降水量が少なく、「晴天率日本一」を競うほど気候が良い街。新幹線停車駅で、首都圏への通勤も可能な範囲。",
+      "features": ["climate", "history_culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 43800,
+        "oneLDK": 64300,
+        "twoLDK": 61100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "軽井沢町",
+      "averageRent": 120000,
+      "minRent": 80000,
+      "maxRent": 200000,
+      "latitude": 36.34,
+      "longitude": 138.63,
+      "nearestStation": "軽井沢",
+      "distanceToStation": 10,
+      "description": "日本を代表する避暑地・別荘地。アウトレットモールがあり、ショッピングも充実。新幹線で東京から約1時間。テレワークの普及により、二拠点生活や移住先として非常に人気が高まっています。",
+      "features": ["nature", "high_class", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 120000,
+        "twoLDK": 150000,
+        "threeLDK": 200000
+      }
+    },
+    {
+      "name": "安曇野市",
+      "averageRent": 60000,
+      "minRent": 48200,
+      "maxRent": 72400,
+      "latitude": 36.3,
+      "longitude": 137.9,
+      "nearestStation": "穂高",
+      "distanceToStation": 15,
+      "description": "北アルプスの麓に田園風景が広がる美しい街。わさびの栽培が盛ん。美術館やカフェが点在し、スローライフを楽しむ移住者に大人気。水が綺麗で空気が美味しく、心身ともに癒やされる環境。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 48200,
+        "oneLDK": 65500,
+        "twoLDK": 72400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "佐久市",
+      "averageRent": 60000,
+      "minRent": 54200,
+      "maxRent": 114200,
+      "latitude": 36.27,
+      "longitude": 138.45,
+      "nearestStation": "佐久平",
+      "distanceToStation": 5,
+      "description": "北陸新幹線「佐久平駅」を中心に発展。大型商業施設が集まり、生活利便性が高いエリア。医療体制も充実しており、「健康長寿の街」として知られます。星空が美しいことでも有名。",
+      "features": ["shopping_convenient", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 54200,
+        "oneLDK": 66000,
+        "twoLDK": 76400,
+        "threeLDK": 114200
+      }
+    },
+    {
+      "name": "塩尻市",
+      "averageRent": 55000,
+      "minRent": 49900,
+      "maxRent": 74100,
+      "latitude": 36.11,
+      "longitude": 137.95,
+      "nearestStation": "塩尻",
+      "distanceToStation": 15,
+      "description": "ワインの産地として有名。中山道の宿場町・奈良井宿があり、歴史的な街並みが魅力。交通の要衝で、松本市へのアクセスも良好。葡萄畑が広がる風景の中、落ち着いて暮らせる街。",
+      "features": ["culture", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 49900,
+        "oneLDK": 69200,
+        "twoLDK": 74100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "飯田市",
+      "averageRent": 55000,
+      "minRent": 51100,
+      "maxRent": 70300,
+      "latitude": 35.51,
+      "longitude": 137.82,
+      "nearestStation": "飯田",
+      "distanceToStation": 15,
+      "description": "南信州の中心都市。リニア中央新幹線の駅が開業予定。「人形劇のまち」としても知られます。果物栽培が盛ん。天竜峡などの名勝もあり、独自の文化と豊かな自然が息づくエリア。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51100,
+        "oneLDK": 61300,
+        "twoLDK": 70300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "諏訪市",
+      "averageRent": 50000,
+      "minRent": 50500,
+      "maxRent": 60000,
+      "latitude": 36.03,
+      "longitude": 138.11,
+      "nearestStation": "上諏訪",
+      "distanceToStation": 10,
+      "description": "諏訪湖の畔にある温泉街。諏訪大社の門前町。夏の花火大会は全国から注目を集めます。精密機械工業が発展しており「東洋のスイス」とも。湖畔の景色を眺めながらの生活は格別。",
+      "features": ["nature", "culture", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 50500,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "茅野市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 60700,
+      "latitude": 35.99,
+      "longitude": 138.15,
+      "nearestStation": "茅野",
+      "distanceToStation": 10,
+      "description": "八ヶ岳への登山口。別荘地が多く、リゾート的な雰囲気もあります。縄文時代の国宝「土偶（縄文のビーナス）」が出土。高原野菜の産地。冷涼な気候で夏は過ごしやすく、移住者も多い。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 60700,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

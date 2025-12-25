@@ -1,0 +1,175 @@
+{
+  "id": 30,
+  "name": "宮崎県",
+  "slug": "miyazaki",
+  "region": "九州",
+  "averageRent": 50000,
+  "latitude": 31.9111,
+  "longitude": 131.4239,
+  "population": 1070000,
+  "description": "南国リゾートの雰囲気。マンゴー、地鶏など食の宝庫。神話の舞台。",
+  "areas": [
+    {
+      "name": "宮崎市",
+      "averageRent": 60000,
+      "minRent": 46900,
+      "maxRent": 95300,
+      "latitude": 31.91,
+      "longitude": 131.42,
+      "nearestStation": "宮崎",
+      "distanceToStation": 10,
+      "description": "フェニックス（ヤシの木）が並ぶ南国情緒あふれる県都。プロ野球キャンプ地としても有名。チキン南蛮発祥の地。物価が安く、快晴日数が多いため、明るく開放的な暮らしができます。",
+      "features": ["climate", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 46900,
+        "oneLDK": 53600,
+        "twoLDK": 64900,
+        "threeLDK": 95300
+      }
+    },
+    {
+      "name": "都城市",
+      "averageRent": 55000,
+      "minRent": 44400,
+      "maxRent": 67700,
+      "latitude": 31.72,
+      "longitude": 131.06,
+      "nearestStation": "都城",
+      "distanceToStation": 10,
+      "description": "肉用牛・豚・鶏の「畜産王国」の中心地。ふるさと納税日本一になったことも。霧島連山の麓にあり、水が綺麗。鹿児島県に隣接し、独自の文化圏を形成。焼酎メーカーの霧島酒造本社があります。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 44400,
+        "oneLDK": 49400,
+        "twoLDK": 67500,
+        "threeLDK": 67700
+      }
+    },
+    {
+      "name": "延岡市",
+      "averageRent": 50000,
+      "minRent": 48900,
+      "maxRent": 57400,
+      "latitude": 32.58,
+      "longitude": 131.67,
+      "nearestStation": "延岡",
+      "distanceToStation": 10,
+      "description": "旭化成の創業地である工業都市。チキン南蛮の「直八」などグルメも有名。五ヶ瀬川などの清流が流れ、鮎釣りシーズンは賑わいます。工業と自然がバランス良く共存する街。",
+      "features": ["industry", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 57400,
+        "oneLDK": 48900,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "日向市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60100,
+      "latitude": 32.42,
+      "longitude": 131.62,
+      "nearestStation": "日向市",
+      "distanceToStation": 10,
+      "description": "サーフィンの世界大会が開かれる「お倉ヶ浜」があります。サーファーの移住者も多い。ひょっとこ踊りはユーモラスで有名。駅舎は杉をふんだんに使った美しいデザイン。海好きにはたまらない場所。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 60100,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "日南市",
+      "averageRent": 50000,
+      "minRent": 48300,
+      "maxRent": 57200,
+      "latitude": 31.6,
+      "longitude": 131.37,
+      "nearestStation": "油津",
+      "distanceToStation": 15,
+      "description": "「広島カープ」のキャンプ地として知られる油津があります。サンメッセ日南のモアイ像や、鵜戸神宮など観光スポットが点在。城下町「飫肥（おび）」は九州の小京都と呼ばれ、風情があります。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 48300,
+        "twoLDK": 57200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "小林市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 31.99,
+      "longitude": 130.97,
+      "nearestStation": "小林",
+      "distanceToStation": 10,
+      "description": "霧島連山の北麓に位置。生駒高原のコスモスは圧巻。名水の地としても知られ、ミネラルウォーターの採水地。独特の「西諸弁」を使ったPR動画が話題に。自然豊かで水が美味しい街。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "高千穂町",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.71,
+      "longitude": 131.3,
+      "nearestStation": "延岡（バス移動）",
+      "distanceToStation": 60,
+      "description": "天岩戸伝説など神話の舞台。「高千穂峡」は国の名勝・天然記念物で、ボートからの眺めは幻想的。夜神楽が奉納されるなど、神々とともに生きる神秘的で静かな山里。",
+      "features": ["history_culture", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "えびの市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.04,
+      "longitude": 130.82,
+      "nearestStation": "えびの",
+      "distanceToStation": 15,
+      "description": "県内屈指の温泉地（京町温泉など）。えびの高原は四季折々の自然が美しく、トレッキングに最適。九州自動車道の結節点に近く、交通アクセスも意外と便利。のどかな田舎暮らしが叶います。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "西都市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.11,
+      "longitude": 131.4,
+      "nearestStation": "佐土原（車推奨）",
+      "distanceToStation": 20,
+      "description": "日本最大級の古墳群「西都原古墳群」があり、古代ロマンあふれる街。春には2000本の桜と菜の花が咲き乱れます。ピーマンやマンゴーなどの農業が盛ん。歴史と花と緑に囲まれたエリア。",
+      "features": ["history_culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

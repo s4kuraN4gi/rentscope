@@ -1,0 +1,193 @@
+{
+  "id": 26,
+  "name": "岩手県",
+  "slug": "iwate",
+  "region": "東北",
+  "averageRent": 50000,
+  "latitude": 39.7036,
+  "longitude": 141.1527,
+  "population": 1210000,
+  "description": "本州最大の面積。わんこそば、盛岡冷麺など食文化が豊か。",
+  "areas": [
+    {
+      "name": "盛岡市",
+      "averageRent": 65000,
+      "minRent": 52700,
+      "maxRent": 85300,
+      "latitude": 39.7,
+      "longitude": 141.15,
+      "nearestStation": "盛岡",
+      "distanceToStation": 10,
+      "description": "北東北の拠点都市。岩手山を望む雄大な景観。盛岡冷麺、わんこそば、じゃじゃ麺の「盛岡三大麺」が有名。古い銀行建築などが残り、街歩きが楽しい。新幹線停車駅で交通利便性も高い。",
+      "features": ["culture", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 52700,
+        "oneLDK": 72400,
+        "twoLDK": 85300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "花巻市",
+      "averageRent": 50000,
+      "minRent": 39200,
+      "maxRent": 50000,
+      "latitude": 39.39,
+      "longitude": 141.11,
+      "nearestStation": "花巻",
+      "distanceToStation": 15,
+      "description": "宮沢賢治の生誕地。「銀河鉄道の夜」のモデルとされる風景が広がります。花巻温泉郷は東北有数の温泉地。いわて花巻空港があり、空の旅も便利。文化と温泉に癒やされる街。",
+      "features": ["culture", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 39200,
+        "oneLDK": 40500,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "北上市",
+      "averageRent": 55000,
+      "minRent": 52900,
+      "maxRent": 53300,
+      "latitude": 39.28,
+      "longitude": 141.11,
+      "nearestStation": "北上",
+      "distanceToStation": 10,
+      "description": "県内屈指の工業都市で、活気があります。展勝地は桜の名所として全国的に有名。新幹線停車駅があり、ビジネスマンも多く居住。商業施設も充実しており、生活利便性が高いエリア。",
+      "features": ["industry", "nature", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 53300,
+        "oneLDK": 52900,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "一関市",
+      "averageRent": 55000,
+      "minRent": 54500,
+      "maxRent": 60000,
+      "latitude": 38.93,
+      "longitude": 141.13,
+      "nearestStation": "一ノ関",
+      "distanceToStation": 10,
+      "description": "世界遺産・平泉への玄関口。「もち文化」が根付いており、多彩な餅料理が楽しめます。厳美渓、猊鼻渓など景勝地も豊富。仙台へのアクセスも比較的良く、住みやすい街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 54500,
+        "oneLDK": 55700,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "奥州市",
+      "averageRent": 50000,
+      "minRent": 44800,
+      "maxRent": 52500,
+      "latitude": 39.14,
+      "longitude": 141.14,
+      "nearestStation": "水沢",
+      "distanceToStation": 15,
+      "description": "南部鉄器の産地。大谷翔平選手の出身地としても有名になりました。前沢牛などグルメも充実。歴史的な街並みと田園風景が広がり、のびのびと暮らせる環境です。",
+      "features": ["culture", "nature", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 52500,
+        "oneLDK": 44800,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宮古市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 57600,
+      "latitude": 39.64,
+      "longitude": 141.95,
+      "nearestStation": "宮古",
+      "distanceToStation": 15,
+      "description": "三陸海岸を代表する港町。浄土ヶ浜の美しさは必見。新鮮な魚介類が安く手に入ります。震災からの復興が進み、新しい道路網も整備。海と共に生きる、力強い街。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 57600,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "釜石市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 39.27,
+      "longitude": 141.88,
+      "nearestStation": "釜石",
+      "distanceToStation": 15,
+      "description": "「鉄と魚とラグビーの街」。近代製鉄発祥の地であり、新日鐵釜石ラグビー部の栄光を受け継ぎます。世界遺産の橋野鉄鉱山も。スポーツ熱が高く、市民の結束力が強いエリア。",
+      "features": ["industry", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大船渡市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 39.08,
+      "longitude": 141.71,
+      "nearestStation": "盛",
+      "distanceToStation": 15,
+      "description": "セメント産業と漁業の街。サンマの水揚げで有名。碁石海岸などの景勝地があります。BRT（バス高速輸送システム）が運行。気候は三陸の中では比較的温暖で、椿の花がシンボル。",
+      "features": ["industry", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "久慈市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 40.19,
+      "longitude": 141.77,
+      "nearestStation": "久慈",
+      "distanceToStation": 10,
+      "description": "連続テレビ小説「あまちゃん」の舞台。北限の海女と琥珀の産地として有名。小袖海岸の断崖絶壁は圧巻。ウニをはじめとする海の幸は絶品。素朴で温かい人情に触れられる街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "遠野市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 39.32,
+      "longitude": 141.53,
+      "nearestStation": "遠野",
+      "distanceToStation": 15,
+      "description": "柳田國男の「遠野物語」で知られる民話の里。カッパ淵など伝説のスポットが点在。日本の原風景とも言える田園風景が広がり、ホップの生産も日本一。不思議な懐かしさを感じる街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

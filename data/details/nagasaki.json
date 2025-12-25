@@ -1,0 +1,157 @@
+{
+  "id": 32,
+  "name": "長崎県",
+  "slug": "nagasaki",
+  "region": "九州",
+  "averageRent": 55000,
+  "latitude": 32.7503,
+  "longitude": 129.8777,
+  "population": 1310000,
+  "description": "異国情緒あふれる港町。ハウステンボス、軍艦島、美しい島々。",
+  "areas": [
+    {
+      "name": "長崎市",
+      "averageRent": 70000,
+      "minRent": 47500,
+      "maxRent": 156600,
+      "latitude": 32.75,
+      "longitude": 129.87,
+      "nearestStation": "長崎",
+      "distanceToStation": 5,
+      "description": "坂の多い美しい港町。グラバー園や大浦天主堂など、異国情緒あふれる観光スポットが満載。夜景は「世界新三大夜景」の一つ。西九州新幹線の開業でアクセスが向上。歴史とロマンの街。",
+      "features": ["culture", "history_culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 47500,
+        "oneLDK": 67500,
+        "twoLDK": 91700,
+        "threeLDK": 156600
+      }
+    },
+    {
+      "name": "佐世保市",
+      "averageRent": 60000,
+      "minRent": 52500,
+      "maxRent": 70200,
+      "latitude": 33.16,
+      "longitude": 129.72,
+      "nearestStation": "佐世保",
+      "distanceToStation": 10,
+      "description": "米軍基地がある国際的な港街。佐世保バーガーが有名。ハウステンボスへのアクセス拠点。九十九島の絶景は必見。ジャズフェスティバルが開かれるなど、音楽とアメリカンな雰囲気が漂うエリア。",
+      "features": ["culture", "nature", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 52500,
+        "oneLDK": 60900,
+        "twoLDK": 70200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "諫早市",
+      "averageRent": 65000,
+      "minRent": 51800,
+      "maxRent": 90200,
+      "latitude": 32.84,
+      "longitude": 130.05,
+      "nearestStation": "諫早",
+      "distanceToStation": 10,
+      "description": "県央の交通結節点。長崎市や大村市へのアクセスが良く、ベッドタウンとして発展。干拓地が広がり、農業も盛ん。V・ファーレン長崎のホームスタジアムが新設予定で、スポーツでも盛り上がる街。",
+      "features": ["access_good", "child_rearing", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51800,
+        "oneLDK": 71200,
+        "twoLDK": 90200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "大村市",
+      "averageRent": 55000,
+      "minRent": 45700,
+      "maxRent": 60500,
+      "latitude": 32.9,
+      "longitude": 129.96,
+      "nearestStation": "大村",
+      "distanceToStation": 10,
+      "description": "長崎空港がある空の玄関口。平坦な土地が多く、新築マンションや住宅が増加中。人口が増え続けている元気な街。大村湾に面し、夕日が綺麗。利便性と住みやすさを兼ね備えたエリア。",
+      "features": ["access_good", "child_rearing", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 45700,
+        "oneLDK": 56300,
+        "twoLDK": 60500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "島原市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 32.78,
+      "longitude": 130.37,
+      "nearestStation": "島原",
+      "distanceToStation": 10,
+      "description": "島原城の城下町。「水の都」とも呼ばれ、湧水が豊富。雲仙普賢岳の麓にあり、温泉も楽しめる。具雑煮などの郷土料理が美味。歴史的な街並みと自然が調和した、落ち着いた観光都市。",
+      "features": ["history_culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "五島市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 32.69,
+      "longitude": 128.84,
+      "nearestStation": "福江港（船移動）",
+      "distanceToStation": 30,
+      "description": "五島列島の中心地。世界遺「長崎と天草地方の潜伏キリシタン関連遺産」の構成資産が点在。美しい海と椿が魅力。朝ドラの舞台にもなり、移住者が急増中。スローライフの聖地。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "対馬市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 34.2,
+      "longitude": 129.29,
+      "nearestStation": "対馬空港（車移動）",
+      "distanceToStation": 30,
+      "description": "国境の島。韓国まで約50km。ツシマヤマネコなどの固有種が生息する生物多様性の宝庫。リアス式海岸の浅茅湾は絶景。歴史的に重要な役割を果たしてきた島で、独特の文化が残ります。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "壱岐市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 33.75,
+      "longitude": 129.7,
+      "nearestStation": "郷ノ浦港（船移動）",
+      "distanceToStation": 15,
+      "description": "博多港から高速船で約1時間。古代からの歴史遺産が数多く残る「神々の島」。ウニや壱岐牛などのグルメが絶品。海水浴場が多く、夏は観光客で賑わいます。福岡へのアクセスも比較的良い離島。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

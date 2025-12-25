@@ -1,0 +1,283 @@
+{
+  "id": 18,
+  "name": "新潟県",
+  "slug": "niigata",
+  "region": "中部",
+  "averageRent": 52000,
+  "latitude": 37.9022,
+  "longitude": 139.0236,
+  "population": 2200000,
+  "description": "日本海側最大の都市。米どころとして有名で、食と自然が豊か。",
+  "areas": [
+    {
+      "name": "新潟市中央区",
+      "averageRent": 70000,
+      "minRent": 53200,
+      "maxRent": 175800,
+      "latitude": 37.92,
+      "longitude": 139.04,
+      "nearestStation": "新潟",
+      "distanceToStation": 5,
+      "description": "新潟市の中心部。万代シテイなどの商業施設や、古町のような歴史ある繁華街があります。信濃川が流れ、萬代橋の夜景は美しい。ビジネスマンや単身赴任者にも人気の高いエリアです。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 53200,
+        "oneLDK": 81400,
+        "twoLDK": 137800,
+        "threeLDK": 175800
+      }
+    },
+    {
+      "name": "新潟市東区",
+      "averageRent": 60000,
+      "minRent": 44900,
+      "maxRent": 149000,
+      "latitude": 37.93,
+      "longitude": 139.08,
+      "nearestStation": "新潟（バス移動）",
+      "distanceToStation": 15,
+      "description": "新潟港や新潟空港を擁する交通の要衝。工業地帯として発展しましたが、現在は住宅地としても人気。大型スーパーが多く、買い物に便利。家賃相場と利便性のバランスが良いエリアです。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 44900,
+        "oneLDK": 65700,
+        "twoLDK": 97300,
+        "threeLDK": 149000
+      }
+    },
+    {
+      "name": "新潟市西区",
+      "averageRent": 55000,
+      "minRent": 40300,
+      "maxRent": 80000,
+      "latitude": 37.87,
+      "longitude": 138.97,
+      "nearestStation": "新潟大学前",
+      "distanceToStation": 10,
+      "description": "新潟大学のキャンパスがあり、学生街として活気があります。学区周辺はアパートが多く、飲食店も充実。海沿いには夕日が美しい海岸線が続き、ドライブスポットとしても人気です。",
+      "features": ["student_friendly", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 40300,
+        "oneLDK": 59000,
+        "twoLDK": 66700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "新潟市江南区",
+      "averageRent": 55000,
+      "minRent": 47700,
+      "maxRent": 65000,
+      "latitude": 37.87,
+      "longitude": 139.09,
+      "nearestStation": "亀田",
+      "distanceToStation": 10,
+      "description": "「亀田のあられ」で有名な亀田製菓の本社があります。イオンモール新潟南があり、週末は多くの家族連れで賑わいます。バイパスへのアクセスが良く、車での移動が非常に便利。",
+      "features": ["shopping_convenient", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 47700,
+        "oneLDK": 59600,
+        "twoLDK": 50800,
+        "threeLDK": 65000
+      }
+    },
+    {
+      "name": "長岡市",
+      "averageRent": 60000,
+      "minRent": 48400,
+      "maxRent": 140200,
+      "latitude": 37.44,
+      "longitude": 138.85,
+      "nearestStation": "長岡",
+      "distanceToStation": 10,
+      "description": "県第二の都市。日本三大花火大会のひとつ「長岡まつり大花火大会」は圧巻。新幹線停車駅で東京へのアクセスも良好。冬は雪が多いですが、融雪設備が整っており生活しやすい街です。",
+      "features": ["culture", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 48400,
+        "oneLDK": 82400,
+        "twoLDK": 69200,
+        "threeLDK": 140200
+      }
+    },
+    {
+      "name": "上越市",
+      "averageRent": 55000,
+      "minRent": 51500,
+      "maxRent": 66700,
+      "latitude": 37.15,
+      "longitude": 138.24,
+      "nearestStation": "上越妙高",
+      "distanceToStation": 10,
+      "description": "上杉謙信公ゆかりの地。春には高田城址公園の観桜会が開催され、日本三大夜桜として有名。北陸新幹線が開通し、利便性が向上。海と山、歴史と文化が調和した住みよい都市です。",
+      "features": ["history_culture", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 51500,
+        "oneLDK": 62800,
+        "twoLDK": 66700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "三条市",
+      "averageRent": 55000,
+      "minRent": 50700,
+      "maxRent": 63200,
+      "latitude": 37.63,
+      "longitude": 138.96,
+      "nearestStation": "三条",
+      "distanceToStation": 15,
+      "description": "燕市とともに「燕三条」として知られる金属加工の街。世界的に有名なアウトドアブランドの本社も。キャンプ場が多く、アウトドア好きにはたまらない環境。ものづくりの活気が感じられます。",
+      "features": ["industry", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 50700,
+        "oneLDK": 63200,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "柏崎市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 72900,
+      "latitude": 37.37,
+      "longitude": 138.55,
+      "nearestStation": "柏崎",
+      "distanceToStation": 10,
+      "description": "日本海に面した海の街。「ぎおん柏崎まつり」の海中空大花火は見事。夏は海水浴、冬は新鮮な魚介類が楽しめます。原子力発電所が立地するエネルギーの街としての側面も持ちます。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 66300,
+        "twoLDK": 72900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "新発田市",
+      "averageRent": 50000,
+      "minRent": 45100,
+      "maxRent": 53800,
+      "latitude": 37.95,
+      "longitude": 139.33,
+      "nearestStation": "新発田",
+      "distanceToStation": 10,
+      "description": "新発田城の城下町。月岡温泉があり「美人の湯」として人気。新潟市のベッドタウンとしても機能しており、国道7号沿いにはロードサイド店舗が充実。生活しやすく、落ち着いた雰囲気です。",
+      "features": ["culture", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45100,
+        "oneLDK": 53800,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "燕市",
+      "averageRent": 50000,
+      "minRent": 43800,
+      "maxRent": 54300,
+      "latitude": 37.67,
+      "longitude": 138.92,
+      "nearestStation": "燕三条",
+      "distanceToStation": 15,
+      "description": "洋食器の生産で世界的なシェアを誇る職人の街。背脂ラーメンの発祥地としても知られ、ラーメン激戦区。新幹線燕三条駅を利用でき、ビジネス面の利便性も高いエリアです。",
+      "features": ["industry", "culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 43800,
+        "oneLDK": 50900,
+        "twoLDK": 54300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "南魚沼市",
+      "averageRent": 65000,
+      "minRent": 64000,
+      "maxRent": 69000,
+      "latitude": 37.06,
+      "longitude": 138.87,
+      "nearestStation": "六日町",
+      "distanceToStation": 15,
+      "description": "最高級ブランド米「南魚沼産コシヒカリ」の産地。冬はスキーリゾートとして賑わいます。豪雪地帯ですが、その分水が綺麗で食べ物が美味しい。自然と共に生きる豊かさを実感できる街。",
+      "features": ["nature", "culture", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 64000,
+        "oneLDK": 69000,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "佐渡市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 38.03,
+      "longitude": 138.38,
+      "nearestStation": "両津港（船移動）",
+      "distanceToStation": 30,
+      "description": "日本海最大の離島。「佐渡島の金山」が世界遺産登録を目指して注目されています。トキの舞う美しい自然環境。釣りやマリンスポーツには最高のロケーションで、移住者も増えています。",
+      "features": ["nature", "culture", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "糸魚川市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 37.03,
+      "longitude": 137.86,
+      "nearestStation": "糸魚川",
+      "distanceToStation": 10,
+      "description": "世界ジオパークに認定された大自然の街。ヒスイの産地としても有名。北陸新幹線の停車駅があり、富山や金沢へのアクセスも便利。海と山が迫るダイナミックな地形が魅力です。",
+      "features": ["nature", "access_good", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "小千谷市",
+      "averageRent": 50000,
+      "minRent": 42800,
+      "maxRent": 63600,
+      "latitude": 37.31,
+      "longitude": 138.8,
+      "nearestStation": "小千谷",
+      "distanceToStation": 15,
+      "description": "「錦鯉」の発祥地。へぎそばなどの食文化も豊か。世界最大級の花火「片貝まつり」の四尺玉は必見。信濃川沿いの美しい景観が広がり、人情味あふれる温かいコミュニティがあります。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 42800,
+        "oneLDK": 63600,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "十日町市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 37.13,
+      "longitude": 138.75,
+      "nearestStation": "十日町",
+      "distanceToStation": 10,
+      "description": "「大地の芸術祭」の開催地として世界的に有名。着物の街でもあり、伝統と現代アートが融合しています。豪雪地ならではの美しい雪景色と、雪国体験が魅力。棚田の風景は日本の原風景です。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 44,
+  "name": "和歌山県",
+  "slug": "wakayama",
+  "region": "関西",
+  "averageRent": 50000,
+  "latitude": 34.226,
+  "longitude": 135.1675,
+  "population": 910000,
+  "description": "世界遺産・熊野古道や高野山。白浜のパンダや温泉、ミカン、梅干しなど魅力満載。",
+  "areas": [
+    {
+      "name": "和歌山市",
+      "averageRent": 65000,
+      "minRent": 49500,
+      "maxRent": 95500,
+      "latitude": 34.23,
+      "longitude": 135.17,
+      "nearestStation": "和歌山",
+      "distanceToStation": 10,
+      "description": "県庁所在地で、大阪・関西国際空港へのアクセスが良好。和歌山マリーナシティなどのリゾート施設も。都会的な便利さと、海・川の自然が共存する住みやすい街。",
+      "features": ["access_good", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 49500,
+        "oneLDK": 67900,
+        "twoLDK": 71300,
+        "threeLDK": 95500
+      }
+    },
+    {
+      "name": "海南市",
+      "averageRent": 50000,
+      "minRent": 38200,
+      "maxRent": 59300,
+      "latitude": 34.15,
+      "longitude": 135.2,
+      "nearestStation": "海南",
+      "distanceToStation": 15,
+      "description": "和歌山市の南に位置し、通勤圏内。マリーナシティに近く、釣りやマリンレジャーが盛ん。漆器の街としても知られます。家賃相場が比較的安く、コストパフォーマンスが高い。",
+      "features": ["cost_performance", "nature", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 38200,
+        "oneLDK": 47000,
+        "twoLDK": 59300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "橋本市",
+      "averageRent": 55000,
+      "minRent": 40900,
+      "maxRent": 61600,
+      "latitude": 34.31,
+      "longitude": 135.6,
+      "nearestStation": "橋本",
+      "distanceToStation": 10,
+      "description": "大阪府へのアクセスが非常に良く、ベッドタウンとして発展。南海高野線で難波まで一本で行けます。高野山への入り口でもあり、歴史と自然を感じられます。",
+      "features": ["access_good", "history_culture", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 40900,
+        "oneLDK": 50000,
+        "twoLDK": 54800,
+        "threeLDK": 61600
+      }
+    },
+    {
+      "name": "岩出市",
+      "averageRent": 55000,
+      "minRent": 42900,
+      "maxRent": 58200,
+      "latitude": 34.26,
+      "longitude": 135.29,
+      "nearestStation": "岩出",
+      "distanceToStation": 15,
+      "description": "県内で最も人口が増加している元気な街。大阪方面へのアクセスが良く、大型商業施設も充実。若い世代のファミリーが多く、子育て環境が整っています。",
+      "features": ["child_rearing", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 42900,
+        "oneLDK": 50500,
+        "twoLDK": 58200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "田辺市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 60600,
+      "latitude": 33.73,
+      "longitude": 135.37,
+      "nearestStation": "紀伊田辺",
+      "distanceToStation": 10,
+      "description": "県南部の中心都市。世界遺産・熊野古道の主要ルート「中辺路」の起点。海と山に囲まれた自然豊かな環境。扇ヶ浜海水浴場などがあり、リゾートのような暮らしが送れます。",
+      "features": ["nature", "culture", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 60600,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "紀の川市",
+      "averageRent": 50000,
+      "minRent": 37500,
+      "maxRent": 52400,
+      "latitude": 34.22,
+      "longitude": 135.35,
+      "nearestStation": "打田",
+      "distanceToStation": 15,
+      "description": "フルーツ王国・和歌山を象徴する桃やイチゴの産地。京奈和自動車道が開通し、アクセスが向上しました。自然豊かで広々とした家に住めるエリア。",
+      "features": ["nature", "industry", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 37500,
+        "oneLDK": 48700,
+        "twoLDK": 52400,
+        "threeLDK": 52300
+      }
+    },
+    {
+      "name": "有田市",
+      "averageRent": 45000,
+      "minRent": 19800,
+      "maxRent": 52900,
+      "latitude": 34.08,
+      "longitude": 135.13,
+      "nearestStation": "箕島",
+      "distanceToStation": 15,
+      "description": "「有田みかん」の本場。温暖な気候で過ごしやすい。太刀魚の水揚げ量も日本一。海と山とミカン畑に囲まれた、のどかな暮らしを満喫できます。",
+      "features": ["nature", "climate", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 19800,
+        "oneLDK": 46800,
+        "twoLDK": 52900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "御坊市",
+      "averageRent": 50000,
+      "minRent": 39800,
+      "maxRent": 55100,
+      "latitude": 33.89,
+      "longitude": 135.15,
+      "nearestStation": "御坊",
+      "distanceToStation": 15,
+      "description": "花の栽培が盛んで、特にスターチスは生産量日本一。歴史あるお寺が多く「寺内町」の風情が残る。自然災害が比較的少なく、気候も温暖で住みやすい。",
+      "features": ["nature", "climate", "history_culture"],
+      "rentByRoomType": {
+        "oneRoom": 39800,
+        "oneLDK": 50400,
+        "twoLDK": 55100,
+        "threeLDK": null
+      }
+    }
+  ]
+}

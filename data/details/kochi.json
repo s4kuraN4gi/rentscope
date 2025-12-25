@@ -1,0 +1,193 @@
+{
+  "id": 28,
+  "name": "高知県",
+  "slug": "kochi",
+  "region": "四国",
+  "averageRent": 55000,
+  "latitude": 33.5598,
+  "longitude": 133.5311,
+  "population": 690000,
+  "description": "坂本龍馬ゆかりの地。カツオのたたき、よさこい祭りなど情熱的な文化。",
+  "areas": [
+    {
+      "name": "高知市",
+      "averageRent": 60000,
+      "minRent": 46100,
+      "maxRent": 88100,
+      "latitude": 33.56,
+      "longitude": 133.53,
+      "nearestStation": "高知",
+      "distanceToStation": 5,
+      "description": "県人口の半数近くが集中する中心都市。高知城の追手門と天守閣が両方現存するのはここだけ。ひろめ市場は昼間から賑わう酒豪たちの聖地。路面電車が走り、南国的な明るい雰囲気の街。",
+      "features": ["culture", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 46100,
+        "oneLDK": 60600,
+        "twoLDK": 74700,
+        "threeLDK": 88100
+      }
+    },
+    {
+      "name": "南国市",
+      "averageRent": 55000,
+      "minRent": 45700,
+      "maxRent": 61100,
+      "latitude": 33.56,
+      "longitude": 133.64,
+      "nearestStation": "後免",
+      "distanceToStation": 10,
+      "description": "高知龍馬空港がある空の玄関口。「後免（ごめん）」駅がユニーク。高知市の東隣で通勤に便利。歴史史跡が多く残る田園都市で、のびのび子育てできる環境です。",
+      "features": ["access_good", "child_rearing", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 45700,
+        "oneLDK": 61100,
+        "twoLDK": 60200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "四万十市",
+      "averageRent": 50000,
+      "minRent": 40000,
+      "maxRent": 55000,
+      "latitude": 32.99,
+      "longitude": 132.93,
+      "nearestStation": "中村",
+      "distanceToStation": 15,
+      "description": "「日本最後の清流」四万十川が流れる自然豊かな街。「土佐の小京都」中村地区には碁盤の目の街並みが残ります。川遊びやカヌーなどアウトドア好きには最高のロケーション。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "香南市",
+      "averageRent": 50000,
+      "minRent": 50000,
+      "maxRent": 58300,
+      "latitude": 33.56,
+      "longitude": 133.7,
+      "nearestStation": "のいち",
+      "distanceToStation": 10,
+      "description": "県立のいち動物公園は人気スポット。のどかな田園と海が広がるエリア。高知市へのアクセスも良好で、人口が増加傾向にある元気な街。シラス漁が盛んで、新鮮な海産物も魅力。",
+      "features": ["child_rearing", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 58300,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "香美市",
+      "averageRent": 45000,
+      "minRent": 36800,
+      "maxRent": 57600,
+      "latitude": 33.6,
+      "longitude": 133.68,
+      "nearestStation": "土佐山田",
+      "distanceToStation": 10,
+      "description": "アンパンマンミュージアムがある街（やなせたかしの故郷）。日本三大鍾乳洞の龍河洞も。高知工科大学があり、学生の姿も多い。自然豊かで静かな文教・観光都市。",
+      "features": ["culture", "nature", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 36800,
+        "oneLDK": null,
+        "twoLDK": 57600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "安芸市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 63700,
+      "latitude": 33.5,
+      "longitude": 133.9,
+      "nearestStation": "安芸",
+      "distanceToStation": 10,
+      "description": "三菱グループ創始者・岩崎弥太郎の生家があります。阪神タイガースのキャンプ地としても有名。ちりめんじゃこ丼が名物。武家屋敷が残る情緒ある街並みと、温暖な気候が魅力。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": 63700,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "室戸市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.29,
+      "longitude": 134.15,
+      "nearestStation": "奈半利（バス移動）",
+      "distanceToStation": 30,
+      "description": "世界ジオパークに認定された室戸岬が有名。台風の通り道としても知られますが、その分自然の力強さを感じられます。海洋深層水を使った施設や特産品が豊富。海と共に生きる街。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "須崎市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.39,
+      "longitude": 133.29,
+      "nearestStation": "須崎",
+      "distanceToStation": 10,
+      "description": "「鍋焼きラーメン」発祥の地。ニホンカワウソが最後に確認された新荘川が流れます。カツオ一本釣りの漁港もあり、魚が美味。海と山に囲まれた、素朴で温かい港町。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "土佐市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 33.49,
+      "longitude": 133.42,
+      "nearestStation": "伊野（車移動推奨）",
+      "distanceToStation": 20,
+      "description": "仁淀川の河口に位置し、サーフィンのメッカとして知られます。文旦（ブンタン）などの柑橘栽培が盛ん。高知市の西隣で、通勤圏内。海と川のレジャーを楽しみながら暮らせます。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "宿毛市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 32.94,
+      "longitude": 132.73,
+      "nearestStation": "宿毛",
+      "distanceToStation": 10,
+      "description": "四国最南端の街の一つ。「冬のダルマ夕日」が美しい。温暖な気候で、サンゴ礁も見られます。豊かな漁場を持ち、魚介類が豊富。ゆったりとした時間が流れる南国の街。",
+      "features": ["nature", "climate", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

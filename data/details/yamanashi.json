@@ -1,0 +1,139 @@
+{
+  "id": 47,
+  "name": "山梨県",
+  "slug": "yamanashi",
+  "region": "中部",
+  "averageRent": 56000,
+  "latitude": 35.6639,
+  "longitude": 138.5684,
+  "population": 800000,
+  "description": "富士山と湖の県。ブドウ、桃、ワインの産地。都心へのアクセスも意外と良い。",
+  "areas": [
+    {
+      "name": "甲府市",
+      "averageRent": 65000,
+      "minRent": 56800,
+      "maxRent": 80200,
+      "latitude": 35.66,
+      "longitude": 138.57,
+      "nearestStation": "甲府",
+      "distanceToStation": 10,
+      "description": "武田信玄公ゆかりの地。県庁所在地で、行政・商業の中心。特急あずさで新宿まで約1時間半と、東京へのアクセスが良好。温泉やほうとう、鳥もつ煮などのグルメも豊富。",
+      "features": ["history_culture", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 56800,
+        "oneLDK": 77400,
+        "twoLDK": 80200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "甲斐市",
+      "averageRent": 70000,
+      "minRent": 57300,
+      "maxRent": 91900,
+      "latitude": 35.67,
+      "longitude": 138.52,
+      "nearestStation": "竜王",
+      "distanceToStation": 10,
+      "description": "甲府市の西に隣接し、人口が増加しているベッドタウン。大型商業施設があり、生活利便性が高い。自然も豊かで、住みやすさと便利さのバランスが良い。",
+      "features": ["shopping_convenient", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 57300,
+        "oneLDK": 78000,
+        "twoLDK": 91900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "笛吹市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 60000,
+      "latitude": 35.65,
+      "longitude": 138.63,
+      "nearestStation": "石和温泉",
+      "distanceToStation": 10,
+      "description": "桃とブドウの生産量が日本一。「石和温泉（いさわおんせん）」があり観光地としても有名。春には桃の花でピンク色に染まる景色が美しい。のどかで豊かな暮らしができます。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "富士吉田市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 60000,
+      "latitude": 35.49,
+      "longitude": 138.8,
+      "nearestStation": "富士山",
+      "distanceToStation": 10,
+      "description": "富士山の北麓に位置する街。富士急ハイランドが有名。「吉田のうどん」はコシが強く絶品。標高が高く夏は涼しいですが、冬は寒冷。富士山の絶景を毎日楽しめます。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "都留市",
+      "averageRent": 50000,
+      "minRent": 52900,
+      "maxRent": 52900,
+      "latitude": 35.55,
+      "longitude": 138.9,
+      "nearestStation": "都留市",
+      "distanceToStation": 10,
+      "description": "「城下町」の風情を残し、リニア見学センターがある街。都留文科大学があり、学生も多い。湧水が豊富でわさび栽培が盛ん。自然豊かな環境で学園都市の雰囲気もあります。",
+      "features": ["culture", "nature", "student_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 52900,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "韮崎市",
+      "averageRent": 60000,
+      "minRent": 66400,
+      "maxRent": 66400,
+      "latitude": 35.71,
+      "longitude": 138.45,
+      "nearestStation": "韮崎",
+      "distanceToStation": 15,
+      "description": "八ヶ岳や南アルプスの山々を望む景観が自慢。サッカーが非常に盛ん。ワイナリーも点在。自然に囲まれてアクティブに暮らしたい人におすすめ。",
+      "features": ["nature", "culture", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 66400,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "中央市",
+      "averageRent": 65000,
+      "minRent": 60000,
+      "maxRent": 91200,
+      "latitude": 35.6,
+      "longitude": 138.52,
+      "nearestStation": "東花輪",
+      "distanceToStation": 20,
+      "description": "甲府盆地の中央に位置し、日照時間が長い。リニア中央新幹線の駅が近隣に予定されており、将来性が期待されるエリア。平坦地が多く、自転車での移動もしやすい。",
+      "features": ["climate", "quiet", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 78000,
+        "twoLDK": 91200,
+        "threeLDK": null
+      }
+    }
+  ]
+}

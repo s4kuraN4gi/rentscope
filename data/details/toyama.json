@@ -1,0 +1,139 @@
+{
+  "id": 43,
+  "name": "富山県",
+  "slug": "toyama",
+  "region": "中部",
+  "averageRent": 53000,
+  "latitude": 36.6953,
+  "longitude": 137.2113,
+  "population": 1030000,
+  "description": "北陸新幹線でアクセス良好。黒部ダムや立山黒部アルペンルートなどダイナミックな自然。",
+  "areas": [
+    {
+      "name": "富山市",
+      "averageRent": 65000,
+      "minRent": 50000,
+      "maxRent": 106100,
+      "latitude": 36.69,
+      "longitude": 137.21,
+      "nearestStation": "富山",
+      "distanceToStation": 10,
+      "description": "県庁所在地。路面電車（LRT）が走る「コンパクトシティ」として有名。北陸新幹線で東京まで約2時間。ガラス美術館や富岩運河環水公園など、おしゃれなスポットも多い。",
+      "features": ["access_good", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 50000,
+        "oneLDK": 63500,
+        "twoLDK": 87900,
+        "threeLDK": 106100
+      }
+    },
+    {
+      "name": "高岡市",
+      "averageRent": 55000,
+      "minRent": 49600,
+      "maxRent": 66300,
+      "latitude": 36.75,
+      "longitude": 137.02,
+      "nearestStation": "高岡",
+      "distanceToStation": 15,
+      "description": "加賀前田家ゆかりの城下町。高岡大仏や瑞龍寺など歴史的建造物が多数。ものづくりの街としても知られ、銅器や錫製品が有名。「ドラえもん」の作者・藤子・F・不二雄氏の出身地。",
+      "features": ["history_culture", "culture", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 49600,
+        "oneLDK": 57400,
+        "twoLDK": 63600,
+        "threeLDK": 66300
+      }
+    },
+    {
+      "name": "射水市",
+      "averageRent": 55000,
+      "minRent": 44400,
+      "maxRent": 63400,
+      "latitude": 36.73,
+      "longitude": 137.06,
+      "nearestStation": "小杉",
+      "distanceToStation": 15,
+      "description": "富山湾の宝石「シロエビ」の水揚げで有名。新湊大橋からの眺めは絶景。富山市と高岡市の間に位置し、どちらへも通勤しやすいベッドタウンとして人気。",
+      "features": ["access_good", "nature", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 44400,
+        "oneLDK": 61500,
+        "twoLDK": 63400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "魚津市",
+      "averageRent": 50000,
+      "minRent": 46900,
+      "maxRent": 55800,
+      "latitude": 36.82,
+      "longitude": 137.4,
+      "nearestStation": "魚津",
+      "distanceToStation": 10,
+      "description": "蜃気楼が見られる街として有名。新鮮な魚介類が豊富で、食事が美味しい。海と山が近く、自然を身近に感じながら暮らせます。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 48200,
+        "oneLDK": 46900,
+        "twoLDK": 55800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "砺波市",
+      "averageRent": 60000,
+      "minRent": 56300,
+      "maxRent": 67300,
+      "latitude": 36.63,
+      "longitude": 136.96,
+      "nearestStation": "砺波",
+      "distanceToStation": 15,
+      "description": "チューリップの球根栽培が盛んで、春のチューリップフェアは圧巻。散居村（さんきょそん）という独特の景観が広がる。のどかな田園風景の中でゆったり暮らしたい人に。",
+      "features": ["nature", "quiet", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 56300,
+        "oneLDK": 56400,
+        "twoLDK": 67300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "滑川市",
+      "averageRent": 55000,
+      "minRent": 48100,
+      "maxRent": 61100,
+      "latitude": 36.76,
+      "longitude": 137.34,
+      "nearestStation": "滑川",
+      "distanceToStation": 15,
+      "description": "ホタルイカの群遊海面は国の特別天然記念物。海洋深層水を利用した施設も。富山市へのアクセスも良く、海沿いの穏やかな生活が楽しめます。",
+      "features": ["nature", "access_good", "quiet"],
+      "rentByRoomType": {
+        "oneRoom": 48100,
+        "oneLDK": 50400,
+        "twoLDK": 61100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "黒部市",
+      "averageRent": 50000,
+      "minRent": 46000,
+      "maxRent": 54000,
+      "latitude": 36.87,
+      "longitude": 137.44,
+      "nearestStation": "黒部宇奈月温泉",
+      "distanceToStation": 15,
+      "description": "名水百選に選ばれた湧水群がある「水の名所」。宇奈月温泉や黒部峡谷鉄道トロッコ電車など観光資源も豊富。新幹線駅があり、遠方へのアクセスも確保されています。",
+      "features": ["nature", "culture", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 46000,
+        "oneLDK": 51400,
+        "twoLDK": 54000,
+        "threeLDK": null
+      }
+    }
+  ]
+}

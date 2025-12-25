@@ -1,0 +1,373 @@
+{
+  "id": 17,
+  "name": "茨城県",
+  "slug": "ibaraki",
+  "region": "関東",
+  "averageRent": 55000,
+  "latitude": 36.3659,
+  "longitude": 140.4715,
+  "population": 2850000,
+  "description": "研究学園都市つくばと豊かな自然。都心へのアクセスも良好。",
+  "areas": [
+    {
+      "name": "水戸市",
+      "averageRent": 65000,
+      "minRent": 65800,
+      "maxRent": 84000,
+      "latitude": 36.36,
+      "longitude": 140.47,
+      "nearestStation": "水戸",
+      "distanceToStation": 5,
+      "description": "納豆で有名な県庁所在地。偕楽園は日本三名園の一つで、梅の名所。JR常磐線の特急利用で、東京まで約1時間強。商業施設に恵まれ、歴史と現代が融合した住みやすい街です。",
+      "features": ["culture", "shopping_convenient", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 65800,
+        "oneLDK": 68000,
+        "twoLDK": 84000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "つくば市",
+      "averageRent": 85000,
+      "minRent": 74700,
+      "maxRent": 182300,
+      "latitude": 36.08,
+      "longitude": 140.11,
+      "nearestStation": "つくば",
+      "distanceToStation": 10,
+      "description": "日本最大級の「研究学園都市」。つくばエクスプレスで秋葉原まで最速45分。教育水準が非常に高く、子育て世代に大人気。広々とした公園や並木道が整備され、知的な雰囲気が漂います。",
+      "features": ["child_rearing", "student_friendly", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 74700,
+        "oneLDK": 82400,
+        "twoLDK": 97600,
+        "threeLDK": 182300
+      }
+    },
+    {
+      "name": "日立市",
+      "averageRent": 55000,
+      "minRent": 47800,
+      "maxRent": 60400,
+      "latitude": 36.6,
+      "longitude": 140.65,
+      "nearestStation": "日立",
+      "distanceToStation": 15,
+      "description": "日立製作所の創業の地であり、企業城下町として発展。「かみね動物園」や美しい海岸線があり、レジャーも充実。駅舎は海が見える絶景スポット。産業と自然が調和する街です。",
+      "features": ["industry", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 47800,
+        "oneLDK": 50600,
+        "twoLDK": 60400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "土浦市",
+      "averageRent": 60000,
+      "minRent": 49800,
+      "maxRent": 101000,
+      "latitude": 36.07,
+      "longitude": 140.2,
+      "nearestStation": "土浦",
+      "distanceToStation": 10,
+      "description": "霞ヶ浦に面した水郷の街。日本三大花火大会のひとつ「土浦全国花火競技大会」が有名。JR常磐線の特急停車駅。レンコンの生産日本一。サイクリング拠点としても整備が進んでいます。",
+      "features": ["nature", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 49800,
+        "oneLDK": 64500,
+        "twoLDK": 67200,
+        "threeLDK": 101000
+      }
+    },
+    {
+      "name": "古河市",
+      "averageRent": 60000,
+      "minRent": 51600,
+      "maxRent": 76000,
+      "latitude": 36.19,
+      "longitude": 139.71,
+      "nearestStation": "古河",
+      "distanceToStation": 10,
+      "description": "茨城県の西端、関東の中心に位置します。JR宇都宮線で新宿・上野方面へ直通できるため、都心への通勤者が多いベッドタウン。城下町の面影を残し、歴史散策も楽しいエリア。",
+      "features": ["access_good", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51600,
+        "oneLDK": 66000,
+        "twoLDK": 76000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "ひたちなか市",
+      "averageRent": 55000,
+      "minRent": 54200,
+      "maxRent": 63000,
+      "latitude": 36.39,
+      "longitude": 140.53,
+      "nearestStation": "勝田",
+      "distanceToStation": 10,
+      "description": "「国営ひたち海浜公園」はネモフィラやコキアの絶景で世界的に有名。ロック・イン・ジャパン・フェスティバルの開催地としても知られます。大型ショッピングモールもあり、活気あふれる街。",
+      "features": ["nature", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 54700,
+        "oneLDK": 54200,
+        "twoLDK": 63000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "守谷市",
+      "averageRent": 90000,
+      "minRent": 57200,
+      "maxRent": 199500,
+      "latitude": 35.95,
+      "longitude": 139.99,
+      "nearestStation": "守谷",
+      "distanceToStation": 5,
+      "description": "つくばエクスプレスの始発駅があり、秋葉原まで最速32分。都内への通勤利便性が抜群。「住みよさランキング」で常に上位。計画的に整備された美しい街並みで、子育て環境として理想的。",
+      "features": ["access_good", "child_rearing", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 57200,
+        "oneLDK": 84100,
+        "twoLDK": 145200,
+        "threeLDK": 199500
+      }
+    },
+    {
+      "name": "取手市",
+      "averageRent": 60000,
+      "minRent": 52500,
+      "maxRent": 71500,
+      "latitude": 35.89,
+      "longitude": 140.06,
+      "nearestStation": "取手",
+      "distanceToStation": 10,
+      "description": "JR常磐線快速の始発駅が多く、座って通勤できるのが強み。利根川の河川敷緑地が広がり、自然も豊か。「アートのまち」を掲げ、東京藝大のキャンパスもあります。",
+      "features": ["access_good", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 52500,
+        "oneLDK": 63900,
+        "twoLDK": 71500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "牛久市",
+      "averageRent": 60000,
+      "minRent": 55200,
+      "maxRent": 71400,
+      "latitude": 35.97,
+      "longitude": 140.15,
+      "nearestStation": "牛久",
+      "distanceToStation": 15,
+      "description": "世界一高い青銅製仏像「牛久大仏」がランドマーク。ワイン醸造場「牛久シャトー」など文化遺産も。落ち着いた住宅街が広がり、ゆったりとした時間を過ごせる街です。",
+      "features": ["culture", "pet_friendly", "safe_area"],
+      "rentByRoomType": {
+        "oneRoom": 55200,
+        "oneLDK": 66800,
+        "twoLDK": 71400,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "龍ケ崎市",
+      "averageRent": 50000,
+      "minRent": 40900,
+      "maxRent": 56600,
+      "latitude": 35.91,
+      "longitude": 140.18,
+      "nearestStation": "龍ケ崎市",
+      "distanceToStation": 15,
+      "description": "古くからの城下町と、ニュータウンが共存する街。コロッケによる町おこしで有名。流通経済大学があり、学生の姿も多く見られます。自然豊かで、子育て支援も充実しています。",
+      "features": ["cost_performance", "student_friendly", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 40900,
+        "oneLDK": 56600,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "つくばみらい市",
+      "averageRent": 70000,
+      "minRent": 57400,
+      "maxRent": 143300,
+      "latitude": 35.96,
+      "longitude": 140.04,
+      "nearestStation": "みらい平",
+      "distanceToStation": 10,
+      "description": "つくばエクスプレス沿線の新しい街。「みらい平」駅周辺は開発が進み、若いファミリー層が急増中。都心へのアクセスと田園風景のバランスが魅力。将来性が高いエリアです。",
+      "features": ["child_rearing", "access_good", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 57400,
+        "oneLDK": 67100,
+        "twoLDK": 77600,
+        "threeLDK": 143300
+      }
+    },
+    {
+      "name": "石岡市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 36.19,
+      "longitude": 140.28,
+      "nearestStation": "石岡",
+      "distanceToStation": 15,
+      "description": "「関東の三大祭」の一つ、石岡のおまつりで有名。常陸国の国府が置かれた歴史ある地。里山の風景が広がり、イチゴ狩りなどの観光農園が楽しめます。自然の中でスローライフを送りたい人に。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "結城市",
+      "averageRent": 55000,
+      "minRent": 47200,
+      "maxRent": 64900,
+      "latitude": 36.29,
+      "longitude": 139.87,
+      "nearestStation": "結城",
+      "distanceToStation": 15,
+      "description": "ユネスコ無形文化遺産「結城紬」の産地。蔵造りの街並みが残り、情緒があります。新4号国道が通り、車での移動が便利。伝統文化を身近に感じられる落ち着いた街です。",
+      "features": ["culture", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47200,
+        "oneLDK": 51200,
+        "twoLDK": 64900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "下妻市",
+      "averageRent": 55000,
+      "minRent": 47700,
+      "maxRent": 59500,
+      "latitude": 36.18,
+      "longitude": 139.96,
+      "nearestStation": "下妻",
+      "distanceToStation": 20,
+      "description": "映画「下妻物語」の舞台。広大な田園風景の中にイオンモールがあり、生活拠点となっています。関東鉄道常総線が走り、のどかな雰囲気。筑波山を望む景色が綺麗です。",
+      "features": ["nature", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 47700,
+        "oneLDK": 57200,
+        "twoLDK": 59500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "常総市",
+      "averageRent": 55000,
+      "minRent": 45600,
+      "maxRent": 60800,
+      "latitude": 36.02,
+      "longitude": 139.99,
+      "nearestStation": "水海道",
+      "distanceToStation": 15,
+      "description": "鬼怒川が流れる自然豊かな街。ブラジル人学校があるなど国際色が豊か。「常総きぬ川花火大会」は多くの人で賑わいます。圏央道のインターチェンジができ、交通利便性が向上しました。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 45600,
+        "oneLDK": 55900,
+        "twoLDK": 60800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "笠間市",
+      "averageRent": 45000,
+      "minRent": 33000,
+      "maxRent": 58100,
+      "latitude": 36.38,
+      "longitude": 140.26,
+      "nearestStation": "友部",
+      "distanceToStation": 15,
+      "description": "日本三大稲荷の一つ、笠間稲荷神社の門前町。陶芸の街「笠間焼」としても全国的に有名。芸術の森公園などアートスポットが多数。文化的な暮らしを楽しみたい人におすすめ。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 33000,
+        "oneLDK": 53900,
+        "twoLDK": 58100,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "鹿嶋市",
+      "averageRent": 50000,
+      "minRent": 42800,
+      "maxRent": 56400,
+      "latitude": 35.96,
+      "longitude": 140.64,
+      "nearestStation": "鹿島神宮",
+      "distanceToStation": 15,
+      "description": "常陸国一之宮・鹿島神宮の鎮座地。鹿島アントラーズの本拠地として、サッカー熱が高い街。「鹿島港」を擁する工業都市でもあり、雇用が豊富。パワースポットとスポーツが融合したエリア。",
+      "features": ["culture", "industry", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 42800,
+        "oneLDK": 56400,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "筑西市",
+      "averageRent": 50000,
+      "minRent": 46400,
+      "maxRent": 61000,
+      "latitude": 36.31,
+      "longitude": 139.98,
+      "nearestStation": "下館",
+      "distanceToStation": 15,
+      "description": "県西部の商業・交通の中心。下館駅はSLが走る真岡鐵道の始発駅。梨やスイカなどの農業が盛ん。北関東自動車道のインターチェンジがあり、群馬・栃木方面へのアクセスも便利。",
+      "features": ["access_good", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 46400,
+        "oneLDK": 52200,
+        "twoLDK": 61000,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "神栖市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 55000,
+      "latitude": 35.89,
+      "longitude": 140.66,
+      "nearestStation": "鹿島神宮（車移動）",
+      "distanceToStation": 30,
+      "description": "鹿島臨海工業地帯の中核。鉄道駅はありませんが、高速バスで東京駅まで直行できるため意外と便利。財政が豊かで、公共施設が充実。サッカー合宿のメッカとしても知られています。",
+      "features": ["industry", "cost_performance", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "鉾田市",
+      "averageRent": 60000,
+      "minRent": 61400,
+      "maxRent": 61500,
+      "latitude": 36.15,
+      "longitude": 140.51,
+      "nearestStation": "新鉾田",
+      "distanceToStation": 20,
+      "description": "メロンの生産量日本一を誇る農業王国。太平洋に面し、夏は海水浴が楽しめます。鹿島臨海鉄道が走っていますが、基本は車移動。新鮮な野菜や果物が手に入りやすく、自然を満喫できます。",
+      "features": ["nature", "cost_performance", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": 61400,
+        "threeLDK": null
+      }
+    }
+  ]
+}

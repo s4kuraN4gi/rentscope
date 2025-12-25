@@ -1,0 +1,193 @@
+{
+  "id": 22,
+  "name": "福島県",
+  "slug": "fukushima",
+  "region": "東北",
+  "averageRent": 55000,
+  "latitude": 37.7608,
+  "longitude": 140.4748,
+  "population": 1830000,
+  "description": "広大な県土と豊かな自然。会津、中通り、浜通りと3つの異なる文化。",
+  "areas": [
+    {
+      "name": "福島市",
+      "averageRent": 55000,
+      "minRent": 48400,
+      "maxRent": 70000,
+      "latitude": 37.76,
+      "longitude": 140.47,
+      "nearestStation": "福島",
+      "distanceToStation": 10,
+      "description": "桃などの果樹栽培が盛んな「フルーツ王国」。花見山公園は桃源郷と称される美しさ。東北新幹線の停車駅で、東京まで約1時間半。温泉地「飯坂温泉」も市内にあり、生活と観光が隣り合わせの街。",
+      "features": ["nature", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 48400,
+        "oneLDK": 54600,
+        "twoLDK": 62400,
+        "threeLDK": 70000
+      }
+    },
+    {
+      "name": "郡山市",
+      "averageRent": 65000,
+      "minRent": 47300,
+      "maxRent": 108400,
+      "latitude": 37.4,
+      "longitude": 140.37,
+      "nearestStation": "郡山",
+      "distanceToStation": 10,
+      "description": "県内の経済・商業の中心地。「東北のシカゴ」とも呼ばれ、交通網が発達しています。音楽の街づくりを推進。ビッグアイなどの高層ビルが立ち並び、都市的な利便性が高いエリアです。",
+      "features": ["shopping_convenient", "access_good", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 47300,
+        "oneLDK": 58900,
+        "twoLDK": 79200,
+        "threeLDK": 108400
+      }
+    },
+    {
+      "name": "いわき市",
+      "averageRent": 55000,
+      "minRent": 52700,
+      "maxRent": 60000,
+      "latitude": 37.05,
+      "longitude": 140.89,
+      "nearestStation": "いわき",
+      "distanceToStation": 10,
+      "description": "「フラガール」で有名なスパリゾートハワイアンズがあります。東北なのに冬は温暖で雪が少なく、「東北の湘南」とも。漁港があり海産物が豊富。気候の良さから移住者に人気の街。",
+      "features": ["nature", "culture", "climate"],
+      "rentByRoomType": {
+        "oneRoom": 52700,
+        "oneLDK": 53600,
+        "twoLDK": 55900,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "会津若松市",
+      "averageRent": 55000,
+      "minRent": 52100,
+      "maxRent": 65000,
+      "latitude": 37.49,
+      "longitude": 139.93,
+      "nearestStation": "会津若松",
+      "distanceToStation": 15,
+      "description": "鶴ヶ城が見守る歴史の街。白虎隊の悲劇など幕末の歴史が色濃く残ります。日本酒の酒蔵が多く、食文化が豊か。冬は雪深いですが、情緒ある城下町の暮らしが楽しめます。",
+      "features": ["history_culture", "culture", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 52100,
+        "oneLDK": 63800,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "須賀川市",
+      "averageRent": 55000,
+      "minRent": 55300,
+      "maxRent": 60000,
+      "latitude": 37.28,
+      "longitude": 140.37,
+      "nearestStation": "須賀川",
+      "distanceToStation": 15,
+      "description": "ウルトラマンの生みの親、円谷英二監督の故郷。街中にウルトラヒーローのモニュメントがあります。福島空港があり、空の玄関口としても機能。郡山市へのアクセスも良いベッドタウン。",
+      "features": ["culture", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 55300,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "南相馬市",
+      "averageRent": 60000,
+      "minRent": 56000,
+      "maxRent": 69500,
+      "latitude": 37.64,
+      "longitude": 140.96,
+      "nearestStation": "原ノ町",
+      "distanceToStation": 15,
+      "description": "「相馬野馬追」は千年の歴史を持つ国の重要無形民俗文化財。サーフィンのメッカとしても知られます。ロボットテストフィールドなど先端産業の誘致も進む、伝統と革新が共存する街。",
+      "features": ["culture", "nature", "industry"],
+      "rentByRoomType": {
+        "oneRoom": 56000,
+        "oneLDK": null,
+        "twoLDK": 69500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "伊達市",
+      "averageRent": 55000,
+      "minRent": 52700,
+      "maxRent": 60000,
+      "latitude": 37.82,
+      "longitude": 140.56,
+      "nearestStation": "伊達",
+      "distanceToStation": 10,
+      "description": "伊達氏発祥の地。阿武隈川流域の肥沃な土地で、桃やあんぽ柿などの特産品が有名。福島市の北に位置し、通勤圏内。自然豊かで静かな住環境が魅力です。",
+      "features": ["history_culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 53800,
+        "oneLDK": 52700,
+        "twoLDK": 59600,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "喜多方市",
+      "averageRent": 50000,
+      "minRent": 51000,
+      "maxRent": 60000,
+      "latitude": 37.65,
+      "longitude": 139.87,
+      "nearestStation": "喜多方",
+      "distanceToStation": 15,
+      "description": "日本三大ラーメンの一つ「喜多方ラーメン」の街。「蔵のまち」としても知られ、4000棟以上の蔵があります。水が綺麗で日本酒も美味。レトロな街並みと食文化が魅力の観光都市。",
+      "features": ["culture", "history_culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 51000,
+        "oneLDK": null,
+        "twoLDK": 58800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "二本松市",
+      "averageRent": 50000,
+      "minRent": 44000,
+      "maxRent": 61500,
+      "latitude": 37.59,
+      "longitude": 140.43,
+      "nearestStation": "二本松",
+      "distanceToStation": 15,
+      "description": "「菊人形」で有名な城下町。智恵子抄の舞台としても知られます。安達太良山の麓にあり、登山や温泉が身近に楽しめます。歴史的な情緒と豊かな自然が調和した、落ち着きのある街。",
+      "features": ["culture", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 44000,
+        "oneLDK": 54500,
+        "twoLDK": 61500,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "白河市",
+      "averageRent": 45000,
+      "minRent": 40000,
+      "maxRent": 50000,
+      "latitude": 37.13,
+      "longitude": 140.21,
+      "nearestStation": "新白河",
+      "distanceToStation": 10,
+      "description": "「白河の関」で知られる東北の玄関口。白河ラーメンが有名。新幹線停車駅があり、都心への通勤も可能な範囲。那須高原にも近く、週末のレジャーが充実します。",
+      "features": ["access_good", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}

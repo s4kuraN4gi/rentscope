@@ -1,0 +1,535 @@
+{
+  "id": 10,
+  "name": "北海道",
+  "slug": "hokkaido",
+  "region": "北海道",
+  "averageRent": 55000,
+  "latitude": 43.0642,
+  "longitude": 141.3469,
+  "population": 5100000,
+  "description": "広大な大地と豊かな自然。四季折々の食と観光が魅力。",
+  "areas": [
+    {
+      "name": "札幌市中央区",
+      "averageRent": 70000,
+      "minRent": 51800,
+      "maxRent": 156100,
+      "latitude": 43.05,
+      "longitude": 141.35,
+      "nearestStation": "大通",
+      "distanceToStation": 5,
+      "description": "札幌の中心部。大通公園やすすきの、札幌駅周辺のオフィス街を含みます。利便性は道内No.1で、雪道でも地下歩行空間（チ・カ・ホ）を使えば快適に移動可能。家賃は高めですが、都市生活を謳歌できます。",
+      "features": ["access_good", "shopping_convenient", "high_class"],
+      "rentByRoomType": {
+        "oneRoom": 51800,
+        "oneLDK": 65700,
+        "twoLDK": 110800,
+        "threeLDK": 156100
+      }
+    },
+    {
+      "name": "札幌市北区",
+      "averageRent": 60000,
+      "minRent": 46100,
+      "maxRent": 154100,
+      "latitude": 43.09,
+      "longitude": 141.34,
+      "nearestStation": "北24条",
+      "distanceToStation": 5,
+      "description": "北海道大学があり、学生が多く活気あるエリア。南北線で札幌駅へアクセスしやすく、通勤通学に便利。北部はニュータウンが広がり、ファミリー層にも人気。スーパーや飲食店も多く、生活しやすい街です。",
+      "features": ["student_friendly", "access_good", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 46100,
+        "oneLDK": 61300,
+        "twoLDK": 102200,
+        "threeLDK": 154100
+      }
+    },
+    {
+      "name": "札幌市東区",
+      "averageRent": 58000,
+      "minRent": 41100,
+      "maxRent": 137800,
+      "latitude": 43.08,
+      "longitude": 141.38,
+      "nearestStation": "東区役所前",
+      "distanceToStation": 10,
+      "description": "モエレ沼公園やサッポロビール園など見どころ多数。地下鉄東豊線が通り、ドームへのアクセスも便利。比較的家賃がリーズナブルで、単身者からファミリーまで幅広い層に選ばれています。",
+      "features": ["cost_performance", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 41100,
+        "oneLDK": 59500,
+        "twoLDK": 95700,
+        "threeLDK": 137800
+      }
+    },
+    {
+      "name": "札幌市白石区",
+      "averageRent": 55000,
+      "minRent": 45300,
+      "maxRent": 119600,
+      "latitude": 43.03,
+      "longitude": 141.4,
+      "nearestStation": "白石",
+      "distanceToStation": 10,
+      "description": "札幌と新札幌の中間に位置するベッドタウン。東西線が利用でき、市内中心部へのアクセスが抜群。アサヒビール北海道工場跡地などの再開発も進み、利便性が向上中。サイクリングロードもあり健康的。",
+      "features": ["access_good", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 45300,
+        "oneLDK": 54200,
+        "twoLDK": 80600,
+        "threeLDK": 119600
+      }
+    },
+    {
+      "name": "札幌市豊平区",
+      "averageRent": 60000,
+      "minRent": 51900,
+      "maxRent": 127100,
+      "latitude": 43.01,
+      "longitude": 141.39,
+      "nearestStation": "平岸",
+      "distanceToStation": 10,
+      "description": "羊ヶ丘展望台や札幌ドームがあるエリア。豊平川の河川敷は市民の憩いの場。地下鉄南北線・東豊線の両方が使え、学園前駅周辺には学校も多く、文教地区の側面も持ちます。",
+      "features": ["student_friendly", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 51900,
+        "oneLDK": 56400,
+        "twoLDK": 87300,
+        "threeLDK": 127100
+      }
+    },
+    {
+      "name": "札幌市南区",
+      "averageRent": 50000,
+      "minRent": 39600,
+      "maxRent": 108200,
+      "latitude": 42.98,
+      "longitude": 141.35,
+      "nearestStation": "真駒内",
+      "distanceToStation": 15,
+      "description": "札幌市内で最も面積が広く、緑豊かなエリア。定山渓温泉や芸術の森があり、自然を身近に感じられます。家賃相場は市内で最も安く、広い物件に住みたい人やアウトドア好きに最適。",
+      "features": ["nature", "cost_performance", "pet_friendly"],
+      "rentByRoomType": {
+        "oneRoom": 39600,
+        "oneLDK": 49100,
+        "twoLDK": 78400,
+        "threeLDK": 108200
+      }
+    },
+    {
+      "name": "札幌市西区",
+      "averageRent": 58000,
+      "minRent": 48000,
+      "maxRent": 116500,
+      "latitude": 43.08,
+      "longitude": 141.28,
+      "nearestStation": "琴似",
+      "distanceToStation": 5,
+      "description": "JRと地下鉄琴似駅周辺は「第二のすすきの」と呼ばれるほどの繁華街があり、買い物や飲食に困りません。山の手エリアは高級住宅街。利便性と落ち着いた住環境のバランスが良い人気エリア。",
+      "features": ["shopping_convenient", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 48000,
+        "oneLDK": 57400,
+        "twoLDK": 93000,
+        "threeLDK": 116500
+      }
+    },
+    {
+      "name": "札幌市厚別区",
+      "averageRent": 58000,
+      "minRent": 50900,
+      "maxRent": 126100,
+      "latitude": 43.03,
+      "longitude": 141.47,
+      "nearestStation": "新札幌",
+      "distanceToStation": 5,
+      "description": "副都心「新さっぽろ」を中心に発展。駅周辺の再開発でホテル、タワーマンション、病院などが直結し、非常に便利になりました。北海道開拓の村など観光施設もあり、ファミリー層におすすめ。",
+      "features": ["shopping_convenient", "access_good", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": 50900,
+        "oneLDK": 56600,
+        "twoLDK": 87500,
+        "threeLDK": 126100
+      }
+    },
+    {
+      "name": "札幌市手稲区",
+      "averageRent": 50000,
+      "minRent": 46500,
+      "maxRent": 101900,
+      "latitude": 43.12,
+      "longitude": 141.24,
+      "nearestStation": "手稲",
+      "distanceToStation": 10,
+      "description": "手稲山を仰ぎ見ることができる自然豊かな街。冬はスキー場までのアクセスが抜群。JR手稲駅は快速停車駅で、札幌駅まで約10分と通勤も快適。家賃が安く、初めての一人暮らしや若夫婦にも人気。",
+      "features": ["nature", "cost_performance", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 46500,
+        "oneLDK": 50000,
+        "twoLDK": 65200,
+        "threeLDK": 101900
+      }
+    },
+    {
+      "name": "札幌市清田区",
+      "averageRent": 55000,
+      "minRent": 54900,
+      "maxRent": 91200,
+      "latitude": 42.98,
+      "longitude": 141.45,
+      "nearestStation": "福住（他区）",
+      "distanceToStation": 20,
+      "description": "札幌市内で唯一鉄道路線がない区ですが、バス網が発達しています。コストコや三井アウトレットパークへのアクセスが良く、車所有者には非常に便利。平岡公園など大きな公園があり、子育て環境は良好。",
+      "features": ["child_rearing", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 54900,
+        "twoLDK": 91200,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "函館市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 89000,
+      "latitude": 41.76,
+      "longitude": 140.73,
+      "nearestStation": "函館",
+      "distanceToStation": 10,
+      "description": "異国情緒あふれる港町。世界三大夜景の函館山や五稜郭など観光名所が多数。新鮮な海鮮はもちろん、ラッキーピエロなどのB級グルメも充実。路面電車が走る街並みは美しく、スローライフに最適。",
+      "features": ["culture", "cost_performance", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 45000,
+        "oneLDK": 54200,
+        "twoLDK": 62000,
+        "threeLDK": 89000
+      }
+    },
+    {
+      "name": "小樽市",
+      "averageRent": 48000,
+      "minRent": 44600,
+      "maxRent": 64300,
+      "latitude": 43.19,
+      "longitude": 140.99,
+      "nearestStation": "小樽",
+      "distanceToStation": 10,
+      "description": "運河とガラス細工で有名な観光都市。札幌から快速で約30分と通勤圏内。坂の街としても知られ、高台から海を見下ろす景色は絶景。レトロな建築物が多く、歴史を感じながら暮らせる風情ある街です。",
+      "features": ["culture", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 44600,
+        "oneLDK": 48600,
+        "twoLDK": 64300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "旭川市",
+      "averageRent": 50000,
+      "minRent": 48700,
+      "maxRent": 83400,
+      "latitude": 43.77,
+      "longitude": 142.36,
+      "nearestStation": "旭川",
+      "distanceToStation": 10,
+      "description": "北海道第二の都市。「旭山動物園」で全国的に有名。大雪山の麓にあり、スキーや登山などのアクティビティ拠店としても最高。都市機能が充実しており、医療機関や買い物施設も豊富で暮らしやすい。",
+      "features": ["child_rearing", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 48700,
+        "oneLDK": 50800,
+        "twoLDK": 64200,
+        "threeLDK": 83400
+      }
+    },
+    {
+      "name": "室蘭市",
+      "averageRent": 55000,
+      "minRent": 54100,
+      "maxRent": 56300,
+      "latitude": 42.31,
+      "longitude": 140.97,
+      "nearestStation": "東室蘭",
+      "distanceToStation": 15,
+      "description": "「工場夜景」が美しい鉄の街。白鳥大橋などの見どころも。地形が起伏に富み、地球岬などの絶景スポットも。ものづくりの街として求人も比較的安定しており、落ち着いて暮らせるエリアです。",
+      "features": ["cost_performance", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 54100,
+        "oneLDK": 56300,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "釧路市",
+      "averageRent": 50000,
+      "minRent": 48500,
+      "maxRent": 60300,
+      "latitude": 42.98,
+      "longitude": 144.38,
+      "nearestStation": "釧路",
+      "distanceToStation": 15,
+      "description": "道東の最大都市。釧路湿原国立公園を擁し、タンチョウが見られることも。夏でも涼しく過ごしやすい気候が特徴。炉端焼きや勝手丼など、港町ならではのグルメが楽しめます。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 48500,
+        "oneLDK": 57700,
+        "twoLDK": 60300,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "帯広市",
+      "averageRent": 55000,
+      "minRent": 49800,
+      "maxRent": 121400,
+      "latitude": 42.92,
+      "longitude": 143.19,
+      "nearestStation": "帯広",
+      "distanceToStation": 15,
+      "description": "十勝地方の中心。「豚丼」や「インデアンカレー」、六花亭などスイーツの本場としても知られる食の王国。広大な平野と青い空、モール温泉など、北海道らしさを満喫できる住みよさランキング上位常連の街。",
+      "features": ["child_rearing", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": 49800,
+        "oneLDK": 57200,
+        "twoLDK": 63100,
+        "threeLDK": 121400
+      }
+    },
+    {
+      "name": "北見市",
+      "averageRent": 48000,
+      "minRent": 43300,
+      "maxRent": 66800,
+      "latitude": 43.8,
+      "longitude": 143.89,
+      "nearestStation": "北見",
+      "distanceToStation": 15,
+      "description": "オホーツク圏の中心都市。焼肉店の対人口比率がトップクラスで「焼肉の街」として有名。冬は厳しい寒さですが、晴天率が高く気持ちの良い気候。ハッカ産業の歴史もあり、独自の文化を持つ街です。",
+      "features": ["cost_performance", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 43300,
+        "oneLDK": 51600,
+        "twoLDK": 66800,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "岩見沢市",
+      "averageRent": 50000,
+      "minRent": 42100,
+      "maxRent": 76300,
+      "latitude": 43.2,
+      "longitude": 141.77,
+      "nearestStation": "岩見沢",
+      "distanceToStation": 10,
+      "description": "札幌から特急で約25分。豪雪地帯として知られますが、除雪体制は完璧。ワイナリーやバラ園など優雅なスポットも。米どころとしても有名で、自然の恵み豊かなベッドタウンです。",
+      "features": ["cost_performance", "nature", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 42100,
+        "oneLDK": 53700,
+        "twoLDK": 58100,
+        "threeLDK": 76300
+      }
+    },
+    {
+      "name": "苫小牧市",
+      "averageRent": 55000,
+      "minRent": 51400,
+      "maxRent": 83400,
+      "latitude": 42.63,
+      "longitude": 141.6,
+      "nearestStation": "苫小牧",
+      "distanceToStation": 15,
+      "description": "新千歳空港に近く、フェリーターミナルもある交通の要衝。ホッキ貝の水揚げ量日本一。アイスホッケーが盛んな氷都。雪が少なく冬でも過ごしやすいのが特徴で、工場夜景も綺麗な産業都市です。",
+      "features": ["access_good", "shopping_convenient", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 54900,
+        "oneLDK": 51400,
+        "twoLDK": 61000,
+        "threeLDK": 83400
+      }
+    },
+    {
+      "name": "美唄市",
+      "averageRent": 40000,
+      "minRent": 35000,
+      "maxRent": 58800,
+      "latitude": 43.33,
+      "longitude": 141.85,
+      "nearestStation": "美唄",
+      "distanceToStation": 15,
+      "description": "かつての炭鉱街で、現在は「美唄焼き鳥」が有名。アルテピアッツァ美唄などの芸術施設も充実。自然豊かでのんびりとした雰囲気。札幌への通勤も可能な範囲で、田舎暮らしを楽しみたい人に。",
+      "features": ["nature", "cost_performance", "culture"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 58800,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "江別市",
+      "averageRent": 50000,
+      "minRent": 37900,
+      "maxRent": 87300,
+      "latitude": 43.1,
+      "longitude": 141.53,
+      "nearestStation": "野幌",
+      "distanceToStation": 10,
+      "description": "札幌市の東隣に位置するベッドタウン。レンガの街として知られ、おしゃれなカフェやパン屋が多い人気エリア。「江別 蔦屋書店」は文化の発信地。大学も４つあり、若い世代も多く活気があります。",
+      "features": ["child_rearing", "shopping_convenient", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 37900,
+        "oneLDK": 53800,
+        "twoLDK": 62300,
+        "threeLDK": 87300
+      }
+    },
+    {
+      "name": "千歳市",
+      "averageRent": 70000,
+      "minRent": 61800,
+      "maxRent": 141600,
+      "latitude": 42.82,
+      "longitude": 141.65,
+      "nearestStation": "千歳",
+      "distanceToStation": 10,
+      "description": "新千歳空港のお膝元。「空の街」として発展中。ラピダスの進出などで注目度急上昇。支笏湖などの自然も国立公園レベル。空港勤務者や自衛隊員も多く住み、活気と国際色豊かな雰囲気が魅力です。",
+      "features": ["access_good", "nature", "shopping_convenient"],
+      "rentByRoomType": {
+        "oneRoom": 61800,
+        "oneLDK": 70600,
+        "twoLDK": 107900,
+        "threeLDK": 141600
+      }
+    },
+    {
+      "name": "恵庭市",
+      "averageRent": 75000,
+      "minRent": 59500,
+      "maxRent": 158000,
+      "latitude": 42.88,
+      "longitude": 141.58,
+      "nearestStation": "恵庭",
+      "distanceToStation": 10,
+      "description": "「ガーデニングの街」として有名で、個人の庭を開放するオープンガーデンが行われます。札幌と千歳の中間にあり、どちらへもアクセス良好。花の拠点「はなふる」など、美しく整備された街並みが好評です。",
+      "features": ["nature", "child_rearing", "access_good"],
+      "rentByRoomType": {
+        "oneRoom": 59500,
+        "oneLDK": 63900,
+        "twoLDK": 102600,
+        "threeLDK": 158000
+      }
+    },
+    {
+      "name": "北広島市",
+      "averageRent": 70000,
+      "minRent": 49500,
+      "maxRent": 158500,
+      "latitude": 42.98,
+      "longitude": 141.56,
+      "nearestStation": "北広島",
+      "distanceToStation": 15,
+      "description": "北海道日本ハムファイターズの新球場「エスコンフィールドHOKKAIDO」が開業し、最もホットな街。自然豊かな丘陵地帯にニュータウンが広がり、住環境は抜群。札幌までのアクセスも快速で約16分と便利。",
+      "features": ["child_rearing", "nature", "culture"],
+      "rentByRoomType": {
+        "oneRoom": 49500,
+        "oneLDK": 77300,
+        "twoLDK": 119200,
+        "threeLDK": 158500
+      }
+    },
+    {
+      "name": "石狩市",
+      "averageRent": 50000,
+      "minRent": 48000,
+      "maxRent": 65000,
+      "latitude": 43.17,
+      "longitude": 141.34,
+      "nearestStation": "手稲（バス移動）",
+      "distanceToStation": 20,
+      "description": "札幌市の北隣、海沿いの街。石狩鍋発祥の地。コストコなどの大型商業施設があり、車があれば非常に便利。夏は「ライジングサンロックフェスティバル」の会場としても有名。海水浴や釣りが日常的に楽しめます。",
+      "features": ["cost_performance", "shopping_convenient", "nature"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "北斗市",
+      "averageRent": 45000,
+      "minRent": 38400,
+      "maxRent": 68000,
+      "latitude": 41.82,
+      "longitude": 140.65,
+      "nearestStation": "新函館北斗",
+      "distanceToStation": 10,
+      "description": "北海道新幹線の終着駅「新函館北斗駅」がある街。ご当地キャラ「ずーしーほっきー」で有名。函館市のベッドタウンとしての機能も持ち、トラピスト修道院の並木道など美しい景観が広がります。",
+      "features": ["access_good", "nature", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": 38400,
+        "oneLDK": 50100,
+        "twoLDK": 49700,
+        "threeLDK": 68000
+      }
+    },
+    {
+      "name": "夕張市",
+      "averageRent": 30000,
+      "minRent": 30000,
+      "maxRent": 45000,
+      "latitude": 43.05,
+      "longitude": 141.97,
+      "nearestStation": "夕張",
+      "distanceToStation": 20,
+      "description": "「夕張メロン」で世界的に有名な街。かつての炭鉱都市の歴史遺産が多く残ります。映画祭の開催など文化的な取り組みも。人口は少ないですが、大自然の中で静かに暮らしたい人には唯一無二の環境です。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "稚内市",
+      "averageRent": 50000,
+      "minRent": 45000,
+      "maxRent": 60000,
+      "latitude": 45.41,
+      "longitude": 141.67,
+      "nearestStation": "稚内",
+      "distanceToStation": 10,
+      "description": "日本最北端の街。宗谷岬からはサハリンを望めます。タコしゃぶなどの海産物は絶品。夏は涼しく、避暑地としても人気。最果ての地ならではの旅情と、厳しい自然と共生する力強い生活文化があります。",
+      "features": ["nature", "culture", "cost_performance"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": null,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    },
+    {
+      "name": "富良野市",
+      "averageRent": 55000,
+      "minRent": 50000,
+      "maxRent": 65000,
+      "latitude": 43.34,
+      "longitude": 142.39,
+      "nearestStation": "富良野",
+      "distanceToStation": 10,
+      "description": "「北の国から」の舞台。ラベンダー畑や広大な丘陵地帯など、これぞ北海道という風景が広がります。冬はパウダースノーを求めて世界中からスキーヤーが訪れます。観光と農業の街で、のびのび子育てできます。",
+      "features": ["nature", "culture", "child_rearing"],
+      "rentByRoomType": {
+        "oneRoom": null,
+        "oneLDK": 60200,
+        "twoLDK": null,
+        "threeLDK": null
+      }
+    }
+  ]
+}
