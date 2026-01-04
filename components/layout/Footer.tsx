@@ -39,6 +39,11 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
+                                <Link href="/columns" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
+                                    読みもの
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href="/about" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
                                     使い方
                                 </Link>
@@ -56,6 +61,11 @@ export default function Footer() {
                             <li>
                                 <Link href="/contact" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
                                     お問い合わせ
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/company" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 transition-colors">
+                                    運営者情報
                                 </Link>
                             </li>
                         </ul>

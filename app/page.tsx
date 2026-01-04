@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import RentalPlannerForm from '@/components/features/RentalPlannerForm'
 import AdSenseUnit from '@/components/features/AdSenseUnit'
 
@@ -144,6 +145,56 @@ export default function Home() {
             <section className="mb-24 px-4">
                 <div className="max-w-4xl mx-auto space-y-16">
                     
+                    {/* Latest Columns (New) */}
+                    <div>
+                        <div className="flex items-center justify-between mb-8">
+                            <h2 className="text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-100">
+                                📚 最新コラム
+                            </h2>
+                            <Link href="/columns" className="text-primary-600 font-bold hover:underline">
+                                もっと見る →
+                            </Link>
+                        </div>
+                        <div className="grid md:grid-cols-3 gap-6">
+                            {/* Column 1 */}
+                            <Link href="/columns/rent-vs-salary-rule" className="group block bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-lg transition-all border border-slate-100 dark:border-slate-700 overflow-hidden">
+                                <div className="h-32 bg-primary-50 dark:bg-slate-700 flex items-center justify-center text-4xl group-hover:scale-105 transition-transform">
+                                    💰
+                                </div>
+                                <div className="p-4">
+                                    <h3 className="font-bold mb-2 line-clamp-2 text-sm md:text-base group-hover:text-primary-600 transition-colors">
+                                        【徹底解説】家賃は「手取りの3割」が正解？生活レベルを守る黄金ルール
+                                    </h3>
+                                    <p className="text-xs text-gray-500">2025.01.05</p>
+                                </div>
+                            </Link>
+                            {/* Column 2 */}
+                            <Link href="/columns/hidden-gems-2025-kanto" className="group block bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-lg transition-all border border-slate-100 dark:border-slate-700 overflow-hidden">
+                                <div className="h-32 bg-indigo-50 dark:bg-slate-700 flex items-center justify-center text-4xl group-hover:scale-105 transition-transform">
+                                    💎
+                                </div>
+                                <div className="p-4">
+                                    <h3 className="font-bold mb-2 line-clamp-2 text-sm md:text-base group-hover:text-primary-600 transition-colors">
+                                        【2025年版】関東・関西で注目！家賃が安くて住みやすい「穴場エリア」3選
+                                    </h3>
+                                    <p className="text-xs text-gray-500">2025.01.05</p>
+                                </div>
+                            </Link>
+                            {/* Column 3 */}
+                            <Link href="/columns/student-living-guide" className="group block bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-lg transition-all border border-slate-100 dark:border-slate-700 overflow-hidden">
+                                <div className="h-32 bg-pink-50 dark:bg-slate-700 flex items-center justify-center text-4xl group-hover:scale-105 transition-transform">
+                                    🎓
+                                </div>
+                                <div className="p-4">
+                                    <h3 className="font-bold mb-2 line-clamp-2 text-sm md:text-base group-hover:text-primary-600 transition-colors">
+                                        【学生必見】初めての一人暮らしで失敗しない「物件選び」3つのポイント
+                                    </h3>
+                                    <p className="text-xs text-gray-500">2025.01.05</p>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+
                     {/* Why RentScope? */}
                     <div className="bg-white dark:bg-slate-800 p-8 md:p-12 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-700">
                         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-800 dark:text-slate-100">

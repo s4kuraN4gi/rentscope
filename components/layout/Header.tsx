@@ -23,6 +23,9 @@ export default function Header() {
                         <Link href="/prefecture" className="hover:text-primary-600 transition-colors">
                             都道府県別
                         </Link>
+                        <Link href="/columns" className="hover:text-primary-600 transition-colors">
+                            読みもの
+                        </Link>
                         <Link href="/about" className="hover:text-primary-600 transition-colors">
                             使い方
                         </Link>
@@ -55,6 +58,9 @@ export default function Header() {
                         </Link>
                         <Link href="/prefecture" className="block py-2 hover:text-primary-600 transition-colors">
                             都道府県別
+                        </Link>
+                        <Link href="/columns" className="block py-2 hover:text-primary-600 transition-colors">
+                            読みもの
                         </Link>
                         <Link href="/about" className="block py-2 hover:text-primary-600 transition-colors">
                             使い方
