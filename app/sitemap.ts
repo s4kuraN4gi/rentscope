@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import prefecturesData from '@/data/prefectures.json'
+import { articles } from '@/lib/columns'
 
 export const runtime = 'edge'
 
@@ -21,7 +22,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8,
         },
         {
+            url: `${baseUrl}/company`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
             url: `${baseUrl}/prefecture`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/columns`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.9,
@@ -36,5 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }))
 
-    return [...staticPages, ...prefecturePages]
+    // コラム記事ページ
+    const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
+        url: `${baseUrl}/columns/${article.slug}`,
+        lastModified: new Date(article.date),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+    }))
+
+    return [...staticPages, ...prefecturePages, ...articlePages]
 }
